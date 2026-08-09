@@ -316,13 +316,14 @@
   }
   .pick-thumb{
     aspect-ratio:1/1;
-    background:
-      linear-gradient(135deg, var(--wool-2), var(--wool));
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    background:var(--wool-2);
+    overflow:hidden;
   }
-  .pick-thumb svg{ width:44%; opacity:0.55; color:var(--teal-dark); }
+  .pick-thumb img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }
   .pick-body{
     padding:16px;
     display:flex;
@@ -636,7 +637,7 @@
 
       <div class="pick-card">
         <div class="pick-thumb">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M8 3c-2.5 0-4.5 2-4.5 4.5S5.5 12 8 12h4c2.8 0 5 2.2 5 5s-2.2 5-5 5-5-2.2-5-5"/><circle cx="17.2" cy="4.8" r="1.6"/></svg>
+          <img src="https://images.unsplash.com/photo-1693326873444-d7cf33cad3e0?fm=jpg&q=60&w=800&auto=format&fit=crop" alt="Crochet hook with yarn" loading="lazy">
         </div>
         <div class="pick-body">
           <span class="pick-cat">Hook set</span>
@@ -648,7 +649,7 @@
 
       <div class="pick-card">
         <div class="pick-thumb">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="9" cy="9" r="5"/><circle cx="15" cy="15" r="5"/></svg>
+          <img src="https://images.unsplash.com/photo-1645550294607-c9955e906ba2?fm=jpg&q=60&w=800&auto=format&fit=crop" alt="Skeins of yarn" loading="lazy">
         </div>
         <div class="pick-body">
           <span class="pick-cat">Yarn</span>
@@ -660,7 +661,7 @@
 
       <div class="pick-card">
         <div class="pick-thumb">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="4" y="4" width="16" height="16" rx="1"/><path d="M4 9h16M9 4v16"/></svg>
+          <img src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?fm=jpg&q=60&w=800&auto=format&fit=crop" alt="Open reference book" loading="lazy">
         </div>
         <div class="pick-body">
           <span class="pick-cat">Ebook</span>
@@ -672,7 +673,7 @@
 
       <div class="pick-card">
         <div class="pick-thumb">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 3l2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5L12 3z"/></svg>
+          <img src="https://images.unsplash.com/photo-1542044801-30d3e45ae49a?fm=jpg&q=60&w=800&auto=format&fit=crop" alt="Assorted thread and notions" loading="lazy">
         </div>
         <div class="pick-body">
           <span class="pick-cat">Notions</span>
