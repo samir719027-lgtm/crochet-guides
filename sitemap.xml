@@ -76,6 +76,31 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://crochetguide.uk/guides/amigurumi-starter-kit.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://crochetguide.uk/guides/how-to-block-crochet.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://crochetguide.uk/guides/crochet-for-anxiety.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://crochetguide.uk/guides/christmas-gift-ideas.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://crochetguide.uk/guides/subscription-boxes.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://crochetguide.uk/about.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
