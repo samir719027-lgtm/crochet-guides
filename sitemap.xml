@@ -51,6 +51,31 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://crochetguide.uk/guides/crochet-vs-knitting.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://crochetguide.uk/guides/abbreviations-glossary.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://crochetguide.uk/guides/fixing-project-size.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://crochetguide.uk/guides/best-youtube-channels.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://crochetguide.uk/guides/granny-square-tutorial.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://crochetguide.uk/about.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
