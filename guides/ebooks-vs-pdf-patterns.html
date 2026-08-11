@@ -29,6 +29,17 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://crochetguide.uk/"},
+    {"@type":"ListItem","position":2,"name":"Guides","item":"https://crochetguide.uk/#guides"},
+    {"@type":"ListItem","position":3,"name":"The Best Digital Pattern Bundles Worth Buying"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
     {
@@ -62,8 +73,12 @@ header .wrap{max-width:1100px;display:flex;align-items:center;justify-content:sp
 .logo{font-family:'Fraunces',serif;font-weight:700;font-size:20px;display:flex;align-items:center;gap:9px;text-decoration:none;color:var(--ink);}
 .logo svg{width:18px;height:18px;}
 .back{font-size:14px;font-weight:600;text-decoration:none;}
+.breadcrumb{font-family:'Space Mono',monospace;font-size:12px;color:var(--ink-soft);margin-top:20px;}
+.breadcrumb a{color:var(--ink-soft);text-decoration:none;}
+.breadcrumb a:hover{color:var(--teal-dark);}
+.breadcrumb .sep{margin:0 6px;opacity:0.5;}
 .eyebrow{font-family:'Space Mono',monospace;font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:var(--berry);}
-article{padding:48px 0 64px;}
+article{padding:16px 0 64px;}
 h1{font-size:clamp(1.7rem,4vw,2.4rem);line-height:1.15;margin-top:12px;}
 .dek{font-size:18px;color:var(--ink-soft);margin:16px 0 0;}
 .meta{font-family:'Space Mono',monospace;font-size:12px;color:var(--ink-soft);margin-top:18px;}
@@ -75,13 +90,19 @@ li{margin-bottom:8px;}
 .hero-img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:var(--radius);margin:24px 0;}
 .callout{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin:24px 0;font-size:15.5px;}
 .callout strong{color:var(--berry);}
-.pick{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:16px 0;}
-.pick-cat{font-family:'Space Mono',monospace;font-size:10.5px;letter-spacing:0.08em;text-transform:uppercase;color:var(--mustard);}
-.pick-cta{display:inline-flex;margin-top:10px;padding:9px 16px;border-radius:var(--radius);background:var(--teal-dark);color:var(--card)!important;text-decoration:none;font-size:13.5px;font-weight:600;}
 table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14px;}
 th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);}
 th{font-family:'Space Mono',monospace;font-size:10.5px;text-transform:uppercase;letter-spacing:0.06em;color:var(--ink-soft);}
+.pick{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:16px 0;}
+.pick-cat{font-family:'Space Mono',monospace;font-size:10.5px;letter-spacing:0.08em;text-transform:uppercase;color:var(--mustard);}
+.pick-cta{display:inline-flex;margin-top:10px;padding:9px 16px;border-radius:var(--radius);background:var(--teal-dark);color:var(--card)!important;text-decoration:none;font-size:13.5px;font-weight:600;}
 .faq h3{font-size:16.5px;}
+.related{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px;margin:40px 0 0;}
+.related h2{font-size:18px;margin:0 0 14px;}
+.related ul{margin:0;padding-left:0;list-style:none;}
+.related li{margin-bottom:10px;}
+.related a{text-decoration:none;font-weight:600;font-size:14.5px;}
+.related a:hover{text-decoration:underline;}
 .disclosure{font-size:13px;color:var(--ink-soft);border-top:1px solid var(--line);margin-top:40px;padding-top:20px;}
 footer{border-top:1px solid var(--line);padding:24px 0;font-size:13px;color:var(--ink-soft);}
 footer .wrap{max-width:1100px;}
@@ -101,6 +122,9 @@ footer .wrap{max-width:1100px;}
 
 <article>
   <div class="wrap">
+    <p class="breadcrumb">
+      <a href="/">Home</a><span class="sep">/</span><a href="/#guides">Guides</a><span class="sep">/</span>Digital Pattern Bundles
+    </p>
     <span class="eyebrow">Digital Picks</span>
     <h1>The Best Digital Pattern Bundles Worth Buying</h1>
     <p class="dek">PDF pattern packs and ebooks compared on value and clarity, not just page count.</p>
@@ -144,6 +168,15 @@ footer .wrap{max-width:1100px;}
 
     <h3>What should I check before buying a crochet ebook?</h3>
     <p>Look for a preview or sample pages, confirmation that patterns are tech-edited (checked by a second person for errors), and whether it uses US or UK crochet terms, since the two systems use the same words for different stitches.</p>
+
+    <div class="related">
+      <h2>Related guides</h2>
+      <ul>
+        <li><a href="/guides/how-to-read-a-pattern.html">How to read a crochet pattern without panicking &rarr;</a></li>
+        <li><a href="/guides/abbreviations-glossary.html">Crochet abbreviations glossary: US &amp; UK terms &rarr;</a></li>
+        <li><a href="/guides/gift-guide.html">What to get the crocheter in your life &rarr;</a></li>
+      </ul>
+    </div>
 
     <p class="disclosure">CrochetGuides is a participant in the Amazon Services LLC Associates Program. As an Amazon Associate we earn from qualifying purchases, at no extra cost to you.</p>
   </div>
