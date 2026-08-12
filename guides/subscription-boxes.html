@@ -29,6 +29,17 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://crochetguide.uk/"},
+    {"@type":"ListItem","position":2,"name":"Guides","item":"https://crochetguide.uk/#guides"},
+    {"@type":"ListItem","position":3,"name":"Best Crochet Subscription Boxes"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
     {
@@ -67,8 +78,12 @@ header .wrap{max-width:1100px;display:flex;align-items:center;justify-content:sp
 .logo{font-family:'Fraunces',serif;font-weight:700;font-size:20px;display:flex;align-items:center;gap:9px;text-decoration:none;color:var(--ink);}
 .logo svg{width:18px;height:18px;}
 .back{font-size:14px;font-weight:600;text-decoration:none;}
+.breadcrumb{font-family:'Space Mono',monospace;font-size:12px;color:var(--ink-soft);margin-top:20px;}
+.breadcrumb a{color:var(--ink-soft);text-decoration:none;}
+.breadcrumb a:hover{color:var(--teal-dark);}
+.breadcrumb .sep{margin:0 6px;opacity:0.5;}
 .eyebrow{font-family:'Space Mono',monospace;font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:var(--berry);}
-article{padding:48px 0 64px;}
+article{padding:16px 0 64px;}
 h1{font-size:clamp(1.7rem,4vw,2.4rem);line-height:1.15;margin-top:12px;}
 .dek{font-size:18px;color:var(--ink-soft);margin:16px 0 0;}
 .meta{font-family:'Space Mono',monospace;font-size:12px;color:var(--ink-soft);margin-top:18px;}
@@ -86,6 +101,12 @@ th{font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;le
 .box-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:20px 0;}
 .box-card .tag{font-family:'Space Mono',monospace;font-size:10.5px;letter-spacing:0.08em;text-transform:uppercase;color:var(--mustard);}
 .faq h3{font-size:16.5px;}
+.related{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px;margin:40px 0 0;}
+.related h2{font-size:18px;margin:0 0 14px;}
+.related ul{margin:0;padding-left:0;list-style:none;}
+.related li{margin-bottom:10px;}
+.related a{text-decoration:none;font-weight:600;font-size:14.5px;}
+.related a:hover{text-decoration:underline;}
 .disclosure{font-size:13px;color:var(--ink-soft);border-top:1px solid var(--line);margin-top:40px;padding-top:20px;}
 footer{border-top:1px solid var(--line);padding:24px 0;font-size:13px;color:var(--ink-soft);}
 footer .wrap{max-width:1100px;}
@@ -105,6 +126,9 @@ footer .wrap{max-width:1100px;}
 
 <article>
   <div class="wrap">
+    <p class="breadcrumb">
+      <a href="/">Home</a><span class="sep">/</span><a href="/#guides">Guides</a><span class="sep">/</span>Subscription Boxes
+    </p>
     <span class="eyebrow">Resources</span>
     <h1>Best Crochet Subscription Boxes (And Whether They're Worth It)</h1>
     <p class="dek">How they work, what they typically cost, and a few established services worth comparing before you sign up.</p>
@@ -159,6 +183,15 @@ footer .wrap{max-width:1100px;}
 
     <h3>Is a subscription box cheaper than buying yarn and patterns separately?</h3>
     <p>Not usually. You're paying partly for curation and convenience, not just materials. If you already know what you like to make, buying yarn and a pattern individually is typically cheaper than a subscription box.</p>
+
+    <div class="related">
+      <h2>Related guides</h2>
+      <ul>
+        <li><a href="/guides/amigurumi-for-beginners.html">Amigurumi for beginners: your first stuffed toy &rarr;</a></li>
+        <li><a href="/guides/yarn-weight-explained.html">Yarn weight, explained with real swatches &rarr;</a></li>
+        <li><a href="/guides/beginner-crochet-hooks.html">Best crochet hooks for beginners in 2026 &rarr;</a></li>
+      </ul>
+    </div>
 
     <p class="disclosure">CrochetGuides is a participant in the Amazon Services LLC Associates Program. As an Amazon Associate we earn from qualifying purchases, at no extra cost to you.</p>
   </div>
