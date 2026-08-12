@@ -29,6 +29,17 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://crochetguide.uk/"},
+    {"@type":"ListItem","position":2,"name":"Guides","item":"https://crochetguide.uk/#guides"},
+    {"@type":"ListItem","position":3,"name":"Crochet for Anxiety: Is It Really Relaxing?"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
     {
@@ -67,8 +78,12 @@ header .wrap{max-width:1100px;display:flex;align-items:center;justify-content:sp
 .logo{font-family:'Fraunces',serif;font-weight:700;font-size:20px;display:flex;align-items:center;gap:9px;text-decoration:none;color:var(--ink);}
 .logo svg{width:18px;height:18px;}
 .back{font-size:14px;font-weight:600;text-decoration:none;}
+.breadcrumb{font-family:'Space Mono',monospace;font-size:12px;color:var(--ink-soft);margin-top:20px;}
+.breadcrumb a{color:var(--ink-soft);text-decoration:none;}
+.breadcrumb a:hover{color:var(--teal-dark);}
+.breadcrumb .sep{margin:0 6px;opacity:0.5;}
 .eyebrow{font-family:'Space Mono',monospace;font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:var(--berry);}
-article{padding:48px 0 64px;}
+article{padding:16px 0 64px;}
 h1{font-size:clamp(1.7rem,4vw,2.4rem);line-height:1.15;margin-top:12px;}
 .dek{font-size:18px;color:var(--ink-soft);margin:16px 0 0;}
 .meta{font-family:'Space Mono',monospace;font-size:12px;color:var(--ink-soft);margin-top:18px;}
@@ -81,6 +96,12 @@ li{margin-bottom:8px;}
 .callout{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin:24px 0;font-size:15.5px;}
 .callout strong{color:var(--berry);}
 .faq h3{font-size:16.5px;}
+.related{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px;margin:40px 0 0;}
+.related h2{font-size:18px;margin:0 0 14px;}
+.related ul{margin:0;padding-left:0;list-style:none;}
+.related li{margin-bottom:10px;}
+.related a{text-decoration:none;font-weight:600;font-size:14.5px;}
+.related a:hover{text-decoration:underline;}
 .disclosure{font-size:13px;color:var(--ink-soft);border-top:1px solid var(--line);margin-top:40px;padding-top:20px;}
 footer{border-top:1px solid var(--line);padding:24px 0;font-size:13px;color:var(--ink-soft);}
 footer .wrap{max-width:1100px;}
@@ -100,6 +121,9 @@ footer .wrap{max-width:1100px;}
 
 <article>
   <div class="wrap">
+    <p class="breadcrumb">
+      <a href="/">Home</a><span class="sep">/</span><a href="/#guides">Guides</a><span class="sep">/</span>Crochet for Anxiety
+    </p>
     <span class="eyebrow">Wellbeing</span>
     <h1>Crochet for Anxiety: Is It Really Relaxing?</h1>
     <p class="dek">What the repetitive motion actually does, and how to set your project up so it stays calming rather than frustrating.</p>
@@ -137,6 +161,15 @@ footer .wrap{max-width:1100px;}
 
     <h3>Can crochet be frustrating instead of relaxing?</h3>
     <p>Yes, particularly for beginners tackling a project above their current skill level. Starting with something too advanced, or picking a pattern with a tight deadline, can turn a calming activity into a stressful one.</p>
+
+    <div class="related">
+      <h2>Related guides</h2>
+      <ul>
+        <li><a href="/guides/crochet-vs-knitting.html">Crochet vs knitting: which should you learn first? &rarr;</a></li>
+        <li><a href="/guides/easiest-first-projects.html">5 easiest crochet projects for absolute beginners &rarr;</a></li>
+        <li><a href="/guides/granny-square-tutorial.html">Crochet granny square: complete beginner tutorial &rarr;</a></li>
+      </ul>
+    </div>
 
     <p class="disclosure">CrochetGuides is a participant in the Amazon Services LLC Associates Program. As an Amazon Associate we earn from qualifying purchases, at no extra cost to you.</p>
   </div>
