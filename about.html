@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V7BZHNMDS4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-V7BZHNMDS4');
+</script>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>About CrochetGuides | Plain-English Crochet Guides for Beginners</title>
@@ -42,9 +51,6 @@ ul{margin:0 0 16px;padding-left:22px;}
 li{margin-bottom:8px;}
 .callout{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin:24px 0;font-size:15.5px;}
 .callout strong{color:var(--berry);}
-.contact-box{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:20px 0;display:flex;align-items:center;gap:14px;flex-wrap:wrap;}
-.contact-box .icon{width:20px;height:20px;flex:none;color:var(--teal-dark);}
-.contact-box a{font-weight:600;}
 .cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px;}
 .btn{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border-radius:var(--radius);font-weight:600;font-size:14px;text-decoration:none;}
 .btn-primary{background:var(--teal-dark);color:var(--card)!important;}
@@ -53,7 +59,7 @@ li{margin-bottom:8px;}
 .btn-ghost:hover{border-color:var(--ink);}
 .disclosure{font-size:13px;color:var(--ink-soft);border-top:1px solid var(--line);margin-top:40px;padding-top:20px;}
 footer{border-top:1px solid var(--line);padding:24px 0;font-size:13px;color:var(--ink-soft);}
-footer .wrap{max-width:1100px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;}
+footer .wrap{max-width:1100px;}
 </style>
 </head>
 <body>
@@ -89,11 +95,6 @@ footer .wrap{max-width:1100px;display:flex;justify-content:space-between;align-i
     <h2>Get in touch</h2>
     <p>Spotted an error, or have a guide you'd like to see? We read everything sent our way and use it to improve existing guides and plan new ones.</p>
 
-    <div class="contact-box">
-      <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
-      <a href="mailto:contact@crochetguide.uk">contact@crochetguide.uk</a>
-    </div>
-
     <div class="cta-row">
       <a class="btn btn-primary" href="/#guides">Browse the guides</a>
       <a class="btn btn-ghost" href="/#picks">See our picks</a>
@@ -106,7 +107,6 @@ footer .wrap{max-width:1100px;display:flex;justify-content:space-between;align-i
 <footer>
   <div class="wrap">
     <a href="/">&larr; Back to CrochetGuides</a>
-    <a href="/privacy-policy.html">Privacy Policy</a>
   </div>
 </footer>
 
