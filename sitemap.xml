@@ -256,6 +256,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://crochetguide.uk/guides/magic-ring-tutorial.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://crochetguide.uk/guides/basic-crochet-stitches.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://crochetguide.uk/about.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
