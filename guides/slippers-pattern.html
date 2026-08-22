@@ -132,6 +132,14 @@ th{font-family:'Space Mono',monospace;font-size:10.5px;text-transform:uppercase;
 .disclosure{font-size:13px;color:var(--ink-soft);border-top:1px solid var(--line);margin-top:40px;padding-top:20px;}
 footer{border-top:1px solid var(--line);padding:24px 0;font-size:13px;color:var(--ink-soft);}
 footer .wrap{max-width:1100px;}
+.print-btn{display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:var(--radius);background:var(--card);border:1px solid var(--line);color:var(--ink);text-decoration:none;font-size:13.5px;font-weight:600;cursor:pointer;margin-top:12px;font-family:'Work Sans',sans-serif;}
+.print-btn:hover{border-color:var(--teal-dark);color:var(--teal-dark);}
+@media print{
+  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pick, .callout{display:none!important;}
+  body{background:#fff;}
+  article{padding:0;}
+  .hero-img{max-height:200px;}
+}
 </style>
 </head>
 <body>
@@ -153,6 +161,7 @@ footer .wrap{max-width:1100px;}
     </p>
     <span class="eyebrow">Free Pattern</span>
     <h1>Free Crochet Slippers Pattern for Beginners</h1>
+    <button class="print-btn" onclick="window.print()">Print this pattern</button>
     <p class="dek">A cozy sole-and-sides construction, built from the same flat circle and straight rounds used across our beginner patterns.</p>
     <p class="meta">Updated 2026 &middot; US terms &middot; Adult medium, adjustable</p>
 
@@ -275,4 +284,4 @@ footer .wrap{max-width:1100px;}
 </footer>
 
 </body>
-      </html>
+</html>
