@@ -15,7 +15,6 @@
 <meta name="description" content="A free, easy amigurumi bear pattern for beginners. Written in US terms, with materials, gauge, and round-by-round instructions for the head, body, and limbs.">
 <link rel="canonical" href="https://crochetguide.uk/guides/amigurumi-bear-pattern.html">
 <meta name="robots" content="index, follow">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='5' fill='%2322404F'/%3E%3Cpath d='M8 3c-2.5 0-4.5 2-4.5 4.5S5.5 12 8 12h4c2.8 0 5 2.2 5 5s-2.2 5-5 5-5-2.2-5-5' fill='none' stroke='%23EDE6D9' stroke-width='1.8' stroke-linecap='round'/%3E%3Ccircle cx='17.2' cy='4.8' r='1.7' fill='%23D8A23C'/%3E%3C/svg%3E">
 
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="CrochetGuides">
@@ -134,7 +133,79 @@ th{font-family:'Space Mono',monospace;font-size:10.5px;text-transform:uppercase;
 .disclosure{font-size:13px;color:var(--ink-soft);border-top:1px solid var(--line);margin-top:40px;padding-top:20px;}
 footer{border-top:1px solid var(--line);padding:24px 0;font-size:13px;color:var(--ink-soft);}
 footer .wrap{max-width:1100px;}
+.print-btn{display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:var(--radius);background:var(--card);border:1px solid var(--line);color:var(--ink);text-decoration:none;font-size:13.5px;font-weight:600;cursor:pointer;margin-top:12px;font-family:'Work Sans',sans-serif;}
+.print-btn:hover{border-color:var(--teal-dark);color:var(--teal-dark);}
+.pin-btn{display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:var(--radius);background:var(--berry);color:var(--card)!important;text-decoration:none;font-size:13.5px;font-weight:600;margin-top:12px;margin-left:8px;font-family:'Work Sans',sans-serif;}
+.pin-btn:hover{background:#8a2f3d;}
+.btn-row{display:flex;flex-wrap:wrap;gap:0;}
+@media print{
+  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
+  body{background:#fff;}
+  article{padding:0;}
+  .hero-img{max-height:200px;}
+}
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Free Crochet Amigurumi Bear Pattern for Beginners",
+  "description": "A free, easy amigurumi bear pattern for beginners. Written in US terms, with materials, gauge, and round-by-round instructions for the head, body, and limbs.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Head, Rounds 1–3",
+      "text": "Magic ring, 6 sc. (6) → Inc around. (12) → [sc 1, inc] around. (18)"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Head, Rounds 4–8",
+      "text": "Sc every st around for 5 rounds, no shaping. (18 sts each round)"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Head, Rounds 9–10",
+      "text": "[sc 1, dec] around. (12) → Dec around, stuffing firmly as you close. (6)"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Body, Rounds 1–3",
+      "text": "Magic ring, 6 sc. (6) → Inc around. (12) → [sc 1, inc] around. (18)"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Body, Rounds 4–7",
+      "text": "Sc every st around for 4 rounds. (18 sts each round)"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Body, Rounds 8–9",
+      "text": "[sc 1, dec] around. (12) → Dec around, stuffing as you close. (6)"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Arms (make 2)",
+      "text": "Magic ring, 5 sc. (5). Sc every st around for 5 rounds, no shaping, stuffing lightly. Fasten off, leaving a tail for sewing."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Legs (make 2)",
+      "text": "Magic ring, 6 sc. (6). Sc every st around for 4 rounds, stuffing lightly. Fasten off, leaving a tail for sewing."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Ears (make 2)",
+      "text": "Magic ring, 5 sc into ring. Fasten off, leaving a short tail for sewing on flat, without stuffing."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Assembly",
+      "text": "Sew the body to the bottom of the head using the tails from each. Sew the two ears onto the top of the head, and the two arms and two legs onto the body, checking placement is even before securing each with small, tight stitches. Attach safety eyes before stuffing the head if using them, or embroider a simple face with yarn once assembly is complete for a child-safe alternative."
+    }
+  ],
+  "image": "https://images.unsplash.com/photo-1542044801-30d3e45ae49a?fm=jpg&q=60&w=1200&auto=format&fit=crop"
+}
+</script>
 </head>
 <body>
 
@@ -155,10 +226,14 @@ footer .wrap{max-width:1100px;}
     </p>
     <span class="eyebrow">Free Pattern</span>
     <h1>Free Crochet Amigurumi Bear Pattern for Beginners</h1>
+    <div class="btn-row">
+      <button class="print-btn" onclick="window.print()">Print this pattern</button>
+      <a class="pin-btn" href="https://pinterest.com/pin/create/button/?url=https://crochetguide.uk/guides/amigurumi-bear-pattern.html&media=https://images.unsplash.com/photo-1542044801-30d3e45ae49a?fm=jpg&q=60&w=1200&auto=format&fit=crop&description=Free%20Crochet%20Amigurumi%20Bear%20Pattern%20for%20Beginners" target="_blank" rel="noopener">Pin this pattern</a>
+    </div>
     <p class="dek">A simple stuffed bear built from the same shaping as our mini ball pattern, with four limbs and rounded ears added on.</p>
     <p class="meta">Updated 2026 &middot; US terms &middot; About 6in / 15cm tall</p>
 
-    <img class="hero-img" src="https://images.unsplash.com/photo-1542044801-30d3e45ae49a?fm=jpg&q=60&w=1200&auto=format&fit=crop" alt="Small crochet tools and thread for an amigurumi bear" loading="lazy">
+    <img class="hero-img" src="https://images.unsplash.com/photo-1542044801-30d3e45ae49a?fm=jpg&q=60&w=1200&auto=format&fit=crop" alt="Small crochet tools and thread for an amigurumi bear">
 
     <p>This bear scales up the same increase-and-decrease shaping from our <a href="/guides/amigurumi-ball-pattern.html">mini amigurumi ball pattern</a> into a full body, head, and four limbs. It's a bigger project than our other amigurumi patterns, but every individual piece uses the same simple technique repeated.</p>
 
