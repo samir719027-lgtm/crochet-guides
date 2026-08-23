@@ -15,7 +15,6 @@
 <meta name="description" content="A free, easy mini amigurumi ball pattern for beginners. Written in US terms, with materials, gauge, and round-by-round instructions for a small keychain-sized ball.">
 <link rel="canonical" href="https://crochetguide.uk/guides/amigurumi-ball-pattern.html">
 <meta name="robots" content="index, follow">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='5' fill='%2322404F'/%3E%3Cpath d='M8 3c-2.5 0-4.5 2-4.5 4.5S5.5 12 8 12h4c2.8 0 5 2.2 5 5s-2.2 5-5 5-5-2.2-5-5' fill='none' stroke='%23EDE6D9' stroke-width='1.8' stroke-linecap='round'/%3E%3Ccircle cx='17.2' cy='4.8' r='1.7' fill='%23D8A23C'/%3E%3C/svg%3E">
 
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="CrochetGuides">
@@ -128,7 +127,64 @@ th{font-family:'Space Mono',monospace;font-size:10.5px;text-transform:uppercase;
 .disclosure{font-size:13px;color:var(--ink-soft);border-top:1px solid var(--line);margin-top:40px;padding-top:20px;}
 footer{border-top:1px solid var(--line);padding:24px 0;font-size:13px;color:var(--ink-soft);}
 footer .wrap{max-width:1100px;}
+.print-btn{display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:var(--radius);background:var(--card);border:1px solid var(--line);color:var(--ink);text-decoration:none;font-size:13.5px;font-weight:600;cursor:pointer;margin-top:12px;font-family:'Work Sans',sans-serif;}
+.print-btn:hover{border-color:var(--teal-dark);color:var(--teal-dark);}
+.pin-btn{display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:var(--radius);background:var(--berry);color:var(--card)!important;text-decoration:none;font-size:13.5px;font-weight:600;margin-top:12px;margin-left:8px;font-family:'Work Sans',sans-serif;}
+.pin-btn:hover{background:#8a2f3d;}
+.btn-row{display:flex;flex-wrap:wrap;gap:0;}
+@media print{
+  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
+  body{background:#fff;}
+  article{padding:0;}
+  .hero-img{max-height:200px;}
+}
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Free Mini Amigurumi Ball Pattern for Beginners",
+  "description": "A free, easy mini amigurumi ball pattern for beginners. Written in US terms, with materials, gauge, and round-by-round instructions for a small keychain-sized ball.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Round 1",
+      "text": "Make a magic ring, 6 sc into ring, place marker. (6 sts)"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Round 2",
+      "text": "Inc in every st around. (12 sts)"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Round 3",
+      "text": "[sc 1, inc] around. (18 sts)"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Rounds 4–6",
+      "text": "Sc in every st around, no increases or decreases. (18 sts each round)"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Round 7",
+      "text": "[sc 1, dec] around. (12 sts)"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Round 8",
+      "text": "Dec in every st around. (6 sts)"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Finishing",
+      "text": "Fasten off, leaving a long tail. Thread the tail through the front loop of each remaining stitch, pull tight to close the opening, and weave in the end through the centre of the ball."
+    }
+  ],
+  "image": "../images/amigurumi-ball-hero.jpg"
+}
+</script>
 </head>
 <body>
 
@@ -149,10 +205,14 @@ footer .wrap{max-width:1100px;}
     </p>
     <span class="eyebrow">Free Pattern</span>
     <h1>Free Mini Amigurumi Ball Pattern for Beginners</h1>
+    <div class="btn-row">
+      <button class="print-btn" onclick="window.print()">Print this pattern</button>
+      <a class="pin-btn" href="https://pinterest.com/pin/create/button/?url=https://crochetguide.uk/guides/amigurumi-ball-pattern.html&media=../images/amigurumi-ball-hero.jpg&description=Free%20Mini%20Amigurumi%20Ball%20Pattern%20for%20Beginners" target="_blank" rel="noopener">Pin this pattern</a>
+    </div>
     <p class="dek">A small taste of amigurumi shaping &mdash; increases, decreases, and stuffing &mdash; without committing to a full toy.</p>
     <p class="meta">Updated 2026 &middot; US terms &middot; About 1.5in / 4cm finished diameter</p>
 
-    <img class="hero-img" src="https://images.unsplash.com/photo-1542044801-30d3e45ae49a?fm=jpg&q=60&w=1200&auto=format&fit=crop" alt="Small crochet tools and thread for an amigurumi ball pattern" loading="lazy">
+    <img class="hero-img" src="../images/amigurumi-ball-hero.jpg" alt="A finished cream amigurumi crochet ball next to a small pink-handled hook and a puff of white polyester stuffing">
 
     <p>This is the fifth project from our <a href="/guides/easiest-first-projects.html">easiest first projects guide</a>, written out row by row. It covers the two shaping moves used in almost every amigurumi pattern &mdash; increasing to grow the round, then decreasing to close it &mdash; on a shape simple enough to finish in one sitting.</p>
 
