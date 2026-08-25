@@ -1096,10 +1096,11 @@
         <h3>New guides, hook reviews &amp; gift picks &mdash; a few times a month.</h3>
         <p>No spam, just what we'd want to read if we were starting from a single skein and a cheap hook.</p>
       </div>
-      <form onsubmit="event.preventDefault(); alert('Connect an email service (e.g. Mailchimp) to make this form live.');">
-        <input type="email" placeholder="you@email.com" required aria-label="Email address">
+      <form id="newsletter-form" action="https://formspree.io/f/xwleglaq" method="POST">
+        <input type="email" name="email" placeholder="you@email.com" required aria-label="Email address">
         <button class="btn btn-primary" type="submit">Subscribe</button>
       </form>
+      <p id="newsletter-msg" style="display:none;margin-top:10px;font-size:14px;font-weight:600;"></p>
     </div>
   </div>
 </section>
@@ -1117,6 +1118,40 @@
     </nav>
   </div>
 </footer>
-
+<script>
+(function(){
+  var form = document.getElementById('newsletter-form');
+  var msg = document.getElementById('newsletter-msg');
+  if(!form) return;
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var data = new FormData(form);
+    var btn = form.querySelector('button[type="submit"]');
+    btn.disabled = true;
+    fetch(form.action, {
+      method: 'POST',
+      body: data,
+      headers: { 'Accept': 'application/json' }
+    }).then(function(response){
+      if(response.ok){
+        form.style.display = 'none';
+        msg.style.color = '#2e7d32';
+        msg.textContent = "Thanks — you're subscribed! Check your inbox.";
+        msg.style.display = 'block';
+      } else {
+        btn.disabled = false;
+        msg.style.color = '#c62828';
+        msg.textContent = "Something went wrong. Please try again.";
+        msg.style.display = 'block';
+      }
+    }).catch(function(){
+      btn.disabled = false;
+      msg.style.color = '#c62828';
+      msg.textContent = "Something went wrong. Please try again.";
+      msg.style.display = 'block';
+    });
+  });
+})();
+</script>
 </body>
 </html>
