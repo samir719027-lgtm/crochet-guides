@@ -9,6 +9,15 @@
   gtag('js', new Date());
   gtag('config', 'G-V7BZHNMDS4');
 </script>
+<script>
+document.addEventListener('click', function(e){
+  var a = e.target.closest('a');
+  if(!a || !a.href) return;
+  if(a.href.indexOf('amazon.com') > -1){
+    gtag('event', 'affiliate_click', {link_url: a.href, page_path: window.location.pathname});
+  }
+});
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Crochet for Anxiety: Is It Really Relaxing? | CrochetGuides</title>
