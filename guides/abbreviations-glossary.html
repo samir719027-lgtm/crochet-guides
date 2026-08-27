@@ -134,6 +134,7 @@ footer .wrap{max-width:1100px;}
 .pin-btn:hover{background:#8a2f3d;}
 .btn-row{display:flex;flex-wrap:wrap;gap:0;}
 @media print{
+  h2:has(+ .pick){display:none!important;}
   header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
   body{background:#fff;}
   article{padding:0;}

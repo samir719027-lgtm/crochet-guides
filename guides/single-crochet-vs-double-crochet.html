@@ -147,7 +147,26 @@ footer .wrap{max-width:1100px;}
 .pin-btn{display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:var(--radius);background:var(--berry);color:var(--card)!important;text-decoration:none;font-size:13.5px;font-weight:600;margin-top:12px;margin-left:8px;font-family:'Work Sans',sans-serif;}
 .pin-btn:hover{background:#8a2f3d;}
 .btn-row{display:flex;flex-wrap:wrap;gap:0;}
+
+.pdf-btn{background:var(--teal);border:1px solid var(--teal-dark);color:#fff;}
+.pdf-btn:hover{background:var(--teal-dark);color:#fff;}
+.pdf-overlay{position:fixed;inset:0;background:rgba(42,36,30,0.55);z-index:999;display:flex;align-items:center;justify-content:center;padding:20px;}
+.pdf-overlay[hidden]{display:none;}
+.pdf-box{background:var(--card);border-radius:var(--radius);max-width:420px;width:100%;padding:24px;box-shadow:0 10px 40px rgba(0,0,0,0.25);position:relative;}
+.pdf-box h3{font-family:'Fraunces',serif;margin:0 0 8px;font-size:20px;color:var(--ink);}
+.pdf-box p{margin:0 0 14px;font-size:14px;color:var(--ink-soft);line-height:1.5;}
+.pdf-close{position:absolute;top:10px;right:14px;background:none;border:none;font-size:22px;cursor:pointer;color:var(--ink-soft);line-height:1;padding:4px;}
+#pdfForm{display:flex;flex-direction:column;gap:10px;}
+#pdfForm input[type=email]{padding:12px 14px;border:1px solid var(--line);border-radius:var(--radius);font-size:16px;font-family:'Work Sans',sans-serif;background:var(--wool);color:var(--ink);box-sizing:border-box;}
+#pdfForm input[type=email]:focus{outline:2px solid var(--teal);border-color:var(--teal);}
+.pdf-submit{display:inline-flex;align-items:center;justify-content:center;padding:12px 16px;border-radius:var(--radius);background:var(--teal);border:1px solid var(--teal-dark);color:#fff;text-decoration:none;font-size:14px;font-weight:600;cursor:pointer;font-family:'Work Sans',sans-serif;}
+.pdf-submit:hover{background:var(--teal-dark);}
+.pdf-submit:disabled{opacity:0.6;cursor:default;}
+.pdf-note{font-size:12px!important;color:var(--ink-soft);margin-top:2px!important;}
+.pdf-error{color:#c62828;font-size:13px;margin:6px 0 0;display:none;}
+
 @media print{
+  h2:has(+ .pick){display:none!important;}
   header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
   body{background:#fff;}
   article{padding:0;}
@@ -265,6 +284,7 @@ footer .wrap{max-width:1100px;}
     <div class="btn-row">
       <button class="print-btn" onclick="window.print()">Print this pattern</button>
       <a class="pin-btn" href="https://pinterest.com/pin/create/button/?url=https://crochetguide.uk/guides/single-crochet-vs-double-crochet.html&media=https://crochetguide.uk/guides/images/single-crochet-vs-double-crochet.jpg&description=Single%20Crochet%20vs%20Double%20Crochet%3A%20What%27s%20the%20Difference%3F" target="_blank" rel="noopener">Pin this pattern</a>
+      <button class="print-btn pdf-btn" type="button" data-pdf="/downloads/single-crochet-vs-double-crochet.pdf" data-title="Single Crochet vs Double Crochet: What's the Difference?">Get the free PDF</button>
     </div>
     <p class="dek">Two of the most common crochet stitches, and how to tell which one a project actually needs.</p>
     <p class="meta">Updated 2026 &middot; US terms &middot; 6 min read</p>
@@ -420,6 +440,101 @@ footer .wrap{max-width:1100px;}
   if(closeBtn) closeBtn.addEventListener('click', closeSearch);
   if(overlay) overlay.addEventListener('click', function(e){ if(e.target === overlay) closeSearch(); });
   if(input) input.addEventListener('input', function(){ render(input.value); });
+})();
+</script>
+
+<div class="pdf-overlay" id="pdfOverlay" hidden>
+  <div class="pdf-box">
+    <button class="pdf-close" id="pdfClose" aria-label="Close" type="button">&times;</button>
+    <div id="pdfStepForm">
+      <h3>Get the free printable PDF</h3>
+      <p>Enter your email and we'll send the ad-free, printable PDF straight to your inbox &mdash; plus new patterns a few times a month.</p>
+      <form id="pdfForm" action="https://formspree.io/f/xwleglaq" method="POST">
+        <input type="email" name="email" id="pdfEmail" placeholder="you@email.com" required aria-label="Email address">
+        <input type="hidden" name="page" id="pdfPageField" value="">
+        <input type="hidden" name="_subject" value="New PDF download request">
+        <button class="pdf-submit" type="submit">Send me the PDF</button>
+        <p class="pdf-error" id="pdfError">Something went wrong. Please try again.</p>
+      </form>
+      <p class="pdf-note">No spam, unsubscribe anytime.</p>
+    </div>
+    <div id="pdfStepSuccess" hidden>
+      <h3>You're in! 🎉</h3>
+      <p>Your download should start automatically. If it doesn't, use the button below.</p>
+      <a class="pdf-submit" id="pdfDownloadLink" href="#" target="_blank" rel="noopener">Download the PDF</a>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var overlay = document.getElementById('pdfOverlay');
+  if(!overlay) return;
+  var closeBtn = document.getElementById('pdfClose');
+  var form = document.getElementById('pdfForm');
+  var errorMsg = document.getElementById('pdfError');
+  var pageField = document.getElementById('pdfPageField');
+  var stepForm = document.getElementById('pdfStepForm');
+  var stepSuccess = document.getElementById('pdfStepSuccess');
+  var downloadLink = document.getElementById('pdfDownloadLink');
+  var currentPdf = null;
+
+  function openPdf(btn){
+    currentPdf = btn.getAttribute('data-pdf');
+    pageField.value = btn.getAttribute('data-title') || location.pathname;
+    stepForm.hidden = false;
+    stepSuccess.hidden = true;
+    errorMsg.style.display = 'none';
+    form.reset();
+    var submitBtn = form.querySelector('button[type="submit"]');
+    submitBtn.disabled = false;
+    overlay.hidden = false;
+    document.addEventListener('keydown', onKey);
+    setTimeout(function(){ document.getElementById('pdfEmail').focus(); }, 30);
+  }
+  function closePdf(){
+    overlay.hidden = true;
+    document.removeEventListener('keydown', onKey);
+  }
+  function onKey(e){ if(e.key === 'Escape') closePdf(); }
+
+  document.querySelectorAll('.pdf-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){ openPdf(btn); });
+  });
+  if(closeBtn) closeBtn.addEventListener('click', closePdf);
+  overlay.addEventListener('click', function(e){ if(e.target === overlay) closePdf(); });
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var data = new FormData(form);
+    var submitBtn = form.querySelector('button[type="submit"]');
+    submitBtn.disabled = true;
+    errorMsg.style.display = 'none';
+    fetch(form.action, {
+      method: 'POST',
+      body: data,
+      headers: { 'Accept': 'application/json' }
+    }).then(function(response){
+      if(response.ok){
+        stepForm.hidden = true;
+        stepSuccess.hidden = false;
+        downloadLink.href = currentPdf;
+        if(typeof gtag === 'function') gtag('event', 'pdf_download', { page: pageField.value });
+        var a = document.createElement('a');
+        a.href = currentPdf;
+        a.download = '';
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+      } else {
+        submitBtn.disabled = false;
+        errorMsg.style.display = 'block';
+      }
+    }).catch(function(){
+      submitBtn.disabled = false;
+      errorMsg.style.display = 'block';
+    });
+  });
 })();
 </script>
 </body>
