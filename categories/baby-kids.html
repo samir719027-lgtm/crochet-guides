@@ -74,6 +74,22 @@ footer{border-top:1px solid var(--line);padding:24px 0;font-size:13px;color:var(
 footer .wrap{max-width:1100px;}
 footer .fine{margin:0 0 14px;}
 footer nav a{margin-right:16px;text-decoration:none;color:var(--ink-soft);font-weight:600;font-size:13px;}
+
+.search-btn{background:none;border:none;cursor:pointer;color:var(--ink);padding:6px;display:flex;align-items:center;flex:none;}
+.search-btn:hover{color:var(--teal-dark);}
+.search-overlay{position:fixed;inset:0;background:rgba(42,36,30,0.55);z-index:999;display:flex;align-items:flex-start;justify-content:center;padding:10vh 20px 20px;}
+.search-overlay[hidden]{display:none;}
+.search-box{background:var(--card);border-radius:var(--radius);max-width:560px;width:100%;padding:18px;box-shadow:0 10px 40px rgba(0,0,0,0.25);max-height:70vh;display:flex;flex-direction:column;}
+.search-row{display:flex;gap:8px;align-items:center;}
+.search-row input{flex:1;padding:12px 14px;border:1px solid var(--line);border-radius:var(--radius);font-size:16px;font-family:'Work Sans',sans-serif;background:var(--wool);color:var(--ink);box-sizing:border-box;}
+.search-row input:focus{outline:2px solid var(--teal);border-color:var(--teal);}
+.search-close{background:none;border:none;font-size:24px;cursor:pointer;color:var(--ink-soft);flex:none;padding:2px 8px;line-height:1;}
+.search-results{margin-top:14px;overflow-y:auto;}
+.search-result{display:block;padding:10px 8px;text-decoration:none;color:var(--ink);border-radius:var(--radius);}
+.search-result:hover{background:var(--wool);}
+.search-result .r-cat{font-family:'Space Mono',monospace;font-size:10.5px;text-transform:uppercase;letter-spacing:0.06em;color:var(--berry);display:block;margin-bottom:2px;}
+.search-result .r-title{font-family:'Fraunces',serif;font-weight:600;font-size:15px;}
+.search-empty{color:var(--ink-soft);font-size:14px;padding:10px 8px;}
 </style>
 
 <script type="application/ld+json">
@@ -112,9 +128,23 @@ footer nav a{margin-right:16px;text-decoration:none;color:var(--ink-soft);font-w
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 3c-2.5 0-4.5 2-4.5 4.5S5.5 12 8 12h4c2.8 0 5 2.2 5 5s-2.2 5-5 5-5-2.2-5-5"/><circle cx="17.2" cy="4.8" r="1.6"/></svg>
       CrochetGuides
     </a>
-    <a class="back" href="/">&larr; All guides</a>
+    <div style="display:flex;align-items:center;gap:14px;">
+      <a class="back" href="/">&larr; All guides</a>
+      <button class="search-btn" id="searchBtn" aria-label="Search guides" type="button"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></button>
+    </div>
   </div>
 </header>
+
+<div class="search-overlay" id="searchOverlay" hidden>
+  <div class="search-box">
+    <div class="search-row">
+      <input type="text" id="searchInput" placeholder="Search guides..." autocomplete="off">
+      <button class="search-close" id="searchClose" aria-label="Close search" type="button">&times;</button>
+    </div>
+    <div class="search-results" id="searchResults"></div>
+  </div>
+</div>
+
 
 <main>
   <div class="wrap">
@@ -181,5 +211,68 @@ footer nav a{margin-right:16px;text-decoration:none;color:var(--ink-soft);font-w
     </nav>
   </div>
 </footer>
+
+<script>
+(function(){
+  var btn = document.getElementById('searchBtn');
+  var overlay = document.getElementById('searchOverlay');
+  var input = document.getElementById('searchInput');
+  var closeBtn = document.getElementById('searchClose');
+  var results = document.getElementById('searchResults');
+  var index = null;
+
+  function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+  function loadIndex(cb){
+    if(index){ cb(); return; }
+    fetch('/search-index.json').then(function(r){return r.json();}).then(function(data){
+      index = data; cb();
+    }).catch(function(){ index = []; cb(); });
+  }
+
+  function render(query){
+    var q = query.trim().toLowerCase();
+    if(!q){ results.innerHTML = ''; return; }
+    var matches = index.filter(function(item){
+      return item.title.toLowerCase().indexOf(q) > -1 ||
+             item.desc.toLowerCase().indexOf(q) > -1 ||
+             item.category.toLowerCase().indexOf(q) > -1;
+    }).sort(function(a,b){
+      var at = a.title.toLowerCase().indexOf(q) > -1 ? 0 : 1;
+      var bt = b.title.toLowerCase().indexOf(q) > -1 ? 0 : 1;
+      return at - bt;
+    }).slice(0, 8);
+    if(matches.length === 0){
+      results.innerHTML = '<div class="search-empty">No guides found. Try a different word.</div>';
+      return;
+    }
+    results.innerHTML = matches.map(function(m){
+      return '<a class="search-result" href="'+m.url+'"><span class="r-cat">'+esc(m.category)+'</span><span class="r-title">'+esc(m.title)+'</span></a>';
+    }).join('');
+  }
+
+  function openSearch(){
+    overlay.hidden = false;
+    loadIndex(function(){
+      input.value = '';
+      results.innerHTML = '';
+      setTimeout(function(){ input.focus(); }, 30);
+    });
+    document.addEventListener('keydown', onKey);
+  }
+  function closeSearch(){
+    overlay.hidden = true;
+    document.removeEventListener('keydown', onKey);
+  }
+  function onKey(e){
+    if(e.key === 'Escape') closeSearch();
+  }
+
+  if(btn) btn.addEventListener('click', openSearch);
+  if(closeBtn) closeBtn.addEventListener('click', closeSearch);
+  if(overlay) overlay.addEventListener('click', function(e){ if(e.target === overlay) closeSearch(); });
+  if(input) input.addEventListener('input', function(){ render(input.value); });
+})();
+</script>
 </body>
 </html>
