@@ -86,6 +86,22 @@ document.addEventListener('click', function(e){
         "@type": "Answer",
         "text": "That's the natural result of spiral rounds never being joined. Most crocheters place their final decrease or seam at that spot deliberately, to hide it."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I change yarn colour partway through a round?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Work your last stitch in the old colour until two loops remain on the hook, then finish that stitch by pulling the new colour through both loops. For joined rounds, time the change to happen right at the join so the colour swap lines up with the seam. For spiral rounds, the change will land wherever your marker happens to be, which is normal."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "My spiral rounds keep twisting as the piece gets taller. Is that a mistake?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A slight lean is normal in spiral crochet and isn't a mistake. If it's twisting so much the fabric spirals visibly sideways, check that you aren't accidentally skipping or adding a stitch at the start of each round, which throws off the stitch count and exaggerates the lean."
+      }
     }
   ]
 }
@@ -165,9 +181,17 @@ footer .wrap{max-width:1100px;}
 .pdf-note{font-size:12px!important;color:var(--ink-soft);margin-top:2px!important;}
 .pdf-error{color:#c62828;font-size:13px;margin:6px 0 0;display:none;}
 
+.jumpnav{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:28px 0;font-size:14.5px;}
+.jumpnav strong{display:block;margin-bottom:8px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--berry);}
+.jumpnav ol{margin:0;padding-left:18px;columns:2;column-gap:24px;}
+.jumpnav li{margin-bottom:6px;break-inside:avoid;}
+.jumpnav a{text-decoration:none;font-weight:600;}
+.jumpnav a:hover{text-decoration:underline;}
+@media (max-width:480px){.jumpnav ol{columns:1;}}
+
 @media print{
   h2:has(+ .pick){display:none!important;}
-  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
+  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout, .jumpnav{display:none!important;}
   body{background:#fff;}
   article{padding:0;}
   .hero-img{max-height:200px;}
@@ -277,9 +301,11 @@ footer .wrap{max-width:1100px;}
       <button class="print-btn pdf-btn" type="button" data-pdf="/downloads/how-to-crochet-in-the-round.pdf" data-title="How to Crochet in the Round: Joined vs Spiral Rounds Explained">Get the free PDF</button>
     </div>
     <p class="dek">The two ways every circular or tube-shaped project is built &mdash; and how to know which one your pattern wants.</p>
-    <p class="meta">Updated 2026 &middot; US terms &middot; 7 min read</p>
+    <p class="meta">Updated 2026 &middot; US terms &middot; 10 min read</p>
 
     <img class="hero-img" width="900" height="506" fetchpriority="high" src="data:image/jpeg;base64,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" alt="Crochet hook working single crochet stitches around a circular starting ring" loading="lazy">
+
+    <p>I spent weeks confused about why my first hat had this odd stair-step line running up one side, when the pattern photo showed a perfectly smooth surface. Nobody had told me joined rounds leave a visible seam by design &mdash; I'd been joining out of habit, on a pattern that actually wanted a spiral. Once someone pointed out the difference, the two methods stopped feeling like variations of the same thing and started feeling like genuinely different tools for different jobs.</p>
 
     <p>Anything worked outward from a center point &mdash; hats, coasters, amigurumi, blankets started from the middle &mdash; is "worked in the round." There are two different ways to do this, and patterns don't always spell out which one they mean. Getting it backwards is one of the most common early mistakes, so this guide covers both, plus how to spot which one a pattern is asking for.</p>
 
@@ -287,11 +313,24 @@ footer .wrap{max-width:1100px;}
       <strong>Quick answer:</strong> Joined rounds are closed with a slip stitch and usually start each new round with a chain &mdash; used for flat circles, hats with a visible seam, and rounds with a repeating stitch pattern. Spiral rounds are never joined and just keep circling continuously &mdash; used almost exclusively for amigurumi, where a seam would show.
     </div>
 
-    <h2>Starting point: the magic ring</h2>
+    <div class="jumpnav">
+      <strong>Jump to</strong>
+      <ol>
+        <li><a href="#starting-point">The magic ring start</a></li>
+        <li><a href="#joined">Joined rounds</a></li>
+        <li><a href="#spiral">Spiral rounds</a></li>
+        <li><a href="#which-one">Which one your pattern wants</a></li>
+        <li><a href="#colour-changes">Changing colour mid-round</a></li>
+        <li><a href="#mistakes">Common mistakes &amp; fixes</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
+    <h2 id="starting-point">Starting point: the magic ring</h2>
 
     <p>Both methods usually begin the same way, with a <a href="/guides/magic-ring-tutorial.html">magic ring</a> (or a small chain joined into a loop). The difference starts at the end of round 1.</p>
 
-    <h2>Method 1: joined rounds</h2>
+    <h2 id="joined">Method 1: joined rounds</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -304,7 +343,7 @@ footer .wrap{max-width:1100px;}
       </ol>
     </div>
 
-    <h2>Method 2: continuous spiral rounds</h2>
+    <h2 id="spiral">Method 2: continuous spiral rounds</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -316,24 +355,37 @@ footer .wrap{max-width:1100px;}
       </ol>
     </div>
 
-    <h2>How to tell which one your pattern wants</h2>
+    <h2 id="which-one">How to tell which one your pattern wants</h2>
 
     <p>If a pattern says "join with a slip stitch," "ch 1, turn," or gives a stitch count that resets with each labeled round, it wants joined rounds. If it says "work in a continuous spiral" or "do not join," it wants spiral rounds, and you'll need a stitch marker to keep your place.</p>
 
-    <h2>Common mistakes</h2>
+    <h2 id="colour-changes">Changing colour mid-round</h2>
+    <p>Both methods handle a colour change the same way: work the last stitch in the old colour until two loops remain on the hook, then draw the new colour through both loops to finish it. From there the two methods diverge slightly. On joined rounds, it's worth timing a colour change to land right at the join, so the switch lines up with the seam instead of looking scattered partway around. On spiral rounds there's no seam to line it up with, so the change will simply land wherever your marker happens to be when you decide to switch &mdash; that's normal, not a mistake.</p>
+    <p>Either way, carry the yarn you're not using up the inside of the work rather than cutting and rejoining every round, unless the colour won't be needed again for a long stretch &mdash; it saves ends to weave in later and keeps the fabric from developing extra bulk at the colour-change point.</p>
 
-    <ul>
-      <li>Losing track of the round without a stitch marker on a spiral pattern &mdash; the most common amigurumi mistake.</li>
-      <li>Joining a spiral pattern by accident, which creates a visible stepped seam where a smooth shape was expected.</li>
-      <li>Twisting the starting ring itself before working round 1, which carries a twist through the entire project.</li>
-    </ul>
+    <h2 id="mistakes">Common mistakes &amp; fixes</h2>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> losing track of the round on a spiral pattern.<br>
+      <strong>Fix:</strong> this is the single most common amigurumi mistake, and a stitch marker fixes it completely. Move the marker into the last stitch worked at the end of every round, without exception, even on rounds that feel too simple to bother.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> joining a spiral pattern by accident.<br>
+      <strong>Fix:</strong> this creates a visible stepped seam where a smooth shape was expected, usually from following an old habit rather than reading what the pattern actually says. Re-check the pattern's wording before round 1 &mdash; "do not join" means exactly that, even if joining feels like the more natural thing to do.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the starting ring itself is twisted before round 1 even begins.<br>
+      <strong>Fix:</strong> a twist in the foundation ring carries through the entire project and is hard to spot early. Lay the ring flat and check both loops sit side by side, not crossed, before working your first stitch into it.
+    </div>
 
     <div class="video-wrap">
       <iframe src="https://www.youtube.com/embed/Do_WK4g_V44" title="Crocheting in the round, step by step" allowfullscreen loading="lazy"></iframe>
     </div>
     <p class="video-caption">A demonstration of working continuous rounds, useful for seeing how the spiral builds without turning.</p>
 
-    <h2 class="faq">Frequently asked questions</h2>
+    <h2 class="faq" id="faq">Frequently asked questions</h2>
     <h3>Do I need a stitch marker for spiral rounds?</h3>
     <p>Strongly recommended &mdash; without one, it's very easy to lose your place after just a few rounds, especially in a solid color.</p>
 
@@ -342,6 +394,12 @@ footer .wrap{max-width:1100px;}
 
     <h3>What's the small "step" I sometimes see in amigurumi?</h3>
     <p>That's the natural result of spiral rounds never being joined. Most crocheters place their final decrease or seam at that spot deliberately, to hide it.</p>
+
+    <h3>How do I change yarn colour partway through a round?</h3>
+    <p>Work your last stitch in the old colour until two loops remain on the hook, then finish that stitch by pulling the new colour through both loops. For joined rounds, time the change to happen right at the join so the colour swap lines up with the seam. For spiral rounds, the change will land wherever your marker happens to be, which is normal.</p>
+
+    <h3>My spiral rounds keep twisting as the piece gets taller. Is that a mistake?</h3>
+    <p>A slight lean is normal in spiral crochet and isn't a mistake. If it's twisting so much the fabric spirals visibly sideways, check that you aren't accidentally skipping or adding a stitch at the start of each round, which throws off the stitch count and exaggerates the lean.</p>
 
 
 
