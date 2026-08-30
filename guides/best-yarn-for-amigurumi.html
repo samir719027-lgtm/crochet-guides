@@ -86,6 +86,22 @@ document.addEventListener('click', function(e){
         "@type": "Answer",
         "text": "Usually 1&ndash;2mm smaller than the size printed on the yarn label, which tightens the fabric and helps hide stuffing &mdash; see our <a href=\"/guides/amigurumi-for-beginners.html\">amigurumi for beginners guide</a> for more on this."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Is cotton or acrylic better for amigurumi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cotton gives crisper stitch definition and holds shape well but is less forgiving to work with; acrylic is softer on the hands and more affordable, making it the more common choice for beginners."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much yarn do I need for a typical amigurumi project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most small amigurumi (under 6in / 15cm) use well under 100 yards, so a single standard skein is usually enough for several finished pieces."
+      }
     }
   ]
 }
@@ -147,9 +163,18 @@ footer .wrap{max-width:1100px;}
 .pin-btn{display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:var(--radius);background:var(--berry);color:var(--card)!important;text-decoration:none;font-size:13.5px;font-weight:600;margin-top:12px;margin-left:8px;font-family:'Work Sans',sans-serif;}
 .pin-btn:hover{background:#8a2f3d;}
 .btn-row{display:flex;flex-wrap:wrap;gap:0;}
+
+.jumpnav{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:28px 0;font-size:14.5px;}
+.jumpnav strong{display:block;margin-bottom:8px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--berry);}
+.jumpnav ol{margin:0;padding-left:18px;columns:2;column-gap:24px;}
+.jumpnav li{margin-bottom:6px;break-inside:avoid;}
+.jumpnav a{text-decoration:none;font-weight:600;}
+.jumpnav a:hover{text-decoration:underline;}
+@media (max-width:480px){.jumpnav ol{columns:1;}}
+
 @media print{
   h2:has(+ .pick){display:none!important;}
-  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
+  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout, .jumpnav{display:none!important;}
   body{background:#fff;}
   article{padding:0;}
   .hero-img{max-height:200px;}
@@ -222,21 +247,37 @@ footer .wrap{max-width:1100px;}
       <a class="pin-btn" href="https://pinterest.com/pin/create/button/?url=https://crochetguide.uk/guides/best-yarn-for-amigurumi.html&media=https://crochetguide.uk/guides/images/best-yarn-for-amigurumi.jpg&description=Best%20Yarn%20for%20Amigurumi%3A%20What%20to%20Look%20For" target="_blank" rel="noopener">Pin this pattern</a>
     </div>
     <p class="dek">The yarn qualities that actually matter for tiny, tightly-stitched projects &mdash; and the ones that don't.</p>
-    <p class="meta">Updated 2026 &middot; US terms &middot; 8 min read</p>
+    <p class="meta">Updated 2026 &middot; US terms &middot; 10 min read</p>
 
     <img class="hero-img" width="900" height="506" fetchpriority="high" src="data:image/jpeg;base64,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" alt="Balls of smooth worsted weight yarn suited to amigurumi" loading="lazy">
 
+    <p>My first amigurumi attempt used a fuzzy, mohair-style yarn I'd been given as a gift and was eager to use. The finished bear looked less like a bear and more like a lint ball with limbs &mdash; every increase and decrease I'd carefully worked disappeared into the halo of loose fibres. I switched to a plain smooth acrylic for the next one and could suddenly see my own stitches for the first time, which is when amigurumi actually started being fun instead of frustrating.</p>
+
     <p>Amigurumi is unforgiving of yarn choice in a way that blankets and scarves aren't: every stitch is visible up close on a small toy, so texture and ply matter far more here than on a larger project where scale hides small imperfections.</p>
+
+    <div class="jumpnav">
+      <strong>Jump to</strong>
+      <ol>
+        <li><a href="#weight">Weight</a></li>
+        <li><a href="#fiber">Fiber type</a></li>
+        <li><a href="#ply">Ply &amp; texture</a></li>
+        <li><a href="#color">Colorfastness</a></li>
+        <li><a href="#budget">How much to buy</a></li>
+        <li><a href="#checklist">Shopping checklist</a></li>
+        <li><a href="#mistakes">Common mistakes &amp; fixes</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
 
     <div class="callout">
       <strong>Quick answer:</strong> Prioritize a smooth, plied (not single-strand) yarn in worsted weight or lighter &mdash; smooth plies show clean stitch definition, which matters far more on small toys than on blankets.
     </div>
 
-    <h2>Weight: worsted or lighter</h2>
+    <h2 id="weight">Weight: worsted or lighter</h2>
 
     <p>Most amigurumi patterns, including the ones on this site, are written for worsted/#4 or DK/#3 weight yarn. Bulky yarn can work for larger toys, but it tends to hide the fine shaping detail that makes amigurumi faces and features read clearly &mdash; see our <a href="/guides/yarn-weight-explained.html">yarn weight guide</a> for how the weight system works.</p>
 
-    <h2>Fiber: acrylic vs cotton vs blends</h2>
+    <h2 id="fiber">Fiber: acrylic vs cotton vs blends</h2>
 
     <ul>
       <li><strong>Acrylic</strong> &mdash; affordable, holds its shape well, wide color range, and doesn't felt or shrink when hand-washed. The most common choice for amigurumi.</li>
@@ -244,15 +285,19 @@ footer .wrap{max-width:1100px;}
       <li><strong>Wool or wool blends</strong> &mdash; soft and warm-feeling, but can felt or shrink if machine washed, so generally best avoided for toys that will be handled or washed often.</li>
     </ul>
 
-    <h2>Ply and texture</h2>
+    <h2 id="ply">Ply and texture</h2>
 
     <p>Look for a plied yarn &mdash; multiple thin strands twisted together, visible if you untwist a short length &mdash; rather than a single unplied strand. Plied yarn holds its stitch shape better under stuffing pressure and is less likely to split as your hook passes through it.</p>
 
-    <h2>Color and colorfastness</h2>
+    <h2 id="color">Color and colorfastness</h2>
 
     <p>For toys given to children, check the yarn label for colorfastness or "safe for washing," since some hand-dyed or novelty yarns can bleed color when damp, which may transfer to skin, fabric, or other parts of the toy touching it.</p>
 
-    <h2>Quick shopping checklist</h2>
+    <h2 id="budget">How much to buy</h2>
+    <p>Most small amigurumi under 6in / 15cm tall use surprisingly little yarn &mdash; well under 100 yards total across all the pieces, which usually means a single standard skein finishes several toys with plenty left over. Bigger projects like our <a href="/guides/amigurumi-bear-pattern.html">amigurumi bear pattern</a> still only use about 80&ndash;100 yards, so buying one or two skeins per project rather than stocking up in bulk is usually enough unless you're planning a whole batch of toys in the same colour.</p>
+    <p>Budget-wise, a basic acrylic skein typically runs a few dollars and covers multiple small toys, while mercerized cotton or a nicer blend costs more per skein but still goes a long way given how little amigurumi actually needs &mdash; it's one of the most forgiving project types to try a slightly nicer yarn on without a big financial commitment.</p>
+
+    <h2 id="checklist">Quick shopping checklist</h2>
 
     <ul>
       <li>Worsted (#4) or DK (#3) weight</li>
@@ -261,7 +306,21 @@ footer .wrap{max-width:1100px;}
       <li>Machine washable if the toy will be handled by children</li>
     </ul>
 
-    <h2 class="faq">Frequently asked questions</h2>
+    <h2 id="mistakes">Common mistakes &amp; fixes</h2>
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> choosing a fuzzy, single-ply, or novelty-textured yarn that hides all the stitch detail.
+      <br><strong>Fix:</strong> switch to a smooth, plied worsted or DK-weight yarn &mdash; acrylic or mercerized cotton both show clean stitch definition, which matters far more on a small toy than fibre prestige does.
+    </div>
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> a toy made for a child uses hand-dyed or novelty yarn that bleeds colour when it gets damp.
+      <br><strong>Fix:</strong> check the label for colorfastness or "safe for washing" before starting, and test a small scrap with a damp cloth first if the label doesn't say either way.
+    </div>
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> a bulky or super bulky yarn is used for a small toy, and the facial features and shaping details get lost.
+      <br><strong>Fix:</strong> stick to worsted (#4) or DK (#3) weight for anything under about 8in / 20cm tall, saving bulkier yarn for larger toys where fine detail matters less.
+    </div>
+
+    <h2 class="faq" id="faq">Frequently asked questions</h2>
     <h3>Can I use scrap or stash yarn for amigurumi?</h3>
     <p>Yes, amigurumi is one of the best stash-buster projects since most pieces use small amounts &mdash; just try to keep weight consistent within a single project so pieces match in scale.</p>
 
@@ -271,7 +330,11 @@ footer .wrap{max-width:1100px;}
     <h3>What hook size should I use with amigurumi yarn?</h3>
     <p>Usually 1&ndash;2mm smaller than the size printed on the yarn label, which tightens the fabric and helps hide stuffing &mdash; see our <a href="/guides/amigurumi-for-beginners.html">amigurumi for beginners guide</a> for more on this.</p>
 
+    <h3>Is cotton or acrylic better for amigurumi?</h3>
+    <p>Cotton gives crisper stitch definition and holds shape well but is less forgiving to work with; acrylic is softer on the hands and more affordable, making it the more common choice for beginners.</p>
 
+    <h3>How much yarn do I need for a typical amigurumi project?</h3>
+    <p>Most small amigurumi (under 6in / 15cm) use well under 100 yards, so a single standard skein is usually enough for several finished pieces.</p>
 
     <div class="related">
       <h2>Related guides</h2>
