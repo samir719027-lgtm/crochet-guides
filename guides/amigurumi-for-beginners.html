@@ -85,6 +85,16 @@ document.addEventListener('click', function(e){
       "@type": "Question",
       "name": "How do I close up the last few stitches neatly?",
       "acceptedAnswer": {"@type": "Answer", "text": "Once you're down to 5-6 stitches, cut the yarn leaving a long tail, thread it onto a yarn needle, and weave it through the front loops of the remaining stitches. Pull tight to cinch the hole closed, then run the needle through the closure once more and bury the tail deep inside the toy before trimming."}
+    },
+    {
+      "@type": "Question",
+      "name": "What yarn is best for amigurumi?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Worsted-weight cotton or a smooth acrylic are the easiest to start with, because they hold stitch definition and don't fuzz up. Cotton gives the crispest look, while acrylic is softer and cheaper. Avoid fluffy or novelty yarns for a first toy, since they hide stitches and make mistakes harder to spot."}
+    },
+    {
+      "@type": "Question",
+      "name": "Why is my amigurumi curling or not holding its round shape?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Curling at the very start usually means too many increases in the first few rounds, which makes the fabric buckle. Not holding its shape later on is more often understuffing. Check the stitch count for the first, and add stuffing in small pinches for the second."}
     }
   ]
 }
@@ -283,9 +293,9 @@ footer .wrap{max-width:1100px;}
 
     <img class="hero-img" width="900" height="506" fetchpriority="high" src="https://images.pexels.com/photos/38972275/pexels-photo-38972275.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" alt="A vibrant collection of crocheted animal toys in various colors and designs." loading="lazy">
 
-    <p>My first amigurumi was meant to be a gift &mdash; a small stuffed fox for my niece &mdash; and it came out looking almost right, except you could see tufts of white stuffing through gaps between the stitches, like the fox had lost a fight with a pillow. I'd used the same hook I always reached for with blankets and jumpers, because nobody had told me amigurumi wants something smaller and tighter. That one toy taught me more about gauge than any swatch ever had.</p>
+    <p>The first amigurumi project I teach in every class is a small ball, and each time, at least one student's version comes out with little white tufts poking through the stitches, like the toy lost a fight with a pillow. The culprit is never the student &mdash; it's the hook. Amigurumi wants a hook a size or two smaller than the yarn label suggests, and nobody tells you that up front. It's the single most useful thing I can teach someone before their first stuffed toy.</p>
 
-    <p>Amigurumi &mdash; the Japanese craft of crocheting small stuffed toys and characters &mdash; looks intimidating because finished pieces are so detailed. In practice, it's built from the same two stitches most beginners already know: chain and single crochet. What makes it feel different is the technique, not the skill level.</p>
+    <p>Amigurumi &mdash; the Japanese craft of crocheting small stuffed toys and characters &mdash; looks intimidating because finished pieces are so detailed. In practice, it's built from the same two stitches most beginners already know: chain and single crochet. What makes it feel different is the technique, not the skill level, and this guide walks through exactly that.</p>
 
     <div class="callout">
       <strong>Quick answer:</strong> amigurumi is worked in a continuous spiral (not joined rounds), with a hook one to two sizes smaller than usual, using single crochet almost exclusively. That combination is what creates the tight, dense fabric that holds stuffing without gaps.
@@ -306,16 +316,17 @@ footer .wrap{max-width:1100px;}
     <h2 id="differs">How amigurumi differs from other crochet</h2>
     <p>If you've worked through our <a href="/guides/how-to-read-a-pattern.html">guide to reading a pattern</a>, most amigurumi instructions will already look familiar &mdash; abbreviations and stitch counts work the same way. Three things are different:</p>
     <ul>
-      <li><strong>Continuous rounds, not joined.</strong> Instead of joining each round with a slip stitch, you work in a spiral, using a stitch marker to track where each round starts.</li>
+      <li><strong>Continuous rounds, not joined.</strong> Instead of joining each round with a slip stitch, you work in a spiral, using a stitch marker to track where each round starts. Most patterns begin with a <a href="/guides/magic-ring-tutorial.html">magic ring</a>, which closes the centre hole completely.</li>
       <li><strong>A smaller hook than the yarn label suggests.</strong> This tightens your stitches so stuffing doesn't peek through &mdash; see the hook size question in our FAQ below for exact sizing.</li>
       <li><strong>Shaping through increases and decreases.</strong> Rounds don't stay a constant stitch count the way a flat square does; they grow and shrink to form heads, bodies, and limbs.</li>
     </ul>
+    <p>Because a spiral has no obvious start or end, a stitch marker in the first stitch of every round is non-negotiable. Without it, you'll have no idea where a round ends, and a missed increase three rounds back becomes almost impossible to locate. Clip the marker in, move it up each round, and you've removed the single biggest source of amigurumi frustration before you even start.</p>
 
     <h2 id="what-you-need">What you actually need to start</h2>
     <p>Amigurumi patterns can list a long supply chart, but your first project only needs four things:</p>
     <ul>
       <li><strong>A smaller hook</strong> than you'd normally use with your yarn &mdash; see our <a href="/guides/beginner-crochet-hooks.html">hook buying guide</a> if you don't have one yet in the 2.5&ndash;3.5mm range.</li>
-      <li><strong>Worsted-weight cotton or acrylic yarn</strong> in a light colour, so you can see your stitches while you're still learning the spiral technique.</li>
+      <li><strong>Worsted-weight cotton or acrylic yarn</strong> in a light colour, so you can see your stitches while you're still learning the spiral technique. Cotton holds stitch definition especially well for amigurumi; our <a href="/guides/best-yarn-for-amigurumi.html">best yarn for amigurumi</a> guide compares the options.</li>
       <li><strong>Stuffing</strong> &mdash; polyester fiberfill, not cotton balls or fabric scraps, which clump and go lumpy.</li>
       <li><strong>Safety eyes</strong>, for anything that needs a face and might be handled by a child.</li>
     </ul>
@@ -339,6 +350,7 @@ footer .wrap{max-width:1100px;}
     <h2 id="shaping">Increasing &amp; decreasing</h2>
     <p>This is the part that actually shapes a flat spiral into a round head or a tapered limb. An increase (inc) means working two stitches into the same stitch, which adds a stitch to the round and makes it flare outward &mdash; that's how a body widens from the base. A decrease (dec) means working two stitches together as one, which removes a stitch and pulls the round inward &mdash; that's how a head or limb tapers closed.</p>
     <p>Patterns space these out deliberately: something like <code>[sc 4, inc] x6</code> means you repeat "4 single crochet, then 1 increase" six times around the round. The number in front of the increase or decrease tells you how far apart to space them &mdash; more sc between each one, and the shaping gets gentler; fewer, and it happens faster. If a round isn't coming out round, it's almost always because an increase or decrease got missed or doubled somewhere in that repeat.</p>
+    <p>If you've never worked increases and decreases on their own, a plain sphere is the perfect practice piece, and our free <a href="/guides/amigurumi-ball-pattern.html">amigurumi ball pattern</a> is exactly that &mdash; nothing but the two shaping moves repeated until they're second nature.</p>
 
     <h2 id="stuffing">Stuffing &amp; closing tips</h2>
     <p>Stuff as you go on anything long and narrow, like an arm or leg, rather than waiting until the whole piece is crocheted &mdash; it's much harder to push stuffing down a finished tube than to add small pinches while there's still an open end to work through. Use enough stuffing to feel firm through the fabric, but stop before the stitches start to stretch and gap; overstuffing is what causes the exact see-through problem a tighter hook is meant to prevent.</p>
@@ -381,6 +393,12 @@ footer .wrap{max-width:1100px;}
 
     <h3>How do I close up the last few stitches neatly?</h3>
     <p>Once you're down to 5-6 stitches, cut the yarn leaving a long tail, thread it onto a yarn needle, and weave it through the front loops of the remaining stitches. Pull tight to cinch the hole closed, then run the needle through the closure once more and bury the tail deep inside the toy before trimming.</p>
+
+    <h3>What yarn is best for amigurumi?</h3>
+    <p>Worsted-weight cotton or a smooth acrylic are the easiest to start with, because they hold stitch definition and don't fuzz up. Cotton gives the crispest look but has less stretch; acrylic is softer and cheaper. Steer clear of fluffy, fuzzy, or novelty yarns for your first toy, since they hide your stitches and make mistakes much harder to spot.</p>
+
+    <h3>Why is my amigurumi curling or not holding its round shape?</h3>
+    <p>Curling at the very start usually means you worked too many increases into the first few rounds, which makes the fabric buckle. Not holding its round shape later on is more often a stuffing issue &mdash; understuffing leaves the piece limp and creased. Check your stitch count against the pattern for the first, and add stuffing in small pinches for the second.</p>
 
     <div class="related">
       <h2>Related guides</h2>
