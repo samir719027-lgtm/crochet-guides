@@ -85,6 +85,16 @@ document.addEventListener('click', function(e){
       "@type": "Question",
       "name": "What is a turning chain and why does it matter?",
       "acceptedAnswer": {"@type": "Answer", "text": "A turning chain is one or more chain stitches worked at the start of a new row to bring your hook up to the correct height for that row's stitch. Depending on the stitch, that turning chain may or may not count as your first stitch of the row, and getting that wrong is one of the most common causes of a stitch count drifting off over several rows."}
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know if a pattern is written in US or UK terms?",
+      "acceptedAnswer": {"@type": "Answer", "text": "The quickest clue is the phrase single crochet: US patterns use it constantly, while UK patterns have no single crochet at all, and what the UK calls double crochet is the US single crochet. When in doubt, check the stitch heights against a glossary before you start."}
+    },
+    {
+      "@type": "Question",
+      "name": "What does working in the round mean in a pattern?",
+      "acceptedAnswer": {"@type": "Answer", "text": "It means you crochet in a continuous spiral or joined circles rather than turning at the end of each row. Patterns worked in the round are common for hats, amigurumi, and granny squares, and usually tell you to place a stitch marker in the first stitch of each round to track where it began."}
     }
   ]
 }
@@ -291,9 +301,9 @@ footer .wrap{max-width:1100px;}
 
     <img class="hero-img" width="900" height="506" fetchpriority="high" src="https://images.pexels.com/photos/4792085/pexels-photo-4792085.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" alt="From above of red crochet needle and gray snaking thread on opened magazine on table in bright room" loading="lazy">
 
-    <p>I still remember printing out my first real pattern, a simple hat, and staring at the first line for a full five minutes because it might as well have been written in another language: rows of abbreviations, asterisks, and numbers stacked in brackets. Nobody had told me that a pattern is really just a recipe, written as compactly as the author could manage, and that the shorthand exists to save space, not to gatekeep beginners. Once I understood that, the panic mostly went away, and I started actually reading patterns instead of just staring at them.</p>
+    <p>In twelve years of teaching, I've watched the same thing happen in every beginner class: someone pulls up a pattern, stares at the first line for thirty seconds, and quietly decides the problem is them. It isn't. A pattern is just a recipe, written as compactly as the designer could manage, and the shorthand &mdash; the abbreviations, asterisks, and numbers in brackets &mdash; exists to save space, not to gatekeep anyone. Once you learn to read that shorthand, the panic mostly disappears, and you start actually <em>following</em> patterns instead of staring at them.</p>
 
-    <p>This guide covers the specific pieces that trip people up most: the abbreviations themselves, what gauge is actually measuring, how to read a repeat, and how to catch a mistake early by checking your stitch count as you go.</p>
+    <p>This guide covers the pieces that trip people up most: the abbreviations themselves, what gauge is actually measuring, how to read a repeat, and how to catch a mistake early by checking your stitch count as you go. If reading a pattern has ever made you feel like you're missing something obvious, this page is for you.</p>
 
     <div class="callout">
       <strong>Quick answer:</strong> read the pattern fully once before picking up your hook. Most confusion comes from starting mid-row on a stitch you haven't seen defined yet.
@@ -314,6 +324,7 @@ footer .wrap{max-width:1100px;}
 
     <h2 id="before-you-start">Before you pick up the hook</h2>
     <p>Every pattern worth using has a short block of notes before the instructions start, and it's the part almost everyone skips. It usually covers three things worth reading first: which terms it uses (US or UK &mdash; see the FAQ below if you're not sure which you're looking at), any special stitches or abbreviations unique to that pattern that aren't in the standard list, and the finished size or gauge the designer worked to. Skipping this section is the single most common reason a pattern feels confusing five minutes in &mdash; you're usually missing a definition the designer assumed you'd already seen.</p>
+    <p>If a term in the notes still means nothing to you, our <a href="/guides/abbreviations-glossary.html">abbreviations glossary</a> lists the full US and UK stitch vocabulary in one place, including the less common ones like <code>fpsc</code> and <code>bphdc</code> that tend to hide in the fine print.</p>
 
     <h2 id="abbreviations">Common abbreviations</h2>
     <table>
@@ -328,19 +339,23 @@ footer .wrap{max-width:1100px;}
       <tr><td>sk</td><td>Skip</td></tr>
       <tr><td>inc / dec</td><td>Increase / decrease</td></tr>
     </table>
+    <p>Don't try to memorise all of this at once &mdash; you'll pick up the common ones within your first project simply from repetition. The five you'll meet first are <code>ch</code>, <code>sc</code>, <code>dc</code>, <code>sl st</code>, and <code>inc</code>; keep this table open in another tab for the rest and look things up as you go. Every crocheter I know still checks a glossary occasionally for the rare ones, so it's a habit, not a crutch.</p>
 
     <h2 id="gauge">What gauge actually means</h2>
     <p>Gauge tells you how many stitches and rows fit into a set square, usually 10cm/4in, when using the hook and yarn the pattern recommends. It exists because everyone's tension is slightly different &mdash; two people using the same hook and yarn can produce noticeably different-sized results.</p>
     <p>For anything where exact size matters (garments, amigurumi with fitted parts), crochet a small gauge swatch first. For anything forgiving (scarves, blankets), you can usually skip it.</p>
+    <p>To check it, crochet a square a bit bigger than 10cm, lay a ruler across the middle, and count the stitches and rows in that 10cm. If you have too many stitches, your work is coming out smaller than intended, so go up half a hook size; too few, and you go down. A swatch that's close but not exact is sometimes still usable, but if it's way off and the size matters, the fix is always the hook, not your technique &mdash; more on that in our <a href="/guides/fixing-project-size.html">guide to fixing project size</a>.</p>
 
     <h2 id="repeats">Reading repeats: asterisks and brackets</h2>
     <p>When you see something like:</p>
     <p><code>*sc in next st, ch 1, skip 1 st; rep from * to end</code></p>
     <p>Everything between the asterisks is one repeating unit. You work it over and over until you reach the end of the row, rather than the pattern spelling out the same instruction fifteen times.</p>
     <p>Brackets work the same way but usually with a stated repeat count, like <code>[dc, ch 1] x4</code> &mdash; do the bracketed steps exactly four times.</p>
+    <p>Sometimes you'll see brackets nested inside asterisks, or a repeat that says something like <code>*dc in next st, [hdc, dc] in next st; rep from *</code>. Read the innermost instruction first, then work outward, exactly the way you'd solve a maths problem with parentheses. When a repeat doesn't seem to end cleanly at the row's edge, that's usually a sign you've missed one step inside the repeat &mdash; count back to the last asterisk rather than unpicking the whole row.</p>
 
     <h2 id="stitch-count">Reading a stitch count</h2>
     <p>Most rows end with a number in parentheses, like <code>(12 sts)</code>. This tells you how many stitches you should have after finishing the row. Checking this every row &mdash; not just at the end of a project &mdash; is the fastest way to catch a missed stitch before it compounds.</p>
+    <p>Let's read a real line together. <code>Row 2: ch 1, *sc in next st, inc; rep from * 3 times, sc in last st (12 sts)</code>. Translated, it says: chain one to turn, then repeat "single crochet, then increase" three times, and finish with a single crochet in the final stitch. The (12) is your safety check &mdash; if you count and you're at 11 or 13, you know exactly which row to look at. Being able to unpack a line like this in your head is the entire skill; once you can, every pattern in existence opens up.</p>
 
     <h2 id="mistakes">Common reading mistakes</h2>
     <div class="callout mistake" style="border-left:3px solid var(--berry);">
@@ -382,6 +397,12 @@ footer .wrap{max-width:1100px;}
 
     <h3>What is a turning chain and why does it matter?</h3>
     <p>A turning chain is one or more chain stitches worked at the start of a new row to bring your hook up to the correct height for that row's stitch. Depending on the stitch, that turning chain may or may not count as your first stitch of the row, and getting that wrong is one of the most common causes of a stitch count drifting off over several rows.</p>
+
+    <h3>How do I know if a pattern is written in US or UK terms?</h3>
+    <p>The quickest clue is the word "single crochet." US patterns use it constantly, while UK patterns don't have that stitch at all &mdash; what the UK calls double crochet is the US single crochet. Many patterns also state it explicitly in the notes. When in doubt, check the stitch heights against our <a href="/guides/abbreviations-glossary.html">abbreviations glossary</a> before you start.</p>
+
+    <h3>What does "work in the round" mean in a pattern?</h3>
+    <p>It means you crochet in a continuous spiral or in joined circles rather than turning at the end of each row. Patterns worked in the round are common for hats, amigurumi, and granny squares, and they usually tell you to place a stitch marker in the first stitch of each round so you can keep track of where the round began. Our <a href="/guides/how-to-crochet-in-the-round.html">crocheting in the round</a> guide covers it in full.</p>
 
     <div class="related">
       <h2>Related guides</h2>
