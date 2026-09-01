@@ -179,9 +179,16 @@ footer .wrap{max-width:1100px;}
 .pin-btn{display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:var(--radius);background:var(--berry);color:var(--card)!important;text-decoration:none;font-size:13.5px;font-weight:600;margin-top:12px;margin-left:8px;font-family:'Work Sans',sans-serif;}
 .pin-btn:hover{background:#8a2f3d;}
 .btn-row{display:flex;flex-wrap:wrap;gap:0;}
+.jumpnav{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:28px 0;font-size:14.5px;}
+.jumpnav strong{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-soft);display:block;margin-bottom:8px;}
+.jumpnav ol{margin:0;padding-left:18px;columns:2;column-gap:20px;}
+.jumpnav li{margin-bottom:4px;}
+.jumpnav a{text-decoration:none;}
+.jumpnav a:hover{text-decoration:underline;}
+@media (max-width:480px){.jumpnav ol{columns:1;}}
 @media print{
   h2:has(+ .pick){display:none!important;}
-  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
+  header, footer, .jumpnav, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
   body{background:#fff;}
   article{padding:0;}
   .hero-img{max-height:200px;}
@@ -266,7 +273,22 @@ footer .wrap{max-width:1100px;}
       <strong>Quick answer:</strong> Each shape is small enough — roughly golf-ball sized — to finish in under an hour once you know basic amigurumi shaping: a <a href="/guides/magic-ring-tutorial.html">magic ring</a>, single crochet increases, and stuffing as you close the last few rounds.
     </div>
 
-    <h2>What you need</h2>
+        <div class="jumpnav">
+      <strong>Jump to</strong>
+      <ol>
+        <li><a href="#what-you-need">What you need</a></li>
+        <li><a href="#pumpkin">Mini pumpkin</a></li>
+        <li><a href="#ghost">Friendly ghost</a></li>
+        <li><a href="#bat">Tiny bat</a></li>
+        <li><a href="#faces">Yarn, colour &amp; faces</a></li>
+        <li><a href="#scaling">Scaling the toys up or down</a></li>
+        <li><a href="#decor">Decorating &amp; gifting</a></li>
+        <li><a href="#mistakes">Common mistakes &amp; fixes</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
+<h2 id="what-you-need">What you need</h2>
 
     <ul>
       <li>Worsted weight (#4) yarn in orange, white, black, and a scrap of green or brown</li>
@@ -276,7 +298,7 @@ footer .wrap{max-width:1100px;}
       <li>Yarn needle and stitch marker</li>
     </ul>
 
-    <h2>Mini pumpkin</h2>
+    <h2 id="pumpkin">Mini pumpkin</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -295,7 +317,7 @@ footer .wrap{max-width:1100px;}
       </ol>
     </div>
 
-    <h2>Friendly ghost</h2>
+    <h2 id="ghost">Friendly ghost</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -308,7 +330,7 @@ footer .wrap{max-width:1100px;}
       </ol>
     </div>
 
-    <h2>Tiny bat</h2>
+    <h2 id="bat">Tiny bat</h2>
 
     <div class="step-box">
       <h3>Steps</h3>

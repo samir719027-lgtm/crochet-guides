@@ -184,10 +184,17 @@ footer .wrap{max-width:1100px;}
 .pdf-submit:disabled{opacity:0.6;cursor:default;}
 .pdf-note{font-size:12px!important;color:var(--ink-soft);margin-top:2px!important;}
 .pdf-error{color:#c62828;font-size:13px;margin:6px 0 0;display:none;}
+.jumpnav{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:28px 0;font-size:14.5px;}
+.jumpnav strong{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-soft);display:block;margin-bottom:8px;}
+.jumpnav ol{margin:0;padding-left:18px;columns:2;column-gap:20px;}
+.jumpnav li{margin-bottom:4px;}
+.jumpnav a{text-decoration:none;}
+.jumpnav a:hover{text-decoration:underline;}
+@media (max-width:480px){.jumpnav ol{columns:1;}}
 
 @media print{
   h2:has(+ .pick){display:none!important;}
-  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
+  header, footer, .jumpnav, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
   body{background:#fff;}
   article{padding:0;}
   .hero-img{max-height:200px;}
@@ -314,7 +321,19 @@ footer .wrap{max-width:1100px;}
 
     <p>Weight changes everything about how you approach this project. A hanger carrying a pot of wet soil is a different animal from a scarf, so every choice &mdash; yarn, tension, how you attach the cords &mdash; gets decided by gravity, not looks. Once you accept that, the project stops feeling fussy and starts feeling like a little bit of engineering, and honestly, that's half the fun.</p>
 
-    <div class="pattern-box">
+        <div class="jumpnav">
+      <strong>Jump to</strong>
+      <ol>
+        <li><a href="#pattern">Pattern</a></li>
+        <li><a href="#yarn">Choosing yarn that holds weight</a></li>
+        <li><a href="#sizing">Sizing the pouch for bigger pots</a></li>
+        <li><a href="#hanging">Hanging &amp; maintaining it safely</a></li>
+        <li><a href="#mistakes">Common mistakes &amp; fixes</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
+<div class="pattern-box">
       <h3>Materials</h3>
       <ul>
         <li>2 skeins worsted-weight cotton yarn (about 150&ndash;200 yards)</li>
@@ -354,7 +373,7 @@ footer .wrap{max-width:1100px;}
       </ul>
     </div>
 
-    <h2>Pattern</h2>
+    <h2 id="pattern">Pattern</h2>
 
     <div class="row-step">
       <span class="rownum">Base, Round 1</span>

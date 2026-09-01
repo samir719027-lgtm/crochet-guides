@@ -184,10 +184,17 @@ footer .wrap{max-width:1100px;}
 .pdf-submit:disabled{opacity:0.6;cursor:default;}
 .pdf-note{font-size:12px!important;color:var(--ink-soft);margin-top:2px!important;}
 .pdf-error{color:#c62828;font-size:13px;margin:6px 0 0;display:none;}
+.jumpnav{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:28px 0;font-size:14.5px;}
+.jumpnav strong{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-soft);display:block;margin-bottom:8px;}
+.jumpnav ol{margin:0;padding-left:18px;columns:2;column-gap:20px;}
+.jumpnav li{margin-bottom:4px;}
+.jumpnav a{text-decoration:none;}
+.jumpnav a:hover{text-decoration:underline;}
+@media (max-width:480px){.jumpnav ol{columns:1;}}
 
 @media print{
   h2:has(+ .pick){display:none!important;}
-  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
+  header, footer, .jumpnav, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
   body{background:#fff;}
   article{padding:0;}
   .hero-img{max-height:200px;}
@@ -299,7 +306,19 @@ footer .wrap{max-width:1100px;}
 
     <p>What I love about ripple is that it's deceptively simple: one row, repeated for a whole blanket. There's no chart to follow once you can read the wave, just a rhythm your hands settle into. That repetition makes it both the perfect first blanket and a genuinely mindless project for experienced hands &mdash; you can watch a film and still know, from the shape of the stitches under your fingers, whether you're climbing into a peak or dropping into a valley.</p>
 
-    <div class="pattern-box">
+        <div class="jumpnav">
+      <strong>Jump to</strong>
+      <ol>
+        <li><a href="#pattern">Pattern</a></li>
+        <li><a href="#colour">Planning yarn &amp; colour stripes</a></li>
+        <li><a href="#sizing">Sizing the blanket up or down</a></li>
+        <li><a href="#blocking">Blocking &amp; caring for the blanket</a></li>
+        <li><a href="#mistakes">Common mistakes &amp; fixes</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
+<div class="pattern-box">
       <h3>Materials</h3>
       <ul>
         <li>Worsted-weight yarn, roughly 1,200&ndash;1,500 yards total (one colour or striped)</li>
@@ -337,7 +356,7 @@ footer .wrap{max-width:1100px;}
       </ul>
     </div>
 
-    <h2>Pattern</h2>
+    <h2 id="pattern">Pattern</h2>
 
     <div class="row-step">
       <span class="rownum">Foundation</span>

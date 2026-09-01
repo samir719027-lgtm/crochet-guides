@@ -186,10 +186,17 @@ footer .wrap{max-width:1100px;}
 .pdf-submit:disabled{opacity:0.6;cursor:default;}
 .pdf-note{font-size:12px!important;color:var(--ink-soft);margin-top:2px!important;}
 .pdf-error{color:#c62828;font-size:13px;margin:6px 0 0;display:none;}
+.jumpnav{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:28px 0;font-size:14.5px;}
+.jumpnav strong{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-soft);display:block;margin-bottom:8px;}
+.jumpnav ol{margin:0;padding-left:18px;columns:2;column-gap:20px;}
+.jumpnav li{margin-bottom:4px;}
+.jumpnav a{text-decoration:none;}
+.jumpnav a:hover{text-decoration:underline;}
+@media (max-width:480px){.jumpnav ol{columns:1;}}
 
 @media print{
   h2:has(+ .pick){display:none!important;}
-  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
+  header, footer, .jumpnav, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
   body{background:#fff;}
   article{padding:0;}
   .hero-img{max-height:200px;}
@@ -330,7 +337,19 @@ footer .wrap{max-width:1100px;}
       <strong>Pet safety note:</strong> use plain, safe yarn without loose fibres or embellishments, stitch tightly, and check the toy periodically for wear. Discard and replace if seams start to loosen. See the FAQ below for more detail.
     </div>
 
-    <div class="pattern-box">
+        <div class="jumpnav">
+      <strong>Jump to</strong>
+      <ol>
+        <li><a href="#pattern">Pattern</a></li>
+        <li><a href="#yarn">Choosing safe yarn &amp; fill</a></li>
+        <li><a href="#filling">Catnip, crinkle &amp; other fillings</a></li>
+        <li><a href="#durability">Making it last through rough play</a></li>
+        <li><a href="#mistakes">Common mistakes &amp; fixes</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
+<div class="pattern-box">
       <h3>Materials</h3>
       <ul>
         <li>Small amount of worsted-weight yarn (under 20 yards)</li>
@@ -372,7 +391,7 @@ footer .wrap{max-width:1100px;}
       </ul>
     </div>
 
-    <h2>Pattern</h2>
+    <h2 id="pattern">Pattern</h2>
 
     <div class="row-step">
       <span class="rownum">Body, Round 1</span>
