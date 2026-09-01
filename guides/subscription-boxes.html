@@ -85,6 +85,16 @@ document.addEventListener('click', function(e){
       "@type": "Question",
       "name": "What should I look for in a good crochet subscription box?",
       "acceptedAnswer": {"@type": "Answer", "text": "Look for a box that states a skill level, shows examples of past projects, and includes both yarn and the pattern rather than one or the other. Shipping costs and whether the yarn is machine-washable are two details that often decide whether a box actually gets used."}
+    },
+    {
+      "@type": "Question",
+      "name": "Can I gift a crochet subscription box?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes &mdash; most services sell gift subscriptions for a set number of months, which makes a lovely present for a new crocheter or someone who's hit a creative slump. Check whether the recipient's skill level matches the box before you buy, and whether the gift auto-renews or simply ends after the term you paid for."}
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if I fall behind on a blanket club?",
+      "acceptedAnswer": {"@type": "Answer", "text": "The shipments usually keep coming on schedule, so falling behind just means the pieces wait for you rather than disappearing. That said, some multi-month clubs can't be cancelled partway without owing for the remaining boxes, so read those terms before signing up rather than when you're already committed."}
     }
   ]
 }
@@ -144,9 +154,17 @@ footer .wrap{max-width:1100px;}
 .pin-btn{display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:var(--radius);background:var(--berry);color:var(--card)!important;text-decoration:none;font-size:13.5px;font-weight:600;margin-top:12px;margin-left:8px;font-family:'Work Sans',sans-serif;}
 .pin-btn:hover{background:#8a2f3d;}
 .btn-row{display:flex;flex-wrap:wrap;gap:0;}
+.jumpnav{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:28px 0;font-size:14.5px;}
+.jumpnav strong{display:block;margin-bottom:8px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--berry);}
+.jumpnav ol{margin:0;padding-left:18px;columns:2;column-gap:24px;}
+.jumpnav li{margin-bottom:6px;break-inside:avoid;}
+.jumpnav a{text-decoration:none;font-weight:600;}
+.jumpnav a:hover{text-decoration:underline;}
+@media (max-width:480px){.jumpnav ol{columns:1;}}
+
 @media print{
   h2:has(+ .pick){display:none!important;}
-  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
+  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout, .jumpnav{display:none!important;}
   body{background:#fff;}
   article{padding:0;}
   .hero-img{max-height:200px;}
@@ -224,6 +242,19 @@ footer .wrap{max-width:1100px;}
 
     <p>I've spent twelve years telling beginners to stop buying yarn they'll never use, then watched a student walk into class one evening with a subscription box under her arm, grinning because a bundle of hand-dyed skeins and a pattern she'd never have picked herself had just landed on her doorstep. It was the first time in months she'd actually finished a project, and the box was the reason: someone else had made all the small decisions for her. That's the honest trade-off these boxes offer, and it's why I've come to recommend them &mdash; not as a bargain, but as a way to keep yourself crocheting when choice fatigue is the thing getting in the way.</p>
 
+    <p>I've been just as honest with those same students about the other side of the trade: a box only earns its keep if you actually open it. I've seen a cupboard full of unopened project kits bought with the best intentions, each one a small monument to a month that got busy. So the advice I give now is the same I'd give myself &mdash; subscribe for a reason, pause freely, and treat the box as a nudge to keep your hands moving rather than a collection to admire from the shelf.</p>
+
+    <div class="jumpnav">
+      <strong>Jump to</strong>
+      <ol>
+        <li><a href="#first-box">Your first box</a></li>
+        <li><a href="#focus">Skill level &amp; focus</a></li>
+        <li><a href="#overload">Avoiding stash overload</a></li>
+        <li><a href="#mistakes">Common mistakes &amp; fixes</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
     <div class="callout">
       <strong>Quick answer:</strong> subscription boxes are worth it if you value curation and convenience over cost, or want to explore yarns and stitches outside your usual choices. If you already know what you like to make, buying materials individually is typically cheaper.
     </div>
@@ -260,7 +291,57 @@ footer .wrap{max-width:1100px;}
     <h2>When to skip a subscription and buy individually</h2>
     <p>If you already have a project in mind, or want to control exactly which yarn weight and colour you're working with, buying materials directly is usually more cost-effective. Our <a href="/guides/yarn-weight-explained.html">yarn weight guide</a> and <a href="/guides/beginner-crochet-hooks.html">hook buying guide</a> cover what to look for if you're sourcing your own supplies rather than subscribing, and our <a href="/guides/easiest-first-projects.html">easiest first projects</a> list pairs beginner patterns with the materials you'd otherwise get in a box.</p>
 
-    <h2 class="faq">Frequently asked questions</h2>
+    <h2 id="first-box">Getting the most out of your first box</h2>
+
+    <p>When the box lands, resist the urge to just admire the yarn and move on. I tell people to read the pattern through once before touching the hook, check the listed skill level, and lay out every supply so a missing needle or stitch marker shows up before you're mid-project. If the kit includes a video or photo tutorial, watch the first few minutes first &mdash; it's usually the cheapest way to catch a technique you'd otherwise fumble halfway through.</p>
+
+    <p>Then actually make the thing within the first week or two. The whole point of a subscription is momentum, and a box that sits for three months quietly turns into guilt. If life gets in the way, most services let you pause &mdash; better to skip a month and come back keen than to let a backlog of unfinished kits stack up on the shelf.</p>
+
+    <h2 id="focus">Choosing a skill level and focus</h2>
+
+    <p>Not every box is for you, and the fastest way to waste money is signing up for one aimed at a different crocheter. If you're still learning your first stitches, a box that assumes you know front-post double crochet or colourwork will frustrate rather than stretch you &mdash; look for one that states a beginner level and builds difficulty gradually. If you're already confident, an all-rounder box that keeps sending basic scarves and washcloths will bore you just as quickly.</p>
+
+    <p>Think about the finished object, not just the yarn. Amigurumi-specific boxes suit people who love small stuffed toys and don't mind sewing fiddly pieces, while garment and blanket clubs suit anyone who wants a wearable or a big, satisfying project to sink into over weeks. Our <a href="/guides/amigurumi-for-beginners.html">amigurumi guide</a> and <a href="/guides/yarn-weight-explained.html">yarn weight guide</a> give you a sense of what each type of project actually involves before you commit to months of it.</p>
+
+    <h2 id="overload">Avoiding stash overload</h2>
+
+    <p>The quiet downside of subscription boxes is the yarn you'd never have bought yourself &mdash; a colour or fibre that isn't you, or a fifth partial skein of the same weight. Over a year that adds up to a real stash. My rule is to make the project, keep what I loved, and pass the rest on: leftover yarn from a finished kit is genuinely useful to someone, while a half-used skein of a colour you dislike is just dead weight in a drawer.</p>
+
+    <p>If a box stops earning its keep, pause or cancel without guilt. Most services are month-to-month for exactly this reason, and the ones that aren't &mdash; blanket and afghan clubs sold as multi-month commitments &mdash; are the ones to read the fine print on before you start. The goal is to keep crocheting, and a box that's become a chore works against that. Our <a href="/guides/easiest-first-projects.html">easiest first projects</a> list is a good fallback if you decide to step away and stitch from your own stash instead.</p>
+
+    <h2 id="mistakes">Common mistakes &amp; fixes</h2>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Symptom:</strong> you sign up for a box above your skill level and the first project defeats you.<br>
+      <strong>Fix:</strong> check the stated skill level and look at examples of past projects before subscribing. If a kit arrives that's too hard, set it aside and pick an easier pattern from our <a href="/guides/basic-crochet-stitches.html">basic stitches guide</a> to rebuild confidence before returning to it.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Symptom:</strong> kits pile up unopened, month after month.<br>
+      <strong>Fix:</strong> adopt a one-box rule &mdash; don't let the next box sit unopened until the current project is finished. Pause the subscription for a month or two whenever a backlog forms, and only resume once you've caught up.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Symptom:</strong> you keep receiving yarn in colours or fibres you'd never choose.<br>
+      <strong>Fix:</strong> study the box's past projects and colour palette before committing, and pick a service whose taste matches yours. Most let you note colour preferences, so a quick note in your profile can spare you months of yarn you won't use.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Symptom:</strong> you get charged for a month you meant to skip.<br>
+      <strong>Fix:</strong> set a calendar reminder a few days before each renewal date and skip or cancel in good time. The skip window usually closes before the box ships, so a recurring reminder is cheaper than relying on memory.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Symptom:</strong> a multi-month blanket club sits half-finished because you lost momentum.<br>
+      <strong>Fix:</strong> only commit to a multi-month club if you know you finish big projects. If you're already mid-club, set a small weekly goal per shipment rather than treating the whole blanket as one enormous task.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Symptom:</strong> the box feels like poor value once you add up the materials.<br>
+      <strong>Fix:</strong> remember you're paying for curation and convenience, not just yarn. If raw material value is your main measure, buy yarn and a pattern individually instead &mdash; our <a href="/guides/beginner-crochet-hooks.html">hook buying guide</a> and <a href="/guides/yarn-weight-explained.html">yarn weight guide</a> cover sourcing your own supplies.
+    </div>
+
+    <h2 class="faq" id="faq">Frequently asked questions</h2>
     <h3>How much does a crochet subscription box usually cost?</h3>
     <p>Budget boxes typically run $10 to $25 a month for basic yarn and small projects. Mid-range boxes with full project kits and premium yarn run $25 to $40. Luxury boxes with hand-dyed yarn and designer patterns can run $40 or more, often with additional shipping costs.</p>
 
@@ -275,6 +356,12 @@ footer .wrap{max-width:1100px;}
 
     <h3>What should I look for in a good crochet subscription box?</h3>
     <p>Look for a box that states a skill level, shows examples of past projects, and includes both yarn and the pattern rather than one or the other. Shipping costs and whether the yarn is machine-washable are two details that often decide whether a box actually gets used.</p>
+
+    <h3>Can I gift a crochet subscription box?</h3>
+    <p>Yes &mdash; most services sell gift subscriptions for a set number of months, which makes a lovely present for a new crocheter or someone who's hit a creative slump. Check whether the recipient's skill level matches the box before you buy, and whether the gift auto-renews or simply ends after the term you paid for.</p>
+
+    <h3>What happens if I fall behind on a blanket club?</h3>
+    <p>The shipments usually keep coming on schedule, so falling behind just means the pieces wait for you rather than disappearing. That said, some multi-month clubs can't be cancelled partway without owing for the remaining boxes, so read those terms before signing up rather than when you're already committed.</p>
 
     <div class="related">
       <h2>Related guides</h2>

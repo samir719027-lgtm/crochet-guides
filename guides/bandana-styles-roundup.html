@@ -70,6 +70,26 @@ document.addEventListener('click', function(e){
       "@type": "Question",
       "name": "Which yarn is best for a crochet bandana?",
       "acceptedAnswer": {"@type": "Answer", "text": "Cotton or a cotton-blend worsted-weight yarn holds its shape best for a bandana, since it doesn't stretch out of shape with repeated tying. For a drapey, festival-style look, a fingering-weight cotton or bamboo blend works well."}
+    },
+    {
+      "@type": "Question",
+      "name": "How long should the ties be?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Aim for roughly a third of the triangle's total width on each side, which gives enough length to knot comfortably at the nape or under the chin without pulling tight. Cotton ties hold a knot better than slippery yarns, so favour cotton for the ties even if you use something else for the body."}
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to block a crochet bandana?",
+      "acceptedAnswer": {"@type": "Answer", "text": "For lace and openwork styles, yes &mdash; blocking opens up the stitch pattern and is the difference between a crisp design and a crumpled mesh. Even plain granny styles benefit from a light steam block to flatten the edges, and it only takes a few minutes."}
+    },
+    {
+      "@type": "Question",
+      "name": "What size should a bandana be?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Rather than a fixed measurement, size it to your own head: hold the triangle against your forehead as you work and stop when the two side points reach roughly the nape of your neck. If it comes out slightly small, a wider edging or picot border adds a little extra width."}
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use a different stitch for the triangle?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes &mdash; the triangle shape works with almost any stitch, from solid double crochet to an open lace repeat. The only thing that changes is how carefully you count, since a lace or textured stitch asks you to keep the pattern even while the triangle grows."}
     }
   ]
 }
@@ -130,9 +150,17 @@ footer .wrap{max-width:1100px;}
 .pin-btn{display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:var(--radius);background:var(--berry);color:var(--card)!important;text-decoration:none;font-size:13.5px;font-weight:600;margin-top:12px;margin-left:8px;font-family:'Work Sans',sans-serif;}
 .pin-btn:hover{background:#8a2f3d;}
 .btn-row{display:flex;flex-wrap:wrap;gap:0;}
+.jumpnav{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:28px 0;font-size:14.5px;}
+.jumpnav strong{display:block;margin-bottom:8px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--berry);}
+.jumpnav ol{margin:0;padding-left:18px;columns:2;column-gap:24px;}
+.jumpnav li{margin-bottom:6px;break-inside:avoid;}
+.jumpnav a{text-decoration:none;font-weight:600;}
+.jumpnav a:hover{text-decoration:underline;}
+@media (max-width:480px){.jumpnav ol{columns:1;}}
+
 @media print{
   h2:has(+ .pick){display:none!important;}
-  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
+  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout, .jumpnav{display:none!important;}
   body{background:#fff;}
   article{padding:0;}
   .hero-img{max-height:200px;}
@@ -210,6 +238,19 @@ footer .wrap{max-width:1100px;}
 
     <p>When I first got into bandanas, I made the same plain triangle three times in a row before I realised the shape was the real discovery &mdash; everything else is just what you layer on top of it. A friend showed me a lace one she'd made, and I nearly didn't recognise it as the same construction, just with airier stitches and a picot edge. That's how I ended up collecting these ten styles instead of writing one more tutorial: once you can make the triangle, the only limit is which stitch, colour, or finish you want to try next. Some of these are beginner-friendly and a few will stretch you, but they all start from the same three points.</p>
 
+    <p>The thing that surprised me most is how much the small finishing choices matter &mdash; a bandana lives or dies on its ties and its edge. Too-short ties mean you can't knot it comfortably, and an unblocked lace pattern just looks like a crumpled tangle. Once I started treating the ties as part of the design rather than an afterthought, my bandanas went from "a triangle I made" to something people asked me where I'd bought. That's the real through-line of this list: same shape, wildly different finishes.</p>
+
+    <div class="jumpnav">
+      <strong>Jump to</strong>
+      <ol>
+        <li><a href="#ties">Ties &amp; sizing</a></li>
+        <li><a href="#care">Blocking &amp; care</a></li>
+        <li><a href="#levels">Beginner vs advanced</a></li>
+        <li><a href="#mistakes">Common mistakes &amp; fixes</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
     <div class="item">
       <span class="num">01</span>
       <h3>Classic granny triangle</h3>
@@ -284,12 +325,74 @@ footer .wrap{max-width:1100px;}
       <strong>New to bandanas?</strong> Start with our own pattern (#10) or the classic granny triangle (#01) &mdash; both use only stitches covered in our <a href="/guides/abbreviations-glossary.html">abbreviations glossary</a>, with no special techniques to learn first.
     </div>
 
+    <h2 id="ties">Sizing and ties that stay put</h2>
+
+    <p>A bandana only works if it actually stays on, and the ties are the usual weak point. Chain them longer than you think you need &mdash; roughly a third of the total width on each side is a good starting point &mdash; so there's enough length to tie comfortably at the nape or under the chin without the knot sitting tight against your skin. Cotton ties hold a knot better than slippery yarns, which is part of why cotton is the default choice for bandanas in the first place.</p>
+
+    <p>The main triangle itself is sized by how many increase rows you work, so the easiest way to get a fit you like is to measure as you go: hold the triangle up against your forehead and stop when the two points reach roughly the nape of your neck. If it comes out slightly small, a wider edging round or a picot border adds a little more width without redoing the whole piece.</p>
+
+    <h2 id="care">Blocking and care for openwork styles</h2>
+
+    <p>Lace and openwork bandanas look completely different before and after blocking, because the stitches need to be opened up and pinned to show their pattern. A light steam block or a damp pin-out transforms a lacy diamond bandana from a crumpled mesh into the crisp geometric design it's meant to be. The <a href="/guides/how-to-block-crochet.html">guide to blocking crochet</a> walks through the exact method, and it's worth doing even for the plainer granny styles.</p>
+
+    <p>Between wears, hand-wash your bandana in cool water and lay it flat to dry so the ties don't stretch. Cotton keeps its shape best; if you used a bamboo or fingering-weight blend for drape, expect a little more stretch and reshape it while it's damp. Fold it rather than hanging it, so the ties don't slowly pull the whole triangle out of line.</p>
+
+    <h2 id="levels">Beginner vs advanced styles</h2>
+
+    <p>If you're new, the difference between these ten styles is mostly about how much you have to keep track of. A plain granny triangle or a double-crochet version uses one stitch and a simple increase at the edge, so you can watch the shape grow without counting a lace repeat. Lace and colourwork styles, on the other hand, ask you to hold a stitch pattern and a shape at the same time, which is genuinely harder than it looks.</p>
+
+    <p>My advice is to make the plain version first, then graduate to the diamond lace or the watermelon colourwork once the triangle feels automatic. Each style is a small, contained skill &mdash; an appliqué flower here, a picot edge there &mdash; so you can add one new technique per project rather than trying to learn them all at once. A plain double-crochet triangle is the low-stakes version to start from, and the corner-increase logic is the same one you'll meet in our <a href="/guides/granny-square-tutorial.html">granny square tutorial</a>, just worked into a triangle instead of a square.</p>
+
+    <h2 id="mistakes">Common mistakes &amp; fixes</h2>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Symptom:</strong> the triangle comes out lopsided, with one side longer than the other.<br>
+      <strong>Fix:</strong> a missed or misplaced increase is almost always the cause. Mark the centre and the two outer corners, and increase in the same places on every row so the triangle grows evenly from all three points.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Symptom:</strong> the ties are too short to knot comfortably.<br>
+      <strong>Fix:</strong> chain the ties generously and test the length against your own head before you fasten off. You can always add a chain extension to an existing tie by joining new yarn at the end, so a too-short tie is never fatal.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Symptom:</strong> the edges curl or won't lie flat against the head.<br>
+      <strong>Fix:</strong> an edging round of single crochet or a simple border helps the piece sit flat, and a light block after finishing relaxes any stubborn curl in the outer rows.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Symptom:</strong> you started a lace pattern and it defeated you partway.<br>
+      <strong>Fix:</strong> it's not you &mdash; holding a lace repeat and a triangle at once is a genuine step up. Put it down and make a plain granny triangle first, then return to the lace once the basic shape feels automatic.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Symptom:</strong> the bandana stretches out of shape after a few wears and ties.<br>
+      <strong>Fix:</strong> use cotton or a cotton blend, which holds its shape far better than acrylic or bamboo alone. Wash and reshape it flat, and avoid hanging it by the ties, which slowly pulls the whole triangle out of line.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Symptom:</strong> the finished bandana is too small or too large for your head.<br>
+      <strong>Fix:</strong> measure as you go rather than trusting a fixed row count, since everyone's gauge and head differ. Hold the triangle against your forehead and stop when the points reach the nape of your neck.
+    </div>
+
     <h2 class="faq" id="faq">Frequently asked questions</h2>
     <h3>What's the easiest crochet bandana pattern for beginners?</h3>
     <p>A plain granny triangle or our own double-crochet bandana is the easiest place to start, since both use only basic stitches and simple increases. Avoid lace or appliqué styles until you're comfortable with the basic triangle shape.</p>
 
     <h3>Which yarn is best for a crochet bandana?</h3>
     <p>Cotton or a cotton-blend worsted-weight yarn holds its shape best for a bandana, since it doesn't stretch out of shape with repeated tying. For a drapey, festival-style look, a fingering-weight cotton or bamboo blend works well.</p>
+
+    <h3>How long should the ties be?</h3>
+    <p>Aim for roughly a third of the triangle's total width on each side, which gives enough length to knot comfortably at the nape or under the chin without pulling tight. Cotton ties hold a knot better than slippery yarns, so favour cotton for the ties even if you use something else for the body.</p>
+
+    <h3>Do I need to block a crochet bandana?</h3>
+    <p>For lace and openwork styles, yes &mdash; blocking opens up the stitch pattern and is the difference between a crisp design and a crumpled mesh. Even plain granny styles benefit from a light steam block to flatten the edges, and it only takes a few minutes.</p>
+
+    <h3>What size should a bandana be?</h3>
+    <p>Rather than a fixed measurement, size it to your own head: hold the triangle against your forehead as you work and stop when the two side points reach roughly the nape of your neck. If it comes out slightly small, a wider edging or picot border adds a little extra width.</p>
+
+    <h3>Can I use a different stitch for the triangle?</h3>
+    <p>Yes &mdash; the triangle shape works with almost any stitch, from solid double crochet to an open lace repeat. The only thing that changes is how carefully you count, since a lace or textured stitch asks you to keep the pattern even while the triangle grows.</p>
 
     <p>Whichever style you choose, the shape stays the same. For lace and openwork designs especially, a light block after finishing helps the stitch pattern open up &mdash; see our <a href="/guides/how-to-block-crochet.html">guide to blocking crochet</a> for the how-to.</p>
 

@@ -85,6 +85,16 @@ document.addEventListener('click', function(e){
       "@type": "Question",
       "name": "Is it normal to rewind a crochet tutorial over and over?",
       "acceptedAnswer": {"@type": "Answer", "text": "Completely normal &mdash; most beginners rewatch the same few seconds of a stitch many times before the hand movement clicks. Slowing the playback speed to 0.75x or 0.5x is one of the most useful things a beginner can do, since it makes the exact yarn-over and hook positions far easier to follow."}
+    },
+    {
+      "@type": "Question",
+      "name": "How do I find a channel that matches my learning style?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Watch one beginner lesson from two or three different channels and notice which pace and teaching voice you can follow without rewinding. Some people prefer slow, methodical delivery, others a more casual style &mdash; the right channel is the one whose explanations click for you, not the one with the biggest subscriber count."}
+    },
+    {
+      "@type": "Question",
+      "name": "Can I learn amigurumi from YouTube too?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Absolutely &mdash; several of the channels above have dedicated amigurumi playlists that walk through the magic ring, increases, and decreases for stuffed toys. Video is especially helpful for amigurumi, since sewing the pieces together is far easier to understand when you can watch the needle placement."}
     }
   ]
 }
@@ -141,9 +151,17 @@ footer .wrap{max-width:1100px;}
 .pin-btn{display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:var(--radius);background:var(--berry);color:var(--card)!important;text-decoration:none;font-size:13.5px;font-weight:600;margin-top:12px;margin-left:8px;font-family:'Work Sans',sans-serif;}
 .pin-btn:hover{background:#8a2f3d;}
 .btn-row{display:flex;flex-wrap:wrap;gap:0;}
+.jumpnav{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:28px 0;font-size:14.5px;}
+.jumpnav strong{display:block;margin-bottom:8px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--berry);}
+.jumpnav ol{margin:0;padding-left:18px;columns:2;column-gap:24px;}
+.jumpnav li{margin-bottom:6px;break-inside:avoid;}
+.jumpnav a{text-decoration:none;font-weight:600;}
+.jumpnav a:hover{text-decoration:underline;}
+@media (max-width:480px){.jumpnav ol{columns:1;}}
+
 @media print{
   h2:has(+ .pick){display:none!important;}
-  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
+  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout, .jumpnav{display:none!important;}
   body{background:#fff;}
   article{padding:0;}
   .hero-img{max-height:200px;}
@@ -221,6 +239,19 @@ footer .wrap{max-width:1100px;}
 
     <p>I've lost count of the number of students who arrive at their first class having already spent an entire weekend glued to YouTube, more confused than when they started. The problem is never a lack of videos &mdash; it's that there are thousands, and they all explain the same stitch slightly differently, with different hooks, different yarn, and different terms. I still remember one beginner who had mastered a beautiful granny square from a US channel and then panicked when a UK pattern called the same stitch something else entirely. That's the moment I started paying real attention to which channels teach clearly and consistently. The four below are the ones I actually point my students toward, and the reasons each one earns its place.</p>
 
+    <p>What I tell every new student is that a video only teaches you if you watch it with your hook in your hand, not curled up on the sofa. The people who make the fastest progress are the ones who pause, rewind, and crochet along at half speed until the movement is in their fingers. A channel can't read your tension the way a teacher in the room can, so the habit that replaces me is stopping the video every few seconds and doing the stitch yourself before you press play again.</p>
+
+    <div class="jumpnav">
+      <strong>Jump to</strong>
+      <ol>
+        <li><a href="#learn">How to learn from a video</a></li>
+        <li><a href="#video-vs-written">Video vs written patterns</a></li>
+        <li><a href="#follow-along">Picking a project</a></li>
+        <li><a href="#mistakes">Common mistakes &amp; fixes</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
     <div class="callout">
       <strong>Quick tip:</strong> stick to one channel for your first few stitches. Different teachers hold the hook and yarn slightly differently, and switching between explanations too early can be more confusing than helpful.
     </div>
@@ -254,7 +285,57 @@ footer .wrap{max-width:1100px;}
     <h2>What to watch first</h2>
     <p>Whichever channel you pick, look for a dedicated beginner playlist rather than searching individual videos. Most of the channels above have one, covering roughly the same order: how to hold the hook and yarn, chain stitch, single crochet, and reading a basic pattern. Our own <a href="/guides/how-to-read-a-pattern.html">guide to reading a pattern</a> and <a href="/guides/beginner-crochet-hooks.html">hook buying guide</a> pair well as reference material alongside video tutorials, and our <a href="/guides/basic-crochet-stitches.html">basic crochet stitches guide</a> covers the written steps for each stitch you'll see on screen.</p>
 
-    <h2 class="faq">Frequently asked questions</h2>
+    <h2 id="learn">How to actually learn from a video</h2>
+
+    <p>The mistake most beginners make is watching a tutorial the way they'd watch television. Instead, keep your hook and yarn out and crochet along, pausing after each step to do the stitch yourself before you play the next few seconds. Most channels let you drop the playback speed to 0.75x or 0.5x, and that single button does more for a beginner than any amount of rewatching at full speed, because it gives your eyes time to catch the exact yarn-over and hook positions.</p>
+
+    <p>Write down the stitch names as they're spoken rather than trying to remember them, especially if the channel teaches in a different terminology to the one you've seen before. A short note of what each stitch is called in both US and UK terms &mdash; which our <a href="/guides/abbreviations-glossary.html">abbreviations glossary</a> lays out &mdash; will save you the confusion I saw in that granny-square student, and it only takes a minute.</p>
+
+    <h2 id="video-vs-written">Video tutorials vs written patterns</h2>
+
+    <p>Neither one is better &mdash; they do different jobs. Video is unmatched for learning the physical motion of a new stitch, because you can watch the hand position and how the yarn flows over the hook. Written patterns win once you know the stitches, because you can glance down to find your place instead of scrubbing back and forth through a video to locate the one row you forgot. I've found most people learn the motion from video, then switch to a written pattern for the actual project.</p>
+
+    <p>If you've been leaning entirely on video and feel stuck, that's often why &mdash; there's no reference to glance at. Pairing a channel with our <a href="/guides/how-to-read-a-pattern.html">guide to reading a pattern</a> gives you both sides: watch to learn, read to execute. The two reinforce each other, and you'll stop feeling lost the moment a written instruction references a stitch you've only ever seen on screen.</p>
+
+    <h2 id="follow-along">Picking a follow-along project</h2>
+
+    <p>Your first video project should be something small and flat, where every stitch is visible and a mistake is cheap to undo. A dishcloth, a simple scarf, or a coaster are all better choices than a garment or a stuffed toy, which hide their stitches and punish you for the small errors you're still making. Start with whatever the channel's own beginner playlist suggests, and resist the urge to jump to a pretty cardigan tutorial in week one.</p>
+
+    <p>Once a flat project feels automatic, amigurumi and wearables open up, and the same channels usually have dedicated playlists for each. If that's where you're headed, our <a href="/guides/easiest-first-projects.html">easiest first projects</a> list and <a href="/guides/basic-crochet-stitches.html">basic stitches guide</a> pair well with the videos, giving you written backup for the exact techniques you'll see on screen.</p>
+
+    <h2 id="mistakes">Common mistakes &amp; fixes</h2>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Symptom:</strong> you watch several channels at once and the same stitch is explained differently in each.<br>
+      <strong>Fix:</strong> pick one channel for the absolute basics and stay with it until the fundamentals feel automatic. Different teachers hold the hook and yarn slightly differently, and switching too early just multiplies confusion.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Symptom:</strong> the tutorial moves too fast and you can't follow the stitch.<br>
+      <strong>Fix:</strong> drop the playback speed to 0.75x or 0.5x. At half speed the yarn-over and hook positions become obvious, and most beginners find they can follow along without constantly rewinding.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Symptom:</strong> you panic when a written pattern uses different stitch names to the video.<br>
+      <strong>Fix:</strong> this is the US vs UK terminology split. Check which system each source uses and keep our <a href="/guides/abbreviations-glossary.html">abbreviations glossary</a> open so you can translate as you go rather than guessing.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Symptom:</strong> you jumped straight to a project well above your level.<br>
+      <strong>Fix:</strong> start with the channel's own beginner playlist and build up one skill at a time. A project you can finish is worth far more than an ambitious one that stalls halfway and never gets completed.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Symptom:</strong> you watch every tutorial passively and the skill never sticks.<br>
+      <strong>Fix:</strong> crochet along with the video, pausing after each step to do it yourself. The muscle memory only forms when your hands are actually moving, not just your eyes.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Symptom:</strong> you find the perfect tutorial and then can't find it again later.<br>
+      <strong>Fix:</strong> save videos to a playlist as you go, or note the timestamp of the exact stitch you needed. A few seconds of noting down where something is saves a full rewatch next time you need it.
+    </div>
+
+    <h2 class="faq" id="faq">Frequently asked questions</h2>
     <h3>Is it better to learn crochet from YouTube or a written pattern?</h3>
     <p>Video is usually easier for learning the physical motion of a new stitch, since you can watch hand position and yarn tension directly. Written patterns are faster to reference once you already know the stitches, since you don't need to scrub through video to find your place.</p>
 
@@ -269,6 +350,12 @@ footer .wrap{max-width:1100px;}
 
     <h3>Is it normal to rewind a crochet tutorial over and over?</h3>
     <p>Completely normal &mdash; most beginners rewatch the same few seconds of a stitch many times before the hand movement clicks. Slowing the playback speed to 0.75x or 0.5x is one of the most useful things a beginner can do, since it makes the exact yarn-over and hook positions far easier to follow.</p>
+
+    <h3>How do I find a channel that matches my learning style?</h3>
+    <p>Watch one beginner lesson from two or three different channels and notice which pace and teaching voice you can follow without rewinding. Some people prefer slow, methodical delivery, others a more casual style &mdash; the right channel is the one whose explanations click for you, not the one with the biggest subscriber count.</p>
+
+    <h3>Can I learn amigurumi from YouTube too?</h3>
+    <p>Absolutely &mdash; several of the channels above have dedicated amigurumi playlists that walk through the magic ring, increases, and decreases for stuffed toys. Video is especially helpful for amigurumi, since sewing the pieces together is far easier to understand when you can watch the needle placement.</p>
 
     <div class="related">
       <h2>Related guides</h2>

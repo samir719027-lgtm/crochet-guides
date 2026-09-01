@@ -102,6 +102,22 @@ document.addEventListener('click', function(e){
         "@type": "Answer",
         "text": "Yes &mdash; stitch a simple fabric lining in by hand or machine, leaving the cuff unfolded so the lining sits inside the stocking and doesn't show."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I add a name or initials to the cuff?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes &mdash; surface slip stitch or a simple embroidery stitch across the folded cuff is the easiest way to add a name or initials. Work it before folding the cuff down so you can judge the placement, and keep it simple so the stitches stay neat against the ribbing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I wash a crochet stocking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hand-wash it in cool water and lay it flat to dry, especially if it has a fabric lining or wool-blend yarn. Avoid wringing, which can pull the seams out of shape, and reshape the foot and cuff gently while it's still damp."
+      }
     }
   ]
 }
@@ -181,9 +197,17 @@ footer .wrap{max-width:1100px;}
 .pdf-note{font-size:12px!important;color:var(--ink-soft);margin-top:2px!important;}
 .pdf-error{color:#c62828;font-size:13px;margin:6px 0 0;display:none;}
 
+.jumpnav{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:28px 0;font-size:14.5px;}
+.jumpnav strong{display:block;margin-bottom:8px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--berry);}
+.jumpnav ol{margin:0;padding-left:18px;columns:2;column-gap:24px;}
+.jumpnav li{margin-bottom:6px;break-inside:avoid;}
+.jumpnav a{text-decoration:none;font-weight:600;}
+.jumpnav a:hover{text-decoration:underline;}
+@media (max-width:480px){.jumpnav ol{columns:1;}}
+
 @media print{
   h2:has(+ .pick){display:none!important;}
-  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
+  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout, .jumpnav{display:none!important;}
   body{background:#fff;}
   article{padding:0;}
   .hero-img{max-height:200px;}
@@ -298,6 +322,19 @@ footer .wrap{max-width:1100px;}
 
     <p>The mistake I see most often when students make a crochet Christmas stocking is a lopsided second panel. Someone will crochet the first one beautifully, then relax on the second and end up with two shapes that don't quite match when it's time to seam them together &mdash; I've watched that seam gape more times than I can count. My advice is always the same: keep the first panel beside you as a living ruler, and count every row. That's why this stocking is worked flat in two simple pieces &mdash; the shaping is gentle enough for a confident beginner to finish in an evening, and the cable-look cuff makes it look far more complicated than it is.</p>
 
+    <p>Over the years I've learned the two things that make a handmade stocking feel special rather than homemade are a matching pair of panels and a cuff that actually folds. I keep a printed paper template beside me when I make the second panel, because your eye alone won't catch a half-stitch drift until the seam is already fighting you. The ribbed cuff is the second secret &mdash; work it slightly loose so it folds over the top without pinching, and the whole thing suddenly looks far better than the effort it took.</p>
+
+    <div class="jumpnav">
+      <strong>Jump to</strong>
+      <ol>
+        <li><a href="#yarn">Yarn &amp; colours</a></li>
+        <li><a href="#match">Matching both panels</a></li>
+        <li><a href="#gifting">Gifting &amp; personalisation</a></li>
+        <li><a href="#mistakes">Common mistakes &amp; fixes</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
     <div class="callout">
       <strong>Quick answer:</strong> Crochet two identical stocking-shaped panels, seam around the edges leaving the top open, then add a folded-over ribbed cuff and a hanging loop at the heel side.
     </div>
@@ -352,12 +389,62 @@ footer .wrap{max-width:1100px;}
 
     <p>This pattern makes a stocking roughly 16 inches from cuff to toe &mdash; a classic mantel size. For a larger stocking, start with a longer foundation chain and add extra rows before shaping the foot; for a mini ornament-sized version, halve the chain and row counts. If you're adjusting the size, our <a href="/guides/fixing-project-size.html">fixing project size guide</a> walks through the same numbers step by step.</p>
 
+    <h2 id="yarn">Choosing yarn and colours</h2>
+
+    <p>A worsted weight is the sweet spot here: heavy enough that the stocking holds its shape when stuffed with small gifts, light enough to work quickly. Cream and red is the classic pairing, but cream against forest green, navy, or a soft grey all read just as festive and hide little scuffs better. If you want the finished piece to feel richer, a wool-blend worsted gives the textured body more definition than a slick acrylic.</p>
+
+    <p>Whatever colours you pick, make sure the contrast between the body and the cuff is strong, because the folded cuff is the detail that carries the whole look. If you're new to choosing yarn, the <a href="/guides/yarn-weight-explained.html">yarn weight guide</a> will help you swap between worsted, DK, and chunky without changing the finished size more than you intend.</p>
+
+    <h2 id="match">Keeping the two panels identical</h2>
+
+    <p>The single biggest cause of a disappointing stocking is a second panel that doesn't quite match the first, so I treat the first panel as a living template. Lay it flat beside you and check the second panel against it every few rows &mdash; not just the stitch count, but the overall height and the curve of the foot, which is where a subtle drift shows up fastest. A stitch marker at the start and end of each shaping row keeps the increases and decreases in the same place on both pieces.</p>
+
+    <p>If the two panels still come out slightly off, don't force them together. Blocking the smaller one lightly &mdash; or easing the larger one with a touch more tension &mdash; brings them in line before you seam. Our <a href="/guides/how-to-block-crochet.html">guide to blocking crochet</a> covers the gentle steam-and-pin method that works for a panel this size, and it's far kinder than wrestling two mismatched edges under a whip stitch.</p>
+
+    <h2 id="gifting">Gifting and personalisation</h2>
+
+    <p>A handmade stocking is a gift that comes out of the box every single year, so it's worth making it feel like theirs rather than anyone's. A single initial or name worked into the cuff in surface slip stitch, or a contrasting band stitched along the top edge, turns a generic stocking into a keepsake. I've also embroidered a simple snowflake or a tiny star on the body after finishing, which is faster than colourwork and just as personal.</p>
+
+    <p>If you're gifting to a child, keep the decoration simple and soft &mdash; no buttons or beads that could come loose, and stitch everything firmly so nothing can be pulled free. A fabric lining (covered in the FAQ below) adds a bit of extra polish and stops small presents from catching on the inside of the stitches. If you're making several in a run and want them identical, our <a href="/guides/fixing-project-size.html">fixing project size guide</a> shows how to scale the panel counts without guessing.</p>
+
     <div class="video-wrap">
       <iframe src="https://www.youtube.com/embed/1Vwg0xxlHUU" title="Crocheting a Christmas stocking" allowfullscreen loading="lazy"></iframe>
     </div>
     <p class="video-caption">A full stocking walkthrough, useful for seeing how the heel, foot, and cuff sections fit together.</p>
 
-    <h2 class="faq">Frequently asked questions</h2>
+    <h2 id="mistakes">Common mistakes &amp; fixes</h2>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Symptom:</strong> the second panel comes out smaller or larger, and the seam gapes when you join them.<br>
+      <strong>Fix:</strong> keep the first panel flat beside you as a template and check every few rows. If they're already finished and off, lightly block the smaller one or ease the larger one with slightly tighter tension before seaming.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Symptom:</strong> visible holes or gaps in the seam between the two panels.<br>
+      <strong>Fix:</strong> work the seam stitch by stitch rather than skipping, and keep an even tension as you go. A slip-stitch seam from the outside hides gaps better than a whip stitch if the edges aren't perfectly even.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Symptom:</strong> the cuff is too tight to fold over the top.<br>
+      <strong>Fix:</strong> work the cuff rounds more loosely than the body, and add an extra stitch or two around the opening if it still pulls. The cuff needs to clear the folded edge comfortably, so err on the side of looser here.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Symptom:</strong> the hanging loop is too short or starts to stretch and tear.<br>
+      <strong>Fix:</strong> chain a longer loop than you think you need and reinforce it by working a round of single crochet back over the chain before attaching. Anchor both ends firmly with several stitches so the weight of the filled stocking doesn't pull it loose.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Symptom:</strong> the stocking comes out twisted, with one panel's wrong side facing out.<br>
+      <strong>Fix:</strong> take the time to lay both panels right sides together and check the orientation before you seam, then turn it right side out before adding the cuff. A quick pin at the toe and heel keeps the two pieces from shifting as you work.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Symptom:</strong> small gifts poke through or catch on the loose stitches.<br>
+      <strong>Fix:</strong> use a firmer tension or a slightly smaller hook so the fabric is dense, and add a fabric lining inside for anything with pointy edges. The lining also keeps the stocking from stretching out of shape when it's filled.
+    </div>
+
+    <h2 class="faq" id="faq">Frequently asked questions</h2>
     <h3>Can I make this without shaping the foot?</h3>
     <p>Yes &mdash; a simple rectangle folded in half and seamed on two sides makes an easier, boxier stocking that still hangs well.</p>
 
@@ -372,6 +459,12 @@ footer .wrap{max-width:1100px;}
 
     <h3>Can I line the stocking so small gifts don't poke through?</h3>
     <p>Yes &mdash; stitch a simple fabric lining in by hand or machine, leaving the cuff unfolded so the lining sits inside the stocking and doesn't show.</p>
+
+    <h3>Can I add a name or initials to the cuff?</h3>
+    <p>Yes &mdash; surface slip stitch or a simple embroidery stitch across the folded cuff is the easiest way to add a name or initials. Work it before folding the cuff down so you can judge the placement, and keep it simple so the stitches stay neat against the ribbing.</p>
+
+    <h3>How do I wash a crochet stocking?</h3>
+    <p>Hand-wash it in cool water and lay it flat to dry, especially if it has a fabric lining or wool-blend yarn. Avoid wringing, which can pull the seams out of shape, and reshape the foot and cuff gently while it's still damp.</p>
 
 
 
