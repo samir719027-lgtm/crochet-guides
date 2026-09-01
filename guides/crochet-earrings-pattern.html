@@ -102,6 +102,14 @@ document.addEventListener('click', function(e){
         "@type": "Answer",
         "text": "Yes &mdash; lightweight plastic hoops work the same way and are often more comfortable for sensitive ears, though they may not last as long as metal."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Are crochet earrings heavy to wear?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No &mdash; a pair wrapped in fine cotton or embroidery thread weighs only a few grams, so most people forget they're on. They only feel heavy if you use bulky yarn or large beads, so keep both fine for all-day comfort."
+      }
     }
   ]
 }
@@ -144,6 +152,13 @@ li{margin-bottom:8px;}
 .video-caption{font-size:13px;color:var(--ink-soft);margin-top:-14px;margin-bottom:24px;}
 .callout{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin:24px 0;font-size:15.5px;}
 .callout strong{color:var(--berry);}
+.jumpnav{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:28px 0;font-size:14.5px;}
+.jumpnav strong{display:block;margin-bottom:8px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--berry);}
+.jumpnav ol{margin:0;padding-left:18px;columns:2;column-gap:24px;}
+.jumpnav li{margin-bottom:6px;break-inside:avoid;}
+.jumpnav a{text-decoration:none;font-weight:600;}
+.jumpnav a:hover{text-decoration:underline;}
+@media (max-width:480px){.jumpnav ol{columns:1;}}
 .step-box{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:20px 0;}
 .step-box h3{margin-top:0;}
 code{background:rgba(42,36,30,0.08);padding:2px 6px;border-radius:3px;font-family:'Space Mono',monospace;font-size:14px;}
@@ -183,7 +198,7 @@ footer .wrap{max-width:1100px;}
 
 @media print{
   h2:has(+ .pick){display:none!important;}
-  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
+  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout, .jumpnav{display:none!important;}
   body{background:#fff;}
   article{padding:0;}
   .hero-img{max-height:200px;}
@@ -293,11 +308,27 @@ footer .wrap{max-width:1100px;}
 
     <p>In my classes, the project that wins over even the most reluctant student is usually the smallest one on the table &mdash; a pair of crochet earrings. I'll never forget a student who insisted she didn't have the patience for tiny work, then covered her first hoop in <a href="/guides/basic-crochet-stitches.html">single crochet</a> in about fifteen minutes and asked to make a second pair before the class was over. Working over the hoop rather than into a chain is what makes it so quick: there's no shaping to keep track of, just stitch after stitch packed neatly around the metal. It's also the best use of leftover yarn I know &mdash; the scraps too small for anything else are exactly the right size for a pair of hoops.</p>
 
+    <p>I've also learned these make the best small gift I know. One of my students made a pair for a friend who wore them to a wedding that same week &mdash; the hoops cost her a couple of pounds and a single evening. When someone asks what to make for a present they can actually finish in time, earrings are my answer: no sizing, no seaming, and the leftover yarn you were about to throw away suddenly turns into a gift.</p>
+
+    <div class="jumpnav">
+      <strong>Jump to</strong>
+      <ol>
+        <li><a href="#materials">What you need</a></li>
+        <li><a href="#cover">Cover the hoop</a></li>
+        <li><a href="#finish">Finish and attach</a></li>
+        <li><a href="#yarn">Yarn and thread choice</a></li>
+        <li><a href="#beads">Beads and embellishments</a></li>
+        <li><a href="#care">Making them last</a></li>
+        <li><a href="#mistakes">Common mistakes &amp; fixes</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
     <div class="callout">
       <strong>Quick answer:</strong> Cover a small metal or plastic hoop completely in single crochet, then attach an earring hook to the top &mdash; repeat for a matching second earring.
     </div>
 
-    <h2>What you need</h2>
+    <h2 id="materials">What you need</h2>
 
     <ul>
       <li>A small amount of fine or sport weight yarn (or embroidery thread, for a more delicate look)</li>
@@ -306,7 +337,7 @@ footer .wrap{max-width:1100px;}
       <li>Yarn needle, 2 earring hooks, small pliers</li>
     </ul>
 
-    <h2>Step 1: cover the hoop</h2>
+    <h2 id="cover">Step 1: cover the hoop</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -318,7 +349,7 @@ footer .wrap{max-width:1100px;}
       </ol>
     </div>
 
-    <h2>Step 2: finish and attach</h2>
+    <h2 id="finish">Step 2: finish and attach</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -334,7 +365,51 @@ footer .wrap{max-width:1100px;}
     </div>
     <p class="video-caption">A demonstration of small-scale crochet, useful for seeing how thread and a small hook behave differently from yarn.</p>
 
-    <h2 class="faq">Frequently asked questions</h2>
+    <h2 id="yarn">Yarn and thread choice</h2>
+
+    <p>For coverage this delicate, thinner is better. Fine or sport-weight cotton, or stranded embroidery thread, wraps a 2&ndash;3cm hoop tightly without bulking it up, while worsted weight looks chunky and can leave the metal peeking between stitches. Cotton thread holds its shape and doesn't fuzz against your skin, which matters on something that sits at your ear; rayon or silkier threads are shinier but slip out of place more easily. If your thread is fine enough to split, drop to a 2.0mm or 2.25mm hook rather than wrestling with a larger one &mdash; the <a href="/guides/hook-size-chart.html">hook size chart</a> covers the smaller sizes, and a smaller hook packs the stitches tighter so the hoop disappears completely. Our <a href="/guides/yarn-weight-explained.html">yarn weight explained</a> guide is a quick reference if you're not sure how the thickness changes the look. One small ball of cotton thread makes dozens of pairs, so it's the rare stash-buster that never actually empties the stash, and it lets you experiment with colour without buying anything new.</p>
+
+    <h2 id="beads">Beads and embellishments</h2>
+
+    <p>If you want beads, thread them onto the yarn before you begin, in the order you want them to appear, because you can't add a bead once the yarn is anchored to the hoop. Slide one bead down against the hoop every three or four stitches and work the next stitch around it to lock it in place, checking that each bead sits on the outside face rather than the inside where it would rub your skin. Keep the beads small and light &mdash; seed beads or tiny glass drops &mdash; because heavy beads on a two-centimetre hoop pull the whole earring sideways and strain the earring hook. A little weight is fine; a swinging pendulum is not. If you want sparkle without the weight, a metallic thread worked in as a second strand catches the light beautifully and adds nothing to the finished weight.</p>
+
+    <h2 id="care">Making them last</h2>
+
+    <p>Earrings take more abuse than almost anything else you'll crochet, because they live on a moving body and get tossed loose into a drawer. Weave every end through the covered stitches rather than leaving a knot at the join &mdash; a knot can catch and pull the whole wrap loose the first time it snags on a scarf. When you attach the earring hook, open it sideways with pliers and close it snugly; never pull the loop directly apart, which fatigues the metal and lets the hoop slip free. Store the pair flat in a small box or pouch rather than tangled with other jewellery, and if a stitch ever loosens, re-weave that end straight away before it unravels any further. If you travel with them, a small hard case or a soft-lined pill box keeps the hoops from being bent and the wrap from being crushed at the bottom of a wash bag. A pair stored loose in a drawer will tangle and snag within a season, so a dedicated home is worth the few seconds it takes to make one.</p>
+
+    <h2 id="mistakes">Common mistakes &amp; fixes</h2>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the metal hoop shows through between the stitches.<br>
+      <strong>Fix:</strong> the stitches are too loose or the yarn too thick. Pack the stitches tightly against one another, and if gaps remain, switch to a thinner thread or a smaller hook rather than adding more layers.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the earring hook won't close properly and the hoop falls off.<br>
+      <strong>Fix:</strong> the loop was pulled directly apart, which weakens it. Open the hook sideways with pliers, slide it on, then squeeze it closed the same way &mdash; never stretch the loop open.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the two earrings come out different sizes.<br>
+      <strong>Fix:</strong> you didn't keep the same stitch count on both. Count the stitches as you work the first hoop and note the number, then match it exactly on the second &mdash; a visible size difference is the one flaw people notice first.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> a cut end pokes out and starts to unravel.<br>
+      <strong>Fix:</strong> the ends were knotted rather than woven through the covered stitches. Thread each tail onto a needle and run it through four or five stitches along the back of the wrap, then snip it flush so nothing protrudes.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the finished earring looks bulky and droops off the ear.<br>
+      <strong>Fix:</strong> the yarn is too heavy for a hoop this small. Use fine cotton or embroidery thread, and keep any beads light &mdash; bulky worsted yarn has the weight to drag the whole earring out of shape.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> beads end up sliding or bunched on one side.<br>
+      <strong>Fix:</strong> the beads weren't threaded before the yarn was anchored. Thread every bead in order first, then slide each into place and work a stitch around it as you go, spacing them evenly around the hoop.
+    </div>
+
+    <h2 class="faq" id="faq">Frequently asked questions</h2>
     <h3>What yarn weight works best?</h3>
     <p>Fine, sport, or embroidery thread gives the neatest coverage; worsted weight will look bulky on small hoops.</p>
 
@@ -349,6 +424,9 @@ footer .wrap{max-width:1100px;}
 
     <h3>Can I use plastic hoops instead of metal?</h3>
     <p>Yes &mdash; lightweight plastic hoops work the same way and are often more comfortable for sensitive ears, though they may not last as long as metal.</p>
+
+    <h3>Are crochet earrings heavy to wear?</h3>
+    <p>No &mdash; a pair wrapped in fine cotton or embroidery thread weighs only a few grams, so most people forget they're on. They only feel heavy if you use bulky yarn or large beads, so keep both fine for all-day comfort.</p>
 
 
 

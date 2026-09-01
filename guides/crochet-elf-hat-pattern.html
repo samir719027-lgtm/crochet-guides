@@ -102,6 +102,14 @@ document.addEventListener('click', function(e){
         "@type": "Answer",
         "text": "For a classic elf look, keep decreasing until the tip curls naturally, usually 8&ndash;12 rounds beyond the body; stop earlier for a stiffer, shorter point."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "How many balls of yarn does one hat use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "One ball of green and one of cream is usually plenty for an adult hat, though a very long point or a generously sized pom-pom can push you into a second ball of the main colour. For children's sizes, a single ball of each often makes two hats."
+      }
     }
   ]
 }
@@ -144,6 +152,13 @@ li{margin-bottom:8px;}
 .video-caption{font-size:13px;color:var(--ink-soft);margin-top:-14px;margin-bottom:24px;}
 .callout{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin:24px 0;font-size:15.5px;}
 .callout strong{color:var(--berry);}
+.jumpnav{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:28px 0;font-size:14.5px;}
+.jumpnav strong{display:block;margin-bottom:8px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--berry);}
+.jumpnav ol{margin:0;padding-left:18px;columns:2;column-gap:24px;}
+.jumpnav li{margin-bottom:6px;break-inside:avoid;}
+.jumpnav a{text-decoration:none;font-weight:600;}
+.jumpnav a:hover{text-decoration:underline;}
+@media (max-width:480px){.jumpnav ol{columns:1;}}
 .step-box{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:20px 0;}
 .step-box h3{margin-top:0;}
 code{background:rgba(42,36,30,0.08);padding:2px 6px;border-radius:3px;font-family:'Space Mono',monospace;font-size:14px;}
@@ -183,7 +198,7 @@ footer .wrap{max-width:1100px;}
 
 @media print{
   h2:has(+ .pick){display:none!important;}
-  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
+  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout, .jumpnav{display:none!important;}
   body{background:#fff;}
   article{padding:0;}
   .hero-img{max-height:200px;}
@@ -298,11 +313,28 @@ footer .wrap{max-width:1100px;}
 
     <p>In my classes, a crochet elf hat is what I suggest when someone wants to make something wearable but isn't ready for the sizing maths of a full sweater. The shape does the work for you &mdash; a <a href="/guides/magic-ring-tutorial.html">magic-ring crown</a>, some steady rounds, and a tip that curls because you decrease along just one side. I'll never forget a mum who made matching elf hats for her two children the week before Christmas, measuring each little head against the crown as she went. The second hat was finished after midnight with slightly lopsided pom-poms, and she brought the photos to class beaming. That's what I love about this pattern: it looks far trickier than it is.</p>
 
+    <p>I still have the first one I made for my own daughter, with a point I made a touch too long and couldn't bring myself to trim. It flopped comically over one shoulder for a whole winter, and she'd fling the tip back like a scarf every time she ran indoors. The pattern forgives that kind of over-enthusiasm &mdash; it's the sort of hat that looks charming even when it's a little imperfect, which is exactly why I hand it to crocheters who still flinch at the thought of making something wearable.</p>
+
+    <div class="jumpnav">
+      <strong>Jump to</strong>
+      <ol>
+        <li><a href="#materials">What you need</a></li>
+        <li><a href="#crown">Crown</a></li>
+        <li><a href="#body">Body and point</a></li>
+        <li><a href="#cuff">Cuff and pom-pom</a></li>
+        <li><a href="#sizing">Sizing up or down</a></li>
+        <li><a href="#yarn">Yarn and colour choice</a></li>
+        <li><a href="#point">Keeping the point curled</a></li>
+        <li><a href="#mistakes">Common mistakes &amp; fixes</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
     <div class="callout">
       <strong>Quick answer:</strong> Start with a magic ring, increase to fit the head, work straight rounds, then decrease along one side to curl the tip into a long point, and finish with a folded cuff and pom-pom.
     </div>
 
-    <h2>What you need</h2>
+    <h2 id="materials">What you need</h2>
 
     <ul>
       <li>Worsted weight (#4) yarn: green (main) and cream (cuff and pom-pom)</li>
@@ -312,7 +344,7 @@ footer .wrap{max-width:1100px;}
       <li>Yarn needle</li>
     </ul>
 
-    <h2>Crown</h2>
+    <h2 id="crown">Crown</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -322,7 +354,7 @@ footer .wrap{max-width:1100px;}
       </ol>
     </div>
 
-    <h2>Body and point</h2>
+    <h2 id="body">Body and point</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -332,7 +364,7 @@ footer .wrap{max-width:1100px;}
       </ol>
     </div>
 
-    <h2>Cuff and pom-pom</h2>
+    <h2 id="cuff">Cuff and pom-pom</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -348,7 +380,51 @@ footer .wrap{max-width:1100px;}
     </div>
     <p class="video-caption">A seasonal hat walkthrough, useful for seeing how the pointed crown and brim are worked.</p>
 
-    <h2 class="faq">Frequently asked questions</h2>
+    <h2 id="sizing">Sizing up or down</h2>
+
+    <p>The only real number you need is the wearer's head circumference, taken where the hat brim will sit. Work the increase rounds &mdash; adding six stitches each round from the magic ring &mdash; until the flat circle is about 14&ndash;15 inches across for a small child, 17&ndash;18 inches for an older child, or roughly 19&ndash;20 inches for an adult, then stop increasing and work even. As a rough guide, an adult crown lands around 42&ndash;46 stitches in worsted weight on a 5.0mm hook, while a child's lands around 36&ndash;40. The straight body is more forgiving than the crown: 9&ndash;10 inches from crown to cuff for an adult, 6&ndash;7 for a child. Always try the crown on before you commit to the straight rounds &mdash; a hat that's slightly roomy is always better than one that grips. If your numbers land a little off, our <a href="/guides/fixing-project-size.html">guide to fixing project size</a> walks through rescuing a hat that came out too big or too small.</p>
+
+    <h2 id="yarn">Yarn and colour choice</h2>
+
+    <p>For the classic look, a deep green worsted (#4) against a cream cuff gives the cleanest contrast, because a smooth, non-fuzzy yarn keeps the two-tone line crisp exactly where the cuff folds over. A heather or variegated green blurs that line, so save it for a second hat once the shaping is second nature. Acrylic is my default here &mdash; it's light enough that a long curled point doesn't drag, and it springs back after being squashed in a coat pocket. Cotton works too and produces a crisper, more sculptural point, but it stretches under its own weight, so keep the point a little shorter if you go that route. Not sure how your yarn's weight changes the fabric? Our <a href="/guides/yarn-weight-explained.html">yarn weight explained</a> guide maps it out, and the <a href="/guides/hook-size-chart.html">hook size chart</a> helps you match the hook to whatever you pick. Whatever you choose, buy one extra ball of the main colour &mdash; that long point uses more yarn than it looks like it will.</p>
+
+    <h2 id="point">Keeping the point curled</h2>
+
+    <p>The signature curl comes from decreasing along one side of the round rather than evenly around it, which forces the tube to lean and eventually spiral as it narrows. The further you go, the tighter the curl &mdash; stop at 8&ndash;10 rounds past the body for a soft arc, or keep going to 12 or more for a tight corkscrew. If your point insists on standing straight, you've probably been decreasing evenly instead of along a single third; mark that side with a stitch marker and keep every decrease on it. To set the curl permanently, steam the finished point lightly and pin it into a spiral while it cools &mdash; the <a href="/guides/how-to-block-crochet.html">how to block crochet</a> guide shows the technique &mdash; then leave it alone and it will remember the shape. A pom-pom at the tip adds weight, so make it small and soft rather than dense if you want the curl to stay lifted.</p>
+
+    <h2 id="mistakes">Common mistakes &amp; fixes</h2>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the point stands straight up instead of curling.<br>
+      <strong>Fix:</strong> you're decreasing evenly around the round rather than along one side. Keep every decrease on the same third of the round for several rounds in a row, and the tube will begin to lean and curl on its own.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the crown ruffles or cups instead of lying flat.<br>
+      <strong>Fix:</strong> the crown increases are off. Ruffling means too many increases too quickly; cupping means too few. Count back over the last two rounds &mdash; you should be adding exactly six stitches per round &mdash; and rip back to where the circle still lay flat.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the finished hat is too tight or slides down over the eyes.<br>
+      <strong>Fix:</strong> the crown was sized before it was checked against the head. Try the flat circle on the wearer before the straight rounds &mdash; if it doesn't sit just past the ears, add or remove one increase round rather than hoping the body will fix it.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the folded cuff sags or won't stay folded.<br>
+      <strong>Fix:</strong> the back-loop hdc ribbing was worked too loosely, or over too many rounds. Work the cuff one hook size smaller, or stop at 4 rounds instead of 5, and the rib will grip the bottom edge instead of sliding down it.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the tip flops down so the curl is lost.<br>
+      <strong>Fix:</strong> a dense or overstuffed pom-pom is weighing the point down. Swap it for a smaller, softer pom-pom, or anchor a jingle bell instead, which is light enough to let the curl hold its lift.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> green yarn shows through the cream cuff at the join.<br>
+      <strong>Fix:</strong> the colour change happened mid-stitch, leaving a speckled row. Finish the last green stitch fully, then join the cream with a clean slip stitch, and carry the old end up the inside of the cuff so it's covered rather than poking through.
+    </div>
+
+    <h2 class="faq" id="faq">Frequently asked questions</h2>
     <h3>How is this different from the Santa hat pattern?</h3>
     <p>The shaping method is identical; only the color placement and point length differ &mdash; the elf hat point is usually made a bit longer and more curled.</p>
 
@@ -363,6 +439,9 @@ footer .wrap{max-width:1100px;}
 
     <h3>How long should the point be?</h3>
     <p>For a classic elf look, keep decreasing until the tip curls naturally, usually 8&ndash;12 rounds beyond the body; stop earlier for a stiffer, shorter point.</p>
+
+    <h3>How many balls of yarn does one hat use?</h3>
+    <p>One ball of green and one of cream is usually plenty for an adult hat, though a very long point or a generously sized pom-pom can push you into a second ball of the main colour. For children's sizes, a single ball of each often makes two hats.</p>
 
 
 

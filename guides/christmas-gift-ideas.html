@@ -85,6 +85,11 @@ document.addEventListener('click', function(e){
       "@type": "Question",
       "name": "What is a good last-minute crochet Christmas gift?",
       "acceptedAnswer": {"@type": "Answer", "text": "A chunky single-skein cowl, a set of granny square coasters, or a small amigurumi ornament can each be finished in an evening or two, making them the best choices when December has already arrived. Steer clear of garments and blankets, which need far more time."}
+    },
+    {
+      "@type": "Question",
+      "name": "What's a good gift for a complete beginner?",
+      "acceptedAnswer": {"@type": "Answer", "text": "A comfortable hook in a mid size, a set of stitch markers, and a short, clearly photographed pattern they can start straight away. Skip the giant hook sets and advanced stitch dictionaries for now &mdash; a beginner needs one good tool and a first win, not a wall of options."}
     }
   ]
 }
@@ -124,6 +129,13 @@ li{margin-bottom:8px;}
 .hero-img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:var(--radius);margin:24px 0;}
 .callout{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin:24px 0;font-size:15.5px;}
 .callout strong{color:var(--berry);}
+.jumpnav{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:28px 0;font-size:14.5px;}
+.jumpnav strong{display:block;margin-bottom:8px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--berry);}
+.jumpnav ol{margin:0;padding-left:18px;columns:2;column-gap:24px;}
+.jumpnav li{margin-bottom:6px;break-inside:avoid;}
+.jumpnav a{text-decoration:none;font-weight:600;}
+.jumpnav a:hover{text-decoration:underline;}
+@media (max-width:480px){.jumpnav ol{columns:1;}}
 .pick{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:16px 0;}
 .pick-cat{font-family:'Space Mono',monospace;font-size:10.5px;letter-spacing:0.08em;text-transform:uppercase;color:var(--mustard);}
 .pick-cta{display:inline-flex;margin-top:10px;padding:9px 16px;border-radius:var(--radius);background:var(--teal-dark);color:var(--card)!important;text-decoration:none;font-size:13.5px;font-weight:600;}
@@ -144,7 +156,7 @@ footer .wrap{max-width:1100px;}
 .btn-row{display:flex;flex-wrap:wrap;gap:0;}
 @media print{
   h2:has(+ .pick){display:none!important;}
-  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
+  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout, .jumpnav{display:none!important;}
   body{background:#fff;}
   article{padding:0;}
   .hero-img{max-height:200px;}
@@ -222,11 +234,26 @@ footer .wrap{max-width:1100px;}
 
     <p>Every December I get the same message from my students: "What should I make for my mum, and how late is too late to start?" It reminds me of the year I decided in mid-November to crochet a blanket as a gift, certain I'd have it done in time, and spent Christmas Eve weaving in ends while everyone else watched a film. The lesson I took from that &mdash; and the one I now pass on every year &mdash; is that a small project finished well beats an ambitious one finished at midnight. This guide is what I tell my students instead: safe bets to buy, and only the makes that are genuinely quick enough to finish before December arrives.</p>
 
+    <p>The question is always the same, but the answer changes with every person. A busy mum who wants one quiet evening is different from a retiree who crochets four hours a day, and a ten-pound budget points somewhere very different from fifty. So I stopped giving one-size answers and started sorting gifts by skill and budget instead. That's how this page is organised, and it's the same checklist I walk my students through when they message me in a December panic.</p>
+
+    <div class="jumpnav">
+      <strong>Jump to</strong>
+      <ol>
+        <li><a href="#buy">Gifts to buy</a></li>
+        <li><a href="#make">Gifts to make yourself</a></li>
+        <li><a href="#skill">Matching skill level</a></li>
+        <li><a href="#fast">Fast makes that land</a></li>
+        <li><a href="#presenting">Presenting a gift</a></li>
+        <li><a href="#mistakes">Common mistakes &amp; fixes</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
     <div class="callout">
       <strong>Timing tip:</strong> if you're making gifts rather than buying them, start simple projects by October and anything larger &mdash; blankets, garments &mdash; by September. Our <a href="/guides/gift-guide.html">general gift guide</a> covers safe picks year-round if Christmas timing doesn't apply to you.
     </div>
 
-    <h2>Gifts to buy</h2>
+    <h2 id="buy">Gifts to buy</h2>
 
     <div class="pick">
       <span class="pick-cat">Under &pound;15</span>
@@ -249,7 +276,7 @@ footer .wrap{max-width:1100px;}
       <a class="pick-cta" href="https://www.amazon.com/dp/B00GTUYR7M?tag=crochetguides-21-20" rel="sponsored nofollow" target="_blank">View on Amazon &rarr;</a>
     </div>
 
-    <h2>Gifts to make yourself</h2>
+    <h2 id="make">Gifts to make yourself</h2>
     <p>If you're crocheting the gift, stick to projects that don't depend on knowing the recipient's exact size:</p>
     <ul>
       <li><strong>Granny square coaster set</strong> &mdash; quick, finishes in an evening or two, and our <a href="/guides/granny-square-tutorial.html">granny square tutorial</a> covers it step by step; for a round version try our <a href="/guides/coasters-pattern.html">coasters pattern</a>.</li>
@@ -258,7 +285,51 @@ footer .wrap{max-width:1100px;}
     </ul>
     <p>Avoid starting a garment or anything requiring exact sizing unless you already know the recipient's measurements and have made something similar before &mdash; a rushed, ill-fitting gift is worse than a simpler one finished well.</p>
 
-    <h2 class="faq">Frequently asked questions</h2>
+    <h2 id="skill">Matching a gift to the recipient's skill</h2>
+
+    <p>Skill matters more than price, because a gift someone can't use is a gift that sits in a drawer. For a complete beginner, buy the tool that removes the first hurdle: a comfortable hook, a stitch-marker set, or a short, clearly photographed pattern. For someone mid-way, a stitch dictionary or a pack of good cotton yarn opens doors without overwhelming. For an experienced crocheter, lean into quality rather than quantity &mdash; one excellent hook, a skein of yarn they'd never splurge on themselves, or an ebook from a designer they follow. Our <a href="/guides/beginner-crochet-hooks.html">beginner hook guide</a> and <a href="/guides/easiest-first-projects.html">easiest first projects</a> list help you land on something genuinely useful at the right level. When in doubt, err toward something they'll use every day rather than something impressive that gathers dust.</p>
+
+    <h2 id="fast">Small, fast makes that always land</h2>
+
+    <p>If you're making rather than buying, speed is your safety net. A set of granny-square coasters, a single-skein cowl, a few amigurumi ornaments, or a handful of dishcloths each finish in an evening or two, and none of them depend on knowing the recipient's measurements. Batch a few of the same item rather than attempting one of everything &mdash; the third coaster is twice as fast as the first, and a matched set looks more deliberate than three mismatched experiments. The mistake I made the year I crocheted a blanket was thinking one big thing was less work than several small ones. It isn't. Several small things spread the risk, so one late finish doesn't leave you empty-handed.</p>
+
+    <h2 id="presenting">Presenting a handmade gift</h2>
+
+    <p>How you hand over a handmade gift changes how it's received. Wrap it simply, tuck in a small card that says what it's made of and how to wash it, and resist the urge to apologise for every uneven stitch &mdash; the recipient sees the hours, not the wobbles. A care note matters more than it sounds, because a wool scarf that gets machine-washed and shrinks is a gift that quietly disappoints. If you made something for a child, keep the extras simple and safe &mdash; no small buttons or beads a little one could pull loose. A finished, well-presented gift with its care story attached reads as professional and loved, which is exactly what it is. A simple ribbon and a handwritten note beat expensive wrapping, because the note is where the hours you put in are actually seen.</p>
+
+    <h2 id="mistakes">Common mistakes &amp; fixes</h2>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> you started a blanket or garment in mid-November and ran out of time.<br>
+      <strong>Fix:</strong> swap to a smaller project you can actually finish. A cowl or coaster set can be done in days, and a finished small gift beats an unfinished large one every time.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> you bought a hook set they already own.<br>
+      <strong>Fix:</strong> tools are easy to duplicate. Choose a consumable instead &mdash; yarn, a stitch dictionary, or a pattern subscription &mdash; which is useful even if they have the basics covered.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> you made a garment without knowing their size.<br>
+      <strong>Fix:</strong> anything with sizing needs their measurements. Stick to one-size items like scarves, coasters, or amigurumi unless you already know their fit, so the gift isn't quietly too small.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> you picked a colour they'd never actually wear.<br>
+      <strong>Fix:</strong> colour is deeply personal. Sneak a look at what they already wear or their home, or ask a mutual friend &mdash; a safe neutral or their obvious favourite is better than a guess.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> you over-committed to five gifts and finished none.<br>
+      <strong>Fix:</strong> halve the list and batch. Two matched gifts finished well are remembered more warmly than five half-done ones hidden in a cupboard on Christmas morning.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the gift arrived with no washing instructions.<br>
+      <strong>Fix:</strong> include a small care card with the fibre and washing guidance, so a well-meant machine wash doesn't shrink or felt a handmade item they love.
+    </div>
+
+    <h2 class="faq" id="faq">Frequently asked questions</h2>
     <h3>When should I start a crocheted Christmas gift?</h3>
     <p>For a beginner, starting in October gives comfortable time for a simple project like a scarf or granny square set, accounting for a few false starts. Larger projects like blankets or garments need more lead time, ideally starting by September.</p>
 
@@ -273,6 +344,9 @@ footer .wrap{max-width:1100px;}
 
     <h3>What is a good last-minute crochet Christmas gift?</h3>
     <p>A chunky single-skein cowl, a set of granny square coasters, or a small amigurumi ornament can each be finished in an evening or two, making them the best choices when December has already arrived. Steer clear of garments and blankets, which need far more time.</p>
+
+    <h3>What's a good gift for a complete beginner?</h3>
+    <p>A comfortable hook in a mid size, a set of stitch markers, and a short, clearly photographed pattern they can start straight away. Skip the giant hook sets and advanced stitch dictionaries for now &mdash; a beginner needs one good tool and a first win, not a wall of options.</p>
 
     <div class="related">
       <h2>Related guides</h2>

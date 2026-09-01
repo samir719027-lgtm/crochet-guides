@@ -80,6 +80,16 @@ document.addEventListener('click', function(e){
       "@type": "Question",
       "name": "Can I print a digital crochet pattern to follow along?",
       "acceptedAnswer": {"@type": "Answer", "text": "Yes, most PDF patterns and ebooks are designed to be printable, and many crocheters print and mark up a working copy rather than reading from a screen. Check the preview for a print-friendly layout before you buy."}
+    },
+    {
+      "@type": "Question",
+      "name": "Can I return a digital crochet pattern if I don't like it?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Usually not &mdash; digital goods are almost always non-refundable, which is exactly why preview pages and tech-editing notes matter so much before you buy. If a listing offers no preview, treat that as a reason to be cautious."}
+    },
+    {
+      "@type": "Question",
+      "name": "Do my downloads ever expire?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Most platforms let you re-download a purchased pattern indefinitely, but a few limit downloads or expire links after a set time. Check the shop's terms before buying, and save a copy to your own folders as soon as it arrives rather than relying on the download link."}
     }
   ]
 }
@@ -119,6 +129,13 @@ li{margin-bottom:8px;}
 .hero-img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:var(--radius);margin:24px 0;}
 .callout{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin:24px 0;font-size:15.5px;}
 .callout strong{color:var(--berry);}
+.jumpnav{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:28px 0;font-size:14.5px;}
+.jumpnav strong{display:block;margin-bottom:8px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--berry);}
+.jumpnav ol{margin:0;padding-left:18px;columns:2;column-gap:24px;}
+.jumpnav li{margin-bottom:6px;break-inside:avoid;}
+.jumpnav a{text-decoration:none;font-weight:600;}
+.jumpnav a:hover{text-decoration:underline;}
+@media (max-width:480px){.jumpnav ol{columns:1;}}
 table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14px;}
 th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);}
 th{font-family:'Space Mono',monospace;font-size:10.5px;text-transform:uppercase;letter-spacing:0.06em;color:var(--ink-soft);}
@@ -142,7 +159,7 @@ footer .wrap{max-width:1100px;}
 .btn-row{display:flex;flex-wrap:wrap;gap:0;}
 @media print{
   h2:has(+ .pick){display:none!important;}
-  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
+  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout, .jumpnav{display:none!important;}
   body{background:#fff;}
   article{padding:0;}
   .hero-img{max-height:200px;}
@@ -220,11 +237,27 @@ footer .wrap{max-width:1100px;}
 
     <p>Years ago I bought a thick crochet ebook sight unseen because it looked like amazing value &mdash; dozens of designs for less than the price of two single patterns. What I actually got was a wall of densely printed charts with almost no step-by-step photos, and I never finished a single project from it. That purchase taught me a lesson I now pass on to my students: with digital patterns, page count is the least important thing on offer. A short, clearly tested PDF you can actually follow is worth more than a hundred designs that leave you guessing. These days I look for preview pages, an explicit note that the pattern was tech-edited, and a clear statement of whether it's written in <a href="/guides/abbreviations-glossary.html">US or UK terms</a>.</p>
 
+    <p>I now treat a pattern purchase the way I treat buying fabric &mdash; I want to see a sample before I hand over money. In class I keep a folder of patterns students have bought and regretted, and the same three problems come up every time: no preview, no note that anyone checked the maths, and no clear statement of which terms system it uses. If a listing hides all three, I tell them to close the tab.</p>
+
+    <div class="jumpnav">
+      <strong>Jump to</strong>
+      <ol>
+        <li><a href="#compare">PDF vs ebook</a></li>
+        <li><a href="#pick">Our pick</a></li>
+        <li><a href="#check">What to check</a></li>
+        <li><a href="#edited">What tech-edited means</a></li>
+        <li><a href="#gifting">Patterns as gifts</a></li>
+        <li><a href="#organising">Organising your files</a></li>
+        <li><a href="#mistakes">Common mistakes &amp; fixes</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
     <div class="callout">
       <strong>Quick answer:</strong> for your first digital purchase, prioritise a bundle that's explicitly <strong>tech-edited</strong> (checked for errors by someone other than the designer) over one with the most patterns included.
     </div>
 
-    <h2>PDF single patterns vs. ebook bundles</h2>
+    <h2 id="compare">PDF single patterns vs. ebook bundles</h2>
     <table>
       <tr><th></th><th>Single PDF pattern</th><th>Ebook bundle</th></tr>
       <tr><td>Cost</td><td>Low, per-pattern</td><td>Higher upfront, lower per-pattern</td></tr>
@@ -232,7 +265,7 @@ footer .wrap{max-width:1100px;}
       <tr><td>Risk if you dislike it</td><td>Low</td><td>Higher, since it's one purchase</td></tr>
     </table>
 
-    <h2>Our pick</h2>
+    <h2 id="pick">Our pick</h2>
     <div class="pick">
       <span class="pick-cat">Reference</span>
       <h3>The Complete Crochet Stitch Dictionary</h3>
@@ -240,7 +273,7 @@ footer .wrap{max-width:1100px;}
       <a class="pick-cta" href="https://www.amazon.com/dp/B00GTUYR7M?tag=crochetguides-21-20" rel="sponsored nofollow" target="_blank">View on Amazon &rarr;</a>
     </div>
 
-    <h2>What to check before buying</h2>
+    <h2 id="check">What to check before buying</h2>
     <ul>
       <li><strong>Preview pages.</strong> A legitimate seller will show sample pages before you buy.</li>
       <li><strong>Tech-edited.</strong> Look for this explicitly stated &mdash; it means a second person checked the pattern for errors before release.</li>
@@ -248,7 +281,51 @@ footer .wrap{max-width:1100px;}
       <li><strong>Photos vs. charts only.</strong> If you're newer to crochet, patterns with step photos are easier to follow than charts alone.</li>
     </ul>
 
-    <h2 class="faq">Frequently asked questions</h2>
+    <h2 id="edited">What a tech-edited pattern actually means</h2>
+
+    <p>Tech editing is the difference between a pattern that works first time and one that leaves you frogging a sleeve at midnight. It means a second person &mdash; usually an experienced crocheter or a professional tech editor &mdash; has worked through every row, checked the stitch counts against the measurements, and caught the typos the designer's own eyes skip over. Designers who pay for this usually say so, because it costs real money and they want you to know. A pattern described only as "tested" is weaker than "tech-edited": testing means someone made it, but not necessarily that every number was audited. Look for the word "tech-edited" in the listing, and if it's absent, expect to do a little of that checking yourself with our <a href="/guides/how-to-read-a-pattern.html">guide to reading a pattern</a>. A good tech editor will also flag where a stitch count is likely to trip a beginner and add a note in plain language, which is the difference between a pattern you follow and a pattern you fight.</p>
+
+    <h2 id="gifting">Digital patterns as gifts</h2>
+
+    <p>A PDF bundle makes a surprisingly good crochet gift, but only if you match it to the person. For a beginner, a single, clearly photographed pattern they can print and scribble on beats a 200-stitch dictionary that will sit on a shelf &mdash; our <a href="/guides/easiest-first-projects.html">easiest first projects</a> list is a good place to pick one. For an experienced crocheter who already has the basics, an ebook from a designer they follow is a safer bet, because they'll actually recognise the style. Most pattern shops let you buy a pattern as a gift or send a download code, so you can hand over a note with the link rather than a printed wad of pages. If a pattern feels too abstract, our <a href="/guides/gift-guide.html">general gift guide</a> covers the same idea for tools and yarn instead.</p>
+
+    <h2 id="organising">Printing and keeping track of your files</h2>
+
+    <p>Digital patterns are only useful if you can find them again in March. I keep every purchase in a folder named by project type, then rename the file with the designer and year &mdash; "granny-square-blanket-lin-2024.pdf" instead of the default "final-pattern.pdf". Before you buy, check the preview for a print-friendly layout: a pattern that's all dark backgrounds or wide charts will chew through ink, and you'll end up reading it off a phone screen at the worst possible moment. Marking up a printed copy with a pencil as you finish each row is still the most reliable way I know to keep your place, and it turns a one-off purchase into a working document you'll reach for again and again. I also keep a single page printed with the pattern's key stitch counts and abbreviations, so if a row goes wrong I can check the number without scrolling back through the file.</p>
+
+    <h2 id="mistakes">Common mistakes &amp; fixes</h2>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the pattern turns out to be charts only and you can't read charts.<br>
+      <strong>Fix:</strong> you didn't check the preview. Before buying, confirm the listing says "written instructions plus charts" rather than charts alone, and look for step photos if you're newer to crochet.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> you've worked half a project before realising the stitch names don't match.<br>
+      <strong>Fix:</strong> the pattern uses the other terms system (US or UK) than you expected. Check which one it's written in before you start &mdash; a UK "dc" is a US "sc", and mixing the two quietly changes your whole fabric.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> you bought a huge bundle and never made a single item from it.<br>
+      <strong>Fix:</strong> you prioritised page count over value. Next time, buy for one specific design you genuinely want to make, and let a bundle be a reward only once you trust the designer's style.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> you can't find the pattern file a month after buying it.<br>
+      <strong>Fix:</strong> the download went into a catch-all folder with a generic name. Save it into a named folder and rename it with the designer and project type the moment you download it.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the pattern is hard to use from your phone at your crochet spot.<br>
+      <strong>Fix:</strong> you didn't check for a print-friendly layout. Look at the preview for plain backgrounds and reasonable chart sizes, and print a working copy you can mark up rather than relying on a screen.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> you assumed every pattern in an ebook is beginner-friendly.<br>
+      <strong>Fix:</strong> ebooks span skill levels. Look for a stated skill level or difficulty on each design, and pick a bundle that matches where you are now rather than where you hope to be.
+    </div>
+
+    <h2 class="faq" id="faq">Frequently asked questions</h2>
     <h3>Are PDF crochet patterns better than free patterns online?</h3>
     <p>Paid PDF patterns are usually tested more thoroughly and include clearer photos or charts than many free patterns, which reduces the chance of errors partway through a project. Free patterns can still be excellent, but quality varies more.</p>
 
@@ -260,6 +337,12 @@ footer .wrap{max-width:1100px;}
 
     <h3>Can I print a digital crochet pattern to follow along?</h3>
     <p>Yes, most PDF patterns and ebooks are designed to be printable, and many crocheters print and mark up a working copy rather than reading from a screen. Check the preview for a print-friendly layout before you buy.</p>
+
+    <h3>Can I return a digital crochet pattern if I don't like it?</h3>
+    <p>Usually not &mdash; digital goods are almost always non-refundable, which is exactly why preview pages and tech-editing notes matter so much before you buy. If a listing offers no preview, treat that as a reason to be cautious.</p>
+
+    <h3>Do my downloads ever expire?</h3>
+    <p>Most platforms let you re-download a purchased pattern indefinitely, but a few limit downloads or expire links after a set time. Check the shop's terms before buying, and save a copy to your own folders as soon as it arrives rather than relying on the download link.</p>
 
     <div class="related">
       <h2>Related guides</h2>

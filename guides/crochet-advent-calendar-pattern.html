@@ -102,6 +102,14 @@ document.addEventListener('click', function(e){
         "@type": "Answer",
         "text": "Each stocking works up to roughly 2&ndash;3in / 5&ndash;7cm tall, big enough for a wrapped candy, a small ornament, or a tightly folded note, while staying light enough to hang neatly on twine."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I store it after the season?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Take the stockings off the twine and stack them flat in a small box with a sheet of tissue paper between layers, so the pouches don't crease under weight. Empty the treats first, and keep the box somewhere dry so the garland is ready to hang again next December."
+      }
     }
   ]
 }
@@ -144,6 +152,13 @@ li{margin-bottom:8px;}
 .video-caption{font-size:13px;color:var(--ink-soft);margin-top:-14px;margin-bottom:24px;}
 .callout{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin:24px 0;font-size:15.5px;}
 .callout strong{color:var(--berry);}
+.jumpnav{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:28px 0;font-size:14.5px;}
+.jumpnav strong{display:block;margin-bottom:8px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--berry);}
+.jumpnav ol{margin:0;padding-left:18px;columns:2;column-gap:24px;}
+.jumpnav li{margin-bottom:6px;break-inside:avoid;}
+.jumpnav a{text-decoration:none;font-weight:600;}
+.jumpnav a:hover{text-decoration:underline;}
+@media (max-width:480px){.jumpnav ol{columns:1;}}
 .step-box{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:20px 0;}
 .step-box h3{margin-top:0;}
 code{background:rgba(42,36,30,0.08);padding:2px 6px;border-radius:3px;font-family:'Space Mono',monospace;font-size:14px;}
@@ -183,7 +198,7 @@ footer .wrap{max-width:1100px;}
 
 @media print{
   h2:has(+ .pick){display:none!important;}
-  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
+  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout, .jumpnav{display:none!important;}
   body{background:#fff;}
   article{padding:0;}
   .hero-img{max-height:200px;}
@@ -293,11 +308,28 @@ footer .wrap{max-width:1100px;}
 
     <p>Every year around late October, my students start quietly panicking about what to make for Christmas, and the advent calendar is the project that finally gives them a manageable answer. It began in one of my classes when a student couldn't face a full-size stocking but still wanted something festive to hang. We scaled the idea down to these tiny stocking pouches, each one just big enough for a wrapped candy or a folded note, and strung a dozen of them on twine. The whole thing came together over a couple of relaxed evenings, and the moment she hung it in her hallway, half the class wanted the pattern. It's become one of my favourite December makes &mdash; quick to repeat, endlessly customisable, and it turns a countdown into something you made with your own hands.</p>
 
+    <p>What I love about this one is that the hard part isn't hard &mdash; it's just twelve of the same tiny stocking, one after the other, each one a chance to get a little neater. By stocking five or six, most people have the rhythm down and stop looking at the pattern entirely. It's a project that sneaks practice in under the guise of a festive decoration, and by the end you've quietly made a dozen little pouches without ever feeling like you were drilling a technique.</p>
+
+    <div class="jumpnav">
+      <strong>Jump to</strong>
+      <ol>
+        <li><a href="#materials">What you need</a></li>
+        <li><a href="#stocking">The mini stocking</a></li>
+        <li><a href="#loop">Hanging loop</a></li>
+        <li><a href="#assemble">Assembling the garland</a></li>
+        <li><a href="#yarn">Yarn and colour choice</a></li>
+        <li><a href="#numbering">Numbering and personalising</a></li>
+        <li><a href="#hanging">Hanging it straight</a></li>
+        <li><a href="#mistakes">Common mistakes &amp; fixes</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
     <div class="callout">
       <strong>Quick answer:</strong> Crochet one small stocking shape repeatedly (12 for a full countdown, or fewer for a shorter garland), add a hanging loop to each, then string them all along a piece of twine or ribbon. If you're after other quick makes, our <a href="/guides/easiest-first-projects.html">easiest first projects guide</a> has more ideas that build the same basic stitches.
     </div>
 
-    <h2>What you need</h2>
+    <h2 id="materials">What you need</h2>
 
     <ul>
       <li>Worsted or DK weight yarn in 3 alternating colors (red, cream, green work well)</li>
@@ -307,7 +339,7 @@ footer .wrap{max-width:1100px;}
       <li>Small clothespins or a needle and thread to attach each stocking to the garland</li>
     </ul>
 
-    <h2>One mini stocking (repeat 12 times)</h2>
+    <h2 id="stocking">One mini stocking (repeat 12 times)</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -321,7 +353,7 @@ footer .wrap{max-width:1100px;}
       </ol>
     </div>
 
-    <h2>Hanging loop</h2>
+    <h2 id="loop">Hanging loop</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -331,7 +363,7 @@ footer .wrap{max-width:1100px;}
       </ol>
     </div>
 
-    <h2>Assembling the garland</h2>
+    <h2 id="assemble">Assembling the garland</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -348,7 +380,51 @@ footer .wrap{max-width:1100px;}
     </div>
     <p class="video-caption">A demonstration of making small numbered pockets, useful for seeing how each piece is sized and finished.</p>
 
-    <h2 class="faq">Frequently asked questions</h2>
+    <h2 id="yarn">Yarn and colour choice</h2>
+
+    <p>Three alternating colours &mdash; red, cream, and green &mdash; give the garland its rhythm, but the specific yarn matters more than the palette. A worsted or DK weight in a smooth acrylic or cotton keeps the little stockings crisp and firm, so they hold their pouch shape instead of flopping flat against the twine. Keep all three colours the same weight and fibre, because a DK stocking next to a worsted one will look a size out even if the stitch count is identical. If you want a softer, more traditional feel, a gently heathered cream against solid red and green adds depth without busyness. See <a href="/guides/yarn-weight-explained.html">yarn weight explained</a> if you're mixing leftover yarns of different weights.</p>
+
+    <h2 id="numbering">Numbering and personalising</h2>
+
+    <p>To turn a garland into a true countdown, each stocking needs a number, and there are gentler ways to add it than a fabric marker that can bleed or rub off. Small paper or card tags looped over the twine are the easiest to read and can be swapped out each year, while embroidering a number onto the stocking front with a contrast thread gives a permanent, heirloom feel. If you'd rather keep it subtle, vary the stocking pattern itself &mdash; a different cuff colour or an extra stripe for each day &mdash; so the sequence is built into the crochet rather than stuck on top. Whichever you choose, add the number before filling, so you're not fiddling with tags around a hidden chocolate.</p>
+
+    <h2 id="hanging">A garland that hangs straight</h2>
+
+    <p>A dozen pouches on one string will sag unevenly unless you space and secure them deliberately. Thread each hanging loop onto the twine, then tie a small knot on either side of each loop, so the stockings stay put instead of sliding together into a clump. If the garland dips in the middle, the weight isn't balanced &mdash; space the stockings evenly and hang the ends at matching heights, or add a second small nail in the centre for a longer run. Because each stocking is light, the whole thing hangs easily from two small hooks, but filling them with heavier treats will pull the line down, so keep the contents light or support the centre. Our <a href="/guides/how-to-block-crochet.html">blocking guide</a> can help you square up any stockings that came out a little skew before you string them.</p>
+
+    <h2 id="mistakes">Common mistakes &amp; fixes</h2>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the stockings come out different sizes.<br>
+      <strong>Fix:</strong> your tension drifted between repeats. Check each stocking against the first one as you finish it, and count the rows &mdash; a consistent seven stitches across three even rows keeps them uniform.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the treat falls out through a gap at the bottom of the pouch.<br>
+      <strong>Fix:</strong> the side seams weren't closed fully. Whip-stitch both side edges right down to the toe point, leaving only the top open, so nothing slips out.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the stockings slide together into a clump in the middle.<br>
+      <strong>Fix:</strong> they weren't secured to the twine. Tie a small knot on each side of every hanging loop so each stocking stays where you put it rather than drifting.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the hanging loop pulls out of the top of a stocking.<br>
+      <strong>Fix:</strong> it was anchored through a single stitch. Work the chain loop through two stitches of the top back corner before slip-stitching it closed, so the weight is spread.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the colours look off and the stockings sit unevenly.<br>
+      <strong>Fix:</strong> the yarns are different weights or fibres. Match all three colours in weight and fibre so every stocking behaves the same, and keep the colour order consistent down the line.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the numbers smear or fade off the stockings.<br>
+      <strong>Fix:</strong> the marker isn't holding on the yarn. Use a fabric paint designed for fibre, embroider the number, or add a removable card tag instead &mdash; all last longer than a plain felt-tip.
+    </div>
+
+    <h2 class="faq" id="faq">Frequently asked questions</h2>
     <h3>Can I make 24 for a full December countdown?</h3>
     <p>Yes &mdash; the mini stocking is quick enough to repeat 24 times; just plan for roughly double the yarn and time.</p>
 
@@ -363,6 +439,9 @@ footer .wrap{max-width:1100px;}
 
     <h3>What size are the mini stockings?</h3>
     <p>Each stocking works up to roughly 2&ndash;3in / 5&ndash;7cm tall, big enough for a wrapped candy, a small ornament, or a tightly folded note, while staying light enough to hang neatly on twine.</p>
+
+    <h3>How do I store it after the season?</h3>
+    <p>Take the stockings off the twine and stack them flat in a small box with a sheet of tissue paper between layers, so the pouches don't crease under weight. Empty the treats first, and keep the box somewhere dry so the garland is ready to hang again next December.</p>
 
 
 

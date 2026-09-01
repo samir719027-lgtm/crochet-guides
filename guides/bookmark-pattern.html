@@ -85,6 +85,11 @@ document.addEventListener('click', function(e){
       "@type": "Question",
       "name": "How do I stop a crochet bookmark from curling?",
       "acceptedAnswer": {"@type": "Answer", "text": "Curling is usually a tension issue, most often from a starting chain pulled too tight or a foundation row worked at a different tightness than the rest. Blocking the finished strip with a little steam or a light damp press usually flattens it out."}
+    },
+    {
+      "@type": "Question",
+      "name": "How many bookmarks can I make from one ball of yarn?",
+      "acceptedAnswer": {"@type": "Answer", "text": "A standard 50g ball of worsted-weight cotton makes far more than three &mdash; each bookmark uses under 20 yards, so a single ball can easily produce a dozen or more, making it one of the most economical projects on the site."}
     }
   ]
 }
@@ -128,6 +133,13 @@ li{margin-bottom:8px;}
 .video-caption{font-size:13px;color:var(--ink-soft);margin-top:-14px;margin-bottom:24px;}
 .callout{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin:24px 0;font-size:15.5px;}
 .callout strong{color:var(--berry);}
+.jumpnav{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:28px 0;font-size:14.5px;}
+.jumpnav strong{display:block;margin-bottom:8px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--berry);}
+.jumpnav ol{margin:0;padding-left:18px;columns:2;column-gap:24px;}
+.jumpnav li{margin-bottom:6px;break-inside:avoid;}
+.jumpnav a{text-decoration:none;font-weight:600;}
+.jumpnav a:hover{text-decoration:underline;}
+@media (max-width:480px){.jumpnav ol{columns:1;}}
 .pattern-box{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px;margin:24px 0;}
 .pattern-box h3{margin-top:0;font-size:14px;font-family:'Space Mono',monospace;text-transform:uppercase;letter-spacing:0.08em;color:var(--berry);margin-bottom:12px;}
 .pattern-box ul{margin:0;padding-left:20px;}
@@ -177,7 +189,7 @@ footer .wrap{max-width:1100px;}
 
 @media print{
   h2:has(+ .pick){display:none!important;}
-  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
+  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout, .jumpnav{display:none!important;}
   body{background:#fff;}
   article{padding:0;}
   .hero-img{max-height:200px;}
@@ -287,7 +299,22 @@ footer .wrap{max-width:1100px;}
 
     <p>I designed this bookmark after one of my students admitted she'd been folding down the page corners of the same novel for two years because she "didn't have time for a proper project." That's exactly the gap this little strip fills. In my classes I hand it to people who've just learned their single crochet and tell them they'll finish it before the kettle boils &mdash; and most of them do. There's something quietly satisfying about a project you can start and complete in one sitting, and a bookmark is the rare gift that's both genuinely useful and small enough to work up from a handful of leftover yarn. If you've got a spare twenty minutes and a few yards of cotton, this is the pattern for it.</p>
 
-    <div class="pattern-box">
+    <p>The first one I made took me the length of a single cup of tea, and I've been handing the pattern out to my beginner classes ever since, because nothing else gives that complete-project feeling so fast. A bookmark also makes a lovely little gift that doesn't demand anyone's size or taste &mdash; pair it with a paperback and you've given something thoughtful for the cost of a few yards of cotton.</p>
+
+    <div class="jumpnav">
+      <strong>Jump to</strong>
+      <ol>
+        <li><a href="#materials">Materials</a></li>
+        <li><a href="#pattern">Pattern</a></li>
+        <li><a href="#compare">Strip vs corner</a></li>
+        <li><a href="#yarn">Yarn, colour, and finish</a></li>
+        <li><a href="#gifting">A set for gifting</a></li>
+        <li><a href="#mistakes">Common mistakes &amp; fixes</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
+    <div class="pattern-box" id="materials">
       <h3>Materials</h3>
       <ul>
         <li>Small amount of worsted-weight cotton yarn (under 20 yards per bookmark)</li>
@@ -324,7 +351,7 @@ footer .wrap{max-width:1100px;}
       </ul>
     </div>
 
-    <h2>Pattern (make 3)</h2>
+    <h2 id="pattern">Pattern (make 3)</h2>
 
     <div class="row-step">
       <span class="rownum">Foundation</span>
@@ -356,7 +383,7 @@ footer .wrap{max-width:1100px;}
       <strong>Adding a tassel:</strong> cut 6&ndash;8 strands of yarn about 4in / 10cm long, fold in half, and loop through the bottom edge of the bookmark. Tie tightly at the fold and trim the ends even.
     </div>
 
-    <h2>Our pick</h2>
+    <h2 id="pick">Our pick</h2>
     <div class="pick">
       <span class="eyebrow">Yarn</span>
       <h3>Cotton worsted-weight yarn, 3-pack</h3>
@@ -364,7 +391,51 @@ footer .wrap{max-width:1100px;}
       <a class="pick-cta" href="https://www.amazon.com/dp/B08V7PTVV5?tag=crochetguides-21-20" rel="sponsored nofollow" target="_blank">View on Amazon &rarr;</a>
     </div>
 
-    <h2 class="faq">Frequently asked questions</h2>
+    <h2 id="compare">Strip vs corner bookmark</h2>
+
+    <p>A flat strip is the simplest bookmark, but it's not the only shape worth knowing. A corner bookmark is a small folded triangle that slips over the corner of a page, and it holds its place a little more securely than a strip that can slide out of a paperback. The strip you're making here wins on speed and elegance &mdash; it lies flat, fits any book, and finishes in about twenty minutes &mdash; while a corner version needs shaping and a small seam. I tell beginners to make a handful of strips first to build even tension, then try a corner bookmark once the single crochet rows feel automatic. Both start from the same <a href="/guides/basic-crochet-stitches.html">single crochet</a> foundation, so the skills transfer cleanly. If you want to try the corner shape, look for a folding triangle pattern once these strips feel easy &mdash; the difference is mostly in the final fold and seam.</p>
+
+    <h2 id="yarn">Yarn, colour, and finish</h2>
+
+    <p>Cotton is the right fibre here for a reason that has nothing to do with looks: it's smooth, so it glides between pages without snagging the way a fuzzy or textured yarn catches on paper. A worsted-weight mercerised cotton gives the crispest edge, and a solid, light colour shows the stitch definition best. For gifts, a deep jewel tone or a soft neutral reads more considered than a novelty multicolour, and a small tassel in the same or a contrast colour finishes the strip neatly. If your hands lean toward a tighter tension, our <a href="/guides/hook-size-chart.html">hook size chart</a> can help you go up a size so the strip doesn't come out stiff.</p>
+
+    <h2 id="gifting">A matching set for gifting</h2>
+
+    <p>Three bookmarks tied with a length of ribbon make a gift far nicer than the sum of their parts, and because they need no sizing, they're a safe make for someone you don't know well. I like to make a set in three shades of the same colour &mdash; light, mid, and dark &mdash; or a matching trio of tassels. Work all three before you finish the ends so the lengths match, and lay them side by side as you go. Add a small note explaining they're cotton and can be hand-washed if they ever get grubby, and the gift is complete. It's the kind of present that costs almost nothing but feels personal in a way a shop card never does. Make the three strips in one sitting while the rhythm is fresh, and they'll match more closely than if you spread them across a week.</p>
+
+    <h2 id="mistakes">Common mistakes &amp; fixes</h2>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the strip curls into a tube instead of lying flat.<br>
+      <strong>Fix:</strong> the starting chain was pulled too tight. Make the foundation chain loosely, or go up a hook size for the chain row only, then work the rest at your normal tension.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the edges look wavy and uneven.<br>
+      <strong>Fix:</strong> the stitch count drifted between rows. Count to four stitches on every row &mdash; losing or adding one at the edge is what makes the sides wander in and out.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the bookmark is too wide for a paperback.<br>
+      <strong>Fix:</strong> the starting chain was too long. Four stitches gives about 1.5 inches, which is right for most books &mdash; if you want it narrower, chain fewer stitches and keep that count on every row.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the tassel pulls out of the bottom edge.<br>
+      <strong>Fix:</strong> it was tied too loosely. Loop the folded strands through the edge, pull the ends through firmly, and cinch the knot tight before trimming &mdash; a loose tassel will slip out the first time it's tugged.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> a woven-in end works its way free over time.<br>
+      <strong>Fix:</strong> the tail wasn't long enough to weave securely. Leave at least six inches and run it through four or five stitches before trimming, so it can't pop loose with handling.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the yarn catches on book pages as you use it.<br>
+      <strong>Fix:</strong> the yarn is too fuzzy or textured. Use a smooth cotton or a tightly spun yarn &mdash; fluffy or novelty yarns grab paper and pull the bookmark out of place.
+    </div>
+
+    <h2 class="faq" id="faq">Frequently asked questions</h2>
     <h3>How long does a crochet bookmark take to make?</h3>
     <p>A single bookmark takes about 15 to 20 minutes once you're comfortable with basic single crochet, making it one of the fastest projects to finish in one sitting.</p>
 
@@ -379,6 +450,9 @@ footer .wrap{max-width:1100px;}
 
     <h3>How do I stop a crochet bookmark from curling?</h3>
     <p>Curling is usually a tension issue, most often from a starting chain pulled too tight or a foundation row worked at a different tightness than the rest. Blocking the finished strip with a little steam or a light damp press usually flattens it out.</p>
+
+    <h3>How many bookmarks can I make from one ball of yarn?</h3>
+    <p>A standard 50g ball of worsted-weight cotton makes far more than three &mdash; each bookmark uses under 20 yards, so a single ball can easily produce a dozen or more, making it one of the most economical projects on the site.</p>
 
     <div class="related">
       <h2>Related guides</h2>

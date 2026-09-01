@@ -102,6 +102,14 @@ document.addEventListener('click', function(e){
         "@type": "Answer",
         "text": "Yes, though natural-fibre yarn can stretch or fade in wet weather &mdash; if it will live outdoors, choose an acrylic or cotton-blend and re-block it now and then."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a full wreath take to make?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At a relaxed pace, each motif takes fifteen to twenty minutes, so the eight squares come together over a couple of evenings, with another hour or so for joining, the bow, and the hanging loop. It's a comfortably two-session project for a beginner."
+      }
     }
   ]
 }
@@ -144,6 +152,13 @@ li{margin-bottom:8px;}
 .video-caption{font-size:13px;color:var(--ink-soft);margin-top:-14px;margin-bottom:24px;}
 .callout{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin:24px 0;font-size:15.5px;}
 .callout strong{color:var(--berry);}
+.jumpnav{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:28px 0;font-size:14.5px;}
+.jumpnav strong{display:block;margin-bottom:8px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--berry);}
+.jumpnav ol{margin:0;padding-left:18px;columns:2;column-gap:24px;}
+.jumpnav li{margin-bottom:6px;break-inside:avoid;}
+.jumpnav a{text-decoration:none;font-weight:600;}
+.jumpnav a:hover{text-decoration:underline;}
+@media (max-width:480px){.jumpnav ol{columns:1;}}
 .step-box{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:20px 0;}
 .step-box h3{margin-top:0;}
 code{background:rgba(42,36,30,0.08);padding:2px 6px;border-radius:3px;font-family:'Space Mono',monospace;font-size:14px;}
@@ -183,7 +198,7 @@ footer .wrap{max-width:1100px;}
 
 @media print{
   h2:has(+ .pick){display:none!important;}
-  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
+  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout, .jumpnav{display:none!important;}
   body{background:#fff;}
   article{padding:0;}
   .hero-img{max-height:200px;}
@@ -293,11 +308,28 @@ footer .wrap{max-width:1100px;}
 
     <p>In my classes, the first project that makes students feel like they've made something real is often a ring of <a href="/guides/granny-square-tutorial.html">granny squares</a>, and a crochet Christmas wreath is the holiday version I bring out every November. I'll never forget the quiet pride on one student's face as she joined her eighth motif and watched the flat little squares turn into a circle that stood on its own, no wire frame underneath. She'd been nervous about the joins, but once she saw the ring close, she was already planning a second one in different colours. It's a forgiving build &mdash; if one square sits a touch bigger than its neighbour, blocking and a steady seam will coax it into shape.</p>
 
+    <p>The wreath reads as far more advanced than it is, which is exactly the trick I love. Underneath, it's just the granny square you already know, made eight times and sewn in a circle. One of my students, a retired nurse who swore she could only make squares, joined her first ring and stood back with genuine surprise at what eight little squares had become. That moment &mdash; watching something flat fold into a circle &mdash; is the whole reason I teach this pattern every November.</p>
+
+    <div class="jumpnav">
+      <strong>Jump to</strong>
+      <ol>
+        <li><a href="#materials">What you need</a></li>
+        <li><a href="#motifs">The motifs</a></li>
+        <li><a href="#join-ring">Joining into a ring</a></li>
+        <li><a href="#bow">Bow and hanging loop</a></li>
+        <li><a href="#yarn">Yarn and colour choice</a></li>
+        <li><a href="#join">Joining methods</a></li>
+        <li><a href="#personalise">Personalising</a></li>
+        <li><a href="#mistakes">Common mistakes &amp; fixes</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
     <div class="callout">
       <strong>Quick answer:</strong> Make 8 small granny-square motifs in green with red centers, join them into a ring, then add a crocheted bow at the bottom and a loop at the top for hanging.
     </div>
 
-    <h2>What you need</h2>
+    <h2 id="materials">What you need</h2>
 
     <ul>
       <li>Worsted weight (#4) yarn: green (main), red (motif centers and bow), plus a small amount of a second green for variety if you like</li>
@@ -306,7 +338,7 @@ footer .wrap{max-width:1100px;}
       <li>Stitch markers</li>
     </ul>
 
-    <h2>Motifs (make 8)</h2>
+    <h2 id="motifs">Motifs (make 8)</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -317,7 +349,7 @@ footer .wrap{max-width:1100px;}
       </ol>
     </div>
 
-    <h2>Joining into a ring</h2>
+    <h2 id="join-ring">Joining into a ring</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -327,7 +359,7 @@ footer .wrap{max-width:1100px;}
       </ol>
     </div>
 
-    <h2>Bow and hanging loop</h2>
+    <h2 id="bow">Bow and hanging loop</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -343,7 +375,51 @@ footer .wrap{max-width:1100px;}
     </div>
     <p class="video-caption">A demonstration of building a ring-shaped decoration, useful for seeing how the base and embellishments are added.</p>
 
-    <h2 class="faq">Frequently asked questions</h2>
+    <h2 id="yarn">Yarn and colour choice</h2>
+
+    <p>For a wreath that holds its circle, choose a yarn with a bit of body. A worsted-weight acrylic or a cotton-blend is my go-to, because it keeps the motifs firm enough to stand as a ring without sagging, where a soft wool or a slippery bamboo can let the circle droop under its own weight. Green and red are the classic pair, but I like to work two slightly different greens for the borders &mdash; a deep forest and a brighter moss &mdash; which gives the wreath subtle depth without extra colour changes. If it will live on a door that sees weather, acrylic is the safer choice, since it won't absorb damp or fade the way some natural fibres do. See <a href="/guides/yarn-weight-explained.html">yarn weight explained</a> for how the weight affects the stiffness.</p>
+
+    <h2 id="join">Joining methods compared</h2>
+
+    <p>How you join the eight motifs changes both the look and the work. A whip stitch is the fastest and most forgiving &mdash; it makes a soft, nearly invisible seam and forgives a square that's a stitch out. A slip-stitch seam worked from the outside gives a visible ridged join that can look almost decorative, but it eats a little more yarn and shows every wobble. Join-as-you-go, where you crochet the final round of each motif onto its neighbour, is the neatest and most durable, but it requires planning ahead, so I save it for a second wreath. For your first one, the whip stitch is the right call &mdash; you can undo a seam without disturbing the squares, which is worth a lot while you're still learning to keep them even. Our <a href="/guides/how-to-crochet-in-the-round.html">crochet in the round</a> guide covers the motif construction itself.</p>
+
+    <h2 id="personalise">Personalising the wreath</h2>
+
+    <p>Once the ring is made, it becomes a blank you can dress however the season calls for. Stitch a few small bells or wooden beads onto the joins, tuck a sprig of faux greenery under the bow, or swap the crocheted bow for a length of wired ribbon that holds a fuller shape. If it's a gift, a personalised wreath with the recipient's initials worked in one contrasting square is the kind of detail people keep. The only rule is to keep additions light &mdash; the ring has no wire frame, so heavy beads or a dense bow will pull the circle into an oval. Balance any weight evenly, and the wreath will keep its shape on the door all season.</p>
+
+    <h2 id="mistakes">Common mistakes &amp; fixes</h2>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the ring won't close into a tidy circle.<br>
+      <strong>Fix:</strong> the motifs are slightly different sizes or the seam was pulled too tight. Lay the eight squares in a circle first, match like edges together, and seam with a loose, even whip stitch that lets the ring relax into shape.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the squares come out different sizes.<br>
+      <strong>Fix:</strong> your tension drifted between motifs. Check each square against the first as you finish it, and if one is noticeably off, block or redo it before joining &mdash; a size mismatch is far harder to hide once the ring is sewn.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the joined ring puckers and won't lie flat.<br>
+      <strong>Fix:</strong> the seams were pulled tight in places. Block the finished ring by pinning it to a round shape while slightly damp and letting it dry &mdash; the <a href="/guides/how-to-block-crochet.html">how to block crochet</a> guide shows the pinning technique.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the bow looks flat and lopsided.<br>
+      <strong>Fix:</strong> the longer strip wasn't gathered evenly before wrapping. Pinch the centre into even loops, secure it with a few stitches, then wrap the shorter strip around the middle and stitch it closed rather than just tying it.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the wreath sags into an oval once hung.<br>
+      <strong>Fix:</strong> the yarn was too soft or the embellishments too heavy. Choose a firmer yarn next time, keep the bow and beads light, and re-block the ring flat to restore its circle before re-hanging.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the hanging loop pulls through the top of the wreath.<br>
+      <strong>Fix:</strong> it was anchored through a single stitch. Work the loop through two or three stitches of a top motif and secure it firmly, so the weight of the wreath is spread rather than hanging on one thread.
+    </div>
+
+    <h2 class="faq" id="faq">Frequently asked questions</h2>
     <h3>Do I need a foam or wire wreath form?</h3>
     <p>No &mdash; joining the motifs into a ring gives the wreath its shape on its own, though you can stitch it to a form if you want extra rigidity.</p>
 
@@ -358,6 +434,9 @@ footer .wrap{max-width:1100px;}
 
     <h3>Can I hang it on an outside door?</h3>
     <p>Yes, though natural-fibre yarn can stretch or fade in wet weather &mdash; if it will live outdoors, choose an acrylic or cotton-blend and re-block it now and then.</p>
+
+    <h3>How long does a full wreath take to make?</h3>
+    <p>At a relaxed pace, each motif takes fifteen to twenty minutes, so the eight squares come together over a couple of evenings, with another hour or so for joining, the bow, and the hanging loop. It's a comfortably two-session project for a beginner.</p>
 
 
 

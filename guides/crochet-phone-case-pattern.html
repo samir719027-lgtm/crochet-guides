@@ -102,6 +102,14 @@ document.addEventListener('click', function(e){
         "@type": "Answer",
         "text": "Yes. Before seaming the sides, stitch a short chain loop into one corner of the fold, or attach a crocheted strap to the top edge afterward. A loop tucked just inside the seam is the tidiest option."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I wash a crochet phone case?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Spot-clean it with a damp cloth for everyday marks, or hand-wash in cool water with a little gentle detergent and lay it flat to dry. Skip the machine and the dryer, which can stretch the ribbing out of its snug fit."
+      }
     }
   ]
 }
@@ -144,6 +152,13 @@ li{margin-bottom:8px;}
 .video-caption{font-size:13px;color:var(--ink-soft);margin-top:-14px;margin-bottom:24px;}
 .callout{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin:24px 0;font-size:15.5px;}
 .callout strong{color:var(--berry);}
+.jumpnav{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:28px 0;font-size:14.5px;}
+.jumpnav strong{display:block;margin-bottom:8px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--berry);}
+.jumpnav ol{margin:0;padding-left:18px;columns:2;column-gap:24px;}
+.jumpnav li{margin-bottom:6px;break-inside:avoid;}
+.jumpnav a{text-decoration:none;font-weight:600;}
+.jumpnav a:hover{text-decoration:underline;}
+@media (max-width:480px){.jumpnav ol{columns:1;}}
 .step-box{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:20px 0;}
 .step-box h3{margin-top:0;}
 code{background:rgba(42,36,30,0.08);padding:2px 6px;border-radius:3px;font-family:'Space Mono',monospace;font-size:14px;}
@@ -183,7 +198,7 @@ footer .wrap{max-width:1100px;}
 
 @media print{
   h2:has(+ .pick){display:none!important;}
-  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
+  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout, .jumpnav{display:none!important;}
   body{background:#fff;}
   article{padding:0;}
   .hero-img{max-height:200px;}
@@ -293,11 +308,29 @@ footer .wrap{max-width:1100px;}
 
     <p>In my classes, the crochet phone case is the project people most often start after a dishcloth &mdash; and the mistake I see most often is skipping the measuring step because it feels obvious. A student once spent an evening working a lovely ribbed sleeve, only to slide her phone in and find it stuck halfway. The problem wasn't her stitching; she'd measured the phone without its case on. That single afternoon taught me to insist on a quick swatch and one honest measurement before the hook touches yarn. This case is built to your own numbers rather than a fixed chart, so it fits the phone you own now &mdash; and still works when you upgrade next year. If you need a refresher on the half double crochet stitch it uses, our <a href="/guides/basic-crochet-stitches.html">basic crochet stitches guide</a> has you covered.</p>
 
+    <p>What sold me on this project is that it has no fixed size to get wrong. Because you build it from your own phone's numbers, the same page works for a slim phone today and a bigger one next year. I've watched students make a case, then a week later make a second one for a friend's phone without once opening a size chart. If you can measure and count, you can make this &mdash; everything else is just the same half double crochet, row after row.</p>
+
+    <div class="jumpnav">
+      <strong>Jump to</strong>
+      <ol>
+        <li><a href="#materials">What you need</a></li>
+        <li><a href="#measure">Measure and swatch</a></li>
+        <li><a href="#body">Work the body</a></li>
+        <li><a href="#seam">Fold and seam</a></li>
+        <li><a href="#flap">Flap and closure</a></li>
+        <li><a href="#yarn">Yarn and stretch</a></li>
+        <li><a href="#sizing">Snug fit</a></li>
+        <li><a href="#lining">Lining and structure</a></li>
+        <li><a href="#mistakes">Common mistakes &amp; fixes</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
     <div class="callout">
       <strong>Quick answer:</strong> Work a rectangle in half double crochet through the back loop only for a stretchy, ribbed texture, sized to your phone, then fold and seam the sides.
     </div>
 
-    <h2>What you need</h2>
+    <h2 id="materials">What you need</h2>
 
     <ul>
       <li>A small amount of worsted weight yarn</li>
@@ -306,7 +339,7 @@ footer .wrap{max-width:1100px;}
       <li>Optional: 1 button, for a flap closure</li>
     </ul>
 
-    <h2>Step 1: measure and swatch</h2>
+    <h2 id="measure">Step 1: measure and swatch</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -317,7 +350,7 @@ footer .wrap{max-width:1100px;}
       </ol>
     </div>
 
-    <h2>Step 2: work the body</h2>
+    <h2 id="body">Step 2: work the body</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -329,7 +362,7 @@ footer .wrap{max-width:1100px;}
       </ol>
     </div>
 
-    <h2>Step 3: fold and seam</h2>
+    <h2 id="seam">Step 3: fold and seam</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -340,7 +373,7 @@ footer .wrap{max-width:1100px;}
       </ol>
     </div>
 
-    <h2>Optional: flap and button closure</h2>
+    <h2 id="flap">Optional: flap and button closure</h2>
 
     <p>For a top flap, leave one side unclosed at the top instead &mdash; continue a few extra rows on the back panel only, shape a point or rounded flap, add a buttonhole (a small chain space in the last row) or a button loop, and stitch a matching button to the front panel.</p>
 
@@ -349,7 +382,51 @@ footer .wrap{max-width:1100px;}
     </div>
     <p class="video-caption">A compact project walkthrough, useful for seeing how a snug-fitting case is shaped and finished.</p>
 
-    <h2 class="faq">Frequently asked questions</h2>
+    <h2 id="yarn">Yarn choice and stretch</h2>
+
+    <p>The ribbed back-loop fabric gives this case its grip, but it also wants to stretch, so the yarn you choose decides how well it holds up. A worsted-weight cotton or a cotton-acrylic blend is the safest, because cotton resists stretching and keeps the sleeve snug around your phone rather than sagging loose after a few weeks of pocket wear. Pure acrylic is springier and will ease off the sides over time, so if that's all you have, work one hook size smaller than the label suggests to tighten the fabric. Avoid fluffy or slippery yarns entirely &mdash; they hide the rib texture and slide against the phone instead of gripping it. For more on how fibre changes the drape, see <a href="/guides/yarn-weight-explained.html">yarn weight explained</a>.</p>
+
+    <h2 id="sizing">Sizing for a snug fit</h2>
+
+    <p>A case that fits is a case you measured, not one you estimated. Measure the phone with its case on, because that's what the sleeve has to hold &mdash; a student once skipped this and made a lovely case for a phone she'd never actually put back in its bumper. Add about a centimetre of ease to the width for comfort, and work the body to twice the height plus two or three centimetres so the fold has room to turn without straining the seams. The ribbing is forgiving, but it only works in your favour if you start from honest numbers; a swatch of ten stitches and ten rows gives you the gauge to convert those measurements into a chain count. If your first attempt comes out off, our <a href="/guides/fixing-project-size.html">fixing project size</a> guide shows how to recover it.</p>
+
+    <h2 id="lining">Lining and structure</h2>
+
+    <p>After a few months of daily use, even a firm cotton case can soften, and that's when a simple lining earns its keep. Cut a rectangle of soft cotton fabric the same size as your worked piece and hand-stitch it to the inside before you seam the sides, so the lining sits between the phone and the yarn. It stops the case stretching, protects the screen edge from snagging on stitches, and hides the seamed ends so the inside looks finished. If you'd rather not line it, at least weave every end through the ribbing and press the seamed sides flat with a warm iron over a cloth &mdash; the flatter the seams, the less they catch on pockets and bags.</p>
+
+    <h2 id="mistakes">Common mistakes &amp; fixes</h2>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the phone gets stuck halfway into the sleeve.<br>
+      <strong>Fix:</strong> it was measured without its case on, or with too little ease. Re-measure with the case fitted, add about a centimetre of ease to the width, and adjust your chain count before you rework it.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the case fits at first but sags loose after a few weeks.<br>
+      <strong>Fix:</strong> a stretchy acrylic on too large a hook relaxed with wear. Switch to cotton or a cotton-blend, or drop a hook size, so the ribbing keeps its grip instead of easing off the sides.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the bottom edge curls up instead of lying flat.<br>
+      <strong>Fix:</strong> the turning chains are being pulled too tight. Keep them loose and even, and work the first row into both loops as written before switching to back-loop-only, so the foundation edge stays straight.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the side seams look bulky and catch on pockets.<br>
+      <strong>Fix:</strong> a heavy seam was used. Seam from the inside with a neat whip stitch through the back loops only, and press the finished seams flat so they sit slim against the phone.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> a woven-in end rubs against the screen.<br>
+      <strong>Fix:</strong> the end was left on the inside face. Weave all tails through the ribbing and trim them flush, or add a fabric lining so no yarn end ever touches the phone's surface.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the flap won't stay closed over the phone.<br>
+      <strong>Fix:</strong> the buttonhole and button are misaligned. Mark the button's position against the flap before you sew it on, and make the buttonhole slightly smaller than the button so it catches and holds.
+    </div>
+
+    <h2 class="faq" id="faq">Frequently asked questions</h2>
     <h3>Why work through the back loop only?</h3>
     <p>It creates a stretchy, ribbed texture, similar to a knit rib, that hugs the phone's shape and adds grip, instead of a flat, loose fabric.</p>
 
@@ -364,6 +441,9 @@ footer .wrap{max-width:1100px;}
 
     <h3>Can I add a wrist strap to my phone case?</h3>
     <p>Yes. Before seaming the sides, stitch a short chain loop into one corner of the fold, or attach a crocheted strap to the top edge afterward. A loop tucked just inside the seam is the tidiest option.</p>
+
+    <h3>How do I wash a crochet phone case?</h3>
+    <p>Spot-clean it with a damp cloth for everyday marks, or hand-wash in cool water with a little gentle detergent and lay it flat to dry. Skip the machine and the dryer, which can stretch the ribbing out of its snug fit.</p>
 
 
 

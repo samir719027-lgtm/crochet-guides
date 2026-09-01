@@ -102,6 +102,14 @@ document.addEventListener('click', function(e){
         "@type": "Answer",
         "text": "Yes &mdash; thread a longer loop through one point to tie onto a gift, or string several along a chain for a festive garland."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I store them so they last for next year?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Layer the stiffened ornaments flat between sheets of tissue paper in a shallow box, so the points don't get bent or creased under weight. Kept dry and out of direct sun, they'll hold their shape and colour for several seasons."
+      }
     }
   ]
 }
@@ -144,6 +152,13 @@ li{margin-bottom:8px;}
 .video-caption{font-size:13px;color:var(--ink-soft);margin-top:-14px;margin-bottom:24px;}
 .callout{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin:24px 0;font-size:15.5px;}
 .callout strong{color:var(--berry);}
+.jumpnav{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:28px 0;font-size:14.5px;}
+.jumpnav strong{display:block;margin-bottom:8px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--berry);}
+.jumpnav ol{margin:0;padding-left:18px;columns:2;column-gap:24px;}
+.jumpnav li{margin-bottom:6px;break-inside:avoid;}
+.jumpnav a{text-decoration:none;font-weight:600;}
+.jumpnav a:hover{text-decoration:underline;}
+@media (max-width:480px){.jumpnav ol{columns:1;}}
 .step-box{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:20px 0;}
 .step-box h3{margin-top:0;}
 code{background:rgba(42,36,30,0.08);padding:2px 6px;border-radius:3px;font-family:'Space Mono',monospace;font-size:14px;}
@@ -183,7 +198,7 @@ footer .wrap{max-width:1100px;}
 
 @media print{
   h2:has(+ .pick){display:none!important;}
-  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
+  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout, .jumpnav{display:none!important;}
   body{background:#fff;}
   article{padding:0;}
   .hero-img{max-height:200px;}
@@ -304,11 +319,28 @@ footer .wrap{max-width:1100px;}
 
     <p>In my classes, the week before Christmas is when I break out the tiny hooks and leftover yarn, because crochet Christmas ornaments are the fastest way to watch a beginner's confidence lift. I remember one student who spent a whole term convinced she was too slow to make anything worth keeping &mdash; then produced a puff-stitch star in a single lunch break, starting from nothing but a <a href="/guides/magic-ring-tutorial.html">magic ring</a>. She hung it from her bag for the rest of the season, checking it now and then as if to remind herself she'd actually made it. That's the magic of these little ornaments: small enough to finish quickly, detailed enough to feel like real accomplishment, and perfect for using up every odd scrap of yarn.</p>
 
+    <p>I still keep a shoebox of the first stars I ever made, a little dustier each year but still holding their points, and every December I add one more. There's something about watching a floppy scrap of yarn turn rigid and crisp overnight that feels like magic in the middle of a holiday rush. These two ornaments are deliberately simple &mdash; a puff-stitch star and a picot snowflake &mdash; because at this time of year most of us need a project that fits into a lunch break, not one that eats a whole weekend.</p>
+
+    <div class="jumpnav">
+      <strong>Jump to</strong>
+      <ol>
+        <li><a href="#materials">What you need</a></li>
+        <li><a href="#star">Puff-stitch star</a></li>
+        <li><a href="#snowflake">Simple snowflake</a></li>
+        <li><a href="#stiffen">Stiffening and hanging</a></li>
+        <li><a href="#yarn">Yarn and finish</a></li>
+        <li><a href="#garland">Turning them into a garland</a></li>
+        <li><a href="#compare">Star vs snowflake</a></li>
+        <li><a href="#mistakes">Common mistakes &amp; fixes</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
     <div class="callout">
       <strong>Quick answer:</strong> Both ornaments start from a magic ring and finish in under 30 minutes; stiffening with diluted glue afterward keeps them from drooping on the tree.
     </div>
 
-    <h2>What you need</h2>
+    <h2 id="materials">What you need</h2>
 
     <ul>
       <li>Small amounts of worsted or DK weight yarn (white, cream, or metallic blends look festive)</li>
@@ -318,7 +350,7 @@ footer .wrap{max-width:1100px;}
       <li>Optional: fabric stiffener or diluted white craft glue</li>
     </ul>
 
-    <h2>Ornament 1: puff-stitch star</h2>
+    <h2 id="star">Ornament 1: puff-stitch star</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -331,7 +363,7 @@ footer .wrap{max-width:1100px;}
       </ol>
     </div>
 
-    <h2>Ornament 2: simple snowflake</h2>
+    <h2 id="snowflake">Ornament 2: simple snowflake</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -343,7 +375,7 @@ footer .wrap{max-width:1100px;}
       </ol>
     </div>
 
-    <h2>Stiffening and hanging</h2>
+    <h2 id="stiffen">Stiffening and hanging</h2>
 
     <p>Mix roughly equal parts white craft glue and water, dip each ornament, gently squeeze out the excess, and shape flat on wax paper or a plastic surface to dry overnight. Once dry, thread a small loop of ribbon or thread through one point for hanging.</p>
 
@@ -352,7 +384,51 @@ footer .wrap{max-width:1100px;}
     </div>
     <p class="video-caption">A demonstration of crocheting snowflake and star ornaments, useful for seeing the stitch-by-stitch technique for each shape.</p>
 
-    <h2 class="faq">Frequently asked questions</h2>
+    <h2 id="yarn">Yarn and finish for a sparkly look</h2>
+
+    <p>Cotton gives the crispest, most durable ornaments because it stiffens beautifully and keeps its points; acrylic works but can feel a little plasticky once the glue sets. For shine, a metallic-blend thread, or a strand of sparkle carried alongside your working yarn, adds the holiday gleam without changing the stitch count &mdash; just work the two strands together as one. White, cream, and a soft silver read as snowy, while a deep red star against a white tree is the classic look I keep coming back to. Keep the yarn a lighter weight than you'd use for a wearable; DK or sport gives a finer, more delicate ornament that stiffens to a crisper finish than chunky worsted. The <a href="/guides/yarn-weight-explained.html">yarn weight explained</a> guide helps if you're swapping yarns.</p>
+
+    <h2 id="garland">Turning them into a garland</h2>
+
+    <p>If you make more than a handful, string them into a garland rather than hanging each one alone. Thread a length of thin ribbon or cotton cord through one point of every ornament, spacing them six to eight inches apart with a small knot on each side so they don't slide into a clump. Mix the stars and snowflakes in alternating colours, and work in a few plain wooden beads between them to let each crocheted piece breathe. Because they're stiffened, they hang without tangling the way a soft ornament would, and the whole thing packs flat into a box for next year. A garland of twenty or so pieces, made a few a night through late November, is a genuinely achievable way to decorate a mantel you made almost entirely yourself.</p>
+
+    <h2 id="compare">Puff stitch vs picot: which to start with</h2>
+
+    <p>If you're new to both techniques, start with the snowflake. Its twelve single crochet into a magic ring and a series of chain-five picot points are the gentler introduction &mdash; no counting loops on the hook, just a tidy repeating rhythm. The star's puff stitch asks you to pull up four loops in the same stitch and close them together with nine loops on the hook, which feels fiddly until you've done it twice and then suddenly makes sense. Work the snowflake first to warm up, then try the star, and you'll have both skills by the end of an afternoon. Whichever you pick, the shapes share the same magic-ring start, so once that first step is comfortable the rest is just following your hands. A refresher on the ring is in our <a href="/guides/magic-ring-tutorial.html">magic ring tutorial</a>, and the puff stitch is covered in <a href="/guides/basic-crochet-stitches.html">basic crochet stitches</a>.</p>
+
+    <h2 id="mistakes">Common mistakes &amp; fixes</h2>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the puff stitch comes out flat instead of puffy.<br>
+      <strong>Fix:</strong> you haven't pulled up enough loops. Work four loops in the same stitch (nine loops total on the hook) before pulling through, and keep the loops a uniform height so the puff stands up evenly.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the ornament droops and loses its shape after hanging.<br>
+      <strong>Fix:</strong> it was skipped or under-stiffened. Dip it in a roughly equal-parts glue-and-water mix, squeeze out the excess, and pin the points open to dry overnight rather than air-drying loose.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the star's points are uneven or different sizes.<br>
+      <strong>Fix:</strong> the magic ring wasn't pulled fully closed, or the puffs were worked at different heights. Close the centre tightly first, and aim for matching loop heights on every puff so the five points come out even.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the snowflake curls up at the edges as it dries.<br>
+      <strong>Fix:</strong> it wasn't pinned flat while stiffening. Shape it on wax paper and pin each point open before it dries &mdash; once the glue sets in a curled position, it's hard to flatten without re-wetting it.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the finished ornament feels sticky or looks cloudy.<br>
+      <strong>Fix:</strong> too much glue, or it wasn't diluted enough. Use roughly equal parts glue and water, squeeze out the excess thoroughly, and if a piece is already cloudy, wipe it gently with a barely damp cloth while it's still fresh.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the hanging loop pulls out of the ornament.<br>
+      <strong>Fix:</strong> it was attached through a single loose stitch. Thread the ribbon or thread through two or three stitches of one point and tie it securely before stiffening, so the loop is anchored in the hardened fabric.
+    </div>
+
+    <h2 class="faq" id="faq">Frequently asked questions</h2>
     <h3>Do I have to stiffen them?</h3>
     <p>No, but unstiffened ornaments will droop and lose their shape over time &mdash; stiffening is optional but recommended for anything hung on a tree.</p>
 
@@ -367,6 +443,9 @@ footer .wrap{max-width:1100px;}
 
     <h3>Can I use these as gift toppers or garlands?</h3>
     <p>Yes &mdash; thread a longer loop through one point to tie onto a gift, or string several along a chain for a festive garland.</p>
+
+    <h3>How do I store them so they last for next year?</h3>
+    <p>Layer the stiffened ornaments flat between sheets of tissue paper in a shallow box, so the points don't get bent or creased under weight. Kept dry and out of direct sun, they'll hold their shape and colour for several seasons.</p>
 
 
 

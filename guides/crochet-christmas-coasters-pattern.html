@@ -102,6 +102,14 @@ document.addEventListener('click', function(e){
         "@type": "Answer",
         "text": "Yes &mdash; simply add one or two more increase rounds before fastening off, continuing the same 6-stitch-per-round pattern until the circle reaches your desired size."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I block the coasters before or after embroidering?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Block the circles flat first, before you embroider, so the snowflake lands on an even surface and the embroidery doesn't have to fight a rippled base. Give them a light touch-up block afterward if the stitching tightened anything."
+      }
     }
   ]
 }
@@ -144,6 +152,13 @@ li{margin-bottom:8px;}
 .video-caption{font-size:13px;color:var(--ink-soft);margin-top:-14px;margin-bottom:24px;}
 .callout{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin:24px 0;font-size:15.5px;}
 .callout strong{color:var(--berry);}
+.jumpnav{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:28px 0;font-size:14.5px;}
+.jumpnav strong{display:block;margin-bottom:8px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--berry);}
+.jumpnav ol{margin:0;padding-left:18px;columns:2;column-gap:24px;}
+.jumpnav li{margin-bottom:6px;break-inside:avoid;}
+.jumpnav a{text-decoration:none;font-weight:600;}
+.jumpnav a:hover{text-decoration:underline;}
+@media (max-width:480px){.jumpnav ol{columns:1;}}
 .step-box{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:20px 0;}
 .step-box h3{margin-top:0;}
 code{background:rgba(42,36,30,0.08);padding:2px 6px;border-radius:3px;font-family:'Space Mono',monospace;font-size:14px;}
@@ -183,7 +198,7 @@ footer .wrap{max-width:1100px;}
 
 @media print{
   h2:has(+ .pick){display:none!important;}
-  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
+  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout, .jumpnav{display:none!important;}
   body{background:#fff;}
   article{padding:0;}
   .hero-img{max-height:200px;}
@@ -293,11 +308,27 @@ footer .wrap{max-width:1100px;}
 
     <p>In my classes, the moment a student finishes their first flat circle is the moment crochet finally clicks &mdash; and crochet Christmas coasters are the perfect project for it. I still remember a woman who stayed behind after an evening class, quietly ripping out her fifth attempt because the edges kept rippling. She wasn't doing anything wrong; she'd simply miscounted her increases in round three. We started the centre again together with a magic ring, and ten minutes later she was holding a coaster that lay perfectly flat on the table. That's the beauty of these coasters: they're small enough to finish in one sitting, yet they teach the exact increase rhythm every <a href="/guides/how-to-crochet-in-the-round.html">in-the-round project</a> depends on.</p>
 
+    <p>A single coaster teaches the one rhythm every round project depends on &mdash; six increases a round, each one placed a stitch further apart than the last. Once you can feel that pattern without counting it, granny squares, hats, and amigurumi heads all stop being mysterious. One of my students made the whole set for her mother's Christmas table and hid a slightly different snowflake on each coaster, so the family could tell whose mug was whose. That's the kind of small personal touch these coasters quietly invite.</p>
+
+    <div class="jumpnav">
+      <strong>Jump to</strong>
+      <ol>
+        <li><a href="#materials">What you need</a></li>
+        <li><a href="#body">Coaster body</a></li>
+        <li><a href="#snowflake">Snowflake detail</a></li>
+        <li><a href="#yarn">Yarn and colour choice</a></li>
+        <li><a href="#embroidery">Snowflake variations</a></li>
+        <li><a href="#gifting">A set for gifting</a></li>
+        <li><a href="#mistakes">Common mistakes &amp; fixes</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
     <div class="callout">
       <strong>Quick answer:</strong> Crochet a flat circle in the round using standard 6-stitch-per-round increases until it reaches about 4 inches across, then embroider a simple cross-stitch snowflake on top. Repeat 4 times.
     </div>
 
-    <h2>What you need</h2>
+    <h2 id="materials">What you need</h2>
 
     <ul>
       <li>Worsted weight (#4) cotton yarn, small amounts in red, green, and cream</li>
@@ -306,7 +337,7 @@ footer .wrap{max-width:1100px;}
       <li>Contrast color thread or yarn for the snowflake detail</li>
     </ul>
 
-    <h2>Coaster body (make 4)</h2>
+    <h2 id="body">Coaster body (make 4)</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -321,7 +352,7 @@ footer .wrap{max-width:1100px;}
       </ol>
     </div>
 
-    <h2>Snowflake detail</h2>
+    <h2 id="snowflake">Snowflake detail</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -338,7 +369,51 @@ footer .wrap{max-width:1100px;}
     </div>
     <p class="video-caption">A quick coaster walkthrough, useful for seeing how the round motif is worked and finished flat.</p>
 
-    <h2 class="faq">Frequently asked questions</h2>
+    <h2 id="yarn">Yarn and colour choice</h2>
+
+    <p>Cotton is the right call here, and not just because it looks crisp. A coaster's whole job is to sit under a hot mug and a cold glass, and cotton absorbs the condensation that acrylic simply lets bead up and drip onto the table. A worsted-weight mercerised cotton gives the sharpest stitch definition, so your snowflake sits proud of the surface instead of sinking into fuzz. For colour, red, green, and cream read instantly as Christmas, but I often steer students toward a single deep red with a white snowflake on every coaster &mdash; it looks more considered on a table than three clashing shades. If you only have acrylic to hand, it still works; just block it a touch longer and expect it to repel rather than absorb moisture. The <a href="/guides/yarn-weight-explained.html">yarn weight explained</a> guide covers the cotton-versus-acrylic differences if you want the full picture. Whichever fibre you pick, keep all four coasters in the same yarn and hook so the set matches; mixing a cotton coaster with an acrylic one shows up as a subtle size and sheen difference you'll notice every time you stack them.</p>
+
+    <h2 id="embroidery">Snowflake variations and personalisation</h2>
+
+    <p>The six-point snowflake is just a starting point. Because it's embroidered over the finished circle rather than worked in, you can change it on every coaster without touching the crochet at all &mdash; try a simple Christmas tree (a vertical line with two short diagonal branches), a star, or a single initial in the centre. The one rule is to keep your embroidery stitches loose enough that they don't pinch the fabric: pulling the thread tight draws the coaster into a cup and undoes all your flat-circle work. Use a tapestry needle and a single strand of contrast yarn or a couple of strands of embroidery thread, and finish every end on the back where a glass will hide it. If you've never embroidered over crochet before, our <a href="/guides/basic-crochet-stitches.html">basic stitches guide</a> covers the foundation you're stitching onto.</p>
+
+    <h2 id="gifting">A matching set for gifting</h2>
+
+    <p>Four coasters tied with a ribbon make a gift that looks far more expensive than it was, and because they don't depend on anyone's size, they're safe to make without knowing much about the recipient. I like to pair the set with a small box of loose-leaf tea or a nice mug so the gift has a centrepiece, and tuck in a note saying they're hand-washable. The real trick to a set is consistency: make all four before you embroider, count your rounds the same way each time, and lay them side by side as you go so a slightly loose one never sneaks through unnoticed. A set that's uniform reads as handmade and thoughtful; a set where one coaster is half an inch bigger reads as rushed. For a house-warming or a neighbour, I'll often make just two and pair them with a small jar of hot chocolate mix, which turns the coasters from a set into a complete little gift that took one evening.</p>
+
+    <h2 id="mistakes">Common mistakes &amp; fixes</h2>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the circle ripples at the edges instead of lying flat.<br>
+      <strong>Fix:</strong> there are too many increases, or an increase landed in the wrong spot. Rip back to the round that still sat flat and recount &mdash; you should be adding exactly six stitches per round, each spaced one stitch further apart.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the circle cups upward like a shallow bowl.<br>
+      <strong>Fix:</strong> there are too few increases for the round count. Add the missing increase round, or check your tension hasn't tightened midway &mdash; a hook size that drifts smaller will pull the circle into a cup.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the four coasters come out slightly different sizes.<br>
+      <strong>Fix:</strong> your tension or hook changed between coasters. Use the same hook throughout, count the rounds identically, and make all four before embroidering so you can spot and redo an outlier early.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the snowflake pulls the coaster out of shape once embroidered.<br>
+      <strong>Fix:</strong> the embroidery thread was pulled too tight. Loosen each stitch so it sits on the surface without pinching, and re-block the coaster flat after embroidering if it still cups.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> a stray end pokes through the front of the coaster.<br>
+      <strong>Fix:</strong> the ends were woven on the wrong side. Finish every tail on the back, threading it through several stitches in the same colour, and snip flush so nothing shows on the embroidered face.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the red dye bleeds onto the cream when you first wash it.<br>
+      <strong>Fix:</strong> the red wasn't colour-fast. Hand-wash each coaster separately in cool water the first time, and test a scrap first if you're mixing a bright red with white before gifting.
+    </div>
+
+    <h2 class="faq" id="faq">Frequently asked questions</h2>
     <h3>Can I make these without embroidery?</h3>
     <p>Yes &mdash; plain circles in holiday colors still work well on their own, or swap the snowflake for a contrast-color edging round instead.</p>
 
@@ -353,6 +428,9 @@ footer .wrap{max-width:1100px;}
 
     <h3>Can I make them bigger to use as mug rugs?</h3>
     <p>Yes &mdash; simply add one or two more increase rounds before fastening off, continuing the same 6-stitch-per-round pattern until the circle reaches your desired size.</p>
+
+    <h3>Should I block the coasters before or after embroidering?</h3>
+    <p>Block the circles flat first, before you embroider, so the snowflake lands on an even surface and the embroidery doesn't have to fight a rippled base. Give them a light touch-up block afterward if the stitching tightened anything.</p>
 
 
 

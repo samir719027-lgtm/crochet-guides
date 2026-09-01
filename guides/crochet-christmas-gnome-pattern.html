@@ -102,6 +102,14 @@ document.addEventListener('click', function(e){
         "@type": "Answer",
         "text": "Yes &mdash; swap the red for any colour you like; pastel yarns make sweet spring gnomes, and neutral tones work as year-round shelf decor."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it safe to give to a small child?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If it's for a baby or toddler, skip the optional bead or pom-pom nose and embroider a small nose instead, so there's nothing a little one could pull loose. The rest of the gnome is soft and has no small parts, making it a safe shelf-sitter with that one adjustment."
+      }
     }
   ]
 }
@@ -144,6 +152,13 @@ li{margin-bottom:8px;}
 .video-caption{font-size:13px;color:var(--ink-soft);margin-top:-14px;margin-bottom:24px;}
 .callout{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin:24px 0;font-size:15.5px;}
 .callout strong{color:var(--berry);}
+.jumpnav{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:28px 0;font-size:14.5px;}
+.jumpnav strong{display:block;margin-bottom:8px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--berry);}
+.jumpnav ol{margin:0;padding-left:18px;columns:2;column-gap:24px;}
+.jumpnav li{margin-bottom:6px;break-inside:avoid;}
+.jumpnav a{text-decoration:none;font-weight:600;}
+.jumpnav a:hover{text-decoration:underline;}
+@media (max-width:480px){.jumpnav ol{columns:1;}}
 .step-box{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:20px 0;}
 .step-box h3{margin-top:0;}
 code{background:rgba(42,36,30,0.08);padding:2px 6px;border-radius:3px;font-family:'Space Mono',monospace;font-size:14px;}
@@ -183,7 +198,7 @@ footer .wrap{max-width:1100px;}
 
 @media print{
   h2:has(+ .pick){display:none!important;}
-  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout{display:none!important;}
+  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout, .jumpnav{display:none!important;}
   body{background:#fff;}
   article{padding:0;}
   .hero-img{max-height:200px;}
@@ -298,11 +313,28 @@ footer .wrap{max-width:1100px;}
 
     <p>In my classes, a crochet Christmas gnome is the project I reach for when a beginner wants to try <a href="/guides/amigurumi-for-beginners.html">amigurumi</a> without committing to a full doll. I'll never forget a student who stitched her gnome's body beautifully, then stuffed it so timidly it flopped over like a tired scarecrow. The fix wasn't more skill &mdash; it was more stuffing, packed firmly down into the base before she closed it up. Once she'd tied on the yarn beard and set the pointed hat at a jaunty angle, that little gnome stood upright on the shelf as if it had always lived there. No face to embroider, no fiddly limbs: just satisfying shaping and a project you can finish in a single evening.</p>
 
+    <p>The gnome also hides a beginner's secret: there are no arms, legs, or face to get wrong, so every stitch goes into the two parts that matter &mdash; the body and the hat. I've taught this to people who'd never touched a magic ring, and by the end of the evening they had a little red-capped figure grinning up from the table. It's the amigurumi project I recommend when the idea of a full bear still feels like too much, but you're ready to watch a shape grow in your hands.</p>
+
+    <div class="jumpnav">
+      <strong>Jump to</strong>
+      <ol>
+        <li><a href="#materials">What you need</a></li>
+        <li><a href="#body">Body</a></li>
+        <li><a href="#hat">Hat</a></li>
+        <li><a href="#assembly">Assembly</a></li>
+        <li><a href="#yarn">Yarn and stuffing</a></li>
+        <li><a href="#beard">The beard</a></li>
+        <li><a href="#standing">Standing and gifting</a></li>
+        <li><a href="#mistakes">Common mistakes &amp; fixes</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
     <div class="callout">
       <strong>Quick answer:</strong> Crochet a cone-shaped body from a magic ring, stuff it, add a separate pointed hat worked the same way, and finish by tying strands of cream yarn into a beard between the hat and the body.
     </div>
 
-    <h2>What you need</h2>
+    <h2 id="materials">What you need</h2>
 
     <ul>
       <li>Worsted weight (#4) yarn: red or another festive color (body/hat) and cream (beard)</li>
@@ -312,7 +344,7 @@ footer .wrap{max-width:1100px;}
       <li>Optional: small wooden bead or pom-pom for the nose</li>
     </ul>
 
-    <h2>Body</h2>
+    <h2 id="body">Body</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -326,7 +358,7 @@ footer .wrap{max-width:1100px;}
       </ol>
     </div>
 
-    <h2>Hat</h2>
+    <h2 id="hat">Hat</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -338,7 +370,7 @@ footer .wrap{max-width:1100px;}
       </ol>
     </div>
 
-    <h2>Assembly</h2>
+    <h2 id="assembly">Assembly</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -355,7 +387,51 @@ footer .wrap{max-width:1100px;}
     </div>
     <p class="video-caption">A step-by-step gnome walkthrough, useful for seeing how the hat, beard, and body are shaped and assembled.</p>
 
-    <h2 class="faq">Frequently asked questions</h2>
+    <h2 id="yarn">Yarn and stuffing</h2>
+
+    <p>A smooth worsted-weight yarn gives the cleanest gnome, because the simple cone shape shows every stitch &mdash; a fuzzy or novelty yarn hides the shaping that makes it read as a gnome. Acrylic or a cotton-acrylic blend is my default for both the body and the hat, and a cream of the same weight for the beard keeps the strands consistent. Stuffing matters as much as yarn: use polyester fiberfill and pack it firmly, adding small pinches as you go rather than one big wad at the end, so the body stands straight instead of slouching. For a weighted, stable base, a few tablespoons of poly pellets or dried rice sealed in a small cloth bag sit in the bottom before the fiberfill. Our <a href="/guides/best-yarn-for-amigurumi.html">best yarn for amigurumi</a> and <a href="/guides/amigurumi-starter-kit.html">starter kit</a> guides cover the full setup.</p>
+
+    <h2 id="beard">The beard: attaching and shaping</h2>
+
+    <p>The beard is what makes the gnome, and it's all in how you attach it. Cut twelve to fifteen strands of cream yarn, each about four inches long, fold each in half, and attach the loop under the hat brim with a lark's head knot so the two loose ends hang down as the beard. Space the strands evenly across the front rather than bunching them at the centre, and trim them in a gentle curve &mdash; slightly shorter at the sides, longer at the chin &mdash; so the beard frames the nose instead of swallowing it. If a strand sits too high or pokes out, pull it down and re-trim; the loose ends are forgiving, so you can adjust until it looks right. It's the one step where a few extra minutes make all the difference.</p>
+
+    <h2 id="standing">Making it stand and gifting</h2>
+
+    <p>A gnome that stands on its own is a gnome that feels finished, and the secret is in the base. Pack the bottom firmly and flatten it against the table before closing the final round, and add a weighted pouch if you want it to stay put on a shelf. For a gift, these little figures are wonderfully low-stakes &mdash; no sizing, no washing instructions beyond a gentle hand-wash, and a whole family of them can be made from a few balls of scrap yarn. If you're making one for a young child, skip the bead or pom-pom nose and embroider a small triangle instead, so there's nothing that could come loose. Tuck in a card saying it's handmade and washable, and you've given something with real shelf presence.</p>
+
+    <h2 id="mistakes">Common mistakes &amp; fixes</h2>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the finished gnome flops over and won't stand.<br>
+      <strong>Fix:</strong> it was under-stuffed. Pack fiberfill firmly into the base, adding small pinches as you close the final round, or add a weighted pouch to the bottom so the body sits steady.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the hat sits crooked or keeps sliding off.<br>
+      <strong>Fix:</strong> the brim was made too wide or too narrow for the body. Increase until the hat brim matches the body's top edge, then stitch it on all the way around rather than at a few points.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the beard looks sparse or lopsided.<br>
+      <strong>Fix:</strong> too few strands, or they were bunched in one spot. Use twelve to fifteen strands, space them evenly under the brim, and trim a gentle curve so the beard looks full and balanced.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the nose bead falls off after a few days.<br>
+      <strong>Fix:</strong> it was glued rather than stitched. Sew a bead or pom-pom nose on securely with a few passes of thread, or embroider a small nose instead so there's nothing to detach.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the body looks lumpy instead of smoothly conical.<br>
+      <strong>Fix:</strong> the stuffing went in as a few large clumps. Add it in small pieces, smoothing with your fingers as you go, and check the shape between additions so it fills evenly.
+    </div>
+
+    <div class="callout mistake" style="border-left:3px solid var(--berry);">
+      <strong>Mistake:</strong> the hat slumps or creases at the point.<br>
+      <strong>Fix:</strong> the hat wasn't given any shape before attaching. Lightly stuff the tip or leave it empty, but secure the brim firmly to the body so the point stands rather than collapsing to one side.
+    </div>
+
+    <h2 class="faq" id="faq">Frequently asked questions</h2>
     <h3>Do gnomes need a face?</h3>
     <p>No &mdash; the classic Scandinavian-style gnome has no visible face, just a hat and a beard, which is part of what makes this pattern quick to finish.</p>
 
@@ -370,6 +446,9 @@ footer .wrap{max-width:1100px;}
 
     <h3>Can I use different colours for a non-Christmas gnome?</h3>
     <p>Yes &mdash; swap the red for any colour you like; pastel yarns make sweet spring gnomes, and neutral tones work as year-round shelf decor.</p>
+
+    <h3>Is it safe to give to a small child?</h3>
+    <p>If it's for a baby or toddler, skip the optional bead or pom-pom nose and embroider a small nose instead, so there's nothing a little one could pull loose. The rest of the gnome is soft and has no small parts, making it a safe shelf-sitter with that one adjustment.</p>
 
 
 
