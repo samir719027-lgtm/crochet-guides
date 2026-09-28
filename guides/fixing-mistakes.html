@@ -201,6 +201,14 @@ footer .wrap{max-width:1100px;}
 .search-result .r-cat{font-family:'Space Mono',monospace;font-size:10.5px;text-transform:uppercase;letter-spacing:0.06em;color:var(--berry);display:block;margin-bottom:2px;}
 .search-result .r-title{font-family:'Fraunces',serif;font-weight:600;font-size:15px;}
 .search-empty{color:var(--ink-soft);font-size:14px;padding:10px 8px;}
+
+    /* generated diagram figures */
+    .cg-fig { margin:28px 0; }
+    .cg-fig img { display:block; width:100%; max-width:640px; height:auto;
+      border:1px solid var(--line); border-radius:var(--radius);
+      background:var(--card); }
+    @media (max-width:560px) { .cg-fig { margin:20px 0; } }
+    @media print { .cg-fig { break-inside:avoid; } }
 </style>
 <script type="application/ld+json">
 {
@@ -305,35 +313,40 @@ footer .wrap{max-width:1100px;}
 
     <div class="problem" id="problem-1">
       <span class="tag">Problem 1</span>
-      <h2>Your project curls at the edges</h2>
+      <h2 id="curls">Your project curls at the edges</h2>
+<figure class="cg-fig"><img src="/img/fix-curls.svg" alt="Curling comes from tension tighter than the pattern's gauge, or from single crochet rows worked without a turning chain that matches the stitch height. Going up half a hook size usually resolves it." width="640" height="496" loading="lazy" decoding="async"></figure>
       <p><strong>Cause:</strong> tension tighter than the pattern's gauge, or single crochet rows without a turning chain that matches stitch height.</p>
       <p><strong>Fix:</strong> go up half a hook size and re-check your gauge swatch. If it's a single crochet piece, confirm you're using the turning chain height the pattern specifies. Not sure which hook to try next? See our <a href="/guides/best-crochet-hook-brands">hook size guide</a> and our <a href="/guides/hook-size-chart">conversion chart</a>. For the full breakdown, including how to fix a piece that's already curling, see our <a href="/guides/how-to-fix-curling-edges">dedicated guide to fixing curling edges</a>.</p>
     </div>
 
     <div class="problem" id="problem-2">
       <span class="tag">Problem 2</span>
-      <h2>Unexplained holes in the fabric</h2>
+      <h2 id="holes">Unexplained holes in the fabric</h2>
+<figure class="cg-fig"><img src="/img/fix-holes.svg" alt="A skipped stitch shows up as a straight line of holes down the fabric, while working into the wrong loop leaves a whole stitch open, so the pattern of holes names the cause." width="640" height="482" loading="lazy" decoding="async"></figure>
       <p><strong>Cause:</strong> a skipped stitch, most often at the start or end of a row, or working into the wrong loop.</p>
       <p><strong>Fix:</strong> count stitches at the end of every row while learning. If you find a hole after the fact, it's usually faster to frog back to it than to try to patch it invisibly. A set of <a href="https://www.amazon.com/dp/B0CGNNVVN1?tag=crochetguides-21-20" rel="sponsored nofollow" target="_blank">stitch markers</a> makes it much easier to spot exactly where a row starts and ends.</p>
     </div>
 
     <div class="problem" id="problem-3">
       <span class="tag">Problem 3</span>
-      <h2>Tension gets looser as you go</h2>
+      <h2 id="tension-drift">Tension gets looser as you go</h2>
+<figure class="cg-fig"><img src="/img/fix-tension.svg" alt="Tension loosens as you go because your grip relaxes over a sitting, so short breaks every 20 to 30 minutes and a conscious grip reset work better than pulling finished rows tighter later." width="640" height="350" loading="lazy" decoding="async"></figure>
       <p><strong>Cause:</strong> your grip relaxes naturally the longer you crochet in one sitting.</p>
       <p><strong>Fix:</strong> take short breaks every 20&ndash;30 minutes and consciously reset your grip when you pick the work back up, rather than trying to correct it by pulling stitches tighter later. If gauge itself is unfamiliar territory, our <a href="/guides/how-to-read-a-pattern">guide to reading a pattern</a> covers it in more depth.</p>
     </div>
 
     <div class="problem" id="problem-4">
       <span class="tag">Problem 4</span>
-      <h2>Rows get wider or narrower without you increasing or decreasing</h2>
+      <h2 id="row-width">Rows get wider or narrower without you increasing or decreasing</h2>
+<figure class="cg-fig"><img src="/img/fix-rows.svg" alt="Rows creep wider when an extra stitch sneaks in, most often a turning chain counted as a stitch, and narrower when a stitch is missed at the row's edge. Check both edges first." width="640" height="468" loading="lazy" decoding="async"></figure>
       <p><strong>Cause:</strong> an accidental extra stitch (often the turning chain being counted as a stitch when it shouldn't be) or a missed stitch at the row's edge.</p>
       <p><strong>Fix:</strong> check the pattern's instructions on whether the turning chain counts as a stitch &mdash; this single detail causes more width drift than almost anything else.</p>
     </div>
 
     <div class="problem" id="problem-5">
       <span class="tag">Problem 5</span>
-      <h2>A stitch slips off the hook and a few rows start to unravel</h2>
+      <h2 id="stitch-slips">A stitch slips off the hook and a few rows start to unravel</h2>
+<figure class="cg-fig"><img src="/img/fix-slip.svg" alt="When a stitch slips off the hook, stop immediately, pull gently on the working yarn to see how far it came undone, and re-insert from the front before picking back up." width="640" height="402" loading="lazy" decoding="async"></figure>
       <p><strong>Cause:</strong> the work was set down without securing the loop, or the last stitch worked was looser than the rest and slid free on its own.</p>
       <p><strong>Fix:</strong> stop crocheting the moment you notice, before adding new stitches makes the unraveled loop harder to find. Pull gently on the working yarn to see exactly how far it's come undone, then re-insert your hook into the last correct stitch from the front, matching the loop orientation of the surrounding stitches, before picking back up where you left off. A cheap stitch marker or even a bobby pin clipped through the working loop before setting the project down prevents this from happening at all.</p>
     </div>
@@ -344,6 +357,7 @@ footer .wrap{max-width:1100px;}
     <p class="video-caption">A rundown of frequent beginner mistakes and simple fixes, useful for spotting the same issues in your own work.</p>
 
     <h2 class="faq" id="faq">Frequently asked questions</h2>
+<figure class="cg-fig"><img src="/img/fix-count.svg" alt="Counting stitches at the end of every row is the one habit that catches a skipped stitch before it is several rows old, and naming the specific cause rather than the symptom is what makes the fix routine." width="640" height="368" loading="lazy" decoding="async"></figure>
     <h3>Why does my crochet project curl at the edges?</h3>
     <p>Curling is almost always caused by tension that's tighter than the pattern's gauge, or by working single crochet in straight rows without turning chains that match your stitch height. Going up half a hook size usually resolves it.</p>
 
