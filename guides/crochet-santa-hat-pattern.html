@@ -228,6 +228,14 @@ footer .wrap{max-width:1100px;}
 .search-result .r-cat{font-family:'Space Mono',monospace;font-size:10.5px;text-transform:uppercase;letter-spacing:0.06em;color:var(--berry);display:block;margin-bottom:2px;}
 .search-result .r-title{font-family:'Fraunces',serif;font-weight:600;font-size:15px;}
 .search-empty{color:var(--ink-soft);font-size:14px;padding:10px 8px;}
+
+    /* generated diagram figures */
+    .cg-fig { margin:28px 0; }
+    .cg-fig img { display:block; width:100%; max-width:640px; height:auto;
+      border:1px solid var(--line); border-radius:var(--radius);
+      background:var(--card); }
+    @media (max-width:560px) { .cg-fig { margin:20px 0; } }
+    @media print { .cg-fig { break-inside:avoid; } }
 </style>
 <script type="application/ld+json">
 {
@@ -340,7 +348,7 @@ footer .wrap{max-width:1100px;}
       <strong>Quick answer:</strong> Start with a magic ring, increase to fit the head circumference, work straight rounds until the hat is long enough to fold at the brim, then decrease unevenly at the back to form the flopped point, and finish with a folded white cuff and pom-pom.
     </div>
 
-    <h2>What you need</h2>
+    <h2 id="materials">What you need</h2>
 
     <ul>
       <li>Worsted weight (#4) yarn: red (main) and white (cuff and pom-pom), about 120 yards total for an adult size</li>
@@ -350,7 +358,9 @@ footer .wrap{max-width:1100px;}
       <li>Yarn needle</li>
     </ul>
 
-    <h2>Crown</h2>
+    <h2 id="crown"><figure class="cg-fig"><img src="/img/santa-crown.svg" alt="The crown of the Santa hat: start with a magic ring of 6 single crochet, then 12, 18 and 24 stitches over the next three rounds, continuing to add 6 stitches a round with one more plain stitch between increases until the circle matches the head circumference at roughly 30 to 36 stitches for an adult. Then work straight rounds with no shaping until the hat is 8 to 9 inches deep." width="640" height="440" loading="lazy" decoding="async"></figure>
+
+Crown</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -363,11 +373,13 @@ footer .wrap{max-width:1100px;}
       </ol>
     </div>
 
-    <h2>Body of the hat</h2>
+    <h2 id="body">Body of the hat</h2>
 
     <p>Once the crown circle is wide enough, stop increasing and work straight rounds of sc (or hdc for a slightly looser, quicker fabric) until the hat measures about 8&ndash;9 inches from the top of the crown for an adult, or 5&ndash;6 inches for a child.</p>
 
-    <h2>Shaping the point</h2>
+    <h2 id="point-steps"><figure class="cg-fig"><img src="/img/santa-point.svg" alt="Shaping the point so it flops: decrease only along one side at the back rather than evenly around, working two or three plain rounds and then sc2tog every 4 to 5 stitches along roughly a third of the round. Decreasing evenly all the way around gives a stiff little cone that stands up, which reads as a gnome hat rather than a Santa hat." width="640" height="470" loading="lazy" decoding="async"></figure>
+
+Shaping the point</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -377,7 +389,9 @@ footer .wrap{max-width:1100px;}
       </ol>
     </div>
 
-    <h2>Cuff and pom-pom</h2>
+    <h2 id="cuff"><figure class="cg-fig"><img src="/img/santa-cuff.svg" alt="The cuff and pom-pom: join white yarn at the bottom edge and work 4 to 5 rounds of half double crochet in the back loop only for a ribbed look, then fasten off and fold the cuff up to the outside of the hat. Make a pom-pom about 2.5 to 3 inches across, thread its ties through the very tip, knot them firmly inside and re-tighten after the first wash." width="640" height="490" loading="lazy" decoding="async"></figure>
+
+Cuff and pom-pom</h2>
 
     <div class="step-box">
       <h3>Steps</h3>
@@ -388,7 +402,9 @@ footer .wrap{max-width:1100px;}
       </ol>
     </div>
 
-    <h2 id="yarn">Choosing yarn and colours</h2>
+    <h2 id="yarn"><figure class="cg-fig"><img src="/img/santa-yarn-care.svg" alt="Yarn, colour and care for a Santa hat: a clear warm red and a true white, since an even slightly cream white makes the whole hat read off. Soft worsted acrylic or an acrylic-wool blend is warm, gentle on the forehead and easy to wash. Machine wash cool on a gentle cycle in a mesh bag and air dry flat, as a tumble dryer can mat the pom-pom and loosen the cuff." width="640" height="500" loading="lazy" decoding="async"></figure>
+
+Choosing yarn and colours</h2>
 
     <p>A soft worsted acrylic or acrylic-wool blend is the right call, because it's warm enough to wear, gentle against the forehead, and easy to wash after a party season of being grabbed and tugged. The red should be a clear, warm red rather than a muddy burgundy, and the white needs to be a true white so the cuff and pom-pom pop against it. If your white is even slightly cream, the whole hat reads off.</p>
 
@@ -468,7 +484,7 @@ footer .wrap{max-width:1100px;}
 
 
     <div class="related">
-      <h2>Related guides</h2>
+      <h2 id="related">Related guides</h2>
       <ul>
         <li><a href="/guides/beanie-pattern">Basic beanie pattern &rarr;</a></li>
         <li><a href="/guides/toddler-beanie-pattern">Toddler beanie pattern &rarr;</a></li>
