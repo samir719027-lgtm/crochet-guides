@@ -172,6 +172,21 @@ li{margin-bottom:8px;}
 .callout strong{color:var(--berry);}
 .step-box{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:20px 0;}
 .step-box h3{margin-top:0;}
+.verdict-table{width:100%;border-collapse:collapse;margin:26px 0 8px;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--card);font-size:14.5px;}
+.verdict-table caption{caption-side:top;text-align:left;font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:0.06em;color:var(--ink-soft);padding:0 12px 8px;}
+.verdict-table thead th{background:var(--wool-2);font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:0.06em;color:var(--ink-soft);border-bottom:1px solid var(--line);text-align:left;padding:10px 12px;}
+.verdict-table tbody td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top;}
+.verdict-table tbody tr:last-child td{border-bottom:0;}
+.verdict-table strong{color:var(--berry);}
+.table-note{font-size:14px;color:var(--ink-soft);margin:12px 0 4px;}
+@media (max-width:560px){
+  .verdict-table,.verdict-table thead,.verdict-table tbody,.verdict-table tr,.verdict-table th,.verdict-table td{display:block;width:100%;}
+  .verdict-table thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;}
+  .verdict-table tbody tr{border-bottom:1px solid var(--line);padding:12px 0;}
+  .verdict-table tbody tr:last-child{border-bottom:0;}
+  .verdict-table td{padding:3px 12px;}
+  .verdict-table td:nth-child(2){padding-top:8px;}
+}
 code{background:rgba(42,36,30,0.08);padding:2px 6px;border-radius:3px;font-family:'Space Mono',monospace;font-size:14px;}
 .faq h3{font-size:16.5px;}
 .related{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px;margin:40px 0 0;}
@@ -199,6 +214,8 @@ footer .wrap{max-width:1100px;}
 @media print{
   h2:has(+ .pick){display:none!important;}
   header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout, .jumpnav{display:none!important;}
+  .verdict-table{page-break-inside:avoid;border:1px solid #999;}
+  .verdict-table thead th{background:#f0f0f0!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
   body{background:#fff;}
   article{padding:0;}
   .hero-img{max-height:200px;}
@@ -320,6 +337,8 @@ footer .wrap{max-width:1100px;}
 
     <h2 id="grip-styles">Grip styles to look for</h2>
 
+    <p>The three options below are the ones that come up most often, and the real difference between them is how much discomfort you are dealing with right now &mdash; not how &ldquo;serious&rdquo; a crocheter you are.</p>
+
     <div class="step-box">
       <h3>Options</h3>
       <ul>
@@ -328,6 +347,32 @@ footer .wrap{max-width:1100px;}
         <li>Standard aluminum with a light rubber sleeve added &mdash; a low-cost way to test whether a wider grip helps before buying a dedicated ergonomic hook.</li>
       </ul>
     </div>
+
+    <table class="verdict-table">
+      <caption>Which grip to start with, by how much your hands hurt</caption>
+      <thead>
+        <tr><th scope="col">What you&rsquo;re dealing with</th><th scope="col">Start with</th><th scope="col">Why</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mild, occasional stiffness</td>
+          <td><strong>A rubber sleeve on a hook you already own</strong></td>
+          <td>Costs very little and tells you quickly whether a wider grip helps, before you commit to anything. Most early discomfort responds to this alone.</td>
+        </tr>
+        <tr>
+          <td>General pinch-grip strain, early-stage discomfort</td>
+          <td><strong>Contoured or rubberized flat-sided handles</strong></td>
+          <td>Wider than a standard shaft and shaped to rest in the palm rather than be pinched. Still small enough to feel like a hook, so it is the easiest switch.</td>
+        </tr>
+        <tr>
+          <td>Significant grip weakness or joint pain</td>
+          <td><strong>Extra-large soft foam handles</strong></td>
+          <td>The wider surface area spreads pressure more dramatically than a moderately contoured handle. Expect it to feel different from a standard hook for a day or two.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p class="table-note">There is no harm in starting cheap and working up. A rubber sleeve costs very little and tells you quickly whether a wider grip helps before you buy a dedicated ergonomic hook.</p>
 <figure class="cg-fig"><img src="/img/arthritis-grip-styles.svg" alt="Three grip options for arthritic hands: contoured rubberized handles, extra-large soft foam handles, and slim hooks with a rubber sleeve." width="640" height="290" loading="lazy" decoding="async"></figure>
 
     <p>How to choose between these largely comes down to how much discomfort you're dealing with right now, not how "serious" a crocheter you are. Mild, occasional stiffness usually responds well to a contoured handle or even just a rubber sleeve added to a hook you already own. More significant grip weakness or joint pain tends to need the bigger jump to an extra-large foam handle, since the wider surface area spreads pressure more dramatically than a moderately contoured one. There's no harm in starting cheap and working up &mdash; a rubber sleeve costs very little and tells you quickly whether a wider grip helps before committing to a full ergonomic hook.</p>
