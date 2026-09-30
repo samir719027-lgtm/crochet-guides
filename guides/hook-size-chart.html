@@ -195,6 +195,10 @@ footer .wrap{max-width:1100px;}
       background:var(--card); }
     @media (max-width:560px) { .cg-fig { margin:20px 0; } }
     @media print { .cg-fig { break-inside:avoid; } }
+table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14.5px;}
+.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+.table-scroll table{margin:20px 0;min-width:520px;}
+@media (max-width:560px){.table-scroll table{min-width:420px;}}
 </style>
 <script type="application/ld+json">
 {
@@ -269,7 +273,7 @@ footer .wrap{max-width:1100px;}
     </div>
 
     <h2 id="chart">Full size conversion chart</h2>
-    <table>
+    <div class="table-scroll"><table>
       <tr><th>Metric (mm)</th><th>US size</th><th>UK size</th><th>Typical yarn weight</th></tr>
       <tr><td>2.25mm</td><td>B-1</td><td>13</td><td>Lace / fingering</td></tr>
       <tr><td>2.75mm</td><td>C-2</td><td>12</td><td>Fingering</td></tr>
@@ -283,7 +287,7 @@ footer .wrap{max-width:1100px;}
       <tr><td>6.5mm</td><td>K-10&frac12;</td><td>3</td><td>Chunky</td></tr>
       <tr><td>8.0mm</td><td>L-11</td><td>0</td><td>Super bulky</td></tr>
       <tr><td>9.0mm</td><td>M/N-13</td><td>00</td><td>Super bulky / jumbo</td></tr>
-    </table>
+    </table></div>
 
     <h2 id="reading-your-hook">Reading a hook you already own</h2>
     <p>Most modern hooks print the millimetre size directly on the handle or shaft, usually followed by the US letter in smaller text. If yours only shows a letter with no millimetre number, it's likely an older hook &mdash; check the table above by matching the letter, not the number after it, since numbering has shifted slightly between manufacturers over the decades.</p>

@@ -138,6 +138,9 @@ li{margin-bottom:8px;}
 .callout{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin:24px 0;font-size:15.5px;}
 .callout strong{color:var(--berry);}
 table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14.5px;}
+.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+.table-scroll table{margin:20px 0;min-width:520px;}
+@media (max-width:560px){.table-scroll table{min-width:420px;}}
 th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);}
 th{font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:0.06em;color:var(--ink-soft);}
 .pick{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:20px 0;}
@@ -290,7 +293,7 @@ footer .wrap{max-width:1100px;}
 
     <p><strong>Novelty yarns.</strong> "Novelty" covers eyelash, bouclé, chenille, ribbon, sequin, and anything with texture baked in. They're fun to look at and genuinely miserable to crochet with as a beginner, because you can't see the individual stitches to count them, and frogging (ripping back) turns into a tangled fight. I use them only as an accent &mdash; a trim, a cuff, one stripe &mdash; never as a whole project. If a fluffy scarf is calling your name, save it for project number five.</p>
 
-    <table>
+    <div class="table-scroll"><table>
       <tr><th>Fiber</th><th>Drape</th><th>Stitch definition</th><th>Stretch</th><th>Care</th><th>Cost</th></tr>
       <tr><td>Wool</td><td>Medium</td><td>Good</td><td>High (memory)</td><td>Hand wash or superwash</td><td>$$&ndash;$$$</td></tr>
       <tr><td>Cotton</td><td>Stiff</td><td>Excellent</td><td>None</td><td>Machine wash</td><td>$</td></tr>
@@ -300,7 +303,7 @@ footer .wrap{max-width:1100px;}
       <tr><td>Alpaca</td><td>Heavy flow</td><td>Soft (halo)</td><td>Low</td><td>Gentle hand wash</td><td>$$$</td></tr>
       <tr><td>Silk</td><td>Flowing</td><td>Soft</td><td>None</td><td>Hand wash</td><td>$$$$</td></tr>
       <tr><td>Novelty</td><td>Varies</td><td>Hidden</td><td>Varies</td><td>Per ball band</td><td>$$&ndash;$$$</td></tr>
-    </table>
+    </table></div>
 
     <h2 id="drape-stitch">How fiber affects drape and stitch definition</h2>
     <p>Two words get thrown around in yarn reviews and deserve a plain translation, because they decide whether your finished project looks like the photo or not.</p>

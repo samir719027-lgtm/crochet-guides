@@ -222,6 +222,10 @@ footer .wrap{max-width:1100px;}
       background:var(--card); }
     @media (max-width:560px) { .cg-fig { margin:20px 0; } }
     @media print { .cg-fig { break-inside:avoid; } }
+table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14.5px;}
+.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+.table-scroll table{margin:20px 0;min-width:520px;}
+@media (max-width:560px){.table-scroll table{min-width:420px;}}
 </style>
 <script type="application/ld+json">
 {
@@ -391,7 +395,7 @@ footer .wrap{max-width:1100px;}
     </div>
 
     <h2 id="comparison">Quick comparison</h2>
-    <table>
+    <div class="table-scroll"><table>
       <tr><th>Stitch</th><th>Abbr.</th><th>Yarn overs before inserting</th><th>Relative height</th></tr>
       <tr><td>Chain</td><td>ch</td><td>&mdash;</td><td>&mdash;</td></tr>
       <tr><td>Slip stitch</td><td>sl st</td><td>0</td><td>None</td></tr>
@@ -399,7 +403,7 @@ footer .wrap{max-width:1100px;}
       <tr><td>Half double crochet</td><td>hdc</td><td>1</td><td>Short-medium</td></tr>
       <tr><td>Double crochet</td><td>dc</td><td>1</td><td>Medium-tall</td></tr>
       <tr><td>Treble crochet</td><td>tr</td><td>2</td><td>Tallest</td></tr>
-    </table>
+    </table></div>
 
     <div class="video-wrap">
       <iframe src="https://www.youtube.com/embed/0gHmLDR2QLY" title="Basic crochet stitches demonstration" allowfullscreen loading="lazy"></iframe>

@@ -196,6 +196,10 @@ footer .wrap{max-width:1100px;}
       background:var(--card); }
     @media (max-width:560px) { .cg-fig { margin:20px 0; } }
     @media print { .cg-fig { break-inside:avoid; } }
+table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14.5px;}
+.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+.table-scroll table{margin:20px 0;min-width:520px;}
+@media (max-width:560px){.table-scroll table{min-width:420px;}}
 </style>
 <script type="application/ld+json">
 {
@@ -279,14 +283,14 @@ footer .wrap{max-width:1100px;}
 
     <h2 id="by-fiber">Washing by fiber type</h2>
     <p>Before washing anything, check what yarn it was made from, since fiber is the single biggest factor in how it should be treated. If you don't know, err toward the gentlest method: cool water, hand washing, dry flat.</p>
-    <table>
+    <div class="table-scroll"><table>
       <tr><th>Fiber</th><th>Machine safe?</th><th>Water temp</th><th>Notes</th></tr>
       <tr><td>Acrylic</td><td>Usually, on gentle/delicate</td><td>Cool to lukewarm</td><td>Most forgiving fiber; still avoid high heat when drying</td></tr>
       <tr><td>Cotton</td><td>Often, check gauge and embellishments first</td><td>Cool</td><td>Can lose shape if the fabric is loosely worked; reshape while damp</td></tr>
       <tr><td>Wool</td><td>No &mdash; hand wash only</td><td>Cool</td><td>Heat plus agitation causes permanent felting and shrinkage</td></tr>
       <tr><td>Wool blends</td><td>Depends on wool percentage</td><td>Cool</td><td>Treat as wool unless the label states otherwise</td></tr>
       <tr><td>Novelty/eyelash yarn</td><td>No &mdash; hand wash only</td><td>Cool</td><td>Machine agitation can shed or mat the textured fibers</td></tr>
-    </table>
+    </table></div>
     <p>If you're working from stashed yarn without a label, our <a href="/guides/yarn-weight-explained">yarn weight guide</a> covers how to identify what you're working with, though fiber content is a separate question from weight and worth confirming from the ball band if you still have it.</p>
 
     <h2 id="hand-washing">How to hand wash a crochet item, step by step</h2>

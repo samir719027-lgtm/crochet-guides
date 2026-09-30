@@ -138,6 +138,9 @@ li{margin-bottom:8px;}
 .callout{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin:24px 0;font-size:15.5px;}
 .callout strong{color:var(--berry);}
 table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14.5px;}
+.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+.table-scroll table{margin:20px 0;min-width:520px;}
+@media (max-width:560px){.table-scroll table{min-width:420px;}}
 th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);}
 th{font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:0.06em;color:var(--ink-soft);}
 .pick{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:20px 0;}
@@ -269,14 +272,14 @@ footer .wrap{max-width:1100px;}
     <h2 id="system">The yarn weight system</h2>
     <p>Yarn is grouped into numbered categories, from lace-thin to jumbo. Each category has a typical hook range and a typical use case &mdash; see our <a href="/guides/best-crochet-hook-brands">full hook guide</a> for how to pick the right one:</p>
 
-    <table>
+    <div class="table-scroll"><table>
       <tr><th>Category</th><th>Common name</th><th>Hook size</th><th>Best for</th></tr>
       <tr><td>2</td><td>Sport / Fine</td><td>3.0&ndash;3.5mm</td><td>Baby items, lightweight accessories</td></tr>
       <tr><td>3</td><td>DK (Double Knit)</td><td>3.5&ndash;4.5mm</td><td>Garments, drapey scarves</td></tr>
       <tr><td>4</td><td>Worsted / Aran</td><td>5.0&ndash;5.5mm</td><td>Beginner projects, everyday items</td></tr>
       <tr><td>5</td><td>Chunky / Bulky</td><td>6.0&ndash;9.0mm</td><td>Blankets, quick gifts, textured throws</td></tr>
       <tr><td>6</td><td>Super Bulky</td><td>9.0mm+</td><td>Statement pieces, one-evening projects</td></tr>
-    </table>
+    </table></div>
     <p>That category number is printed right on the ball band, usually as a small yarn-ball icon with a number in the middle. It's the only label you actually need to match, because "worsted" and "Aran" both mean category 4 even though the words differ, and "sport" and "baby" yarns can both be category 2. Ignore the words, memorise the number, and you'll never accidentally mix two thicknesses again. The matching hook size is on the same band &mdash; cross-check it against our <a href="/guides/hook-size-chart">hook size chart</a> if the suggested range feels off.</p>
 
     <h2 id="why-it-matters">Why weight matters more than colour</h2>

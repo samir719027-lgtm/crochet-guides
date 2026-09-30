@@ -227,6 +227,10 @@ footer .wrap{max-width:1100px;}
       background:var(--card); }
     @media (max-width:560px) { .cg-fig { margin:20px 0; } }
     @media print { .cg-fig { break-inside:avoid; } }
+table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14.5px;}
+.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+.table-scroll table{margin:20px 0;min-width:520px;}
+@media (max-width:560px){.table-scroll table{min-width:420px;}}
 </style>
 <script type="application/ld+json">
 {
@@ -377,14 +381,14 @@ footer .wrap{max-width:1100px;}
 
     <div class="pattern-box">
       <h2>Abbreviations (US terms)</h2>
-      <table>
+      <div class="table-scroll"><table>
         <tr><th>Abbr.</th><th>Means</th></tr>
         <tr><td>ch</td><td>Chain</td></tr>
         <tr><td>sc</td><td>Single crochet</td></tr>
         <tr><td>st(s)</td><td>Stitch(es)</td></tr>
         <tr><td>rep</td><td>Repeat</td></tr>
         <tr><td>row(s)</td><td>Row(s)</td></tr>
-      </table>
+      </table></div>
       <p>See our <a href="/guides/abbreviations-glossary">abbreviations glossary</a> for the full list including UK terms, or our <a href="/guides/basic-crochet-stitches">basic crochet stitches guide</a> if you need a refresher on single crochet.</p>
     </div>
 

@@ -226,6 +226,10 @@ footer .wrap{max-width:1100px;}
       background:var(--card); }
     @media (max-width:560px) { .cg-fig { margin:20px 0; } }
     @media print { .cg-fig { break-inside:avoid; } }
+table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14.5px;}
+.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+.table-scroll table{margin:20px 0;min-width:520px;}
+@media (max-width:560px){.table-scroll table{min-width:420px;}}
 </style>
 <script type="application/ld+json">
 {
@@ -358,7 +362,7 @@ footer .wrap{max-width:1100px;}
 
     <div class="pattern-box">
       <h2>Abbreviations (US terms)</h2>
-      <table>
+      <div class="table-scroll"><table>
         <tr><th>Abbr.</th><th>Means</th></tr>
         <tr><td>ch</td><td>Chain</td></tr>
         <tr><td>dc</td><td>Double crochet</td></tr>
@@ -366,7 +370,7 @@ footer .wrap{max-width:1100px;}
         <tr><td>sl st</td><td>Slip stitch</td></tr>
         <tr><td>sk</td><td>Skip</td></tr>
         <tr><td>st(s)</td><td>Stitch(es)</td></tr>
-      </table>
+      </table></div>
       <p>See our <a href="/guides/basic-crochet-stitches">basic crochet stitches guide</a> for a step-by-step on the double crochet, and our <a href="/guides/yarn-weight-explained">yarn weight explained</a> page if the labels are new to you.</p>
     </div>
 

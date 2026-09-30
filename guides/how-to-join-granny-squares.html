@@ -140,6 +140,9 @@ li{margin-bottom:8px;}
 .method{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:20px 0;}
 .method .tag{font-family:'Space Mono',monospace;font-size:10.5px;letter-spacing:0.08em;text-transform:uppercase;color:var(--berry);}
 table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14.5px;}
+.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+.table-scroll table{margin:20px 0;min-width:520px;}
+@media (max-width:560px){.table-scroll table{min-width:420px;}}
 th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);}
 th{font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:0.06em;color:var(--ink-soft);}
 .step-box{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:20px 0;}
@@ -456,14 +459,14 @@ footer .wrap{max-width:1100px;}
 
     <h2 id="comparison">Seam comparison</h2>
     <p>Here is the whole decision in one table. If you are unsure, start at the top and work down until one feels right.</p>
-    <table>
+    <div class="table-scroll"><table>
       <tr><th>Method</th><th>Look</th><th>Ease</th><th>Best for</th></tr>
       <tr><td>Whip stitch</td><td>Nearly invisible</td><td>Easiest</td><td>First blankets, beginners</td></tr>
       <tr><td>Slip stitch join</td><td>Flat, barely visible</td><td>Easy</td><td>Low-bulk, flexible seams</td></tr>
       <tr><td>Single crochet join</td><td>Raised ridge</td><td>Easy</td><td>Decorative seams, sturdy blankets</td></tr>
       <tr><td>Join-as-you-go</td><td>Flat</td><td>Moderate (needs planning)</td><td>Avoiding sewing, big blankets</td></tr>
       <tr><td>Mattress stitch</td><td>Invisible</td><td>Advanced</td><td>Heirloom blankets, one-piece look</td></tr>
-    </table>
+    </table></div>
 
     <h2 id="mistakes">Common mistakes &amp; fixes</h2>
 

@@ -196,6 +196,10 @@ footer .wrap{max-width:1100px;}
       background:var(--card); }
     @media (max-width:560px) { .cg-fig { margin:20px 0; } }
     @media print { .cg-fig { break-inside:avoid; } }
+table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14.5px;}
+.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+.table-scroll table{margin:20px 0;min-width:520px;}
+@media (max-width:560px){.table-scroll table{min-width:420px;}}
 </style>
 <script type="application/ld+json">
 {
@@ -271,7 +275,7 @@ footer .wrap{max-width:1100px;}
     </div>
 
     <h2 id="us-vs-uk">US vs UK terms, side by side</h2>
-    <table>
+    <div class="table-scroll"><table>
       <tr><th>US term</th><th>US abbr.</th><th>UK term</th><th>UK abbr.</th></tr>
       <tr><td>Slip stitch</td><td>sl st</td><td>Slip stitch</td><td>sl st</td></tr>
       <tr><td>Single crochet</td><td>sc</td><td>Double crochet</td><td>dc</td></tr>
@@ -279,7 +283,7 @@ footer .wrap{max-width:1100px;}
       <tr><td>Double crochet</td><td>dc</td><td>Treble crochet</td><td>tr</td></tr>
       <tr><td>Treble crochet</td><td>tr</td><td>Double treble crochet</td><td>dtr</td></tr>
       <tr><td>Double treble crochet</td><td>dtr</td><td>Triple treble crochet</td><td>trtr</td></tr>
-    </table>
+    </table></div>
 <figure class="cg-fig"><img src="/img/us-uk-stitch-map.svg" alt="US and UK crochet abbreviations matched side by side: sc to dc, hdc to htr, dc to tr, and tr to dtr." width="640" height="294" loading="lazy" decoding="async"></figure>
 
     <p>Notice that the abbreviation <code>dc</code> appears in both columns for different stitches &mdash; this single overlap is the source of most terminology mix-ups.</p>
