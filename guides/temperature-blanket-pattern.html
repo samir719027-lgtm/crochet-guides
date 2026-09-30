@@ -190,6 +190,14 @@ footer .wrap{max-width:1100px;}
 .search-result .r-cat{font-family:'Space Mono',monospace;font-size:10.5px;text-transform:uppercase;letter-spacing:0.06em;color:var(--berry);display:block;margin-bottom:2px;}
 .search-result .r-title{font-family:'Fraunces',serif;font-weight:600;font-size:15px;}
 .search-empty{color:var(--ink-soft);font-size:14px;padding:10px 8px;}
+
+    /* generated diagram figures */
+    .cg-fig { margin:28px 0; }
+    .cg-fig img { display:block; width:100%; max-width:640px; height:auto;
+      border:1px solid var(--line); border-radius:var(--radius);
+      background:var(--card); }
+    @media (max-width:560px) { .cg-fig { margin:20px 0; } }
+    @media print { .cg-fig { break-inside:avoid; } }
 </style>
 <script type="application/ld+json">
 {
@@ -286,7 +294,9 @@ footer .wrap{max-width:1100px;}
     <p>At its core, a temperature blanket is a data visualization you make by hand. Each row corresponds to one day, and the colour of that row is determined by a temperature reading for that day, following a colour scale you decide on before you start. Worked consistently across a full year, the rows build into broad bands that trace the shape of the seasons: cool colours clustered at the start and end of the blanket for winter, gradually shifting through warmer shades toward the middle for summer, and back again.</p>
     <p>The appeal is equal parts craft and record-keeping. Some people track their local weather; others use a location that matters to them for a different reason, a childhood hometown, or a year spent somewhere specific. The mechanics stay the same regardless of what you're actually tracking. It's also a genuinely forgiving project for a beginner to commit to long-term, since every row uses the same simple stitch pattern; the only thing that changes from day to day is which colour you pick up, so there's no new technique to learn partway through the year.</p>
 
-    <h2 id="choosing-colors">Choosing your color scale</h2>
+    <h2 id="choosing-colors"><figure class="cg-fig"><img src="/img/temp-scale.svg" alt="The worked colour scale example from the page, listing nine temperature bands from below 20F to 90F and above with the colour assigned to each." width="640" height="500" loading="lazy" decoding="async"></figure>
+
+Choosing your color scale</h2>
     <p>Start by finding your area's typical yearly temperature range, easy to pull from any weather site's historical data. Divide that range into 8 to 12 bands of roughly equal size; for a climate spanning 20&deg;F to 95&deg;F, for example, that might mean bands roughly 8 to 9 degrees wide. Assign one yarn colour to each band, moving in a logical order from cool to warm.</p>
     <table>
       <tr><th>Temperature range (example)</th><th>Suggested colour</th></tr>
@@ -302,7 +312,9 @@ footer .wrap{max-width:1100px;}
     </table>
     <p>Write your finalized scale down somewhere permanent before you start, a note on your phone or a card kept with your yarn, since you'll be referring back to it daily for a year and any ambiguity in the bands will show up as inconsistency in the finished blanket.</p>
 
-    <h2 id="which-temp">High, low, or average temperature?</h2>
+    <h2 id="which-temp"><figure class="cg-fig"><img src="/img/temp-metric.svg" alt="Three panels comparing the daily high, daily average and daily low as tracking metrics, beneath a warning to pick one and keep it for all 365 rows." width="640" height="380" loading="lazy" decoding="async"></figure>
+
+High, low, or average temperature?</h2>
     <p>Any of the three works as a tracking method, but pick one and stay consistent for the entire project, since switching partway through will visibly distort your gradient. The daily high is the most common choice, since it's easy to find on any weather app and tends to produce a vivid, high-contrast blanket with clear seasonal bands. The daily average produces a gentler, less extreme gradient, and the daily low works well if you specifically want to capture how cold your nights get. There's no wrong choice; it's purely a matter of which story you want the finished blanket to tell.</p>
 
     <div class="pattern-box" id="materials">
@@ -315,7 +327,9 @@ footer .wrap{max-width:1100px;}
       </ul>
     </div>
 
-    <h2 id="pattern">The stitch pattern</h2>
+    <h2 id="pattern"><figure class="cg-fig"><img src="/img/temp-stitch.svg" alt="A row of single crochet stitches with a bobble on every fifth stitch, above a table of row count, width, finished size and border." width="640" height="400" loading="lazy" decoding="async"></figure>
+
+The stitch pattern</h2>
     <p>Because you're committing to 365 individual sessions, the stitch itself should be quick enough that a single row never feels like a chore. This pattern uses single crochet with a light bobble worked every 5th stitch, giving the finished blanket the subtle raised texture you can see in the photo without the time cost of a full bobble row on every single day.</p>
 
     <div class="row-step">
@@ -334,7 +348,9 @@ footer .wrap{max-width:1100px;}
       <p>Once all 365 rows are complete, work 2 rounds of single crochet evenly around all four edges, placing 3 single crochet in each corner on both rounds. Join with a slip stitch, fasten off, and weave in the ends.</p>
     </div>
 
-    <h2 id="staying-consistent">Staying consistent for a year</h2>
+    <h2 id="staying-consistent"><figure class="cg-fig"><img src="/img/temp-consistency.svg" alt="Four panels on the year's main risks, from skipping the written colour scale to too few bands, with three callouts about logging and catching up." width="640" height="430" loading="lazy" decoding="async"></figure>
+
+Staying consistent for a year</h2>
     <p>The biggest risk to a temperature blanket isn't a crochet mistake, it's simply forgetting a day. I recommend keeping a small paper log or a note on your phone where you record each day's temperature and colour before you sit down to crochet, separately from the act of crocheting itself. That way, if you miss a day or fall behind by a week, you can catch up the rows later using your log rather than trying to remember or guess retroactively. Our <a href="/guides/how-much-yarn-do-i-need">guide to estimating yarn</a> is worth reading early on too, since buying all your colour bands in one purchase avoids a dye-lot mismatch showing up in a blanket you'll be working on for months.</p>
     <p>At 50 stitches wide, 365 rows of single crochet grows into a throw roughly 30 inches wide by around 60&ndash;65 inches long by the time you reach December 31st, depending on how firmly you crochet, which is a comfortable lap-and-legs size for a sofa throw. If that feels too narrow for the finished blanket you have in mind, chain a wider foundation in multiples of 5 stitches so the bobble repeat still lines up cleanly, and expect the finished width to scale roughly in proportion. Some crocheters also split a single year into two narrower half-year panels crocheted side by side and seamed down the middle at the end, which keeps each half more portable to carry around during the colder months when the rows get bulkier.</p>
 
