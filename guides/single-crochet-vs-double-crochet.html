@@ -162,6 +162,23 @@ li{margin-bottom:8px;}
 .video-caption{font-size:13px;color:var(--ink-soft);margin-top:-14px;margin-bottom:24px;}
 .callout{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin:24px 0;font-size:15.5px;}
 .callout strong{color:var(--berry);}
+.verdict-table{width:100%;border-collapse:collapse;margin:26px 0 8px;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--card);font-size:14.5px;}
+.verdict-table caption{caption-side:top;text-align:left;font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:0.06em;color:var(--ink-soft);padding:0 12px 8px;}
+.verdict-table thead th{background:var(--wool-2);font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:0.06em;color:var(--ink-soft);border-bottom:1px solid var(--line);text-align:left;padding:10px 12px;}
+.verdict-table tbody th,.verdict-table td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top;}
+.verdict-table tbody th{background:var(--wool);font-weight:600;width:26%;}
+.verdict-table tbody tr:last-child th,.verdict-table tbody tr:last-child td{border-bottom:0;}
+.verdict-table strong{color:var(--berry);}
+@media (max-width:560px){
+  .verdict-table,.verdict-table thead,.verdict-table tbody,.verdict-table tr,.verdict-table th,.verdict-table td{display:block;width:100%;}
+  .verdict-table thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;}
+  .verdict-table tbody tr{border-bottom:1px solid var(--line);padding:12px 0;}
+  .verdict-table tbody tr:last-child{border-bottom:0;}
+  .verdict-table tbody th{width:auto;border-bottom:0;padding:0 12px 6px;}
+  .verdict-table td{padding:3px 12px;}
+  .verdict-table td:nth-child(2){font-weight:600;color:var(--berry);}
+}
+@media (max-width:480px){.verdict-table td:nth-child(3){color:var(--ink-soft);}}
 .step-box{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:20px 0;}
 .step-box h3{margin-top:0;}
 code{background:rgba(42,36,30,0.08);padding:2px 6px;border-radius:3px;font-family:'Space Mono',monospace;font-size:14px;}
@@ -210,6 +227,8 @@ footer .wrap{max-width:1100px;}
 @media print{
   h2:has(+ .pick){display:none!important;}
   header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout, .jumpnav{display:none!important;}
+  .verdict-table{page-break-inside:avoid;border:1px solid #999;}
+  .verdict-table thead th,.verdict-table tbody th{background:#f0f0f0!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
   body{background:#fff;}
   article{padding:0;}
   .hero-img{max-height:200px;}
@@ -354,6 +373,7 @@ footer .wrap{max-width:1100px;}
         <li><a href="#sc">Working single crochet</a></li>
         <li><a href="#dc">Working double crochet</a></li>
         <li><a href="#comparison">Side-by-side comparison</a></li>
+        <li><a href="#details">Every difference, explained</a></li>
         <li><a href="#half-double">Where half double fits in</a></li>
         <li><a href="#which-first">Which to learn first</a></li>
         <li><a href="#mistakes">Common mistakes &amp; fixes</a></li>
@@ -389,7 +409,30 @@ footer .wrap{max-width:1100px;}
     </div>
 
     <h2 id="comparison">Side-by-side comparison</h2>
+    <p>If you only read one thing on this page, read this table. Every line is a real difference between the two stitches, not filler &mdash; the notes underneath explain each one in full.</p>
 
+    <table class="verdict-table">
+      <caption>Single crochet and double crochet at a glance</caption>
+      <thead>
+        <tr><th scope="col">&nbsp;</th><th scope="col">Single crochet</th><th scope="col">Double crochet</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>How tall it is</strong></td><td>the base row</td><td>roughly <strong>twice as tall</strong></td></tr>
+        <tr><td><strong>How it grows</strong></td><td>slower &mdash; easier to control tension while you learn</td><td>roughly <strong>twice as fast</strong>, row for row</td></tr>
+        <tr><td><strong>Fabric</strong></td><td>dense and gap-free</td><td>softer drape with small visible gaps</td></tr>
+        <tr><td><strong>Loops on the hook</strong></td><td>2 at the peak</td><td>3 at the peak</td></tr>
+        <tr><td><strong>Extra wrap</strong></td><td>none before inserting</td><td><strong>yarn over first</strong> &mdash; this is what makes it taller</td></tr>
+        <tr><td><strong>Turning chain</strong></td><td>chain 1, does <em>not</em> count as a stitch</td><td>chain 3, <strong>does</strong> count as the first stitch</td></tr>
+        <tr><td><strong>Use it for</strong></td><td>amigurumi, dishcloths, tight bags</td><td>blankets, garments, quick makes</td></tr>
+        <tr><td><strong>Learn it first?</strong></td><td><strong>yes</strong> &mdash; almost everyone starts here</td><td>once your tension is steady</td></tr>
+      </tbody>
+    </table>
+
+    <div class="callout">
+      <strong>Quick answer:</strong> single crochet is the beginner&rsquo;s stitch &mdash; slower, but it keeps tension steady and makes a dense fabric. Double crochet is what you switch to when you want a project to grow faster and you already trust your tension. They are not better and worse; they are two different tools.
+    </div>
+
+    <h2 id="details">Every difference, explained</h2>
     <ul>
       <li><strong>Height:</strong> double crochet stands roughly twice as tall as single crochet.</li>
       <li><strong>Density:</strong> single crochet makes a dense, gap-free fabric; double crochet leaves small visible gaps between stitches.</li>
