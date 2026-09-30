@@ -42,6 +42,8 @@ document.addEventListener('click', function(e){
   "description": "Best crochet hooks for 2026, compared by a crochet teacher: Clover, Tulip, Boye, Susan Bates, Prym and Furls, plus what a beginner should buy first.",
   "author": {"@type": "Person", "name": "Nora Fenwick", "url": "https://crochetguide.uk/about"},
   "publisher": {"@type": "Organization", "name": "CrochetGuides"},
+  "datePublished": "2026-09-04",
+  "dateModified": "2026-09-30",
   "mainEntityOfPage": "https://crochetguide.uk/guides/best-crochet-hook-brands"
 }
 </script>
@@ -137,6 +139,21 @@ li{margin-bottom:8px;}
 .callout strong{color:var(--berry);}
 table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14.5px;}
 th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top;}
+.verdict-table{margin:26px 0 8px;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--card);}
+.verdict-table caption{caption-side:top;text-align:left;font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:0.06em;color:var(--ink-soft);padding:0 12px 8px;}
+.verdict-table thead th{background:var(--wool-2);font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:0.06em;color:var(--ink-soft);border-bottom:1px solid var(--line);}
+.verdict-table tbody tr:first-child td{background:var(--wool);}
+.verdict-table tbody tr:last-child td{border-bottom:0;}
+.verdict-table strong{color:var(--berry);}
+@media (max-width:560px){
+  .verdict-table,.verdict-table thead,.verdict-table tbody,.verdict-table tr,.verdict-table th,.verdict-table td{display:block;width:100%;}
+  .verdict-table thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;}
+  .verdict-table tbody tr{border-bottom:1px solid var(--line);padding:12px 0;}
+  .verdict-table tbody tr:last-child{border-bottom:0;}
+  .verdict-table td{border:0;padding:3px 12px;}
+  .verdict-table td:nth-child(2){padding-top:8px;}
+  .verdict-table td:nth-child(3){color:var(--ink-soft);font-size:13px;}
+}
 th{font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:0.06em;color:var(--ink-soft);}
 .faq h3{font-size:16.5px;}
 .related{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px;margin:40px 0 0;}
@@ -165,6 +182,9 @@ footer .wrap{max-width:1100px;}
 
 @media print{
   header, footer, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .callout, .jumpnav{display:none!important;}
+  .verdict-table{page-break-inside:avoid;border:1px solid #999;}
+  .verdict-table thead th{background:#f0f0f0!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  .verdict-table tbody tr:first-child td{background:#f7f7f7!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
   body{background:#fff;}
   article{padding:0;}
   .hero-img{max-height:200px;}
@@ -261,6 +281,7 @@ footer .wrap{max-width:1100px;}
     <div class="jumpnav">
       <strong>Jump to</strong>
       <ol>
+        <li><a href="#quick-picks">Which one should you actually buy?</a></li>
         <li><a href="#brands">The best crochet hooks at a glance</a></li>
         <li><a href="#inline-vs-tapered">Inline vs tapered across brands</a></li>
         <li><a href="#budget-vs-premium">Budget vs premium</a></li>
@@ -271,8 +292,32 @@ footer .wrap{max-width:1100px;}
       </ol>
     </div>
 
+    <h2 id="quick-picks">Which one should you actually buy?</h2>
+    <p>If you only read one thing on this page, read this table. Every pick below is one of the seven brands compared further down, and the reason is in the last column &mdash; not a sales pitch.</p>
+
+    <table class="verdict-table">
+      <caption>Short answer by use case</caption>
+      <thead>
+        <tr><th scope="col">If you want&hellip;</th><th scope="col">Buy</th><th scope="col">Roughly</th><th scope="col">Because</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>The best crochet hook overall</td><td><strong>Clover Amour</strong></td><td>$8&ndash;$12</td><td>Smooth glide and a knife-grip handle that stays comfortable in long sessions. This is the one I hand to most students.</td></tr>
+        <tr><td>The best crochet hooks for beginners</td><td><strong>Susan Bates</strong></td><td>$2&ndash;$5</td><td>An inline head keeps tension even, so early mistakes stay small and unfrustrating.</td></tr>
+        <tr><td>Cheapest hooks that still feel good</td><td><strong>Boye</strong></td><td>$2&ndash;$5</td><td>The same tapered head many beginners already have. Nothing to relearn, and far cheaper than a starter set.</td></tr>
+        <tr><td>Best crochet hooks for arthritis or hand pain</td><td><strong>Furls</strong></td><td>$25&ndash;$60+</td><td>A large sculpted grip removes the pinch that causes the pain. Worth the money if hand fatigue stops you crocheting.</td></tr>
+        <tr><td>Smoothest glide for pencil-grip hands</td><td><strong>Tulip Etimo</strong></td><td>$9&ndash;$14</td><td>A cushioned, slimmer handle for people who hold a hook like a pencil.</td></tr>
+        <tr><td>Something warm and very light</td><td><strong>Prym</strong></td><td>$6&ndash;$10</td><td>Ergonomic flat handle in soft plastic. Noticeably lighter than aluminium.</td></tr>
+        <tr><td>A full set for very little money</td><td><strong>Generic bamboo sets</strong></td><td>$10&ndash;$20</td><td>Fine for learning and slippery yarn, but grip and tension vary between sellers.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="callout">
+      <strong>How to use this:</strong> find your situation in the first column, buy the second column. If two rows both suit you, buy the cheaper one first &mdash; you can always move up later, and no hook teaches you as much as a few hours of actual stitching.
+    </div>
+
     <h2 id="brands">The best crochet hooks at a glance</h2>
-    <p>Before I dig into the opinions, here's the whole field in one place. The price ranges below are approximate and reflect what I've seen in shops and online, so treat them as a guide rather than a quote. The "best for" column is where my own teaching experience comes in, so if it doesn't match another review, that's fine &mdash; hand comfort is genuinely personal.</p>
+    <p>Below is the full field: price, grip, material and what each brand is genuinely good at. If you already know your budget and your grip style, the table above will have answered your question &mdash; this one is the reference.</p>
+    <p>The price ranges below are approximate and reflect what I've seen in shops and online, so treat them as a guide rather than a quote. The "best for" column is where my own teaching experience comes in, so if it doesn't match another review, that's fine &mdash; hand comfort is genuinely personal.</p>
 
     <table>
       <tr><th>Brand</th><th>Price range</th><th>Grip</th><th>Material</th><th>Best for</th></tr>
