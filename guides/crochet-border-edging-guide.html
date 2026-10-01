@@ -43,7 +43,7 @@ document.addEventListener('click', function(e){
   "author": {"@type": "Person", "name": "Nora Fenwick", "url": "https://crochetguide.uk/about"},
   "publisher": {"@type": "Organization", "name": "CrochetGuides"},
   "datePublished": "2026-09-11",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-01",
   "mainEntityOfPage": "https://crochetguide.uk/guides/crochet-border-edging-guide"
 }
 </script>
@@ -194,6 +194,12 @@ footer .wrap{max-width:1100px;}
       background:var(--card); }
     @media (max-width:560px) { .cg-fig { margin:20px 0; } }
     @media print { .cg-fig { break-inside:avoid; } }
+
+    table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14.5px;}
+    .table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+    .table-scroll table{margin:0;min-width:520px;}
+    @media (max-width:560px){.table-scroll table{min-width:420px;}}
+    @media print { .table-scroll { overflow:visible; } .table-scroll table { min-width:0; font-size:11px; } }
 </style>
 
 <script type="application/ld+json">
@@ -282,6 +288,8 @@ footer .wrap{max-width:1100px;}
       <strong>Jump to</strong>
       <ol>
         <li><a href="#materials">Before you start</a></li>
+        <li><a href="#count">Working out how many edging stitches you need</a></li>
+        <li><a href="#choose-table">Choosing an edging at a glance</a></li>
         <li><a href="#simple-edging">Simple single crochet edging</a></li>
         <li><a href="#picot">Picot edging</a></li>
         <li><a href="#shell">Shell edging</a></li>
@@ -294,6 +302,40 @@ footer .wrap{max-width:1100px;}
 
     <h2 id="materials">Before you start</h2>
     <p>Most edgings work directly with your project's existing yarn and hook, though a slightly smaller hook can help tighten up a loose or curling edge. If your piece is meant to be blocked, block it to its finished measurements before adding the border, since edgings behave more predictably on an edge that's already the right size and shape rather than one that's still curling or unevenly stretched. If you're not sure whether your project needs blocking at all, our <a href="/guides/how-to-block-crochet">guide to blocking</a> covers when it's worth the extra step.</p>
+
+    <h2 id="count">Work out how many edging stitches you need</h2>
+    <p>This is the step that stops a border, and it is where most first attempts go wrong. An edging is not worked one stitch per edge stitch. Each repeat of the edging pattern eats a different number of them, so you have to divide your edge count by that number before you can start.</p>
+    <p>The arithmetic is straightforward once you know the ratio. Work out how many stitches are on the edge of your finished piece, divide by the number each repeat consumes, and round down if the result is not a whole number.</p>
+
+    <figure class="cg-fig"><img src="/img/border-count-ratio.svg" alt="Four edge stitches go in, and a double crochet or picot edging works three of them and skips the fourth, so three dc per four edge stitches. A shell edging works five of every six. Shells therefore work up more slowly along the same edge because each repeat leaves more stitches unworked." width="640" height="356" loading="lazy" decoding="async"></figure>
+
+    <div class="table-scroll"><table>
+      <tr><th>Edging repeat</th><th>Edge stitches used</th><th>On an edge of 240</th><th>Note</th></tr>
+      <tr><td>Single crochet (sc)</td><td>1 per stitch</td><td>240</td><td>The easy one. Matches your edge count exactly.</td></tr>
+      <tr><td>Half treble (htr)</td><td>1 per stitch</td><td>240</td><td>Same count as sc. Sets up taller edgings.</td></tr>
+      <tr><td>Double crochet (dc)</td><td>3 per 4 stitches</td><td>180</td><td>Divide by 4, multiply by 3.</td></tr>
+      <tr><td>Treble (tr)</td><td>4 per 5 stitches</td><td>192</td><td>Divide by 5, multiply by 4.</td></tr>
+      <tr><td>Picot</td><td>3 per 4 stitches</td><td>180</td><td>Two chains plus a stitch in the third.</td></tr>
+      <tr><td>Shell</td><td>5 per 6 stitches</td><td>200</td><td>Five dc worked into one stitch. Grows fast.</td></tr>
+    </table></div>
+
+    <p>To count the stitches on your edge, lay the piece flat and count the V shapes along the bottom edge of the last row. Counting the tops instead is where people lose track, and our <a href="/guides/how-to-count-crochet-stitches">guide to counting crochet stitches</a> shows the method that stays reliable in fuzzy yarn.</p>
+
+    <div class="callout">
+      <strong>Work the corner as the turning chain, and count it.</strong> At each corner you usually skip or extend a couple of edge stitches so the edging turns instead of gathering. Those skipped stitches are still part of your edge count even though no edging stitch is worked into them, so subtract them before you divide.
+    </div>
+
+    <p>Check your answer twice before joining the ends. Joining an edging with a mismatch is what causes the ripple you can see along a finished edge, and it is much easier to fix at the maths stage than after several rows of edging. Our <a href="/guides/how-to-fix-curling-edges">guide to fixing curling edges</a> covers what to do if you have already joined and the edge has started to ruffle.</p>
+
+    <h2 id="choose-table">Choosing an edging at a glance</h2>
+    <p>The short version of the guidance below, so you can pick before you commit to a stitch pattern.</p>
+
+    <div class="table-scroll"><table>
+      <tr><th>Edging</th><th>Best for</th><th>Reads as</th><th>Effort</th></tr>
+      <tr><td>Single crochet</td><td>Speed, clean edges, edges that don't divide neatly into a repeat</td><td>Understated and neat</td><td>Lowest</td></tr>
+      <tr><td>Picot</td><td>A light decorative touch, delicate and baby items</td><td>Small points of texture</td><td>Low</td></tr>
+      <tr><td>Shell</td><td>Blankets and garment hems where the edge should be a feature</td><td>Full and scalloped</td><td>Medium</td></tr>
+    </table></div>
 
     <h2 id="simple-edging">Simple single crochet edging</h2>
     <div class="step-box">

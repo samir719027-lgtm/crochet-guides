@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 356" width="640" height="356" role="img" aria-labelledby="t d">
+  <title id="t">How an edging repeat consumes edge stitches</title>
+  <desc id="d">A row of edge stitches is grouped into fours. A double crochet edging consumes three of every four edge stitches and skips the fourth, so a shell edging consuming five of every six is quicker to work. The skipped stitches are not wasted, they are left for the corner or the next repeat.</desc>
+  <rect width="640" height="356" fill="#FBF8F2"/>
+  <rect width="640" height="44" fill="#E4DACB"/>
+  <text x="24" y="29" font-family="Work Sans, sans-serif" font-size="15.5" font-weight="600" fill="#2A241E">Each repeat eats some of your edge</text>
+
+  <text x="24" y="74" font-family="Space Mono, monospace" font-size="11" fill="#33586B">4 EDGE STITCHES IN</text>
+  <g stroke="#B9AE9C" stroke-width="1.8" fill="none" stroke-linecap="round">
+    <path d="M40 116c11 0 11 -20 22 -20"/>
+    <path d="M66 104c11 0 11 -20 22 -20"/>
+    <path d="M92 104c11 0 11 -20 22 -20"/>
+    <path d="M118 104c11 0 11 -20 22 -20"/>
+  </g>
+  <g font-family="Space Mono, monospace" font-size="11" fill="#33586B">
+    <text x="44" y="136">1</text><text x="70" y="136">2</text><text x="96" y="136">3</text><text x="122" y="136">4</text>
+  </g>
+  <line x1="160" y1="112" x2="196" y2="112" stroke="#B9AE9C" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M202 112 L210 106 M202 112 L210 118" stroke="#B9AE9C" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <text x="224" y="116" font-family="Work Sans, sans-serif" font-size="14" fill="#2A241E">3 dc worked in</text>
+
+  <line x1="24" y1="156" x2="616" y2="156" stroke="#DED5C6" stroke-width="1"/>
+
+  <g>
+    <rect x="24" y="176" width="278" height="150" rx="4" fill="#FFFFFF" stroke="#DED5C6"/>
+    <text x="42" y="202" font-family="Space Mono, monospace" font-size="10.5" fill="#A63B4A">SHELL EDGING</text>
+    <text x="42" y="224" font-family="Work Sans, sans-serif" font-size="13.5" fill="#5A5148">5 stitches used per 6 on the edge</text>
+    <g font-family="Space Mono, monospace" font-size="11" fill="#A63B4A">
+      <text x="42" y="256">edge:  1 2 3 4 5 6</text>
+    </g>
+    <g font-family="Space Mono, monospace" font-size="11" fill="#33586B">
+      <text x="42" y="278">work: S S S S S _</text>
+    </g>
+    <text x="42" y="304" font-family="Work Sans, sans-serif" font-size="12" fill="#5A5148">6 edge stitches = 1 shell. Slower,</text>
+    <text x="42" y="320" font-family="Work Sans, sans-serif" font-size="12" fill="#5A5148">fuller edge, one skipped stitch.</text>
+  </g>
+
+  <g>
+    <rect x="338" y="176" width="278" height="150" rx="4" fill="#FFFFFF" stroke="#DED5C6"/>
+    <text x="356" y="202" font-family="Space Mono, monospace" font-size="10.5" fill="#33586B">DC OR PICOT EDGING</text>
+    <text x="356" y="224" font-family="Work Sans, sans-serif" font-size="13.5" fill="#5A5148">3 stitches used per 4 on the edge</text>
+    <g font-family="Space Mono, monospace" font-size="11" fill="#A63B4A">
+      <text x="356" y="256">edge:  1 2 3 4</text>
+    </g>
+    <g font-family="Space Mono, monospace" font-size="11" fill="#33586B">
+      <text x="356" y="278">work: S S S _</text>
+    </g>
+    <text x="356" y="304" font-family="Work Sans, sans-serif" font-size="12" fill="#5A5148">Fewer skips, so it works up</text>
+    <text x="356" y="320" font-family="Work Sans, sans-serif" font-size="12" fill="#5A5148">quicker along the same edge.</text>
+  </g>
+</svg>

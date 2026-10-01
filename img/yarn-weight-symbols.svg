@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" width="640" height="300" role="img" aria-labelledby="t d">
+  <title id="t">Yarn weight symbols on a ball band</title>
+  <desc id="d">Five yarn weight symbols from thin to thick, arranged left to right. Lace is the thinnest at category 0. Fingering is category 1. Sport is category 2. DK is category 3. Aran is category 4. Worsted is category 5. Chunky is the thickest at category 6. The label also shows metres per hundred grams, which is a more reliable measure than the name.</desc>
+  <rect width="640" height="300" fill="#FBF8F2"/>
+  <rect width="640" height="44" fill="#E4DACB"/>
+  <text x="24" y="29" font-family="Work Sans, sans-serif" font-size="15.5" font-weight="600" fill="#2A241E">Match the symbol, not the name</text>
+
+  <g>
+    <line x1="44" y1="120" x2="596" y2="120" stroke="#B9AE9C" stroke-width="2"/>
+    <g fill="#33586B">
+      <circle cx="60" cy="120" r="4"/><circle cx="168" cy="120" r="5"/><circle cx="276" cy="120" r="6"/>
+      <circle cx="384" cy="120" r="7.5"/><circle cx="492" cy="120" r="9"/><circle cx="588" cy="120" r="11"/>
+    </g>
+  </g>
+
+  <g font-family="Work Sans, sans-serif" font-size="12" fill="#2A241E" text-anchor="middle">
+    <text x="60" y="94">Lace</text><text x="60" y="150" font-family="Space Mono, monospace" font-size="11" fill="#5A5148">0</text>
+    <text x="168" y="94">Fingering</text><text x="168" y="152" font-family="Space Mono, monospace" font-size="11" fill="#5A5148">1</text>
+    <text x="276" y="94">Sport</text><text x="276" y="154" font-family="Space Mono, monospace" font-size="11" fill="#5A5148">2</text>
+    <text x="384" y="94">DK</text><text x="384" y="158" font-family="Space Mono, monospace" font-size="11" fill="#5A5148">3</text>
+    <text x="492" y="94">Aran</text><text x="492" y="162" font-family="Space Mono, monospace" font-size="11" fill="#5A5148">4</text>
+    <text x="588" y="94">Worsted</text><text x="588" y="168" font-family="Space Mono, monospace" font-size="11" fill="#5A5148">5</text>
+  </g>
+
+  <line x1="24" y1="196" x2="616" y2="196" stroke="#DED5C6" stroke-width="1"/>
+  <text x="24" y="220" font-family="Space Mono, monospace" font-size="10.5" fill="#A63B4A">ALSO PRINTED ON THE BAND</text>
+  <text x="24" y="244" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">L  800  m / 100 g     metres per hundred grams, the most reliable figure</text>
+  <text x="24" y="266" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">3.0 mm     suggested hook     a starting point, not a rule</text>
+  <text x="24" y="290" font-family="Work Sans, sans-serif" font-size="12.5" font-weight="600" fill="#33586B">Two DK yarns with different names can still be the same weight. Check the metres.</text>
+</svg>
