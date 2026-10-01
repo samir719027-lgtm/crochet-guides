@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="t d">
+  <title id="t">How to Read a Yarn Label: weight, length, fibre and care</title>
+  <desc id="d">Reference card from CrochetGuides. A yarn ball band carries a handful of numbers: fibre content, the weight symbol, the weight of one ball, the length of one ball, a suggested hook size, a printed gauge, a dye lot number and care symbols. The weight symbol describes thickness only, and the suggested hook is a starting point rather than an instruction.</desc>
+  <rect width="1200" height="630" fill="#EDE6D9"/>
+  <rect width="1200" height="14" fill="#33586B"/>
+  <rect width="1200" height="7" y="627" fill="#A63B4A"/>
+
+  <g transform="translate(64,66)">
+    <path d="M0 0c-2.5 0-4.5 2-4.5 4.5S-2.5 9 0 9h4c2.8 0 5 2.2 5 5s-2.2 5-5 5-5-2.2-5-5" fill="none" stroke="#33586B" stroke-width="2.4" stroke-linecap="round" transform="translate(0,0)"/>
+    <circle cx="9" cy="1.8" r="1.6" fill="#D8A23C"/>
+    <text x="26" y="9" font-family="Fraunces, serif" font-size="19" font-weight="700" fill="#2A241E">CrochetGuides</text>
+  </g>
+
+  <text x="64" y="150" font-family="Space Mono, monospace" font-size="15" letter-spacing="3" fill="#A63B4A">BUYING GUIDE</text>
+  <text x="64" y="222" font-family="Fraunces, serif" font-size="66" font-weight="600" fill="#2A241E">How to Read</text>
+  <text x="64" y="296" font-family="Fraunces, serif" font-size="66" font-weight="600" fill="#2A241E">a Yarn Label</text>
+
+  <rect x="64" y="336" width="16" height="3" fill="#D8A23C"/>
+  <text x="100" y="346" font-family="Work Sans, sans-serif" font-size="24" fill="#5A5148">Weight, length, fibre and care, in UK terms</text>
+
+  <rect x="64" y="398" width="524" height="150" rx="6" fill="#FBF8F2" stroke="#DED5C6" stroke-width="1.5"/>
+  <text x="92" y="432" font-family="Space Mono, monospace" font-size="13" letter-spacing="1.6" fill="#33586B">THE TWO NUMBERS THAT DECIDE SIZE</text>
+  <g font-family="Work Sans, sans-serif" font-size="19" fill="#2A241E">
+    <circle cx="99" cy="463" r="4" fill="#33586B"/><text x="118" y="470">Metres per ball &#8212; how far one goes</text>
+    <circle cx="99" cy="493" r="4" fill="#A63B4A"/><text x="118" y="500">Weight symbol &#8212; thickness, not softness</text>
+    <circle cx="99" cy="523" r="4" fill="#D8A23C"/><text x="118" y="530">Printed gauge &#8212; check it, do not assume</text>
+  </g>
+
+  <g transform="translate(700,116)">
+    <rect width="436" height="196" rx="6" fill="#FBF8F2" stroke="#DED5C6" stroke-width="1.5"/>
+    <rect x="0" y="0" width="436" height="30" rx="6" fill="#33586B"/>
+    <text x="20" y="20" font-family="Space Mono, monospace" font-size="12.5" letter-spacing="1.4" fill="#EDE6D9">BALL BAND</text>
+    <text x="22" y="60" font-family="Work Sans, sans-serif" font-size="18" fill="#2A241E">100% Merino Wool</text>
+    <circle cx="36" cy="96" r="15" fill="#33586B"/>
+    <circle cx="70" cy="96" r="15" fill="#FBF8F2" stroke="#B9AE9C" stroke-width="1.8"/>
+    <circle cx="104" cy="96" r="15" fill="#FBF8F2" stroke="#B9AE9C" stroke-width="1.8"/>
+    <circle cx="138" cy="96" r="15" fill="#FBF8F2" stroke="#B9AE9C" stroke-width="1.8"/>
+    <text x="172" y="102" font-family="Space Mono, monospace" font-size="16" font-weight="700" fill="#2A241E">DK</text>
+    <text x="240" y="92" font-family="Work Sans, sans-serif" font-size="18" font-weight="700" fill="#2A241E">50 g</text>
+    <text x="240" y="116" font-family="Work Sans, sans-serif" font-size="17" fill="#5A5148">137 yd / 125 m</text>
+    <text x="22" y="152" font-family="Work Sans, sans-serif" font-size="17" fill="#5A5148">4 mm hook &#183; 20 sts x 28 rows in 10 cm</text>
+    <text x="22" y="178" font-family="Space Mono, monospace" font-size="14" fill="#A63B4A">Lot 40218</text>
+  </g>
+
+  <g transform="translate(700,330)">
+    <rect width="436" height="140" rx="6" fill="#FBF8F2" stroke="#DED5C6" stroke-width="1.5"/>
+    <text x="28" y="40" font-family="Space Mono, monospace" font-size="13" letter-spacing="1.6" fill="#A63B4A">THE TRAP</text>
+    <text x="28" y="76" font-family="Work Sans, sans-serif" font-size="20" font-weight="600" fill="#2A241E">100 g and 200 m is a lot more yarn</text>
+    <text x="28" y="102" font-family="Work Sans, sans-serif" font-size="20" font-weight="600" fill="#2A241E">than 100 g and 250 m. Compare metres first.</text>
+    <text x="28" y="126" font-family="Work Sans, sans-serif" font-size="16" fill="#5A5148">Two DK balls can differ by two balls on a throw.</text>
+  </g>
+</svg>

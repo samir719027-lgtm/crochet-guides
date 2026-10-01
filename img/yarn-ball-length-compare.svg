@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 372" width="640" height="372" role="img" aria-labelledby="t d">
+  <title id="t">Three DK balls that are not the same amount of yarn</title>
+  <desc id="d">Three balls all labelled DK. One holds 100 grams and 200 metres, another 100 grams and 250 metres, and a third 50 grams and 125 metres. Two of them have the same weight but a quarter more length, so a blanket that needs twelve balls of one needs only ten of the other.</desc>
+  <rect width="640" height="372" fill="#FBF8F2"/>
+  <rect width="640" height="44" fill="#E4DACB"/>
+  <text x="24" y="29" font-family="Work Sans, sans-serif" font-size="15.5" font-weight="600" fill="#2A241E">All three are DK. They are not the same yarn.</text>
+
+  <g>
+    <rect x="24" y="64" width="184" height="184" rx="4" fill="#FFFFFF" stroke="#DED5C6"/>
+    <text x="42" y="90" font-family="Space Mono, monospace" font-size="10.5" fill="#A63B4A">BALL 1</text>
+    <text x="42" y="112" font-family="Work Sans, sans-serif" font-size="13.5" fill="#2A241E">100 g and 200 m</text>
+    <rect x="42" y="128" width="148" height="14" fill="#E4DACB"/>
+    <rect x="42" y="128" width="119" height="14" fill="#33586B"/>
+    <text x="42" y="164" font-family="Work Sans, sans-serif" font-size="12" fill="#5A5148">200 m of yarn</text>
+    <text x="42" y="190" font-family="Work Sans, sans-serif" font-size="12" fill="#5A5148">Bulky, lofty spin.</text>
+    <text x="42" y="208" font-family="Work Sans, sans-serif" font-size="12" fill="#5A5148">Hides the hook shape.</text>
+    <text x="42" y="230" font-family="Space Mono, monospace" font-size="11.5" fill="#A63B4A">12 balls for the throw</text>
+  </g>
+
+  <g>
+    <rect x="228" y="64" width="184" height="184" rx="4" fill="#FFFFFF" stroke="#DED5C6"/>
+    <text x="246" y="90" font-family="Space Mono, monospace" font-size="10.5" fill="#A63B4A">BALL 2</text>
+    <text x="246" y="112" font-family="Work Sans, sans-serif" font-size="13.5" fill="#2A241E">100 g and 250 m</text>
+    <rect x="246" y="128" width="148" height="14" fill="#E4DACB"/>
+    <rect x="246" y="128" width="148" height="14" fill="#33586B"/>
+    <text x="246" y="164" font-family="Work Sans, sans-serif" font-size="12" fill="#5A5148">250 m of yarn</text>
+    <text x="246" y="190" font-family="Work Sans, sans-serif" font-size="12" fill="#5A5148">Same weight, 25%</text>
+    <text x="246" y="208" font-family="Work Sans, sans-serif" font-size="12" fill="#5A5148">more length.</text>
+    <text x="246" y="230" font-family="Space Mono, monospace" font-size="11.5" fill="#A63B4A">10 balls for the throw</text>
+  </g>
+
+  <g>
+    <rect x="432" y="64" width="184" height="184" rx="4" fill="#FFFFFF" stroke="#DED5C6"/>
+    <text x="450" y="90" font-family="Space Mono, monospace" font-size="10.5" fill="#33586B">BALL 3</text>
+    <text x="450" y="112" font-family="Work Sans, sans-serif" font-size="13.5" fill="#2A241E">50 g and 125 m</text>
+    <rect x="450" y="128" width="148" height="14" fill="#E4DACB"/>
+    <rect x="450" y="128" width="74" height="14" fill="#D8A23C"/>
+    <text x="450" y="164" font-family="Work Sans, sans-serif" font-size="12" fill="#5A5148">125 m of yarn</text>
+    <text x="450" y="190" font-family="Work Sans, sans-serif" font-size="12" fill="#5A5148">The smaller ball is</text>
+    <text x="450" y="208" font-family="Work Sans, sans-serif" font-size="12" fill="#5A5148">not a thinner yarn.</text>
+    <text x="450" y="230" font-family="Space Mono, monospace" font-size="11.5" fill="#33586B">24 balls for the throw</text>
+  </g>
+
+  <rect x="24" y="268" width="592" height="80" rx="4" fill="#FFFFFF" stroke="#DED5C6"/>
+  <text x="44" y="294" font-family="Space Mono, monospace" font-size="10.5" fill="#A63B4A">THE RULE</text>
+  <text x="44" y="316" font-family="Work Sans, sans-serif" font-size="13.5" fill="#2A241E">Compare metres first, then match the weight to the hook you will actually use.</text>
+  <text x="44" y="336" font-family="Work Sans, sans-serif" font-size="12" fill="#5A5148">Two balls can be the same DK, cost the same, and still differ by two whole balls on a throw blanket.</text>
+</svg>

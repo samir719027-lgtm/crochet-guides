@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" width="640" height="380" role="img" aria-labelledby="t d">
+  <title id="t">Three DK yarns swatched on the same hook</title>
+  <desc id="d">Three swatches worked in double crochet on a 4 millimetre hook. One gives 18 stitches per 10 centimetres, one gives 20, and one gives 22. Against a pattern needing 60 stitches across, that is 33, 30 and 27 centimetres of finished width, so a project built to gauge on one yarn comes out a third narrower or wider on another.</desc>
+  <rect width="640" height="380" fill="#FBF8F2"/>
+  <rect width="640" height="44" fill="#E4DACB"/>
+  <text x="24" y="29" font-family="Work Sans, sans-serif" font-size="15.5" font-weight="600" fill="#2A241E">Same hook, same DK, three different widths</text>
+
+  <text x="24" y="72" font-family="Space Mono, monospace" font-size="11" fill="#5A5148">4 MM HOOK, DOUBLE CROCHET, LOOSE TENSION, 60 STITCHES ACROSS</text>
+
+  <g>
+    <text x="24" y="100" font-family="Space Mono, monospace" font-size="10.5" fill="#A63B4A">YARN A</text>
+    <text x="24" y="120" font-family="Work Sans, sans-serif" font-size="13" fill="#2A241E">18 sts / 10 cm</text>
+    <rect x="200" y="90" width="100" height="22" fill="#A63B4A"/>
+    <text x="308" y="106" font-family="Work Sans, sans-serif" font-size="12.5" fill="#2A241E">33 cm wide</text>
+  </g>
+
+  <g>
+    <text x="24" y="152" font-family="Space Mono, monospace" font-size="10.5" fill="#33586B">YARN B</text>
+    <text x="24" y="172" font-family="Work Sans, sans-serif" font-size="13" fill="#2A241E">20 sts / 10 cm</text>
+    <rect x="200" y="142" width="90" height="22" fill="#33586B"/>
+    <text x="308" y="158" font-family="Work Sans, sans-serif" font-size="12.5" fill="#2A241E">30 cm wide, as intended</text>
+  </g>
+
+  <g>
+    <text x="24" y="204" font-family="Space Mono, monospace" font-size="10.5" fill="#5A5148">YARN C</text>
+    <text x="24" y="224" font-family="Work Sans, sans-serif" font-size="13" fill="#2A241E">22 sts / 10 cm</text>
+    <rect x="200" y="194" width="82" height="22" fill="#5A5148"/>
+    <text x="308" y="210" font-family="Work Sans, sans-serif" font-size="12.5" fill="#2A241E">27 cm wide, 3 cm narrow</text>
+  </g>
+
+  <text x="24" y="252" font-family="Space Mono, monospace" font-size="10.5" fill="#A63B4A">SWATCH WIDTHS TO SCALE</text>
+  <g stroke="#DED5C6" stroke-width="1">
+    <line x1="200" y1="258" x2="200" y2="274"/>
+    <line x1="300" y1="258" x2="300" y2="274"/>
+    <line x1="282" y1="258" x2="282" y2="274"/>
+  </g>
+  <g font-family="Space Mono, monospace" font-size="9.5" fill="#5A5148">
+    <text x="276" y="286">33</text><text x="296" y="286">30</text><text x="258" y="286">27</text>
+  </g>
+
+  <rect x="24" y="300" width="592" height="62" rx="4" fill="#FFFFFF" stroke="#DED5C6"/>
+  <text x="44" y="324" font-family="Space Mono, monospace" font-size="10.5" fill="#33586B">WHAT TO DO INSTEAD</text>
+  <text x="44" y="346" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">Swatch the yarn you have. If the stitch count is off, change the hook size, not the pattern stitch count.</text>
+</svg>

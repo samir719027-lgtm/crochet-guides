@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 424" width="640" height="424" role="img" aria-labelledby="t d">
+  <title id="t">What the eight things on a yarn ball band tell you</title>
+  <desc id="d">A mock ball band is annotated with eight labelled callouts: fibre content, the weight symbol, the weight of one ball, the length of one ball, the suggested hook size, the printed gauge, the dye lot number, and the care symbols. The weight symbol describes thickness only, and the suggested hook is a starting point that the printed gauge and a swatch still have to confirm.</desc>
+  <rect width="640" height="424" fill="#FBF8F2"/>
+  <rect width="640" height="44" fill="#E4DACB"/>
+  <text x="24" y="29" font-family="Work Sans, sans-serif" font-size="15.5" font-weight="600" fill="#2A241E">The eight things on a ball band</text>
+
+  <rect x="24" y="64" width="252" height="336" rx="4" fill="#FFFFFF" stroke="#DED5C6"/>
+  <rect x="24" y="64" width="252" height="26" rx="4" fill="#33586B"/>
+  <text x="40" y="82" font-family="Space Mono, monospace" font-size="10.5" fill="#EDE6D9">WILLOW &amp; MERINO DK</text>
+
+  <text x="40" y="114" font-family="Work Sans, sans-serif" font-size="11.5" fill="#5A5148">1</text>
+  <text x="62" y="114" font-family="Work Sans, sans-serif" font-size="13" fill="#2A241E">100% Merino Wool</text>
+
+  <text x="40" y="152" font-family="Work Sans, sans-serif" font-size="11.5" fill="#5A5148">2</text>
+  <g>
+    <circle cx="72" cy="147" r="13" fill="#33586B"/>
+    <circle cx="100" cy="147" r="13" fill="#FFFFFF" stroke="#B9AE9C" stroke-width="1.6"/>
+    <circle cx="128" cy="147" r="13" fill="#FFFFFF" stroke="#B9AE9C" stroke-width="1.6"/>
+    <circle cx="156" cy="147" r="13" fill="#FFFFFF" stroke="#B9AE9C" stroke-width="1.6"/>
+  </g>
+  <text x="186" y="152" font-family="Space Mono, monospace" font-size="13" font-weight="700" fill="#2A241E">DK</text>
+
+  <text x="40" y="196" font-family="Work Sans, sans-serif" font-size="11.5" fill="#5A5148">3</text>
+  <text x="62" y="197" font-family="Work Sans, sans-serif" font-size="14" font-weight="700" fill="#2A241E">50 g</text>
+
+  <text x="40" y="222" font-family="Work Sans, sans-serif" font-size="11.5" fill="#5A5148">4</text>
+  <text x="62" y="223" font-family="Work Sans, sans-serif" font-size="13" fill="#2A241E">137 yd / 125 m</text>
+
+  <text x="40" y="256" font-family="Work Sans, sans-serif" font-size="11.5" fill="#5A5148">5</text>
+  <text x="62" y="257" font-family="Work Sans, sans-serif" font-size="13" fill="#2A241E">4 mm hook</text>
+
+  <text x="40" y="284" font-family="Work Sans, sans-serif" font-size="11.5" fill="#5A5148">6</text>
+  <text x="62" y="285" font-family="Work Sans, sans-serif" font-size="13" fill="#2A241E">20 sts x 28 rows</text>
+  <text x="62" y="303" font-family="Work Sans, sans-serif" font-size="12" fill="#5A5148">in 10 cm</text>
+
+  <text x="40" y="334" font-family="Work Sans, sans-serif" font-size="11.5" fill="#5A5148">7</text>
+  <text x="62" y="335" font-family="Work Sans, sans-serif" font-size="13" fill="#2A241E">Lot 40218</text>
+
+  <text x="40" y="372" font-family="Work Sans, sans-serif" font-size="11.5" fill="#5A5148">8</text>
+  <g transform="translate(62,360)" stroke="#2A241E" stroke-width="1.6" fill="none">
+    <rect x="0" y="0" width="15" height="15"/>
+    <path d="M3 4 L12 11 M3 11 L12 4"/>
+  </g>
+  <g transform="translate(84,360)" stroke="#2A241E" stroke-width="1.6" fill="none">
+    <circle cx="7.5" cy="7.5" r="7"/>
+    <path d="M7.5 2.5 L7.5 12.5"/>
+  </g>
+  <g transform="translate(106,360)" stroke="#2A241E" stroke-width="1.6" fill="none">
+    <path d="M0 7 L4 3 L8 7 L4 11 Z"/>
+    <path d="M12 3 L16 7 L12 11 L8 7 Z"/>
+  </g>
+
+  <g stroke="#DED5C6" stroke-width="1.2">
+    <line x1="288" y1="110" x2="312" y2="110"/>
+    <line x1="288" y1="147" x2="312" y2="147"/>
+    <line x1="288" y1="193" x2="312" y2="193"/>
+    <line x1="288" y1="219" x2="312" y2="219"/>
+    <line x1="288" y1="253" x2="312" y2="253"/>
+    <line x1="288" y1="289" x2="312" y2="289"/>
+    <line x1="288" y1="331" x2="312" y2="331"/>
+    <line x1="288" y1="367" x2="312" y2="367"/>
+  </g>
+
+  <g font-family="Work Sans, sans-serif">
+    <text x="322" y="114" font-size="13" fill="#2A241E">Fibre content</text>
+    <text x="322" y="132" font-size="11.5" fill="#5A5148">what it is actually made of</text>
+
+    <text x="322" y="151" font-size="13" fill="#2A241E">Weight symbol</text>
+    <text x="322" y="169" font-size="11.5" fill="#5A5148">thickness only, not softness</text>
+
+    <text x="322" y="197" font-size="13" fill="#2A241E">Weight of one ball</text>
+    <text x="322" y="215" font-size="11.5" fill="#5A5148">what you buy and pay for</text>
+
+    <text x="322" y="223" font-size="13" fill="#2A241E">Length of one ball</text>
+    <text x="322" y="241" font-size="11.5" fill="#5A5148">how far one ball actually goes</text>
+
+    <text x="322" y="257" font-size="13" fill="#2A241E">Suggested hook</text>
+    <text x="322" y="275" font-size="11.5" fill="#5A5148">a starting point, not an order</text>
+
+    <text x="322" y="293" font-size="13" fill="#2A241E">Printed gauge</text>
+    <text x="322" y="311" font-size="11.5" fill="#5A5148">only true for that hook and tension</text>
+
+    <text x="322" y="335" font-size="13" fill="#2A241E">Dye lot</text>
+    <text x="322" y="353" font-size="11.5" fill="#5A5148">match it across every ball</text>
+
+    <text x="322" y="371" font-size="13" fill="#2A241E">Care symbols</text>
+    <text x="322" y="389" font-size="11.5" fill="#5A5148">the symbols override the fibre</text>
+  </g>
+</svg>
