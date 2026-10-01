@@ -3,7 +3,7 @@
   <desc id="d">Reference card from CrochetGuides. Counting by the V shapes along the base of the row gives twelve, shown as a consistent total. A decision path explains what to do when a row is miscounted.</desc>
   <rect width="1200" height="630" fill="#EDE6D9"/>
   <rect width="1200" height="14" fill="#33586B"/>
-  <rect width="1200" height="7" y="627" fill="#A63B4A"/>
+  <rect width="1200" height="7" y="623" fill="#A63B4A"/>
 
   <g transform="translate(64,66)">
     <path d="M0 0c-2.5 0-4.5 2-4.5 4.5S-2.5 9 0 9h4c2.8 0 5 2.2 5 5s-2.2 5-5 5-5-2.2-5-5" fill="none" stroke="#33586B" stroke-width="2.4" stroke-linecap="round"/>

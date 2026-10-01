@@ -3,7 +3,7 @@
   <desc id="d">Reference card from CrochetGuides. A yarn ball band carries a handful of numbers: fibre content, the weight symbol, the weight of one ball, the length of one ball, a suggested hook size, a printed gauge, a dye lot number and care symbols. The weight symbol describes thickness only, and the suggested hook is a starting point rather than an instruction.</desc>
   <rect width="1200" height="630" fill="#EDE6D9"/>
   <rect width="1200" height="14" fill="#33586B"/>
-  <rect width="1200" height="7" y="627" fill="#A63B4A"/>
+  <rect width="1200" height="7" y="623" fill="#A63B4A"/>
 
   <g transform="translate(64,66)">
     <path d="M0 0c-2.5 0-4.5 2-4.5 4.5S-2.5 9 0 9h4c2.8 0 5 2.2 5 5s-2.2 5-5 5-5-2.2-5-5" fill="none" stroke="#33586B" stroke-width="2.4" stroke-linecap="round" transform="translate(0,0)"/>
@@ -45,7 +45,7 @@
   <g transform="translate(700,330)">
     <rect width="436" height="140" rx="6" fill="#FBF8F2" stroke="#DED5C6" stroke-width="1.5"/>
     <text x="28" y="40" font-family="Space Mono, monospace" font-size="13" letter-spacing="1.6" fill="#A63B4A">THE TRAP</text>
-    <text x="28" y="76" font-family="Work Sans, sans-serif" font-size="20" font-weight="600" fill="#2A241E">100 g and 200 m is a lot more yarn</text>
+    <text x="28" y="76" font-family="Work Sans, sans-serif" font-size="20" font-weight="600" fill="#2A241E">100 g and 200 m is a lot less yarn</text>
     <text x="28" y="102" font-family="Work Sans, sans-serif" font-size="20" font-weight="600" fill="#2A241E">than 100 g and 250 m. Compare metres first.</text>
     <text x="28" y="126" font-family="Work Sans, sans-serif" font-size="16" fill="#5A5148">Two DK balls can differ by two balls on a throw.</text>
   </g>

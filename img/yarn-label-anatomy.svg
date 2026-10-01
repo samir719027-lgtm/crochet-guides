@@ -15,8 +15,8 @@
   <text x="40" y="152" font-family="Work Sans, sans-serif" font-size="11.5" fill="#5A5148">2</text>
   <g>
     <circle cx="72" cy="147" r="13" fill="#33586B"/>
-    <circle cx="100" cy="147" r="13" fill="#FFFFFF" stroke="#B9AE9C" stroke-width="1.6"/>
-    <circle cx="128" cy="147" r="13" fill="#FFFFFF" stroke="#B9AE9C" stroke-width="1.6"/>
+    <circle cx="100" cy="147" r="13" fill="#33586B"/>
+    <circle cx="128" cy="147" r="13" fill="#33586B"/>
     <circle cx="156" cy="147" r="13" fill="#FFFFFF" stroke="#B9AE9C" stroke-width="1.6"/>
   </g>
   <text x="186" y="152" font-family="Space Mono, monospace" font-size="13" font-weight="700" fill="#2A241E">DK</text>
