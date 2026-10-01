@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="t d">
+  <title id="t">How to Count Crochet Stitches and Rows</title>
+  <desc id="d">Reference card from CrochetGuides. Counting by the V shapes along the base of the row gives twelve, shown as a consistent total. A decision path explains what to do when a row is miscounted.</desc>
+  <rect width="1200" height="630" fill="#EDE6D9"/>
+  <rect width="1200" height="14" fill="#33586B"/>
+  <rect width="1200" height="7" y="627" fill="#A63B4A"/>
+
+  <g transform="translate(64,66)">
+    <path d="M0 0c-2.5 0-4.5 2-4.5 4.5S-2.5 9 0 9h4c2.8 0 5 2.2 5 5s-2.2 5-5 5-5-2.2-5-5" fill="none" stroke="#33586B" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="9" cy="1.8" r="1.6" fill="#D8A23C"/>
+    <text x="26" y="9" font-family="Fraunces, serif" font-size="19" font-weight="700" fill="#2A241E">CrochetGuides</text>
+  </g>
+
+  <text x="64" y="150" font-family="Space Mono, monospace" font-size="15" letter-spacing="3" fill="#A63B4A">FUNDAMENTALS</text>
+  <text x="64" y="222" font-family="Fraunces, serif" font-size="64" font-weight="600" fill="#2A241E">How to Count</text>
+  <text x="64" y="294" font-family="Fraunces, serif" font-size="64" font-weight="600" fill="#2A241E">Crochet Stitches</text>
+
+  <rect x="64" y="330" width="16" height="3" fill="#D8A23C"/>
+  <text x="100" y="340" font-family="Work Sans, sans-serif" font-size="23" fill="#5A5148">Rows, rounds, and what to do when the count is wrong</text>
+
+  <rect x="64" y="392" width="524" height="150" rx="6" fill="#FBF8F2" stroke="#DED5C6" stroke-width="1.5"/>
+  <text x="92" y="426" font-family="Space Mono, monospace" font-size="13" letter-spacing="1.6" fill="#33586B">COUNT THE BASE, NOT THE TOP</text>
+  <text x="92" y="458" font-family="Work Sans, sans-serif" font-size="19" fill="#2A241E">The V shapes along the bottom edge</text>
+  <text x="92" y="484" font-family="Work Sans, sans-serif" font-size="19" fill="#2A241E">never hide behind each other.</text>
+  <text x="92" y="516" font-family="Work Sans, sans-serif" font-size="16" fill="#5A5148">Count in groups of five.</text>
+
+  <g transform="translate(700,110)">
+    <rect width="436" height="184" rx="6" fill="#FBF8F2" stroke="#DED5C6" stroke-width="1.5"/>
+    <text x="28" y="40" font-family="Space Mono, monospace" font-size="13" letter-spacing="1.6" fill="#A63B4A">ONE CLEAN ROW</text>
+    <g stroke="#B9AE9C" stroke-width="3.2" fill="none" stroke-linecap="round">
+      <path d="M28 106c9 -9 15 -12 21 -12"/><path d="M53 106c9 -9 15 -12 21 -12"/>
+      <path d="M78 106c9 -9 15 -12 21 -12"/><path d="M103 106c9 -9 15 -12 21 -12"/>
+      <path d="M128 106c9 -9 15 -12 21 -12"/><path d="M153 106c9 -9 15 -12 21 -12"/>
+      <path d="M178 106c9 -9 15 -12 21 -12"/><path d="M203 106c9 -9 15 -12 21 -12"/>
+      <path d="M228 106c9 -9 15 -12 21 -12"/><path d="M253 106c9 -9 15 -12 21 -12"/>
+      <path d="M278 106c9 -9 15 -12 21 -12"/><path d="M303 106c9 -9 15 -12 21 -12"/>
+      <path d="M328 106c9 -9 15 -12 21 -12"/><path d="M353 106c9 -9 15 -12 21 -12"/>
+      <path d="M378 106c9 -9 15 -12 21 -12"/><path d="M403 106c9 -9 15 -12 21 -12"/>
+    </g>
+    <line x1="28" y1="112" x2="424" y2="112" stroke="#33586B" stroke-width="2" stroke-dasharray="5 5"/>
+    <text x="28" y="146" font-family="Space Mono, monospace" font-size="20" fill="#33586B">count = 16</text>
+    <text x="28" y="170" font-family="Work Sans, sans-serif" font-size="15" fill="#5A5148">4 groups of 5 minus 4 ch, if the pattern says so</text>
+  </g>
+
+  <g transform="translate(700,330)">
+    <rect width="436" height="140" rx="6" fill="#FBF8F2" stroke="#D8A23C" stroke-width="1.5"/>
+    <text x="28" y="40" font-family="Space Mono, monospace" font-size="13" letter-spacing="1.6" fill="#8C5E08">MISCOUNT? RECOUNT FIRST.</text>
+    <text x="28" y="70" font-family="Work Sans, sans-serif" font-size="16" fill="#2A241E">Short by 1 or 2 &#8594; place or remove a stitch</text>
+    <text x="28" y="94" font-family="Work Sans, sans-serif" font-size="16" fill="#2A241E">Short by 3+ &#8594; unpick to the last row</text>
+    <text x="28" y="120" font-family="Work Sans, sans-serif" font-size="15" fill="#5A5148">Tight spots between stitches mean tension, not arithmetic.</text>
+  </g>
+</svg>

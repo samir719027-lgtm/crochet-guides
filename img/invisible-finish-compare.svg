@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 372" width="640" height="372" role="img" aria-labelledby="t d">
+  <title id="t">Four different crochet techniques people call invisible</title>
+  <desc id="d">Invisible join closes the last round of a circle without a raised seam. Invisible fasten off hides the final stitch at the end of a piece. Weaving in ends hides leftover yarn tails. A Russian join joins two yarn ends mid-project with no knot at all.</desc>
+  <rect width="640" height="372" fill="#FBF8F2"/>
+
+  <text x="24" y="38" font-family="Work Sans, sans-serif" font-size="17" font-weight="600" fill="#2A241E">Four techniques, one word</text>
+  <text x="24" y="60" font-family="Work Sans, sans-serif" font-size="13" fill="#5A5148">"Invisible" is used for all of these. They solve different problems.</text>
+  <line x1="24" y1="76" x2="616" y2="76" stroke="#DED5C6" stroke-width="1"/>
+
+  <g>
+    <rect x="24" y="92" width="284" height="122" rx="4" fill="#FFFFFF" stroke="#DED5C6"/>
+    <rect x="24" y="92" width="4" height="122" fill="#33586B"/>
+    <text x="42" y="118" font-family="Space Mono, monospace" font-size="10.5" fill="#33586B">CLOSING A CIRCLE</text>
+    <text x="42" y="142" font-family="Fraunces, serif" font-size="15" font-weight="600" fill="#2A241E">Invisible join</text>
+    <text x="42" y="164" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">Closes the final round of a circle</text>
+    <text x="42" y="182" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">so no step or ridge shows.</text>
+    <text x="42" y="202" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">Only for work in the round.</text>
+  </g>
+
+  <g>
+    <rect x="332" y="92" width="284" height="122" rx="4" fill="#FFFFFF" stroke="#DED5C6"/>
+    <rect x="332" y="92" width="4" height="122" fill="#A63B4A"/>
+    <text x="350" y="118" font-family="Space Mono, monospace" font-size="10.5" fill="#A63B4A">ENDING A PIECE</text>
+    <text x="350" y="142" font-family="Fraunces, serif" font-size="15" font-weight="600" fill="#2A241E">Invisible fasten off</text>
+    <text x="350" y="164" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">Hides the last stitch so the</text>
+    <text x="350" y="182" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">edge looks evenly worked.</text>
+    <text x="350" y="202" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">Works flat or in the round.</text>
+  </g>
+
+  <g>
+    <rect x="24" y="230" width="284" height="122" rx="4" fill="#FFFFFF" stroke="#DED5C6"/>
+    <rect x="24" y="230" width="4" height="122" fill="#8C5E08"/>
+    <text x="42" y="256" font-family="Space Mono, monospace" font-size="10.5" fill="#8C5E08">CLEANING UP</text>
+    <text x="42" y="280" font-family="Fraunces, serif" font-size="15" font-weight="600" fill="#2A241E">Weaving in ends</text>
+    <text x="42" y="302" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">Buries leftover yarn tails</text>
+    <text x="42" y="320" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">inside the fabric so they</text>
+    <text x="42" y="338" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">cannot work loose.</text>
+  </g>
+
+  <g>
+    <rect x="332" y="230" width="284" height="122" rx="4" fill="#FFFFFF" stroke="#DED5C6"/>
+    <rect x="332" y="230" width="4" height="122" fill="#33586B"/>
+    <text x="350" y="256" font-family="Space Mono, monospace" font-size="10.5" fill="#33586B">CHANGING YARN</text>
+    <text x="350" y="280" font-family="Fraunces, serif" font-size="15" font-weight="600" fill="#2A241E">Russian join</text>
+    <text x="350" y="302" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">Joins two yarn ends without</text>
+    <text x="350" y="320" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">a knot and without tails to</text>
+    <text x="350" y="338" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">weave in afterwards.</text>
+  </g>
+</svg>

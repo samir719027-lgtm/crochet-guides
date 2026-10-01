@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 336" width="640" height="336" role="img" aria-labelledby="t d">
+  <title id="t">Four steps for an invisible fasten off</title>
+  <desc id="d">Step one: leave a tail about fifteen centimetres long and do not cut it. Step two: slip the hook into the back loop of the previous stitch. Step three: pull the tail through the stitch so it sits inside the loop. Step four: pull the hook through both loops to close, then pull the tail tight to hide it.</desc>
+  <rect width="640" height="336" fill="#FBF8F2"/>
+
+  <text x="24" y="34" font-family="Work Sans, sans-serif" font-size="16" font-weight="600" fill="#2A241E">Invisible fasten off, in four steps</text>
+  <text x="24" y="54" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">UK terms shown. US equivalents in brackets.</text>
+  <line x1="24" y1="68" x2="616" y2="68" stroke="#DED5C6" stroke-width="1"/>
+
+  <g>
+    <circle cx="46" cy="98" r="14" fill="#33586B"/>
+    <text x="46" y="103" font-family="Work Sans, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+    <text x="72" y="96" font-family="Fraunces, serif" font-size="14.5" font-weight="600" fill="#2A241E">Leave the tail long, uncut</text>
+    <text x="72" y="116" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">About 15cm. Do not fasten off first.</text>
+  </g>
+
+  <g>
+    <circle cx="46" cy="162" r="14" fill="#33586B"/>
+    <text x="46" y="167" font-family="Work Sans, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+    <text x="72" y="160" font-family="Fraunces, serif" font-size="14.5" font-weight="600" fill="#2A241E">Enter the back loop only</text>
+    <text x="72" y="180" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">blo (back loop only). Skip the front loop.</text>
+  </g>
+
+  <g>
+    <circle cx="46" cy="226" r="14" fill="#33586B"/>
+    <text x="46" y="231" font-family="Work Sans, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+    <text x="72" y="224" font-family="Fraunces, serif" font-size="14.5" font-weight="600" fill="#2A241E">Pull the tail through the stitch</text>
+    <text x="72" y="244" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">The tail now sits inside the loop.</text>
+  </g>
+
+  <g>
+    <circle cx="46" cy="290" r="14" fill="#A63B4A"/>
+    <text x="46" y="295" font-family="Work Sans, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+    <text x="72" y="288" font-family="Fraunces, serif" font-size="14.5" font-weight="600" fill="#2A241E">Close it, then tug the tail</text>
+    <text x="72" y="308" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">Pull through both loops, then tighten. Done.</text>
+  </g>
+
+  <g stroke="#B9AE9C" stroke-width="1.8" fill="none" stroke-linecap="round">
+    <path d="M470 128 L470 160 L500 160"/>
+    <path d="M470 192 L470 224 L500 224"/>
+    <path d="M470 256 L470 288 L500 288"/>
+  </g>
+  <path d="M506 128 L506 320" stroke="#DED5C6" stroke-width="6" stroke-linecap="round"/>
+  <path d="M506 150 L506 128 L500 134" stroke="#D8A23C" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="524" y="140" font-family="Work Sans, sans-serif" font-size="11.5" fill="#8C5E08">the tail,</text>
+  <text x="524" y="156" font-family="Work Sans, sans-serif" font-size="11.5" fill="#8C5E08">pulled down</text>
+  <text x="524" y="172" font-family="Work Sans, sans-serif" font-size="11.5" fill="#8C5E08">after closing</text>
+</svg>

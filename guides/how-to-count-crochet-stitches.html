@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V7BZHNMDS4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-V7BZHNMDS4');
+</script>
+<script>
+document.addEventListener('click', function(e){
+  var a = e.target.closest('a');
+  if(!a || !a.href) return;
+  if(a.href.indexOf('amazon.com') > -1){
+    gtag('event', 'affiliate_click', {link_url: a.href, page_path: window.location.pathname});
+  }
+});
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to Count Crochet Stitches and Rows | CrochetGuides</title>
+<meta name="description" content="Count crochet stitches by the base of the stitch, not the top loops. What counts as a stitch, tracking rows and rounds, and how to fix a miscount.">
+<link rel="canonical" href="https://crochetguide.uk/guides/how-to-count-crochet-stitches">
+<meta name="robots" content="index, follow">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='5' fill='%2322404F'/%3E%3Cpath d='M8 3c-2.5 0-4.5 2-4.5 4.5S5.5 12 8 12h4c2.8 0 5 2.2 5 5s-2.2 5-5 5-5-2.2-5-5' fill='none' stroke='%23EDE6D9' stroke-width='1.8' stroke-linecap='round'/%3E%3Ccircle cx='17.2' cy='4.8' r='1.7' fill='%23D8A23C'/%3E%3C/svg%3E">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="CrochetGuides">
+<meta property="og:title" content="How to Count Crochet Stitches and Rows Without Guessing">
+<meta property="og:description" content="Count by the base of the stitch, not the top loops. What counts as a stitch, tracking rows and rounds, and how to fix a miscount.">
+<meta property="og:url" content="https://crochetguide.uk/guides/how-to-count-crochet-stitches">
+<meta property="og:image" content="https://crochetguide.uk/img/count-stitches-og.svg">
+<meta name="twitter:card" content="summary_large_image">
+
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Work+Sans:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+:root{--wool:#EDE6D9;--wool-2:#E4DACB;--card:#FBF8F2;--ink:#2A241E;--ink-soft:#5A5148;--teal:#33586B;--teal-dark:#22404F;--mustard:#8C5E08;--berry:#A63B4A;--line:rgba(42,36,30,0.14);--radius:4px;--maxw:760px;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--wool);color:var(--ink);font-family:'Work Sans',sans-serif;font-size:17px;line-height:1.7;-webkit-font-smoothing:antialiased;}
+a{color:var(--teal-dark);}
+img{max-width:100%;display:block;}
+h1,h2,h3{font-family:'Fraunces',serif;font-weight:600;margin:0 0 14px;letter-spacing:-0.01em;}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px;}
+header{padding:22px 0;border-bottom:1px solid var(--line);}
+header .wrap{max-width:1100px;display:flex;align-items:center;justify-content:space-between;}
+.logo{font-family:'Fraunces',serif;font-weight:700;font-size:20px;display:flex;align-items:center;gap:9px;text-decoration:none;color:var(--ink);}
+.logo svg{width:18px;height:18px;}
+.back{font-size:14px;font-weight:600;text-decoration:none;}
+.breadcrumb{font-family:'Space Mono',monospace;font-size:12px;color:var(--ink-soft);margin-top:20px;}
+.breadcrumb a{color:var(--ink-soft);text-decoration:none;}
+.breadcrumb a:hover{color:var(--teal-dark);}
+.breadcrumb .sep{opacity:0.5;margin:0 6px;}
+.eyebrow{font-family:'Space Mono',monospace;font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:var(--berry);}
+h1{font-size:38px;line-height:1.15;margin-top:10px;}
+.dek{font-size:18px;color:var(--ink-soft);margin:16px 0 0;}
+.meta{font-family:'Space Mono',monospace;font-size:12px;color:var(--ink-soft);margin-top:18px;}
+h2{font-size:22px;margin-top:40px;}
+h3{font-size:18px;margin-top:28px;}
+p{margin:0 0 16px;}
+ul,ol{margin:0 0 16px;padding-left:22px;}
+li{margin-bottom:8px;}
+.hero-img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:var(--radius);margin:24px 0;}
+.callout{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin:24px 0;font-size:15.5px;}
+.callout strong{color:var(--berry);}
+table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14px;}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);}
+th{font-family:'Space Mono',monospace;font-size:10.5px;text-transform:uppercase;letter-spacing:0.06em;color:var(--ink-soft);}
+.faq h3{font-size:16.5px;}
+.related{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px;margin:40px 0 0;}
+.related h2{font-size:18px;margin:0 0 14px;}
+.related ul{margin:0;padding-left:0;list-style:none;}
+.related li{margin-bottom:10px;}
+.related a{text-decoration:none;font-weight:600;font-size:14.5px;}
+.related a:hover{text-decoration:underline;}
+.disclosure{font-size:13px;color:var(--ink-soft);border-top:1px solid var(--line);margin-top:40px;padding-top:20px;}
+footer{border-top:1px solid var(--line);padding:24px 0;font-size:13px;color:var(--ink-soft);}
+footer .wrap{max-width:1100px;}
+.print-btn{display:inline-flex;align-items:center;gap:6px;padding:12px 16px;border-radius:var(--radius);background:var(--card);border:1px solid var(--line);color:var(--ink);text-decoration:none;font-size:13.5px;font-weight:600;cursor:pointer;margin-top:12px;font-family:'Work Sans',sans-serif;}
+.print-btn:hover{border-color:var(--teal-dark);color:var(--teal-dark);}
+.pin-btn{display:inline-flex;align-items:center;gap:6px;padding:12px 16px;border-radius:var(--radius);background:var(--berry);color:var(--card)!important;text-decoration:none;font-size:13.5px;font-weight:600;margin-top:12px;margin-left:8px;font-family:'Work Sans',sans-serif;}
+.pin-btn:hover{background:#8a2f3d;}
+.btn-row{display:flex;flex-wrap:wrap;gap:0;}
+
+.jumpnav{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:28px 0;font-size:14.5px;}
+.jumpnav strong{display:block;margin-bottom:8px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--berry);}
+.jumpnav ol{margin:0;padding-left:18px;columns:2;column-gap:24px;}
+.jumpnav li{margin-bottom:6px;break-inside:avoid;}
+.jumpnav a{text-decoration:none;font-weight:600;}
+.jumpnav a:hover{text-decoration:underline;}
+@media (max-width:480px){.jumpnav ol{columns:1;}}
+
+@media print{
+  h2:has(+ .pick){display:none!important;}
+  header, footer, .video-wrap, .video-caption, .related, .disclosure, .print-btn, .pin-btn, .btn-row, .pick, .callout, .jumpnav{display:none!important;}
+  body{background:#fff;}
+  article{padding:0;}
+  .hero-img{max-height:200px;}
+}
+
+.search-btn{background:none;border:none;cursor:pointer;color:var(--ink);padding:6px;display:flex;align-items:center;gap:9px;flex:none;}
+.search-btn:hover{color:var(--teal-dark);}
+.search-overlay{position:fixed;inset:0;background:rgba(42,36,30,0.55);z-index:999;display:flex;align-items:flex-start;justify-content:center;padding:10vh 20px 20px;}
+.search-overlay[hidden]{display:none;}
+.search-box{background:var(--card);border-radius:var(--radius);max-width:560px;width:100%;padding:18px;box-shadow:0 10px 40px rgba(0,0,0,0.25);max-height:70vh;display:flex;flex-direction:column;}
+.search-row{display:flex;gap:8px;align-items:center;}
+.search-row input{flex:1;padding:12px 14px;border:1px solid var(--line);border-radius:var(--radius);font-size:16px;font-family:'Work Sans',sans-serif;background:var(--wool);color:var(--ink);box-sizing:border-box;}
+.search-row input:focus{outline:2px solid var(--teal);border-color:var(--teal);}
+.search-close{background:none;border:none;font-size:24px;cursor:pointer;color:var(--ink-soft);flex:none;padding:2px 8px;line-height:1;}
+.search-results{margin-top:14px;overflow-y:auto;}
+.search-result{display:block;padding:10px 8px;text-decoration:none;color:var(--ink);border-radius:var(--radius);}
+.search-result:hover{background:var(--wool);}
+.search-result .r-cat{font-family:'Space Mono',monospace;font-size:10.5px;text-transform:uppercase;letter-spacing:0.06em;color:var(--berry);display:block;margin-bottom:2px;}
+.search-result .r-title{font-family:'Fraunces',serif;font-weight:600;font-size:15px;}
+.search-empty{color:var(--ink-soft);font-size:14px;padding:10px 8px;}
+
+    /* generated diagram figures */
+    .cg-fig { margin:28px 0; }
+    .cg-fig img { display:block; width:100%; max-width:640px; height:auto;
+      border:1px solid var(--line); border-radius:var(--radius);
+      background:var(--card); }
+    @media (max-width:560px) { .cg-fig { margin:20px 0; } }
+    @media print { .cg-fig { break-inside:avoid; } }
+ table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14.5px;}
+ .table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+ .table-scroll table{margin:20px 0;min-width:520px;}
+ @media (max-width:560px){.table-scroll table{min-width:420px;}}
+</style><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How to Count Crochet Stitches and Rows Without Guessing",
+  "description": "Count crochet stitches by the base of the stitch, not the top loops. What counts as a stitch, how to track rows and rounds, and how to fix a miscount.",
+  "author": {"@type": "Person", "name": "Nora Fenwick", "url": "https://crochetguide.uk/about"},
+  "publisher": {"@type": "Organization", "name": "CrochetGuides"},
+  "datePublished": "2026-10-01",
+  "dateModified": "2026-10-01",
+  "mainEntityOfPage": "https://crochetguide.uk/guides/how-to-count-crochet-stitches"
+}
+</script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://crochetguide.uk/"},
+    {"@type":"ListItem","position":2,"name":"Guides","item":"https://crochetguide.uk/#guides"},
+    {"@type":"ListItem","position":3,"name":"Fundamentals","item":"https://crochetguide.uk/categories/fundamentals-basics"},
+    {"@type":"ListItem","position":4,"name":"Counting Stitches"}
+  ]
+}
+</script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to count crochet stitches accurately",
+  "description": "Count the V shapes along the base of each row in groups of five, then confirm by counting backwards.",
+  "totalTime": "PT3M",
+  "step": [
+    {"@type":"HowToStep","name":"Mark the first stitch","text":"Place a stitch marker in the first stitch of the row or round so you always have a way back to your zero point."},
+    {"@type":"HowToStep","name":"Count the bases of the stitches","text":"Turn the work so the finished row is at the bottom and count the V shapes along that edge, rather than the loops on top, because the bases cannot hide behind each other."},
+    {"@type":"HowToStep","name":"Count in groups of five","text":"Mark each fifth stitch with your thumb and count the groups out loud in tens instead of tracking every stitch individually."},
+    {"@type":"HowToStep","name":"Count backwards to confirm","text":"Count the row once more in the opposite direction. Two independent counts that agree can be trusted; one careful count often cannot."}
+  ]
+}
+</script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I count crochet stitches accurately?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Count the V shapes along the base of the row, the part that sits against the row below, rather than the loops on top. The bases cannot hide behind each other, so the total is consistent. Count in groups of five, work in the same direction every time, then count once backwards to confirm. Two independent counts that agree are far more reliable than one careful count."}
+    },
+    {
+      "@type": "Question",
+      "name": "Does the turning chain count as a stitch?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes. The turning chain is included in the row's stitch total and is treated as the first stitch of the new row. In UK terms, dc rows turn with ch-1 and htr rows with ch-2, both of which count. In US terms, sc turns with ch-1 and hdc with ch-2. If you are consistently one stitch short at the end of a row, forgetting this is the first thing to check."}
+    },
+    {
+      "@type": "Question",
+      "name": "Does a slip stitch join count as a stitch?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes. The slip stitch join is a stitch and it takes the place of the first stitch of the round, so your total still equals the round's target count. It does not add an extra stitch on top. This is a common source of confusion, because the join stitch sits right where the first stitch is, and people worry they have double-counted."}
+    },
+    {
+      "@type": "Question",
+      "name": "How do I keep track of rounds?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Put a stitch marker in the first stitch of each round and move it forward one round as you work. In a spiral there is no edge to count against, so the marker is the only reliable record of where a round began. Move it every round rather than leaving it and trying to remember, because that is precisely when the count goes wrong."}
+    },
+    {
+      "@type": "Question",
+      "name": "What if I keep losing count?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Count in smaller chunks instead of trying to hold a large number in your head. Groups of five marked with your thumb, then counted out loud in tens, removes the mental arithmetic. Write the number down at the end of each row. Working flat with a clear side edge as a reference also helps a great deal, because it gives you a way to find a row again later."}
+    },
+    {
+      "@type": "Question",
+      "name": "My stitch count is correct but the piece looks wrong. What should I do?",
+      "acceptedAnswer": {"@type": "Answer", "text": "A correct count with a wonky edge is a tension problem, not an arithmetic one. Tight stitches pull in and reduce your visible count, and a stiff stitch worked with loose tension changes the fabric without changing the number. Stretch the piece gently and look at it flat. Consistent tension is what makes counting reliable in the first place, so it is worth fixing before moving on."}
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Nora Fenwick",
+  "description": "Crochet teacher with 12 years of experience and founder of CrochetGuides, focused on clear, beginner-friendly instructions.",
+  "url": "https://crochetguide.uk/about",
+  "jobTitle": "Crochet Teacher",
+  "worksFor": {"@type": "Organization", "name": "CrochetGuides"}
+}
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2407314174904220" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="/">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 3c-2.5 0-4.5 2-4.5 4.5S5.5 12 8 12h4c2.8 0 5 2.2 5 5s-2.2 5-5 5-5-2.2-5-5"/><circle cx="17.2" cy="4.8" r="1.6"/></svg>
+      CrochetGuides
+    </a>
+    <div style="display:flex;align-items:center;gap:14px;">
+      <a class="back" href="/">&larr; All guides</a>
+      <button class="search-btn" id="searchBtn" aria-label="Search guides" type="button"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<div class="search-overlay" id="searchOverlay" hidden>
+  <div class="search-box">
+    <div class="search-row">
+      <input type="text" id="searchInput" placeholder="Search guides..." autocomplete="off">
+      <button class="search-close" id="searchClose" aria-label="Close search" type="button">&times;</button>
+    </div>
+    <div class="search-results" id="searchResults"></div>
+  </div>
+</div>
+
+
+<article>
+  <div class="wrap">
+    <p class="breadcrumb">
+      <a href="/">Home</a><span class="sep">/</span><a href="/#guides">Guides</a><span class="sep">/</span><a href="/categories/techniques-tutorials">Techniques &amp; Tutorials</a><span class="sep">/</span>Counting Stitches
+    </p>
+    <span class="eyebrow">Fundamentals</span>
+    <h1>How to Count Crochet Stitches and Rows</h1>
+    <div class="btn-row">
+      <button class="print-btn" onclick="window.print()">Print this guide</button>
+      <a class="pin-btn" href="https://pinterest.com/pin/create/button/?url=https://crochetguide.uk/guides/how-to-count-crochet-stitches&media=https://crochetguide.uk/img/count-stitches-og.svg" target="_blank" rel="noopener">Pin this guide</a>
+    </div>
+    <p class="dek">Count by the base of the stitch and the number stops being a guess. Includes what counts, how to track rounds, and how to fix a miscount.</p>
+    <p class="meta">Updated 2026 &middot; 8 min read</p>
+
+    <img class="hero-img" width="1200" height="630" fetchpriority="high" src="https://crochetguide.uk/img/count-stitches-og.svg" alt="Reference card showing counting by the V shapes along the base of a row, a clean count of sixteen, and what to do when a row is miscounted." decoding="async">
+<p>Nearly every crochet pattern starts with an instruction like "sc 30 around, joining with ss to the first sc". Until you can count reliably, that line is just a wall. This guide is about making that number dependable &mdash; counting the right part of the stitch, knowing what to include in the total, and fixing a count that turns out wrong.</p>
+
+    <div class="callout">
+      <strong>The one rule:</strong> count the part of the stitch that locks into the row below, not the loops on top. The top loops hide behind each other in textured yarn; the bases never do.
+    </div>
+
+    <div class="jumpnav">
+      <strong>Jump to</strong>
+      <ol>
+        <li><a href="#base">Count by the base, not the top</a></li>
+        <li><a href="#what-counts">What counts as a stitch</a></li>
+        <li><a href="#method">A method that survives fuzzy yarn</a></li>
+        <li><a href="#rows">Counting rows and rounds</a></li>
+        <li><a href="#pattern">Checking against the pattern</a></li>
+        <li><a href="#miscount">When the count is wrong</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
+    <h2 id="base">Count by the base, not the top</h2>
+    <p>Most people count by looking at the tops of the stitches, because the tops are what they can see from the front. That is exactly where counting goes wrong. In a soft, slightly fuzzy yarn, or in any stitch taller than a double crochet, the top loops lean into each other and merge visually. Two stitches can look like one, and a slip stitch sitting beside a taller stitch can hide a whole stitch behind it.</p>
+
+    <figure class="cg-fig"><img src="/img/count-stitches-base.svg" alt="Two rows side by side. On the left, counting the top loops gives an inconsistent total because loops hide behind each other in textured yarn. On the right, counting the V shapes along the bottom edge, numbered one to twelve, gives the same reliable total every time." width="640" height="340" loading="lazy" decoding="async"></figure>
+
+    <p>Turn the work so the row you have just finished is at the bottom. Along that bottom edge, each stitch shows a distinct V shape. Those V shapes sit flush against the row below and cannot overlap. Count those instead, and your count stops depending on how the yarn happens to catch the light.</p>
+
+    <h2 id="what-counts">What actually counts as a stitch</h2>
+    <p>This is the part that catches out beginners, and it is worth getting straight before anything else. Some parts of a stitch are included in the count and some are not.</p>
+
+    <div class="table-scroll"><table>
+      <tr><th>Element</th><th>In the count?</th><th>Why</th></tr>
+      <tr><td>The chain turning chain</td><td><strong>Yes</strong></td><td>Your pattern's stitch total includes it as the first stitch of the new row.</td></tr>
+      <tr><td>A single chain in a chain space</td><td><strong>Yes</strong></td><td>A chain space counts as one stitch. That is why ch-1 often sits directly over it.</td></tr>
+      <tr><td>A slip stitch join</td><td><strong>Yes</strong></td><td>It is a stitch, and it replaces the first stitch of the round. This is where many off-by-one errors come from.</td></tr>
+      <tr><td>An increase</td><td><strong>Yes, twice</strong></td><td>An increase is two stitches in the space where you made it. Missed here, your count drifts by one each time.</td></tr>
+      <tr><td>A decrease</td><td><strong>No</strong></td><td>A decrease turns two stitches into one, so your total goes <em>down</em> by one.</td></tr>
+      <tr><td>A stitch marker</td><td>No, it is a tool</td><td>The marker is not yarn. Do not count it, but never work over it either.</td></tr>
+    </table></div>
+
+    <div class="callout">
+      <strong>Watch the turning chain.</strong> For a row of double crochet (<code>dc</code>), the turning chain is ch-1 and it counts as the first stitch. Half treble (<code>htr</code>) turns with ch-2, and that also counts as the first stitch. If your pattern says "dc 20", you count all twenty including the turning chain. This is the single most common reason a row ends up one stitch short.
+    </div>
+
+    <p>US readers: <code>sc</code> is ch-1 turning chain, <code>hdc</code> is ch-2, <code>dc</code> is ch-3. The same rule applies in both systems &mdash; the turning chain counts as a stitch.</p>
+
+    <h2 id="method">A method that survives fuzzy yarn</h2>
+    <p>Counting twenty stitches one at a time in soft mohair is genuinely hard, however good your eyesight. Counting in groups changes the problem, because you are comparing small equal chunks instead of tracking a running total in your head.</p>
+
+    <ol>
+      <li><strong>Place a marker in the first stitch</strong> of the row or round. This is your zero point and your way back if you lose your place.</li>
+      <li><strong>Count by the bases</strong>, in a steady left-to-right or right-to-left direction. Always the same direction, or you will confuse yourself.</li>
+      <li><strong>Group in fives.</strong> Press your thumb down at each fifth stitch. Now you have four or five groups instead of twenty individual things to hold in your head.</li>
+      <li><strong>Count the groups out loud in tens.</strong> "Two groups of five, ten, three more, fifteen" is far more reliable than silent counting past twenty.</li>
+      <li><strong>Name the last stitch.</strong> Say "the last stitch is the one before the marker". Having it named makes a recount fast.</li>
+      <li><strong>Count backwards once</strong> to confirm. If you get the same number going the other way, you can trust it.</li>
+    </ol>
+
+    <p>Two independent counts in opposite directions catch nearly every error. It feels slower than guessing, but it is much faster than unpicking four rows because you were one stitch short.</p>
+
+    <p>For long rows, a row counter app with a tap or a voice command works well. The important part is not the app &mdash; it is that you still count by the bases. A counter only records what you tell it, so it faithfully records a wrong count too.</p>
+
+    <h2 id="rows">Counting rows and rounds</h2>
+    <p>Stitches and rows are counted differently because flat rows stack in a straight line while rounds spiral with no visible edge. Once you know the difference, both become easy to track.</p>
+
+    <figure class="cg-fig"><img src="/img/count-rows-rounds.svg" alt="Flat rows are numbered one to six along the straight side edge, which acts as a ruler. In the round, the work spirals with no edge to count against, so stitch markers placed in the first stitch of rounds one, two and three are the only record of where each round begins." width="640" height="316" loading="lazy" decoding="async"></figure>
+
+    <h3>Flat rows</h3>
+    <p>Flat rows are the easy case. Count from the foundation chain upward and keep the side edge as your reference line, so "row 12" always means the same thing. Write the number down at the end of each row if you are losing track, because a pen is faster and more reliable than memory halfway through a garment.</p>
+
+    <h3>Rounds in the round</h3>
+    <p>In a spiral there is no side edge, so the marker is your record of where a round begins. Put a marker in the first stitch of every round and move it forward one round as you go.</p>
+
+    <div class="callout">
+      <strong>Move the marker every single round.</strong> It is tempting to leave it where it is and remember the next one. Then you get to round 14 and have no idea whether the marker is at round 13 or round 9. Moving it takes two seconds and removes the problem entirely.
+    </div>
+
+    <p>If your pattern was worked in joined rounds rather than a spiral, the join gives you a natural round boundary each time, so the marker matters less. Spiral is the default for amigurumi for a reason: the stitch count only needs checking when something changes it.</p>
+
+    <h3>Starting a circle</h3>
+    <p>Circles start with a chain ring or a magic ring, and the first round is where off-by-one errors begin. Two rules prevent most of them:</p>
+    <ul>
+      <li>When a pattern says "ch 3, then sc 2 in the same space", those 2 scs count as 2. When it says "sc 2 around", count 2.</li>
+      <li>In a magic ring, work your increases <em>into the ring</em> in the round after, not into the starting chain. Working into the chain as well adds a stitch you did not count.</li>
+    </ul>
+    <p>Our <a href="/guides/magic-ring-tutorial">magic ring tutorial</a> walks through the join-up step, which is where most first-round counts go astray.</p>
+
+    <h2 id="pattern">Checking your count against the pattern</h2>
+    <p>Counting tells you what you have. Checking tells you what you should have. Patterns usually state a target count, and comparing the two is what catches a silent error before it becomes nine rows of wrong.</p>
+
+    <div class="table-scroll"><table>
+      <tr><th>You counted</th><th>Pattern says</th><th>Most likely cause</th></tr>
+      <tr><td>Target &minus; 1, once</td><td>One round</td><td>A missed increase, or a turning chain not counted</td></tr>
+      <tr><td>Target &minus; 2, once</td><td>One round</td><td>One missed increase, or a slip stitch join counted twice</td></tr>
+      <tr><td>Target &minus; 1, every round</td><td>Several rounds</td><td>An increase you stopped making, or a stitch you are skipping each round</td></tr>
+      <tr><td>Target + 1, every round</td><td>Several rounds</td><td>An extra stitch worked into the join, or two stitches in one space</td></tr>
+      <tr><td>Target correct, edge curling</td><td>Target correct</td><td>Not a count problem. It is tension or a different stitch in play.</td></tr>
+    </table></div>
+
+    <p>The pattern of the error is the diagnosis. A constant drift means a consistent mistake in one spot. A one-off means a single slip. And a correct count with a wonky edge tells you to stop counting and look at something else &mdash; our <a href="/guides/how-to-fix-curling-edges">guide to fixing curling edges</a> covers that, and <a href="/guides/fixing-mistakes">fixing crochet mistakes</a> covers the general triage.</p>
+
+    <h2 id="miscount">When the count is wrong</h2>
+    <p>First, do not immediately start unpicking. Most miscounts are either a miscount or a single skipped stitch, and both are quick to deal with once you know which.</p>
+
+    <figure class="cg-fig"><img src="/img/count-miscount-decision.svg" alt="A decision path. If the row is short by one or two, place or remove a stitch. If short by three or more, unpick back to the previous row and recount. If the stitches are evenly spaced but the total is wrong, look for a skipped stitch. If there are tight spots between stitches, the cause is tension rather than arithmetic." width="640" height="344" loading="lazy" decoding="async"></figure>
+
+    <ol>
+      <li><strong>Count again by the bases</strong>, in the opposite direction to your first count.</li>
+      <li><strong>Count again a second time</strong> if the two disagree. Two independent counts that agree are worth trusting.</li>
+      <li><strong>Walk the row looking for gaps.</strong> A skipped stitch shows up as a wider space or a stitch that sits at a slightly different angle.</li>
+      <li><strong>Compare to the pattern's target</strong> and work out the difference, then use the table above to identify the cause.</li>
+      <li><strong>Fix the smallest possible thing.</strong> Placing or removing one stitch is fast; unpicking four rows is not.</li>
+    </ol>
+
+    <div class="callout" style="border-left:3px solid var(--berry);">
+      <strong>Before you unpick:</strong> is the count actually wrong, or has the work simply tightened? Stitches that are drawn tight together reduce your visible count without any stitch being missing. Work a row, lay the piece flat, let it relax, then count. A row that was merely tight will reveal the full count once it settles.
+    </div>
+
+    <p>If you do need to unpick, working back along the row is usually faster than pulling the hook stitch by stitch. Our <a href="/guides/fixing-dropped-stitch-unravel-row">guide to unravelling a row</a> covers the two methods, including the one that keeps the yarn from fraying.</p>
+
+    <h2 class="faq" id="faq">Frequently asked questions</h2>
+
+    <h3>How do I count crochet stitches accurately?</h3>
+    <p>Count the V shapes along the base of the row, the part that sits against the row below, rather than the loops on top. The bases cannot hide behind each other, so the total is consistent. Count in groups of five, work in the same direction every time, then count once backwards to confirm. Two independent counts that agree are far more reliable than one careful count.</p>
+
+    <h3>Does the turning chain count as a stitch?</h3>
+    <p>Yes. The turning chain is included in the row's stitch total, and it is treated as the first stitch of the new row. In UK terms, dc rows turn with ch-1 and htr rows with ch-2, both of which count. In US terms, sc turns with ch-1 and hdc with ch-2. If you are consistently one stitch short at the end of a row, forgetting this is the first thing to check.</p>
+
+    <h3>Does a slip stitch join count as a stitch?</h3>
+    <p>Yes. The slip stitch join is a stitch and it takes the place of the first stitch of the round, so your total still equals the round's target count. It does not add an extra stitch on top. This is a common source of confusion, because the join stitch sits right where the first stitch is, and people worry they have double-counted.</p>
+
+    <h3>How do I keep track of rounds?</h3>
+    <p>Put a stitch marker in the first stitch of each round and move it forward one round as you work. In a spiral there is no edge to count against, so the marker is the only reliable record of where a round began. Move it every round rather than leaving it and trying to remember, because that is precisely when the count goes wrong.</p>
+
+    <h3>What if I keep losing count?</h3>
+    <p>Count in smaller chunks instead of trying to hold a large number in your head. Groups of five marked with your thumb, then counted out loud in tens, removes the mental arithmetic. Write the number down at the end of each row. Working flat with a clear side edge as a reference also helps a great deal, and it makes the difference between a row you can find again and one you cannot.</p>
+
+    <h3>My stitch count is correct but the piece looks wrong. What now?</h3>
+    <p>A correct count with a wonky edge is a tension problem, not an arithmetic one. Tight stitches pull in and reduce your visible count, and a stiff stitch worked with loose tension changes the fabric without changing the number. Stretch the piece gently and look at it flat. Our <a href="/guides/how-to-fix-curling-edges">curling edges guide</a> and <a href="/guides/what-is-gauge-crochet">guide to gauge</a> cover the causes, since consistent tension is what makes counting reliable in the first place.</p>
+
+<div class="related">
+      <h2>Keep reading</h2>
+      <ul>
+        <li><a href="/guides/fixing-mistakes">Fixing common crochet mistakes &rarr;</a></li>
+        <li><a href="/guides/how-to-read-a-pattern">How to read a crochet pattern &rarr;</a></li>
+        <li><a href="/guides/what-is-gauge-crochet">What is crochet gauge, and why it matters &rarr;</a></li>
+      </ul>
+    </div>
+
+
+        <div class="author-bio" style="display:flex;gap:16px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:32px 0 0;">
+      <svg viewBox="0 0 64 64" role="img" aria-label="Nora Fenwick" width="64" height="64" style="border-radius:50%;flex-shrink:0;"><circle cx="32" cy="32" r="32" fill="#33586B"/><path d="M23 19c-4 6-6 13-6 21 0 7 2 12 6 16 2 2 3 3 5 3h8c2 0 3-1 5-3 4-4 6-9 6-16 0-8-2-15-6-21-3-4-7-6-9-6s-6 2-9 6Z" fill="#A63B4A"/><path d="M22 64c3-12 6-18 10-18s7 6 10 18Z" fill="#EDE6D9"/><rect x="27.5" y="34" width="9" height="13" rx="3" fill="#EDE6D9"/><circle cx="32" cy="27" r="10" fill="#EDE6D9"/><circle cx="32" cy="13.5" r="4.5" fill="#A63B4A"/><circle cx="27" cy="34" r="1.4" fill="#D8A23C"/><circle cx="37" cy="34" r="1.4" fill="#D8A23C"/></svg>
+      <div>
+        <p style="margin:0 0 4px;font-weight:600;font-family:'Fraunces',serif;font-size:15.5px;">Written by Nora Fenwick</p>
+        <p style="margin:0;font-size:14px;color:var(--ink-soft);line-height:1.6;">Nora has been teaching crochet for 12 years, from absolute beginners to people coming back to the craft after decades away. She started CrochetGuides to write the clear, honest instructions she wishes she'd had when she was learning &mdash; the ones that actually work the first time.</p>
+      </div>
+    </div>
+
+    <p class="disclosure">CrochetGuides is a participant in the Amazon Services LLC Associates Program. As an Amazon Associate we earn from qualifying purchases, at no extra cost to you.</p>
+  </div>
+</article>
+
+<footer>
+  <div class="wrap">
+    <a href="/">&larr; Back to CrochetGuides</a>
+  </div>
+</footer>
+
+
+<script>
+(function(){
+  var btn = document.getElementById('searchBtn');
+  var overlay = document.getElementById('searchOverlay');
+  var input = document.getElementById('searchInput');
+  var closeBtn = document.getElementById('searchClose');
+  var results = document.getElementById('searchResults');
+  var index = null;
+
+  function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+  function loadIndex(cb){
+    if(index){ cb(); return; }
+    fetch('/search-index.json').then(function(r){return r.json();}).then(function(data){
+      index = data; cb();
+    }).catch(function(){ index = []; cb(); });
+  }
+
+  function render(query){
+    var q = query.trim().toLowerCase();
+    if(!q){ results.innerHTML = ''; return; }
+    var matches = index.filter(function(item){
+      return item.title.toLowerCase().indexOf(q) > -1 ||
+             item.desc.toLowerCase().indexOf(q) > -1 ||
+             item.category.toLowerCase().indexOf(q) > -1;
+    }).sort(function(a,b){
+      var at = a.title.toLowerCase().indexOf(q) > -1 ? 0 : 1;
+      var bt = b.title.toLowerCase().indexOf(q) > -1 ? 0 : 1;
+      return at - bt;
+    }).slice(0, 8);
+    if(matches.length === 0){
+      results.innerHTML = '<div class="search-empty">No guides found. Try a different word.</div>';
+      return;
+    }
+    results.innerHTML = matches.map(function(m){
+      return '<a class="search-result" href="'+m.url+'"><span class="r-cat">'+esc(m.category)+'</span><span class="r-title">'+esc(m.title)+'</span></a>';
+    }).join('');
+  }
+
+  function openSearch(){
+    overlay.hidden = false;
+    loadIndex(function(){
+      input.value = '';
+      results.innerHTML = '';
+      setTimeout(function(){ input.focus(); }, 30);
+    });
+    document.addEventListener('keydown', onKey);
+  }
+  function closeSearch(){
+    overlay.hidden = true;
+    document.removeEventListener('keydown', onKey);
+  }
+  function onKey(e){
+    if(e.key === 'Escape') closeSearch();
+  }
+
+  if(btn) btn.addEventListener('click', openSearch);
+  if(closeBtn) closeBtn.addEventListener('click', closeSearch);
+  if(overlay) overlay.addEventListener('click', function(e){ if(e.target === overlay) closeSearch(); });
+  if(input) input.addEventListener('input', function(){ render(input.value); });
+})();
+</script>
+</body>
+</html>

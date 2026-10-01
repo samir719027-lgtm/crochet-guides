@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="t d">
+  <title id="t">How to Crochet Invisible: join, fasten off and hide ends</title>
+  <desc id="d">Reference card from CrochetGuides. Four crochet techniques are called invisible: invisible join for closing a round, invisible fasten off for ending a piece, weaving in ends, and a Russian join for changing yarn. All instructions are in UK terms.</desc>
+  <rect width="1200" height="630" fill="#EDE6D9"/>
+  <rect width="1200" height="14" fill="#33586B"/>
+  <rect width="1200" height="7" y="627" fill="#A63B4A"/>
+
+  <g transform="translate(64,66)">
+    <path d="M0 0c-2.5 0-4.5 2-4.5 4.5S-2.5 9 0 9h4c2.8 0 5 2.2 5 5s-2.2 5-5 5-5-2.2-5-5" fill="none" stroke="#33586B" stroke-width="2.4" stroke-linecap="round" transform="translate(0,0)"/>
+    <circle cx="9" cy="1.8" r="1.6" fill="#D8A23C"/>
+    <text x="26" y="9" font-family="Fraunces, serif" font-size="19" font-weight="700" fill="#2A241E">CrochetGuides</text>
+  </g>
+
+  <text x="64" y="150" font-family="Space Mono, monospace" font-size="15" letter-spacing="3" fill="#A63B4A">TECHNIQUE</text>
+  <text x="64" y="222" font-family="Fraunces, serif" font-size="66" font-weight="600" fill="#2A241E">How to Crochet</text>
+  <text x="64" y="296" font-family="Fraunces, serif" font-size="66" font-weight="600" fill="#2A241E">Invisible</text>
+
+  <rect x="64" y="336" width="16" height="3" fill="#D8A23C"/>
+  <text x="100" y="346" font-family="Work Sans, sans-serif" font-size="24" fill="#5A5148">Join, fasten off and hide ends, in UK terms</text>
+
+  <rect x="64" y="398" width="524" height="150" rx="6" fill="#FBF8F2" stroke="#DED5C6" stroke-width="1.5"/>
+  <text x="92" y="432" font-family="Space Mono, monospace" font-size="13" letter-spacing="1.6" fill="#33586B">FOUR TECHNIQUES, ONE WORD</text>
+  <g font-family="Work Sans, sans-serif" font-size="19" fill="#2A241E">
+    <circle cx="99" cy="463" r="4" fill="#33586B"/><text x="118" y="470">Invisible join &#8212; closes a round</text>
+    <circle cx="99" cy="493" r="4" fill="#A63B4A"/><text x="118" y="500">Invisible fasten off &#8212; ends a piece</text>
+    <circle cx="99" cy="523" r="4" fill="#D8A23C"/><text x="118" y="530">Weaving in ends &#8212; hides cut tails</text>
+  </g>
+
+  <g transform="translate(700,120)">
+    <g stroke="#B9AE9C" stroke-width="3" fill="none" stroke-linecap="round">
+      <path d="M0 40c11 0 11 -17 22 -17"/>
+      <path d="M26 31c11 0 11 -17 22 -17"/>
+      <path d="M52 29c11 0 11 -17 22 -17"/>
+      <path d="M78 29c11 0 11 -17 22 -17"/>
+      <path d="M104 29c11 0 11 -17 22 -17"/>
+      <path d="M130 29c11 0 11 -17 22 -17"/>
+      <path d="M156 29c11 0 11 -17 22 -17"/>
+      <path d="M182 29c11 0 11 -17 22 -17"/>
+      <path d="M208 29c11 0 11 -17 22 -17"/>
+      <path d="M234 29c11 0 11 -17 22 -17"/>
+      <path d="M260 29c11 0 11 -17 22 -17"/>
+      <path d="M286 29c11 0 11 -17 22 -17"/>
+      <path d="M312 29c11 0 11 -17 22 -17"/>
+    </g>
+    <path d="M334 22 L342 27 L334 33" stroke="#33586B" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="336" cy="27" r="3.4" fill="#33586B"/>
+    <text x="0" y="84" font-family="Work Sans, sans-serif" font-size="17" fill="#5A5148">Level rounds, flat fabric</text>
+  </g>
+
+  <g transform="translate(700,330)">
+    <rect width="436" height="140" rx="6" fill="#FBF8F2" stroke="#DED5C6" stroke-width="1.5"/>
+    <text x="28" y="40" font-family="Space Mono, monospace" font-size="13" letter-spacing="1.6" fill="#A63B4A">THE GOLDEN LOOP</text>
+    <g stroke="#B9AE9C" stroke-width="3" fill="none" stroke-linecap="round">
+      <path d="M28 92c14 0 14 -22 28 -22"/>
+      <path d="M56 76c14 0 14 -22 28 -22"/>
+      <path d="M84 74c14 0 14 -22 28 -22"/>
+      <path d="M112 74c14 0 14 -22 28 -22"/>
+      <path d="M140 74c14 0 14 -22 28 -22"/>
+    </g>
+    <circle cx="200" cy="66" r="9" fill="none" stroke="#D8A23C" stroke-width="3"/>
+    <text x="222" y="72" font-family="Work Sans, sans-serif" font-size="17" fill="#5A5148">the join stitch</text>
+    <text x="28" y="122" font-family="Work Sans, sans-serif" font-size="16" fill="#5A5148">Work the last stitch here.</text>
+  </g>
+</svg>

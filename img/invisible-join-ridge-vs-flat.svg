@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" width="640" height="300" role="img" aria-labelledby="t d">
+  <title id="t">Joining a round with a slip stitch against joining with an invisible join</title>
+  <desc id="d">On the left, the first stitch of each round sits slightly higher and tighter than the rest, leaving a visible raised ridge and a small gap. On the right, working the final stitch into the golden loop keeps every round the same height so the fabric lies flat.</desc>
+  <rect width="640" height="300" fill="#FBF8F2"/>
+  <rect width="640" height="46" fill="#E4DACB"/>
+  <text x="24" y="30" font-family="Work Sans, sans-serif" font-size="16" font-weight="600" fill="#2A241E">Why a slip-stitch join leaves a ridge</text>
+
+  <text x="24" y="76" font-family="Space Mono, monospace" font-size="11" fill="#A63B4A">SLIP STITCH JOIN</text>
+  <text x="344" y="76" font-family="Space Mono, monospace" font-size="11" fill="#33586B">INVISIBLE JOIN</text>
+
+  <!-- left: ridge -->
+  <rect x="24" y="88" width="272" height="128" rx="4" fill="#FFFFFF" stroke="#DED5C6"/>
+  <g stroke="#B9AE9C" stroke-width="1.6" fill="none" stroke-linecap="round">
+    <path d="M40 118c8 0 8 -12 16 -12"/>
+    <path d="M60 112c8 0 8 -12 16 -12"/>
+    <path d="M80 110c8 0 8 -12 16 -12"/>
+    <path d="M100 110c8 0 8 -12 16 -12"/>
+    <path d="M120 110c8 0 8 -12 16 -12"/>
+    <path d="M140 110c8 0 8 -12 16 -12"/>
+    <path d="M160 110c8 0 8 -12 16 -12"/>
+    <path d="M180 110c8 0 8 -12 16 -12"/>
+    <path d="M200 110c8 0 8 -12 16 -12"/>
+    <path d="M220 110c8 0 8 -12 16 -12"/>
+    <path d="M240 110c8 0 8 -12 16 -12"/>
+  </g>
+  <path d="M256 100 L262 108 L254 116" stroke="#A63B4A" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="258" cy="108" r="3" fill="#A63B4A"/>
+  <path d="M240 150 L232 158" stroke="#A63B4A" stroke-width="1.4"/>
+  <text x="40" y="172" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">First stitch sits taller</text>
+  <text x="40" y="190" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">and tighter than the rest.</text>
+  <text x="40" y="208" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">Over many rounds this spirals.</text>
+
+  <!-- right: flat -->
+  <rect x="344" y="88" width="272" height="128" rx="4" fill="#FFFFFF" stroke="#DED5C6"/>
+  <g stroke="#B9AE9C" stroke-width="1.6" fill="none" stroke-linecap="round">
+    <path d="M360 118c8 0 8 -12 16 -12"/>
+    <path d="M380 110c8 0 8 -12 16 -12"/>
+    <path d="M400 110c8 0 8 -12 16 -12"/>
+    <path d="M420 110c8 0 8 -12 16 -12"/>
+    <path d="M440 110c8 0 8 -12 16 -12"/>
+    <path d="M460 110c8 0 8 -12 16 -12"/>
+    <path d="M480 110c8 0 8 -12 16 -12"/>
+    <path d="M500 110c8 0 8 -12 16 -12"/>
+    <path d="M520 110c8 0 8 -12 16 -12"/>
+    <path d="M540 110c8 0 8 -12 16 -12"/>
+    <path d="M560 110c8 0 8 -12 16 -12"/>
+    <path d="M580 110c8 0 8 -12 16 -12"/>
+  </g>
+  <path d="M576 106 L584 104 L584 112" stroke="#33586B" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="578" cy="104" r="2.6" fill="#33586B"/>
+  <text x="360" y="150" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">Final stitch goes into the</text>
+  <text x="360" y="168" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">golden loop, so height matches.</text>
+  <text x="360" y="190" font-family="Work Sans, sans-serif" font-size="12.5" font-weight="600" fill="#33586B">Every round sits level.</text>
+  <text x="360" y="208" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">Fabric lies flat.</text>
+
+  <line x1="24" y1="238" x2="616" y2="238" stroke="#DED5C6" stroke-width="1"/>
+  <text x="24" y="262" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">The golden loop is the small loop sitting between the two top loops of the</text>
+  <text x="24" y="280" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">first stitch of a round. Find it once and the join stops being the hard part.</text>
+</svg>

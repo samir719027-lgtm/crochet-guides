@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" width="640" height="340" role="img" aria-labelledby="t d">
+  <title id="t">Counting stitches by the base of the stitch instead of the top loops</title>
+  <desc id="d">On the left, counting by the top loops of each stitch gives an inconsistent total because some stitches are hard to see from the front. On the right, counting the V shapes along the bottom of the row, the part that sits against the previous row, gives the same number every time.</desc>
+  <rect width="640" height="340" fill="#FBF8F2"/>
+  <rect width="640" height="44" fill="#E4DACB"/>
+  <text x="24" y="29" font-family="Work Sans, sans-serif" font-size="15.5" font-weight="600" fill="#2A241E">Count the base, not the top</text>
+
+  <text x="24" y="74" font-family="Space Mono, monospace" font-size="11" fill="#A63B4A">COUNTING TOP LOOPS</text>
+  <text x="344" y="74" font-family="Space Mono, monospace" font-size="11" fill="#33586B">COUNTING THE V SHAPES</text>
+
+  <rect x="24" y="86" width="272" height="150" rx="4" fill="#FFFFFF" stroke="#DED5C6"/>
+  <g stroke="#B9AE9C" stroke-width="1.7" fill="none" stroke-linecap="round">
+    <path d="M40 130c8 0 8 -14 16 -14"/><path d="M60 124c8 0 8 -14 16 -14"/>
+    <path d="M80 124c8 0 8 -14 16 -14"/><path d="M100 124c8 0 8 -14 16 -14"/>
+    <path d="M120 124c8 0 8 -14 16 -14"/><path d="M140 124c8 0 8 -14 16 -14"/>
+    <path d="M160 124c8 0 8 -14 16 -14"/><path d="M180 124c8 0 8 -14 16 -14"/>
+    <path d="M200 124c8 0 8 -14 16 -14"/><path d="M220 124c8 0 8 -14 16 -14"/>
+    <path d="M240 124c8 0 8 -14 16 -14"/><path d="M260 124c8 0 8 -14 16 -14"/>
+  </g>
+  <text x="40" y="168" font-family="Work Sans, sans-serif" font-size="12" fill="#5A5148">Loops hide behind each</text>
+  <text x="40" y="186" font-family="Work Sans, sans-serif" font-size="12" fill="#5A5148">other in textured yarn.</text>
+  <text x="40" y="208" font-family="Space Mono, monospace" font-size="12" fill="#A63B4A">count varies by eye</text>
+  <text x="40" y="224" font-family="Work Sans, sans-serif" font-size="11.5" fill="#5A5148">No single reliable total</text>
+
+  <rect x="344" y="86" width="272" height="150" rx="4" fill="#FFFFFF" stroke="#DED5C6"/>
+  <g stroke="#B9AE9C" stroke-width="1.7" fill="none" stroke-linecap="round">
+    <path d="M360 148c7 -7 11 -9 15 -9"/><path d="M378 148c7 -7 11 -9 15 -9"/>
+    <path d="M396 148c7 -7 11 -9 15 -9"/><path d="M414 148c7 -7 11 -9 15 -9"/>
+    <path d="M432 148c7 -7 11 -9 15 -9"/><path d="M450 148c7 -7 11 -9 15 -9"/>
+    <path d="M468 148c7 -7 11 -9 15 -9"/><path d="M486 148c7 -7 11 -9 15 -9"/>
+    <path d="M504 148c7 -7 11 -9 15 -9"/><path d="M522 148c7 -7 11 -9 15 -9"/>
+    <path d="M540 148c7 -7 11 -9 15 -9"/><path d="M558 148c7 -7 11 -9 15 -9"/>
+    <path d="M576 148c7 -7 11 -9 15 -9"/>
+  </g>
+  <line x1="360" y1="152" x2="591" y2="152" stroke="#33586B" stroke-width="1.6" stroke-dasharray="4 4"/>
+  <g font-family="Space Mono, monospace" font-size="9.5" fill="#33586B">
+    <text x="363" y="176">1</text><text x="381" y="176">2</text><text x="399" y="176">3</text>
+    <text x="417" y="176">4</text><text x="435" y="176">5</text><text x="453" y="176">6</text>
+    <text x="471" y="176">7</text><text x="489" y="176">8</text><text x="507" y="176">9</text>
+    <text x="525" y="176">10</text><text x="545" y="176">11</text><text x="563" y="176">12</text>
+  </g>
+  <text x="360" y="208" font-family="Space Mono, monospace" font-size="12" fill="#33586B">count = 12</text>
+  <text x="360" y="224" font-family="Work Sans, sans-serif" font-size="11.5" fill="#5A5148">Same total every time</text>
+
+  <line x1="24" y1="256" x2="616" y2="256" stroke="#DED5C6" stroke-width="1"/>
+  <text x="24" y="280" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">The V along the bottom edge is the part of each stitch that locks into the row</text>
+  <text x="24" y="298" font-family="Work Sans, sans-serif" font-size="12.5" fill="#5A5148">below. It never disappears behind a neighbour, so it cannot be miscounted.</text>
+  <text x="24" y="322" font-family="Work Sans, sans-serif" font-size="12.5" font-weight="600" fill="#33586B">Count in groups of five, then ten. Errors stop hiding.</text>
+</svg>

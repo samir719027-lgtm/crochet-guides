@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 344" width="640" height="344" role="img" aria-labelledby="t d">
+  <title id="t">What to do when you find a miscount</title>
+  <desc id="d">A decision path with four branches. If the count is short by one or two stitches, the fix is usually to place or remove a stitch. If the count is short by three or more, unpick back to the previous row and recount from there. If the stitches are evenly spaced but the total is wrong, check for a skipped stitch. If the row has tight spots, the cause is tension rather than arithmetic.</desc>
+  <rect width="640" height="344" fill="#FBF8F2"/>
+  <rect width="640" height="44" fill="#E4DACB"/>
+  <text x="24" y="29" font-family="Work Sans, sans-serif" font-size="15.5" font-weight="600" fill="#2A241E">Miscount found. Now what?</text>
+
+  <rect x="208" y="62" width="224" height="40" rx="4" fill="#33586B"/>
+  <text x="320" y="87" font-family="Work Sans, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Recount the row from the base</text>
+
+  <g stroke="#B9AE9C" stroke-width="1.6" fill="none">
+    <path d="M320 102 L320 118 L100 118 L100 140"/>
+    <path d="M320 118 L540 118 L540 140"/>
+  </g>
+
+  <rect x="24" y="140" width="152" height="46" rx="4" fill="#FFFFFF" stroke="#DED5C6"/>
+  <text x="100" y="160" font-family="Space Mono, monospace" font-size="10" fill="#33586B" text-anchor="middle">SHORT BY 1 OR 2</text>
+  <text x="100" y="176" font-family="Work Sans, sans-serif" font-size="11" fill="#5A5148" text-anchor="middle">place or remove</text>
+
+  <rect x="24" y="198" width="152" height="46" rx="4" fill="#FFFFFF" stroke="#DED5C6"/>
+  <text x="100" y="218" font-family="Space Mono, monospace" font-size="10" fill="#33586B" text-anchor="middle">SHORT BY 3 OR MORE</text>
+  <text x="100" y="234" font-family="Work Sans, sans-serif" font-size="11" fill="#5A5148" text-anchor="middle">unpick to last row</text>
+
+  <rect x="464" y="140" width="152" height="46" rx="4" fill="#FFFFFF" stroke="#DED5C6"/>
+  <text x="540" y="160" font-family="Space Mono, monospace" font-size="10" fill="#A63B4A" text-anchor="middle">EVEN SPACING, WRONG TOTAL</text>
+  <text x="540" y="176" font-family="Work Sans, sans-serif" font-size="11" fill="#5A5148" text-anchor="middle">look for a skip</text>
+
+  <rect x="464" y="198" width="152" height="46" rx="4" fill="#FFFFFF" stroke="#DED5C6"/>
+  <text x="540" y="218" font-family="Space Mono, monospace" font-size="10" fill="#A63B4A" text-anchor="middle">TIGHT SPOTS BETWEEN</text>
+  <text x="540" y="234" font-family="Work Sans, sans-serif" font-size="11" fill="#5A5148" text-anchor="middle">check tension</text>
+
+  <path d="M100 186 L100 262" stroke="#B9AE9C" stroke-width="1.6" fill="none"/>
+  <path d="M540 186 L540 262" stroke="#B9AE9C" stroke-width="1.6" fill="none"/>
+  <rect x="24" y="262" width="592" height="52" rx="4" fill="#FBF8F2" stroke="#D8A23C" stroke-width="1.5"/>
+  <text x="40" y="284" font-family="Work Sans, sans-serif" font-size="12.5" font-weight="600" fill="#8C5E08">Before you fix anything:</text>
+  <text x="40" y="303" font-family="Work Sans, sans-serif" font-size="12" fill="#5A5148">Work the round or row again from the last place you are certain the count was right. Two clean counts beat one guess.</text>
+</svg>
