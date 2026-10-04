@@ -15,5 +15,20 @@ so the provenance of every image stays traceable.
 | `img/cat-techniques-tutorials.webp` | techniques-tutorials | Miriam Alonso | [Pexels #7585278](https://www.pexels.com/photo/a-person-in-knitted-sweater-holding-a-white-yarn-and-crochet-hook-7585278/) |
 | `img/cat-wearables.webp` | wearables | Jahra Tasfia Reza | [Pexels #39798660](https://www.pexels.com/photo/colorful-crochet-yarn-beanies-and-hooks-39798660/) |
 
-All diagrams and card artwork under `img/` that are not listed above are
-original to CrochetGuides.
+The SVG diagrams under `img/` are original to CrochetGuides.
+
+## Provenance not established
+
+These predate the Pexels work above and their origin has not been traced.
+They are recorded here so the gap is visible rather than implied.
+
+| File | Used for | Status |
+| --- | --- | --- |
+| `img/homepage-card.jpg` | homepage `og:image`; source for `img/hero-home.webp` | origin unknown |
+| `img/pick-37850459.jpg` | Amazon pick card | origin unknown |
+| `img/pick-8931794.jpg` | Amazon pick card | origin unknown |
+| `img/pick-4792080.jpg` | Amazon pick card | origin unknown |
+| `img/pick-6461523.jpg` | Amazon pick card | origin unknown |
+
+`img/hero-home.webp` is a WebP re-encode of `img/homepage-card.jpg` at the
+same 1200x630 size, not a new photograph.
