@@ -1,1 +1,5 @@
 crochetgiftideas/
+scripts/pinterest_token.json
+scripts/pinterest_state.json
+scripts/pin_log.txt
+__pycache__/

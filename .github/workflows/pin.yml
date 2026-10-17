@@ -1,0 +1,66 @@
+name: Pinterest kid pin
+
+on:
+  schedule:
+    # كل 4 سوايع (00:00, 04:00, 08:00 ... UTC)
+    - cron: "0 */4 * * *"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "عدد الـ pins فنفس التشغيل"
+        required: false
+        default: "1"
+
+concurrency:
+  group: pinterest-pin
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  pin:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PYTHONUTF8: "1"
+      PYTHONIOENCODING: "utf-8"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Restore state + token
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            scripts/pinterest_state.json
+            scripts/pinterest_token.json
+          key: pinterest-data-${{ github.run_id }}
+          restore-keys: |
+            pinterest-data-
+
+      - name: Ensure valid token
+        env:
+          ACCESS: ${{ secrets.PINTEREST_ACCESS_TOKEN }}
+          REFRESH: ${{ secrets.PINTEREST_REFRESH_TOKEN }}
+          APP_ID: ${{ secrets.PINTEREST_APP_ID }}
+          APP_SECRET: ${{ secrets.PINTEREST_APP_SECRET }}
+        run: python scripts/ci_token.py
+
+      - name: Publish a kid pin
+        run: python scripts/pinterest_publish.py --kids --publish --limit ${{ github.event.inputs.limit || '1' }}
+
+      - name: Save state + token
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            scripts/pinterest_state.json
+            scripts/pinterest_token.json
+          key: pinterest-data-${{ github.run_id }}
