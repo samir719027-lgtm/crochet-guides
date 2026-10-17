@@ -73,6 +73,7 @@ def main():
         tok = ACCESS
 
     if tok and token_valid(tok):
+        write_token({"access_token": tok}, fallback_refresh=REFRESH)
         print("التوكن صالح.")
         return 0
 
