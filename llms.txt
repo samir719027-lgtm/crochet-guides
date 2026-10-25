@@ -1,0 +1,21 @@
+# CrochetGuides
+
+> CrochetGuides (crochetguide.uk) is a free educational resource for crochet beginners: step-by-step stitch tutorials, free patterns, tool and yarn buying guides, and gift ideas. Content is organized into 8 categories with 170+ guides, written in plain English for people learning crochet from scratch. The site earns from Amazon Associates affiliate links on recommended supplies.
+
+## Main categories
+
+- [Amigurumi & Toys](https://crochetguide.uk/categories/amigurumi-toys): stuffed toy and doll patterns for beginners
+- [Baby & Kids](https://crochetguide.uk/categories/baby-kids): booties, loveys, and children's items
+- [Bags & Accessories](https://crochetguide.uk/categories/bags-accessories): wearable everyday projects
+- [Guides & Comparisons](https://crochetguide.uk/categories/guides-comparisons): hook charts, yarn weights, tool buying guides
+- [Home & Décor](https://crochetguide.uk/categories/home-decor): dishcloths, baskets, household items
+- [Seasonal & Holiday](https://crochetguide.uk/categories/seasonal-holiday): Christmas and seasonal patterns
+- [Techniques & Tutorials](https://crochetguide.uk/categories/techniques-tutorials): stitch library and how-tos
+- [Wearables](https://crochetguide.uk/categories/wearables): beanies, scarves, garments
+
+## Start-here references
+
+- [Basic Crochet Stitches](https://crochetguide.uk/guides/basic-crochet-stitches): the first stitches every beginner learns
+- [Abbreviations Glossary](https://crochetguide.uk/guides/abbreviations-glossary): what every pattern abbreviation means
+- [Amigurumi for Beginners](https://crochetguide.uk/guides/amigurumi-for-beginners): getting started with stuffed toys
+- [About](https://crochetguide.uk/about): who runs the site and how it is funded
