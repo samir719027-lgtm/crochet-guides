@@ -51,7 +51,7 @@ document.addEventListener('click', function(e){
   "description": "Beginner crochet guides, hook and yarn comparisons, and honest product picks.",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://crochetguide.uk/search?q={search_term_string}",
+    "target": "https://crochetguide.uk/?q={search_term_string}",
     "query-input": "required name=search_term_string"
   }
 }
@@ -1575,11 +1575,12 @@ document.addEventListener('click', function(e){
     }).join('');
   }
 
-  function openSearch(){
+  function openSearch(query){
     overlay.hidden = false;
     loadIndex(function(){
-      input.value = '';
-      results.innerHTML = '';
+      var q = typeof query === 'string' ? query : '';
+      input.value = q;
+      render(q);
       setTimeout(function(){ input.focus(); }, 30);
     });
     document.addEventListener('keydown', onKey);
@@ -1596,6 +1597,9 @@ document.addEventListener('click', function(e){
   if(closeBtn) closeBtn.addEventListener('click', closeSearch);
   if(overlay) overlay.addEventListener('click', function(e){ if(e.target === overlay) closeSearch(); });
   if(input) input.addEventListener('input', function(){ render(input.value); });
+
+  var initialQuery = new URLSearchParams(window.location.search).get('q');
+  if(initialQuery) openSearch(initialQuery);
 })();
 </script>
 </body>
