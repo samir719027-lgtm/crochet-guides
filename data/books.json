@@ -44,7 +44,8 @@
       "size_mb": 15.8,
       "blurb": "Collars, caps and jabots in crochet and tatting, in the shapes that were fashionable around the First World War.",
       "ia_id": "NewCrochetAndTattingDesignsInCapsCollarsAndJabots",
-      "pdf_file": "CapsCollarsJabots.pdf"
+      "pdf_file": "CapsCollarsJabots.pdf",
+      "approx": true
     },
     {
       "slug": "sig-knit-ring-patterns",
@@ -55,7 +56,8 @@
       "size_mb": 48.3,
       "blurb": "A yarn company pattern book mixing knitting and crochet designs from the early 1920s.",
       "ia_id": "Sig-knit-ringYarnKnittingAndCrochetPatterns",
-      "pdf_file": "Sig-knit-ringYarnKnittingAndCrochetPatterns.pdf"
+      "pdf_file": "Sig-knit-ringYarnKnittingAndCrochetPatterns.pdf",
+      "approx": true
     },
     {
       "slug": "edgings-in-crochet-4",
@@ -74,7 +76,7 @@
       "year": 1916,
       "publisher": "",
       "category": "Yokes & Wearables",
-      "size_mb": 37.0,
+      "size_mb": 37,
       "blurb": "Yoke constructions for blouses and dresses, the shaped top section that 1910s garments were built from.",
       "ia_id": "PrincessYokeBook",
       "pdf_file": "PrincessYokeBook.pdf"
@@ -220,7 +222,8 @@
       "size_mb": 36.6,
       "blurb": "A self-teaching course in modern lace making, from tools and stitches to simple motifs.",
       "ia_id": "SelfInstructionInModernLaceMaking",
-      "pdf_file": "LaceMaking.pdf"
+      "pdf_file": "LaceMaking.pdf",
+      "approx": true
     }
   ]
 }

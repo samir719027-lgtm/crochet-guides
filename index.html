@@ -557,6 +557,23 @@ document.addEventListener('click', function(e){
   }
   .band .btn-primary:hover{ background:#e6b452; }
 
+  .lib-covers{
+    display:flex;
+    gap:10px;
+    flex-shrink:0;
+  }
+  .lib-covers img{
+    width:112px;
+    height:auto;
+    border-radius:8px;
+    background:var(--card);
+    box-shadow:0 12px 26px rgba(0,0,0,0.3);
+  }
+  .lib-band .btn{ margin-top:18px; }
+  @media(max-width:640px){
+    .lib-covers img{ width:82px; }
+  }
+
   footer{
     border-top:1px solid var(--line);
     padding:36px 0 48px;
@@ -1365,6 +1382,24 @@ document.addEventListener('click', function(e){
         <p class="desc">A small stuffed cone-shaped tree, topped with a star and dotted with tiny bead ornaments.</p>
         <span class="go">Read the guide &rarr;</span>
       </a>
+    </div>
+  </div>
+</section>
+
+<section id="library">
+  <div class="wrap">
+    <div class="band lib-band">
+      <div>
+        <span class="eyebrow" style="color:var(--mustard);">Free PDF library</span>
+        <h3>20 vintage crochet books you can legally download</h3>
+        <p>Pattern books, edgings, yokes and lace from 1911&ndash;1927 &mdash; all public domain, with the original source credited.</p>
+        <a class="btn btn-primary" href="/pdf-library">Browse the library &rarr;</a>
+      </div>
+      <div class="lib-covers">
+        <img src="/img/books/coats-crochet-book-5.jpg" alt="Cover of a 1920 Coats crochet pattern book" width="600" height="800" loading="lazy" decoding="async">
+        <img src="/img/books/filet-crochet-series-one.jpg" alt="Cover of a 1914 filet crochet guide" width="600" height="800" loading="lazy" decoding="async">
+        <img src="/img/books/hiawatha-beaded-bags.jpg" alt="Cover of a 1927 beaded bag pattern book" width="600" height="800" loading="lazy" decoding="async">
+      </div>
     </div>
   </div>
 </section>

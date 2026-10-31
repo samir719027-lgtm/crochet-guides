@@ -75,7 +75,7 @@ function cards(books) {
           <span class="book-cat">${esc(b.category)}</span>
           <h2>${esc(b.title)}</h2>
           <p class="book-desc">${esc(b.blurb)}</p>
-          <p class="book-meta">${b.year}${b.publisher ? " · " + esc(b.publisher) : ""} · PDF ${b.size_mb} MB · Public domain</p>
+          <p class="book-meta">${b.approx ? "c. " : ""}${b.year}${b.publisher ? " · " + esc(b.publisher) : ""} · PDF ${b.size_mb} MB · Public domain</p>
           <div class="book-actions">
             <a class="btn-dl" href="${esc(pdfUrl(b))}" target="_blank" rel="noopener">Download PDF</a>
             <a class="btn-ia" href="${esc(sourceUrl(b))}" target="_blank" rel="noopener">Source page</a>
