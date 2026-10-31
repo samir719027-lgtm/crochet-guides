@@ -19,3 +19,7 @@
 - [Abbreviations Glossary](https://crochetguide.uk/guides/abbreviations-glossary): what every pattern abbreviation means
 - [Amigurumi for Beginners](https://crochetguide.uk/guides/amigurumi-for-beginners): getting started with stuffed toys
 - [About](https://crochetguide.uk/about): who runs the site and how it is funded
+
+## Public-domain book library
+
+- [Vintage crochet books (PDF)](https://crochetguide.uk/pdf-library): 20 crochet books and pattern leaflets published before 1930, free to read and download from the Internet Archive

@@ -1,0 +1,226 @@
+{
+  "collection": "Vintage crochet books, 1890s-1929",
+  "rights": "Public domain (published before 1930). Scans provided by the Internet Archive.",
+  "books": [
+    {
+      "slug": "royal-society-crochet-lessons-1",
+      "title": "Crochet Lessons, Vol. 1 No. 1",
+      "year": 1915,
+      "publisher": "H. E. Verran Company, New York",
+      "category": "Lessons & Technique",
+      "size_mb": 11.4,
+      "blurb": "The first of the Royal Society lesson series: foundation stitches, tension and the basics every later pattern assumes.",
+      "ia_id": "royal-society-crochet-lessons-vol1-no1",
+      "pdf_file": "Royal Society Crochet Lessons No 1 v01.pdf"
+    },
+    {
+      "slug": "royal-society-crochet-lessons-5",
+      "title": "Crochet Lessons, Vol. 1 No. 5",
+      "year": 1915,
+      "publisher": "Royal Society Press, New York",
+      "category": "Lessons & Technique",
+      "size_mb": 23.2,
+      "blurb": "The fifth lesson book in the same series, moving from plain stitches into simple motifs and edgings.",
+      "ia_id": "crochet-lessons-vol1-no5",
+      "pdf_file": "CrochetLessonsVol1No5.pdf"
+    },
+    {
+      "slug": "clark-ont-100-edges-19",
+      "title": "Clark's O.N.T. Designs for 100 Edges and Insertions, Book No. 19",
+      "year": 1923,
+      "publisher": "Clark's O.N.T.",
+      "category": "Edgings & Borders",
+      "size_mb": 5.1,
+      "blurb": "One hundred edge and insertion patterns collected by Clark's O.N.T., with the original charts.",
+      "ia_id": "clarks-o.-n.-t.-designs-for-100-edges-and-insertions-book-no-19",
+      "pdf_file": "Clark's O.N.T. Designs for 100 Edges and Insertions Book No 19.pdf"
+    },
+    {
+      "slug": "caps-collars-jabots",
+      "title": "New Crochet and Tatting Designs in Caps, Collars and Jabots",
+      "year": 1915,
+      "publisher": "",
+      "category": "Yokes & Wearables",
+      "size_mb": 15.8,
+      "blurb": "Collars, caps and jabots in crochet and tatting, in the shapes that were fashionable around the First World War.",
+      "ia_id": "NewCrochetAndTattingDesignsInCapsCollarsAndJabots",
+      "pdf_file": "CapsCollarsJabots.pdf"
+    },
+    {
+      "slug": "sig-knit-ring-patterns",
+      "title": "Sig-Knit-Ring Yarn Knitting and Crochet Patterns",
+      "year": 1923,
+      "publisher": "",
+      "category": "Pattern Books",
+      "size_mb": 48.3,
+      "blurb": "A yarn company pattern book mixing knitting and crochet designs from the early 1920s.",
+      "ia_id": "Sig-knit-ringYarnKnittingAndCrochetPatterns",
+      "pdf_file": "Sig-knit-ringYarnKnittingAndCrochetPatterns.pdf"
+    },
+    {
+      "slug": "edgings-in-crochet-4",
+      "title": "Edgings in Crochet, Book No. Four",
+      "year": 1916,
+      "publisher": "",
+      "category": "Edgings & Borders",
+      "size_mb": 5.9,
+      "blurb": "Narrow borders, scallops and insertion bands from the fourth book in the Edgings in Crochet series.",
+      "ia_id": "edgings-in-crochet-four",
+      "pdf_file": "Edgings in Crochet.pdf"
+    },
+    {
+      "slug": "princess-yoke-book",
+      "title": "Princess Yoke Book",
+      "year": 1916,
+      "publisher": "",
+      "category": "Yokes & Wearables",
+      "size_mb": 37.0,
+      "blurb": "Yoke constructions for blouses and dresses, the shaped top section that 1910s garments were built from.",
+      "ia_id": "PrincessYokeBook",
+      "pdf_file": "PrincessYokeBook.pdf"
+    },
+    {
+      "slug": "cordet-10-yokes-edgings",
+      "title": "Yokes and Edgings in Crochet, Book No. 10",
+      "year": 1918,
+      "publisher": "Cordet",
+      "category": "Yokes & Wearables",
+      "size_mb": 26.1,
+      "blurb": "Book ten of the Cordet series, pairing shaped yokes with matching edgings.",
+      "ia_id": "cordet-10",
+      "pdf_file": "Cordet10.pdf"
+    },
+    {
+      "slug": "what-to-make-for-baby",
+      "title": "What To Make For Baby, Part One",
+      "year": 1911,
+      "publisher": "Mrs Ella Allan's Publications",
+      "category": "Pattern Books",
+      "size_mb": 4.1,
+      "blurb": "Fifty-five knitting and crochet designs for babies, from bootees and bonnets to full sets.",
+      "ia_id": "WhatToMakeForBaby",
+      "pdf_file": "What to make for baby.pdf"
+    },
+    {
+      "slug": "abc-crocheted-edges-2",
+      "title": "The ABC Book of Crocheted Edges and Corners, No. 2",
+      "year": 1925,
+      "publisher": "Asmus Bradley",
+      "category": "Edgings & Borders",
+      "size_mb": 8.6,
+      "blurb": "The second ABC book of crocheted edges and corners, a companion volume to the first.",
+      "ia_id": "asmusbradley-abc-no2-1920s",
+      "pdf_file": "ABC Edgings.pdf"
+    },
+    {
+      "slug": "filet-crochet-series-one",
+      "title": "Filet Crochet and How to Use It, Series One",
+      "year": 1914,
+      "publisher": "",
+      "category": "Lace & Filet",
+      "size_mb": 18.9,
+      "blurb": "A 1914 introduction to filet crochet: reading the grid, planning a design and working the mesh.",
+      "ia_id": "filet-crochet",
+      "pdf_file": "FiletCrochet.pdf"
+    },
+    {
+      "slug": "columbia-book-of-yarns",
+      "title": "The Columbia Book of Yarns",
+      "year": 1916,
+      "publisher": "Wm. H. Horstmann Co., Philadelphia",
+      "category": "Lessons & Technique",
+      "size_mb": 27.6,
+      "blurb": "A 256-page yarn manual covering knitting and crochet: stitches, instructions and gauge tables.",
+      "ia_id": "columbiabookofya1916schu",
+      "pdf_file": "columbiabookofya1916schu_bw.pdf"
+    },
+    {
+      "slug": "hiawatha-beaded-bags",
+      "title": "Hiawatha Book of Beaded Bags",
+      "year": 1927,
+      "publisher": "Hiawatha",
+      "category": "Pattern Books",
+      "size_mb": 7.8,
+      "blurb": "Beaded bag patterns from the Hiawatha company, the 1920s evening-bag style worked in crochet and knitting.",
+      "ia_id": "dehbobb-10",
+      "pdf_file": "DEhbobb10.pdf"
+    },
+    {
+      "slug": "bear-brand-blue-book-19",
+      "title": "Bear Brand Blue Book No. 19",
+      "year": 1918,
+      "publisher": "Bear Brand",
+      "category": "Pattern Books",
+      "size_mb": 6.8,
+      "blurb": "A general Bear Brand pattern collection from 1918, covering adult and child garments.",
+      "ia_id": "bear-brand-blue-book-no.-19",
+      "pdf_file": "Bear Brand Blue Book No. 19.pdf"
+    },
+    {
+      "slug": "coats-crochet-book-5",
+      "title": "J. & P. Coats Crochet Book No. 5",
+      "year": 1920,
+      "publisher": "J. & P. Coats",
+      "category": "Edgings & Borders",
+      "size_mb": 21.5,
+      "blurb": "Edgings, insertions and medallions from the fifth Coats crochet book.",
+      "ia_id": "jpcoats-5",
+      "pdf_file": "JPCoats5.pdf"
+    },
+    {
+      "slug": "coats-crochet-book-3",
+      "title": "J. & P. Coats Crochet Book No. 3",
+      "year": 1919,
+      "publisher": "J. & P. Coats",
+      "category": "Yokes & Wearables",
+      "size_mb": 28.7,
+      "blurb": "Yokes for garments plus small gift projects from the 1919 Coats catalogue.",
+      "ia_id": "jpcoats-3",
+      "pdf_file": "JPCoats3.pdf"
+    },
+    {
+      "slug": "coats-crochet-book-7",
+      "title": "J. & P. Coats Crochet Book No. 7",
+      "year": 1921,
+      "publisher": "J. & P. Coats",
+      "category": "Yokes & Wearables",
+      "size_mb": 24.5,
+      "blurb": "Sweaters, yokes and boudoir caps from 1921, with the loose silhouette of the period.",
+      "ia_id": "jpcoats-7",
+      "pdf_file": "JPCoats7.pdf"
+    },
+    {
+      "slug": "coats-crochet-book-2",
+      "title": "J. & P. Coats Crochet Book No. 2",
+      "year": 1917,
+      "publisher": "J. & P. Coats",
+      "category": "Lessons & Technique",
+      "size_mb": 45.6,
+      "blurb": "A general book of crochet work from 1917, from the first chain to finished pieces.",
+      "ia_id": "jpcoats-2",
+      "pdf_file": "JPCoats2.pdf"
+    },
+    {
+      "slug": "variety-italian-work-2",
+      "title": "Variety: Italian Cut Work and Filet Lace, Book No. 2",
+      "year": 1926,
+      "publisher": "",
+      "category": "Lace & Filet",
+      "size_mb": 32.5,
+      "blurb": "Italian cut work and filet lace, book two, with geometric mesh designs.",
+      "ia_id": "variety-italian-work",
+      "pdf_file": "VarietyItalianWork.pdf"
+    },
+    {
+      "slug": "self-instruction-lace-making",
+      "title": "Self Instruction in Modern Lace Making",
+      "year": 1916,
+      "publisher": "",
+      "category": "Lace & Filet",
+      "size_mb": 36.6,
+      "blurb": "A self-teaching course in modern lace making, from tools and stitches to simple motifs.",
+      "ia_id": "SelfInstructionInModernLaceMaking",
+      "pdf_file": "LaceMaking.pdf"
+    }
+  ]
+}
