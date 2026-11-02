@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 650" role="img" aria-label="Five crochet hooks with soft-grip handles">
+  <rect width="940" height="650" fill="#F1EAE0"/>
+  <circle cx="760" cy="120" r="150" fill="#E7DECD"/>
+  <circle cx="170" cy="540" r="190" fill="#E7DECD"/>
+  <g stroke="#2A241E" stroke-width="3" stroke-linecap="round">
+    <g transform="translate(240 170) rotate(18)">
+      <rect x="-14" y="0" width="28" height="120" rx="14" fill="#33586B"/>
+      <rect x="-7" y="120" width="14" height="250" rx="7" fill="#C9A27A"/>
+      <path d="M-7 370 q0 22 12 22 q10 0 10 -12" fill="none"/>
+    </g>
+    <g transform="translate(370 130) rotate(26)">
+      <rect x="-14" y="0" width="28" height="120" rx="14" fill="#D8A23C"/>
+      <rect x="-7" y="120" width="14" height="250" rx="7" fill="#C9A27A"/>
+      <path d="M-7 370 q0 22 12 22 q10 0 10 -12" fill="none"/>
+    </g>
+    <g transform="translate(500 110) rotate(34)">
+      <rect x="-14" y="0" width="28" height="120" rx="14" fill="#A63B4A"/>
+      <rect x="-7" y="120" width="14" height="250" rx="7" fill="#C9A27A"/>
+      <path d="M-7 370 q0 22 12 22 q10 0 10 -12" fill="none"/>
+    </g>
+    <g transform="translate(630 130) rotate(42)">
+      <rect x="-14" y="0" width="28" height="120" rx="14" fill="#33586B"/>
+      <rect x="-7" y="120" width="14" height="250" rx="7" fill="#C9A27A"/>
+      <path d="M-7 370 q0 22 12 22 q10 0 10 -12" fill="none"/>
+    </g>
+    <g transform="translate(750 175) rotate(50)">
+      <rect x="-14" y="0" width="28" height="120" rx="14" fill="#D8A23C"/>
+      <rect x="-7" y="120" width="14" height="250" rx="7" fill="#C9A27A"/>
+      <path d="M-7 370 q0 22 12 22 q10 0 10 -12" fill="none"/>
+    </g>
+  </g>
+  <path d="M150 610 q180 -40 340 0 q160 40 300 -10" fill="none" stroke="#D8A23C" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+</svg>

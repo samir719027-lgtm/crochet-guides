@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 650" role="img" aria-label="An open stitch dictionary with crochet chart symbols and a hook">
+  <rect width="940" height="650" fill="#F1EAE0"/>
+  <circle cx="170" cy="120" r="150" fill="#E7DECD"/>
+  <circle cx="790" cy="540" r="160" fill="#E7DECD"/>
+  <g stroke="#2A241E" stroke-width="3">
+    <path d="M470 190 q-170 -46 -300 6 v300 q130 -52 300 -6 z" fill="#FBF8F2"/>
+    <path d="M470 190 q170 -46 300 6 v300 q-130 -52 -300 -6 z" fill="#F4EEE2"/>
+    <path d="M470 190 v300" fill="none"/>
+  </g>
+  <g fill="none" stroke="#33586B" stroke-width="4" stroke-linecap="round">
+    <circle cx="290" cy="290" r="14"/><path d="M276 320 h28 M290 306 v28"/>
+    <path d="M370 280 l18 18 -18 18 -18 -18 z"/>
+    <path d="M270 390 q30 -26 60 0 q-30 26 -60 0"/>
+    <path d="M360 396 h56 M388 368 v56"/>
+  </g>
+  <g fill="none" stroke="#A63B4A" stroke-width="4" stroke-linecap="round">
+    <circle cx="590" cy="290" r="14"/><path d="M576 320 h28 M590 306 v28"/>
+    <path d="M670 280 l18 18 -18 18 -18 -18 z"/>
+    <path d="M570 390 q30 -26 60 0 q-30 26 -60 0"/>
+    <path d="M660 396 h56 M688 368 v56"/>
+  </g>
+  <g transform="translate(700 160) rotate(24)">
+    <rect x="-10" y="0" width="20" height="86" rx="10" fill="#D8A23C" stroke="#2A241E" stroke-width="3"/>
+    <rect x="-5" y="86" width="10" height="180" rx="5" fill="#C9A27A" stroke="#2A241E" stroke-width="3"/>
+    <path d="M-5 266 q0 16 9 16 q8 0 8 -9" fill="none" stroke="#2A241E" stroke-width="3"/>
+  </g>
+  <path d="M200 560 q270 40 540 -4" fill="none" stroke="#D8A23C" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+</svg>

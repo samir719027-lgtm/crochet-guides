@@ -17,18 +17,45 @@ so the provenance of every image stays traceable.
 
 The SVG diagrams under `img/` are original to CrochetGuides.
 
-## Provenance not established
+## Generated and original artwork
 
-These predate the Pexels work above and their origin has not been traced.
-They are recorded here so the gap is visible rather than implied.
-
-| File | Used for | Status |
+| File | Used for | Provenance |
 | --- | --- | --- |
-| `img/homepage-card.jpg` | homepage `og:image`; source for `img/hero-home.webp` | origin unknown |
-| `img/pick-37850459.jpg` | Amazon pick card | origin unknown |
-| `img/pick-8931794.jpg` | Amazon pick card | origin unknown |
-| `img/pick-4792080.jpg` | Amazon pick card | origin unknown |
-| `img/pick-6461523.jpg` | Amazon pick card | origin unknown |
+| `img/homepage-card.jpg` | homepage `og:image` and `twitter:image` | AI-generated illustration produced for CrochetGuides in November 2026 and reviewed before use. Not a photograph of a real product. |
+| `img/hero-home.webp` | homepage hero | WebP re-encode of `img/homepage-card.jpg` at 1200x630, same illustration. |
+| `img/picks/hook-set.svg` | Amazon pick card | Original SVG illustration created for CrochetGuides. |
+| `img/picks/yarn-basket.svg` | Amazon pick card | Original SVG illustration created for CrochetGuides. |
+| `img/picks/stitch-dictionary.svg` | Amazon pick card | Original SVG illustration created for CrochetGuides. |
+| `img/picks/notions.svg` | Amazon pick card | Original SVG illustration created for CrochetGuides. |
 
-`img/hero-home.webp` is a WebP re-encode of `img/homepage-card.jpg` at the
-same 1200x630 size, not a new photograph.
+Pick-card illustrations are diagrams, not photographs of the listed products;
+the product is described by the card text and its link.
+
+## Guide hero images
+
+Most heroes under `guides/images/` were fetched by the publishing pipeline
+from Pexels (Pexels licence, attribution not required) or generated with
+Pollinations when no suitable stock photo was found. Per-file provenance was
+not recorded for pages published before November 2026.
+
+In November 2026 the 35 heroes listed below were replaced with AI-generated
+illustrations because the same stock image was being reused across unrelated
+guides. They are illustrations, not photographs of the finished projects or
+products:
+
+`best-blocking-mats-and-pins-guide`, `best-crochet-project-bags`,
+`best-mercerized-cotton-yarn-guide`, `best-neck-lights-for-crocheting`,
+`best-yarn-winder-and-swift-sets`, `crochet-ergonomics-pencil-vs-knife-grip`,
+`crochet-hooded-scarf-pattern`, `crochet-laptop-sleeve-pattern`,
+`crochet-water-bottle-holder-pattern`, `hooded-scarf-pattern`,
+`how-to-store-yarn-properly`, `yarn-weight-explained`, `amigurumi-starter-kit`,
+`best-crochet-hook-brands`, `best-crochet-hooks-for-arthritis`,
+`hook-size-chart`, `basic-crochet-stitches`, `best-youtube-channels`,
+`how-to-fix-curling-edges`, `left-handed-crochet-guide`,
+`granny-square-blanket-pattern`, `granny-square-tutorial`,
+`how-to-join-granny-squares`, `best-yarn-for-amigurumi`,
+`yarn-types-explained`, `crossbody-bag-pattern`, `granny-square-bag-pattern`,
+`dish-scrubbies-pattern`, `how-to-wash-crochet-items`,
+`ebooks-vs-pdf-patterns`, `what-is-gauge-crochet`, `fixing-project-size`,
+`how-much-yarn-do-i-need`, `how-to-read-a-pattern`,
+`us-to-uk-crochet-terms-conversion`.

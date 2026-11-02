@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 650" role="img" aria-label="Three balls of yarn in a woven basket">
+  <rect width="940" height="650" fill="#F1EAE0"/>
+  <circle cx="470" cy="300" r="230" fill="#E7DECD"/>
+  <g stroke="#2A241E" stroke-width="3">
+    <circle cx="360" cy="300" r="86" fill="#33586B"/>
+    <path d="M292 264 q68 34 136 0 M286 306 q74 38 148 0 M296 348 q66 34 132 0" fill="none" opacity=".55"/>
+    <circle cx="560" cy="270" r="74" fill="#D8A23C"/>
+    <path d="M500 240 q60 30 120 0 M494 278 q66 34 132 0 M502 314 q58 30 116 0" fill="none" opacity=".55"/>
+    <circle cx="470" cy="390" r="62" fill="#A63B4A"/>
+    <path d="M420 366 q50 26 100 0 M416 396 q54 30 108 0 M424 426 q46 24 92 0" fill="none" opacity=".5"/>
+  </g>
+  <path d="M240 400 h460 l-44 190 q-4 18 -22 18 h-328 q-18 0 -22 -18 z" fill="#C9A27A" stroke="#2A241E" stroke-width="3"/>
+  <g stroke="#8B6A47" stroke-width="6" opacity=".75">
+    <path d="M268 444 h404 M280 490 h380 M292 536 h356 M306 578 h324"/>
+  </g>
+  <path d="M270 414 q210 46 400 0" fill="none" stroke="#8B6A47" stroke-width="14"/>
+  <path d="M360 300 q-70 -110 -190 -60" fill="none" stroke="#33586B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M560 270 q110 -50 176 40" fill="none" stroke="#D8A23C" stroke-width="4" stroke-linecap="round"/>
+</svg>
