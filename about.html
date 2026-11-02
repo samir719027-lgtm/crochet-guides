@@ -1,51 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZLKW21MDJZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-ZLKW21MDJZ');
-</script>
-<script>
-document.addEventListener('click', function(e){
-  var a = e.target.closest('a');
-  if(!a || !a.href) return;
-  if(a.href.indexOf('amazon.com') > -1){
-    gtag('event', 'affiliate_click', {link_url: a.href, page_path: window.location.pathname});
-  }
-});
-</script>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About CrochetGuides | Plain-English Crochet Guides</title>
-<meta name="description" content="CrochetGuides writes plain-language crochet guides for beginners: honest hook and yarn comparisons, and product picks we'd actually recommend.">
+<title>About CrochetGuides | How Our Guides Are Made</title>
+<meta name="description" content="How CrochetGuides makes beginner crochet guides: AI-assisted drafting, human checking, clear corrections and honest product recommendations.">
 <link rel="canonical" href="https://crochetguide.uk/about">
 <meta name="robots" content="index, follow">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='5' fill='%2322404F'/%3E%3Cpath d='M8 3c-2.5 0-4.5 2-4.5 4.5S5.5 12 8 12h4c2.8 0 5 2.2 5 5s-2.2 5-5 5-5-2.2-5-5' fill='none' stroke='%23EDE6D9' stroke-width='1.8' stroke-linecap='round'/%3E%3Ccircle cx='17.2' cy='4.8' r='1.7' fill='%23D8A23C'/%3E%3C/svg%3E">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="CrochetGuides">
-<meta property="og:title" content="About CrochetGuides">
-<meta property="og:description" content="Plain-language crochet guides for beginners, and honest product picks.">
+<meta property="og:title" content="About CrochetGuides | How Our Guides Are Made">
+<meta property="og:description" content="How CrochetGuides makes beginner crochet guides: AI-assisted drafting, human checking, clear corrections and honest product recommendations.">
 <meta property="og:url" content="https://crochetguide.uk/about">
 <meta name="twitter:card" content="summary_large_image">
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Nora Fenwick",
-  "description": "Crochet teacher with 12 years of experience and founder of CrochetGuides, focused on clear, beginner-friendly instructions.",
-  "url": "https://crochetguide.uk/about",
-  "jobTitle": "Crochet Teacher",
-  "email": "mailto:contact@crochetguide.uk",
-  "worksFor": {"@type": "Organization", "name": "CrochetGuides"}
-}
-</script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -100,7 +69,28 @@ footer .wrap{max-width:1100px;}
 .search-result .r-title{font-family:'Fraunces',serif;font-weight:600;font-size:15px;}
 .search-empty{color:var(--ink-soft);font-size:14px;padding:10px 8px;}
 </style>
+<script src="/cookie-consent.js"></script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2407314174904220" crossorigin="anonymous"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "About CrochetGuides",
+  "description": "How CrochetGuides makes beginner crochet guides: AI-assisted drafting, human checking, clear corrections and honest product recommendations.",
+  "url": "https://crochetguide.uk/about",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "CrochetGuides",
+    "url": "https://crochetguide.uk/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CrochetGuides",
+    "url": "https://crochetguide.uk/about"
+  },
+  "inLanguage": "en-GB"
+}
+</script>
 </head>
 <body>
 
@@ -112,6 +102,8 @@ footer .wrap{max-width:1100px;}
     </a>
     <div style="display:flex;align-items:center;gap:14px;">
       <a class="back" href="/">&larr; All guides</a>
+      <a class="back" href="/about" style="font-size:14px;font-weight:600;text-decoration:none;">About</a>
+      <a class="back" href="/contact" style="font-size:14px;font-weight:600;text-decoration:none;">Contact</a>
       <button class="search-btn" id="searchBtn" aria-label="Search guides" type="button"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></button>
     </div>
   </div>
@@ -128,49 +120,72 @@ footer .wrap{max-width:1100px;}
 </div>
 
 
+
 <article>
   <div class="wrap">
     <span class="eyebrow">About</span>
-    <h1>Guides written for the person holding a hook for the first time.</h1>
-    <p class="dek">Hi, I'm Nora &mdash; I got tired of crochet advice that assumes you already know what "hdc" means.</p>
+    <h1>Plain-English crochet guides, made carefully.</h1>
+    <p class="dek">CrochetGuides publishes beginner-first tutorials, free patterns and honest supply comparisons. This page explains who makes the guides, how they are checked, and how to tell us when something is wrong.</p>
 
-    <div style="display:flex;gap:18px;align-items:center;margin:28px 0;">
-      <svg viewBox="0 0 64 64" role="img" aria-label="Nora Fenwick" width="88" height="88" style="border-radius:50%;flex-shrink:0;"><circle cx="32" cy="32" r="32" fill="#33586B"/><path d="M23 19c-4 6-6 13-6 21 0 7 2 12 6 16 2 2 3 3 5 3h8c2 0 3-1 5-3 4-4 6-9 6-16 0-8-2-15-6-21-3-4-7-6-9-6s-6 2-9 6Z" fill="#A63B4A"/><path d="M22 64c3-12 6-18 10-18s7 6 10 18Z" fill="#EDE6D9"/><rect x="27.5" y="34" width="9" height="13" rx="3" fill="#EDE6D9"/><circle cx="32" cy="27" r="10" fill="#EDE6D9"/><circle cx="32" cy="13.5" r="4.5" fill="#A63B4A"/><circle cx="27" cy="34" r="1.4" fill="#D8A23C"/><circle cx="37" cy="34" r="1.4" fill="#D8A23C"/></svg>
-      <div>
-        <p style="margin:0 0 2px;font-weight:600;font-family:'Fraunces',serif;font-size:17px;">Nora Fenwick</p>
-        <p style="margin:0;font-size:14px;color:var(--ink-soft);">Founder &amp; crochet teacher, CrochetGuides</p>
-      </div>
-    </div>
+    <h2>What this site is for</h2>
+    <p>Most crochet advice is written for people who already know the shorthand. CrochetGuides starts earlier: what a stitch is, why the hook size matters, how to read a round, and what to do when the finished piece does not match the photo. The aim is a guide you can follow with the yarn in your hand, not a glossary you have to decode first.</p>
 
-    <h2>Why I started this</h2>
-    <p>Most crochet content online is written by experienced crocheters, for other experienced crocheters. That's great if you already know the basics &mdash; and frustrating if you're the person trying to figure out why your first swatch looks nothing like the photo.</p>
-    <p>I started CrochetGuides to close that gap: plain-language guides that explain the "why" behind hook sizes, yarn weights, and pattern shorthand, not just the "what." I've been teaching crochet for 12 years, and I still remember exactly which parts were confusing at the start.</p>
+    <h2>How our guides are made</h2>
+    <p>Every guide is drafted with AI assistance and then reviewed and edited by a human editor before publication. The editor checks stitch counts and repeats, confirms the terminology, and removes claims the site cannot support.</p>
+    <p>We do not pretend that every hook, yarn or pattern has been physically tested by the person writing. When a guide relies on published specifications, common practice or a sampled swatch, we say so. When something has not been tested, we do not describe it as tested.</p>
+    <p>Guides use a first-person editorial voice for readability. First-person examples describe typical situations and are not reports that the editor personally tested a product or followed that exact sequence.</p>
 
     <div class="callout">
-      <strong>My approach:</strong> every guide is written to answer the question a beginner actually has, in the order they actually need it &mdash; not the order that's easiest to write about.
+      <strong>Our rule:</strong> if we cannot explain why an instruction should work, it does not go on the page.
     </div>
 
-    <h2>How I pick products</h2>
-    <p>When I recommend a hook, a skein of yarn, or a book, I'm looking for one thing: would this genuinely help someone who's just starting out. I favour widely available, well-reviewed options over expensive or niche gear, because the biggest risk for a beginner isn't buying the "wrong" premium hook &mdash; it's spending too much before knowing if the craft is for them.</p>
-    <p>CrochetGuides is a participant in the Amazon Services LLC Associates Program. When you buy through a link on this site, I may earn a small commission at no extra cost to you. It never changes which product I recommend.</p>
+    <h2>What we check before publishing</h2>
+    <ul>
+      <li>Stitch counts add up across increase, straight and decrease rounds.</li>
+      <li>Terminology is consistent and stated as US or UK terms.</li>
+      <li>Yarn weight, hook size and gauge advice match the construction described.</li>
+      <li>Safety notes are included for toys, small parts and items for babies.</li>
+      <li>Product claims are limited to specifications and limitations we can verify.</li>
+    </ul>
 
-    <h2>Get in touch</h2>
-    <p>Spotted an error, or have a guide you'd like to see? I read everything sent my way and use it to improve existing guides and plan new ones. Email me at <a href="mailto:contact@crochetguide.uk">contact@crochetguide.uk</a>.</p>
+    <h2>How we choose products</h2>
+    <p>Recommendations are based on published specifications, price, availability and the needs of a beginner. We favour widely available tools over niche premium gear, because the biggest risk for a new crocheter is spending too much before knowing whether the craft will stick. We do not accept payment for a placement or a positive review.</p>
+    <p class="disclosure">CrochetGuides is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate we earn from qualifying purchases.</p>
+
+    <h2>Who we are</h2>
+    <p>CrochetGuides is an independent online publication run by a small editorial team. We are not a retailer and we do not sell yarn, hooks or finished items directly. The site is supported by advertising and affiliate links, which are labelled where they appear.</p>
+
+    <h2>Corrections and contact</h2>
+    <p>If you spot an error, email <a href="mailto:contact@crochetguide.uk">contact@crochetguide.uk</a> with the guide URL and the instruction you think is wrong. We aim to reply within two working days. When we change a published instruction, we add a correction note to the guide so readers can see what changed.</p>
 
     <div class="cta-row">
-      <a class="btn btn-primary" href="mailto:contact@crochetguide.uk">Email us</a>
+      <a class="btn btn-primary" href="/contact">Contact the editorial team</a>
+      <a class="btn btn-ghost" href="/editorial-policy">Read our editorial policy</a>
       <a class="btn btn-ghost" href="/#guides">Browse the guides</a>
-      <a class="btn btn-ghost" href="/#picks">See our picks</a>
     </div>
 
-    <p class="disclosure">CrochetGuides is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate we earn from qualifying purchases.</p>
+    <p class="fine" style="margin-top:28px;">Last reviewed: 2 November 2026.</p>
   </div>
 </article>
 
+
 <footer>
   <div class="wrap">
-    <a href="/">&larr; Back to CrochetGuides</a>
-    <a href="https://www.pinterest.com/crochetguide_uk/" target="_blank" rel="noopener" style="margin-left:16px;">Follow us on Pinterest</a>
+    <nav style="display:flex;flex-wrap:wrap;gap:14px;margin-bottom:12px;">
+      <a href="/#guides">Guides</a>
+      <a href="/#categories">Categories</a>
+      <a href="/pdf-library">PDF Library</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/editorial-policy">Editorial policy</a>
+      <a href="/privacy-policy">Privacy</a>
+      <a href="/terms">Terms</a>
+      <button type="button" onclick="window.cgOpenConsent&&window.cgOpenConsent()" style="background:none;border:none;padding:0;font:inherit;color:inherit;text-decoration:underline;cursor:pointer;">Cookie settings</button>
+    </nav>
+    <p class="fine">
+      CrochetGuides is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate we earn from qualifying purchases.
+    </p>
+    <p class="fine" style="margin-top:10px;">&copy; 2026 CrochetGuides. Guides are drafted with AI assistance and reviewed by our editorial team. <a href="/editorial-policy">How we make them</a>.</p>
   </div>
 </footer>
 

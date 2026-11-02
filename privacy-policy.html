@@ -1,27 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZLKW21MDJZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-ZLKW21MDJZ');
-</script>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Privacy Policy | CrochetGuides</title>
-<meta name="description" content="How CrochetGuides handles data: cookies, affiliate links, analytics, and your rights as a visitor.">
+<meta name="description" content="How CrochetGuides handles personal data, cookies, analytics and Google AdSense advertising, and how to exercise your UK GDPR rights.">
 <link rel="canonical" href="https://crochetguide.uk/privacy-policy">
 <meta name="robots" content="index, follow">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='5' fill='%2322404F'/%3E%3Cpath d='M8 3c-2.5 0-4.5 2-4.5 4.5S5.5 12 8 12h4c2.8 0 5 2.2 5 5s-2.2 5-5 5-5-2.2-5-5' fill='none' stroke='%23EDE6D9' stroke-width='1.8' stroke-linecap='round'/%3E%3Ccircle cx='17.2' cy='4.8' r='1.7' fill='%23D8A23C'/%3E%3C/svg%3E">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="CrochetGuides">
-<meta property="og:title" content="Privacy Policy">
-<meta property="og:description" content="How CrochetGuides handles data: cookies, affiliate links, analytics, and your rights.">
+<meta property="og:title" content="Privacy Policy | CrochetGuides">
+<meta property="og:description" content="How CrochetGuides handles personal data, cookies, analytics and Google AdSense advertising, and how to exercise your UK GDPR rights.">
 <meta property="og:url" content="https://crochetguide.uk/privacy-policy">
 <meta name="twitter:card" content="summary_large_image">
 
@@ -46,18 +37,60 @@ header .wrap{max-width:1100px;display:flex;align-items:center;justify-content:sp
 article{padding:48px 0 64px;}
 h1{font-size:clamp(1.7rem,4vw,2.4rem);line-height:1.15;margin-top:12px;}
 .dek{font-size:18px;color:var(--ink-soft);margin:16px 0 0;}
-.meta{font-family:'Space Mono',monospace;font-size:12px;color:var(--ink-soft);margin-top:18px;}
-h2{font-size:20px;margin-top:36px;}
+h2{font-size:22px;margin-top:40px;}
 p{margin:0 0 16px;}
 ul{margin:0 0 16px;padding-left:22px;}
 li{margin-bottom:8px;}
 .callout{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin:24px 0;font-size:15.5px;}
 .callout strong{color:var(--berry);}
-.contact-box{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:20px 0;}
+.cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px;}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border-radius:var(--radius);font-weight:600;font-size:14px;text-decoration:none;}
+.btn-primary{background:var(--teal-dark);color:var(--card)!important;}
+.btn-primary:hover{background:var(--ink);}
+.btn-ghost{border:1px solid var(--line);color:var(--ink)!important;}
+.btn-ghost:hover{border-color:var(--ink);}
+.disclosure{font-size:13px;color:var(--ink-soft);border-top:1px solid var(--line);margin-top:40px;padding-top:20px;}
 footer{border-top:1px solid var(--line);padding:24px 0;font-size:13px;color:var(--ink-soft);}
 footer .wrap{max-width:1100px;}
+
+.search-btn{background:none;border:none;cursor:pointer;color:var(--ink);padding:6px;display:flex;align-items:center;flex:none;}
+.search-btn:hover{color:var(--teal-dark);}
+.search-overlay{position:fixed;inset:0;background:rgba(42,36,30,0.55);z-index:999;display:flex;align-items:flex-start;justify-content:center;padding:10vh 20px 20px;}
+.search-overlay[hidden]{display:none;}
+.search-box{background:var(--card);border-radius:var(--radius);max-width:560px;width:100%;padding:18px;box-shadow:0 10px 40px rgba(0,0,0,0.25);max-height:70vh;display:flex;flex-direction:column;}
+.search-row{display:flex;gap:8px;align-items:center;}
+.search-row input{flex:1;padding:12px 14px;border:1px solid var(--line);border-radius:var(--radius);font-size:16px;font-family:'Work Sans',sans-serif;background:var(--wool);color:var(--ink);box-sizing:border-box;}
+.search-row input:focus{outline:2px solid var(--teal);border-color:var(--teal);}
+.search-close{background:none;border:none;font-size:24px;cursor:pointer;color:var(--ink-soft);flex:none;padding:2px 8px;line-height:1;}
+.search-results{margin-top:14px;overflow-y:auto;}
+.search-result{display:block;padding:10px 8px;text-decoration:none;color:var(--ink);border-radius:var(--radius);}
+.search-result:hover{background:var(--wool);}
+.search-result .r-cat{font-family:'Space Mono',monospace;font-size:10.5px;text-transform:uppercase;letter-spacing:0.06em;color:var(--berry);display:block;margin-bottom:2px;}
+.search-result .r-title{font-family:'Fraunces',serif;font-weight:600;font-size:15px;}
+.search-empty{color:var(--ink-soft);font-size:14px;padding:10px 8px;}
 </style>
+<script src="/cookie-consent.js"></script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2407314174904220" crossorigin="anonymous"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Privacy Policy",
+  "description": "How CrochetGuides handles personal data, cookies, analytics and Google AdSense advertising, and how to exercise your UK GDPR rights.",
+  "url": "https://crochetguide.uk/privacy-policy",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "CrochetGuides",
+    "url": "https://crochetguide.uk/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CrochetGuides",
+    "url": "https://crochetguide.uk/about"
+  },
+  "inLanguage": "en-GB"
+}
+</script>
 </head>
 <body>
 
@@ -67,55 +100,170 @@ footer .wrap{max-width:1100px;}
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 3c-2.5 0-4.5 2-4.5 4.5S5.5 12 8 12h4c2.8 0 5 2.2 5 5s-2.2 5-5 5-5-2.2-5-5"/><circle cx="17.2" cy="4.8" r="1.6"/></svg>
       CrochetGuides
     </a>
-    <a class="back" href="/">&larr; All guides</a>
+    <div style="display:flex;align-items:center;gap:14px;">
+      <a class="back" href="/">&larr; All guides</a>
+      <a class="back" href="/about" style="font-size:14px;font-weight:600;text-decoration:none;">About</a>
+      <a class="back" href="/contact" style="font-size:14px;font-weight:600;text-decoration:none;">Contact</a>
+      <button class="search-btn" id="searchBtn" aria-label="Search guides" type="button"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></button>
+    </div>
   </div>
 </header>
+
+<div class="search-overlay" id="searchOverlay" hidden>
+  <div class="search-box">
+    <div class="search-row">
+      <input type="text" id="searchInput" placeholder="Search guides..." autocomplete="off">
+      <button class="search-close" id="searchClose" aria-label="Close search" type="button">&times;</button>
+    </div>
+    <div class="search-results" id="searchResults"></div>
+  </div>
+</div>
+
+
 
 <article>
   <div class="wrap">
     <span class="eyebrow">Legal</span>
-    <h1>Privacy Policy</h1>
-    <p class="dek">What data this site collects, how affiliate and advertising links work, and how to reach us with questions.</p>
-    <p class="meta">Last updated: August 2026</p>
+    <h1>Privacy policy</h1>
+    <p class="dek">What data this site collects, how cookies and advertising work, and how to exercise your rights.</p>
+    <p class="fine">Last updated: 2 November 2026</p>
 
     <h2>Who we are</h2>
-    <p>CrochetGuides (crochetguide.uk) publishes beginner-friendly crochet guides. This policy explains what happens with your data when you visit.</p>
+    <p>CrochetGuides (crochetguide.uk) is an independent crochet publication and the data controller for this website. For any privacy question or request, email <a href="mailto:contact@crochetguide.uk">contact@crochetguide.uk</a>.</p>
 
-    <h2>Cookies and analytics</h2>
-    <p>This site may use cookies and similar technologies from third-party services (such as Google Analytics or Google AdSense, where enabled) to understand how visitors use the site and, where advertising is shown, to display relevant ads. These services may collect information such as your approximate location, device type, and browsing behaviour on this site.</p>
-    <p>You can control or delete cookies through your browser settings at any time. Blocking cookies may affect how some parts of the site function.</p>
+    <h2>What we collect</h2>
+    <ul>
+      <li><strong>Information you give us.</strong> If you email us, we receive your email address and whatever you include in the message. If you request a PDF from our library, we receive the email address you enter and the page you requested it from.</li>
+      <li><strong>Analytics data.</strong> If you accept analytics cookies, Google Analytics 4 records pages viewed, approximate location, device and browser type, referral source and interaction events. We use this to understand which guides are useful.</li>
+      <li><strong>Advertising data.</strong> Google AdSense and its partners may use cookies and similar technologies to measure and personalise ads, subject to your choices and to Google's own consent requirements.</li>
+      <li><strong>Server logs.</strong> Our hosting provider records standard request logs, including IP address, user agent and requested URL, for security and abuse prevention.</li>
+    </ul>
 
-    <h2>Advertising and affiliate links</h2>
-    <p>CrochetGuides is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program. Links to Amazon products on this site are affiliate links, and we may earn a commission on qualifying purchases at no extra cost to you.</p>
-    <p>If this site displays advertising through Google AdSense or a similar network, those networks may use cookies to serve ads based on your visits to this and other websites. You can learn more about how Google uses this data, and opt out where available, through Google's own advertising settings.</p>
+    <h2>Legal bases</h2>
+    <p>We rely on your consent for analytics and personalised advertising; on legitimate interests for keeping the site secure, preventing abuse and understanding aggregate usage; and on the performance of a request when we send you a PDF or reply to your email.</p>
 
-    <h2>Information we collect directly</h2>
-    <p>If you subscribe to updates via the email form on this site, we collect the email address you provide, solely to send you the updates you signed up for. We don't sell or share this address with third parties.</p>
-    <p>If you contact us by email, we'll have whatever information you choose to include in that message, used only to respond to you.</p>
+    <h2>Cookies we use</h2>
+    <ul>
+      <li><strong>cg-consent</strong> (local storage): remembers whether you accepted or rejected non-essential cookies. It stays in your browser until you clear it.</li>
+      <li><strong>_ga, _ga_*</strong> (Google Analytics): distinguishes users and sessions. Set only after you accept analytics.</li>
+      <li><strong>__gads, __gpi, IDE, test_cookie</strong> (Google advertising): used by Google to measure ad performance and, where permitted, personalise ads.</li>
+    </ul>
+    <p>You can clear or block cookies in your browser at any time. Blocking them may affect how ads and analytics work, but the guides remain readable.</p>
+
+    <h2>Advertising and Google</h2>
+    <p>We use Google AdSense to display advertising. Third-party vendors, including Google, use cookies to serve ads based on a user's prior visits to this website or other websites. Google's use of advertising cookies enables it and its partners to serve ads to users based on their visits to this site and/or other sites on the internet.</p>
+    <p>You can opt out of personalised advertising through <a href="https://adssettings.google.com/" target="_blank" rel="noopener">Google Ads Settings</a>, and learn about other opt-out tools at <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener">aboutads.info</a> and <a href="https://www.youronlinechoices.com/uk/" target="_blank" rel="noopener">Your Online Choices</a>. Where required, we use a Google-certified consent message to collect your choices before ads are personalised. You can change your choice at any time using the <button type="button" onclick="window.cgOpenConsent&&window.cgOpenConsent()" style="background:none;border:none;padding:0;font:inherit;color:inherit;text-decoration:underline;cursor:pointer;">Cookie settings</button> link in the footer.</p>
+
+    <h2>Who we share data with</h2>
+    <p>We share data with service providers that help us run the site: Google (analytics and advertising), our email delivery provider for PDF requests, and our hosting provider. We do not sell personal data. We may disclose information if required by law or to protect the site and its readers.</p>
+
+    <h2>International transfers</h2>
+    <p>Some providers process data outside the UK. Where that happens, they rely on appropriate safeguards such as the UK Extension to the EU-US Data Privacy Framework or standard contractual clauses.</p>
+
+    <h2>How long we keep data</h2>
+    <p>Analytics data is retained for up to 14 months. Email correspondence is kept for as long as needed to resolve your query and meet legal obligations. PDF request emails are kept until the request is fulfilled and then removed from active storage. Server logs are kept for a short security period.</p>
 
     <h2>Your rights</h2>
-    <p>If you're in the UK or EU, you have the right to ask what data we hold about you, request its correction or deletion, and withdraw consent for anything you previously opted into (such as the email list). Contact us using the details below to exercise any of these rights.</p>
+    <p>If you are in the UK or EU, you have the right to access the personal data we hold about you, ask for it to be corrected or deleted, restrict or object to processing, receive a portable copy, and withdraw consent at any time. To exercise a right, email <a href="mailto:contact@crochetguide.uk">contact@crochetguide.uk</a>.</p>
+    <p>You can also complain to the UK Information Commissioner's Office at <a href="https://ico.org.uk/" target="_blank" rel="noopener">ico.org.uk</a>. If you are in another country, you can contact your local data protection authority.</p>
 
-    <div class="callout">
-      <strong>Third-party services:</strong> Amazon, and any advertising or analytics providers used on this site, have their own privacy policies governing how they handle data. We'd encourage you to review those directly for full detail on their practices.
-    </div>
+    <h2>Children</h2>
+    <p>This site is written for adults and is not directed at children under 13. We do not knowingly collect personal data from children. If you believe a child has submitted data, contact us and we will delete it.</p>
+
+    <h2>Security</h2>
+    <p>We use HTTPS across the site and restrict access to the services that hold data. No method of transmission or storage is completely secure, so we cannot guarantee absolute security.</p>
 
     <h2>Changes to this policy</h2>
-    <p>We may update this policy from time to time, for example if we add new advertising or analytics services. The "last updated" date at the top of this page reflects the most recent revision.</p>
+    <p>We may update this policy when our tools or the law change. The date at the top shows the latest version. Material changes will be noted on this page.</p>
 
     <h2>Contact</h2>
-    <p>Questions about this policy, or a request relating to your data, can be sent to:</p>
-    <div class="contact-box">
-      <a href="mailto:contact@crochetguide.uk">contact@crochetguide.uk</a>
-    </div>
+    <p>Privacy questions: <a href="mailto:contact@crochetguide.uk">contact@crochetguide.uk</a>. See also our <a href="/terms">terms of use</a> and <a href="/editorial-policy">editorial policy</a>.</p>
   </div>
 </article>
 
+
 <footer>
   <div class="wrap">
-    <a href="/">&larr; Back to CrochetGuides</a>
+    <nav style="display:flex;flex-wrap:wrap;gap:14px;margin-bottom:12px;">
+      <a href="/#guides">Guides</a>
+      <a href="/#categories">Categories</a>
+      <a href="/pdf-library">PDF Library</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/editorial-policy">Editorial policy</a>
+      <a href="/privacy-policy">Privacy</a>
+      <a href="/terms">Terms</a>
+      <button type="button" onclick="window.cgOpenConsent&&window.cgOpenConsent()" style="background:none;border:none;padding:0;font:inherit;color:inherit;text-decoration:underline;cursor:pointer;">Cookie settings</button>
+    </nav>
+    <p class="fine">
+      CrochetGuides is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate we earn from qualifying purchases.
+    </p>
+    <p class="fine" style="margin-top:10px;">&copy; 2026 CrochetGuides. Guides are drafted with AI assistance and reviewed by our editorial team. <a href="/editorial-policy">How we make them</a>.</p>
   </div>
 </footer>
 
+
+<script>
+(function(){
+  var btn = document.getElementById('searchBtn');
+  var overlay = document.getElementById('searchOverlay');
+  var input = document.getElementById('searchInput');
+  var closeBtn = document.getElementById('searchClose');
+  var results = document.getElementById('searchResults');
+  var index = null;
+
+  function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+  function loadIndex(cb){
+    if(index){ cb(); return; }
+    fetch('/search-index.json').then(function(r){return r.json();}).then(function(data){
+      index = data; cb();
+    }).catch(function(){ index = []; cb(); });
+  }
+
+  function render(query){
+    var q = query.trim().toLowerCase();
+    if(!q){ results.innerHTML = ''; return; }
+    var matches = index.filter(function(item){
+      return item.title.toLowerCase().indexOf(q) > -1 ||
+             item.desc.toLowerCase().indexOf(q) > -1 ||
+             item.category.toLowerCase().indexOf(q) > -1;
+    }).sort(function(a,b){
+      var at = a.title.toLowerCase().indexOf(q) > -1 ? 0 : 1;
+      var bt = b.title.toLowerCase().indexOf(q) > -1 ? 0 : 1;
+      return at - bt;
+    }).slice(0, 8);
+    if(matches.length === 0){
+      results.innerHTML = '<div class="search-empty">No guides found. Try a different word.</div>';
+      return;
+    }
+    results.innerHTML = matches.map(function(m){
+      return '<a class="search-result" href="'+m.url+'"><span class="r-cat">'+esc(m.category)+'</span><span class="r-title">'+esc(m.title)+'</span></a>';
+    }).join('');
+  }
+
+  function openSearch(){
+    overlay.hidden = false;
+    loadIndex(function(){
+      input.value = '';
+      results.innerHTML = '';
+      setTimeout(function(){ input.focus(); }, 30);
+    });
+    document.addEventListener('keydown', onKey);
+  }
+  function closeSearch(){
+    overlay.hidden = true;
+    document.removeEventListener('keydown', onKey);
+  }
+  function onKey(e){
+    if(e.key === 'Escape') closeSearch();
+  }
+
+  if(btn) btn.addEventListener('click', openSearch);
+  if(closeBtn) closeBtn.addEventListener('click', closeSearch);
+  if(overlay) overlay.addEventListener('click', function(e){ if(e.target === overlay) closeSearch(); });
+  if(input) input.addEventListener('input', function(){ render(input.value); });
+})();
+</script>
 </body>
 </html>

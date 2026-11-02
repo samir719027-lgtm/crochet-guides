@@ -1,24 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZLKW21MDJZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-ZLKW21MDJZ');
-</script>
-<script>
-document.addEventListener('click', function(e){
-  var a = e.target.closest('a');
-  if(!a || !a.href) return;
-  if(a.href.indexOf('amazon.com') > -1){
-    gtag('event', 'affiliate_click', {link_url: a.href, page_path: window.location.pathname});
-  }
-});
-</script>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Crochet Guides &mdash; Hooks, Yarn &amp; Patterns | CrochetGuides</title>
@@ -61,7 +43,7 @@ document.addEventListener('click', function(e){
   "@context": "https://schema.org",
   "@type": "ItemList",
   "itemListElement": [
-    {"@type":"ListItem","position":1,"url":"https://crochetguide.uk/guides/best-crochet-hook-brands","name":"Best crochet hooks 2026: 7 brands compared by a teacher"},
+    {"@type":"ListItem","position":1,"url":"https://crochetguide.uk/guides/best-crochet-hook-brands","name":"Best crochet hooks 2026: 7 brands compared"},
     {"@type":"ListItem","position":2,"url":"https://crochetguide.uk/guides/how-to-read-a-pattern","name":"How to read a crochet pattern without panicking"},
     {"@type":"ListItem","position":3,"url":"https://crochetguide.uk/guides/yarn-weight-explained","name":"Yarn weight, explained with real swatches"},
     {"@type":"ListItem","position":4,"url":"https://crochetguide.uk/guides/hook-size-chart","name":"Crochet hook sizes: the complete conversion chart"},
@@ -621,6 +603,7 @@ document.addEventListener('click', function(e){
 .search-result .r-title{font-family:'Fraunces',serif;font-weight:600;font-size:15px;}
 .search-empty{color:var(--ink-soft);font-size:14px;padding:10px 8px;}
 </style>
+<script src="/cookie-consent.js"></script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2407314174904220" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -643,7 +626,8 @@ document.addEventListener('click', function(e){
       <a href="/pdf-library" style="display:inline-flex;align-items:center;gap:6px;"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H11v18H6.5A2.5 2.5 0 0 0 4 23z"/><path d="M20 5.5A2.5 2.5 0 0 0 17.5 3H13v18h4.5A2.5 2.5 0 0 1 20 23z"/></svg>PDF Library</a>
       <a href="/about">About</a>
     </nav>
-    <button class="search-btn" id="searchBtn" aria-label="Search guides" type="button"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></button>
+    <a class="back" href="/contact" style="font-size:14px;font-weight:600;text-decoration:none;">Contact</a>
+      <button class="search-btn" id="searchBtn" aria-label="Search guides" type="button"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></button>
     </div>
   </div>
 </header>
@@ -724,7 +708,7 @@ document.addEventListener('click', function(e){
       <a class="guide-card" href="/guides/best-crochet-project-bags">
         <span class="guide-tag">Guides &amp; Comparisons</span>
         <h3>Best Crochet Project Bags and Travel Totes</h3>
-        <p class="desc">Keep your yarn clean and hooks organized on the go. Nora Fenwick compares top crochet project bags, yarn totes, and travel cases for crafters.</p>
+        <p class="desc">Keep your yarn clean and hooks organized on the go. Our editorial team compares top crochet project bags, yarn totes, and travel cases for crafters.</p>
         <span class="go">Read the guide &rarr;</span>
       </a>
       <a class="guide-card" href="/guides/best-neck-lights-for-crocheting">
@@ -742,7 +726,7 @@ document.addEventListener('click', function(e){
       <a class="guide-card" href="/guides/best-yarn-winder-and-swift-sets">
         <span class="guide-tag">Guides &amp; Comparisons</span>
         <h3>Best Yarn Winders and Swift Sets for Beginners</h3>
-        <p class="desc">Transform messy yarn hanks into neat center-pull cakes. Nora Fenwick reviews the best beginner-friendly yarn winders and swift sets on Amazon.</p>
+        <p class="desc">Transform messy yarn hanks into neat center-pull cakes. Our editorial team reviews the best beginner-friendly yarn winders and swift sets on Amazon.</p>
         <span class="go">Read the guide &rarr;</span>
       </a>
       <a class="guide-card" href="/guides/crochet-water-bottle-holder-pattern">
@@ -754,7 +738,7 @@ document.addEventListener('click', function(e){
       <a class="guide-card" href="/guides/tunisian-simple-stitch-tutorial">
         <span class="guide-tag">Techniques &amp; Tutorials</span>
         <h3>Tunisian Simple Stitch: A Beginner's Complete Guide</h3>
-        <p class="desc">Learn Tunisian simple stitch with Nora Fenwick. Master the hook, your first swatch, and fix the curling edge in this plain-English beginner tutorial.</p>
+        <p class="desc">Learn Tunisian simple stitch with the CrochetGuides editorial team. Master the hook, your first swatch, and fix the curling edge in this plain-English beginner tutorial.</p>
         <span class="go">Read the guide &rarr;</span>
       </a>
       <a class="guide-card" href="/guides/crochet-on-a-budget-building-a-yarn-stash">
@@ -970,7 +954,7 @@ document.addEventListener('click', function(e){
     <div class="guides">
       <a class="guide-card" href="/guides/best-crochet-hook-brands">
         <span class="guide-tag">Buying guide</span>
-        <h3>Best crochet hooks 2026: 7 brands compared by a teacher</h3>
+        <h3>Best crochet hooks 2026: 7 brands compared</h3>
         <p class="desc">An honest, hands-on comparison of the best crochet hooks, from budget to premium &mdash; and who each one actually suits.</p>
         <span class="go">Read the guide &rarr;</span>
       </a>
@@ -1510,17 +1494,21 @@ document.addEventListener('click', function(e){
 
 <footer>
   <div class="wrap">
+    <nav style="display:flex;flex-wrap:wrap;gap:14px;margin-bottom:12px;">
+      <a href="/#guides">Guides</a>
+      <a href="/#categories">Categories</a>
+      <a href="/pdf-library">PDF Library</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/editorial-policy">Editorial policy</a>
+      <a href="/privacy-policy">Privacy</a>
+      <a href="/terms">Terms</a>
+      <button type="button" onclick="window.cgOpenConsent&&window.cgOpenConsent()" style="background:none;border:none;padding:0;font:inherit;color:inherit;text-decoration:underline;cursor:pointer;">Cookie settings</button>
+    </nav>
     <p class="fine">
       CrochetGuides is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate we earn from qualifying purchases.
     </p>
-    <nav>
-      <a href="#guides">Guides</a>
-      <a href="#categories">Categories</a>
-      <a href="#picks">Picks</a>
-      <a href="/about">About</a>
-      <a href="/privacy-policy">Privacy</a>
-      <a href="https://www.pinterest.com/crochetguide_uk/" target="_blank" rel="noopener">Pinterest</a>
-    </nav>
+    <p class="fine" style="margin-top:10px;">&copy; 2026 CrochetGuides. Guides are drafted with AI assistance and reviewed by our editorial team. <a href="/editorial-policy">How we make them</a>.</p>
   </div>
 </footer>
 <script>
