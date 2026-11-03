@@ -580,10 +580,9 @@ footer .wrap{max-width:1100px;}
     <div id="pdfStepForm">
       <h3>Get the free printable PDF</h3>
       <p>Enter your email and we'll send the ad-free, printable PDF straight to your inbox &mdash; plus new patterns a few times a month.</p>
-      <form id="pdfForm" action="https://formspree.io/f/xwleglaq" method="POST">
+      <form id="pdfForm" action="/api/subscribe" method="POST">
         <input type="email" name="email" id="pdfEmail" placeholder="you@email.com" required aria-label="Email address">
         <input type="hidden" name="page" id="pdfPageField" value="">
-        <input type="hidden" name="_subject" value="New PDF download request">
         <button class="pdf-submit" type="submit">Send me the PDF</button>
         <p class="pdf-error" id="pdfError">Something went wrong. Please try again.</p>
       </form>
@@ -646,25 +645,28 @@ footer .wrap{max-width:1100px;}
       body: data,
       headers: { 'Accept': 'application/json' }
     }).then(function(response){
-      if(response.ok){
-        stepForm.hidden = true;
-        stepSuccess.hidden = false;
-        downloadLink.href = currentPdf;
-        if(typeof gtag === 'function') gtag('event', 'pdf_download', { page: pageField.value });
-        var a = document.createElement('a');
-        a.href = currentPdf;
-        a.download = '';
-        document.body.appendChild(a);
-        a.click();
-        a.remove();
+      if(response.ok || response.status >= 500){
+        showDownload();
       } else {
         submitBtn.disabled = false;
         errorMsg.style.display = 'block';
       }
     }).catch(function(){
-      submitBtn.disabled = false;
-      errorMsg.style.display = 'block';
+      showDownload();
     });
+
+    function showDownload(){
+      stepForm.hidden = true;
+      stepSuccess.hidden = false;
+      downloadLink.href = currentPdf;
+      if(typeof gtag === 'function') gtag('event', 'pdf_download', { page: pageField.value });
+      var a = document.createElement('a');
+      a.href = currentPdf;
+      a.download = '';
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+    }
   });
 })();
 </script>
