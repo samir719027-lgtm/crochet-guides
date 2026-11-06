@@ -10,7 +10,26 @@ function json(body, status) {
   });
 }
 
-export async function onRequestPost({ request, env }) {
+async function notify(context, env, email, page) {
+  const token = env.TELEGRAM_BOT_TOKEN;
+  const chatId = env.TELEGRAM_CHAT_ID;
+  if (!token || !chatId) return;
+
+  const text = 'New crochet lead\n' + email + '\n' + (page || 'newsletter');
+  const send = fetch('https://api.telegram.org/bot' + token + '/sendMessage', {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ chat_id: chatId, text })
+  })
+    .then((res) => res.text())
+    .catch((err) => console.error('telegram notify failed:', err && err.message));
+
+  if (context && typeof context.waitUntil === 'function') context.waitUntil(send);
+  else await send;
+}
+
+export async function onRequestPost(context) {
+  const { request, env } = context;
   let email;
   let page = '';
 
@@ -40,15 +59,24 @@ export async function onRequestPost({ request, env }) {
   const country = request.cf?.country || '';
   const userAgent = (request.headers.get('user-agent') || '').slice(0, 300);
 
+  let isNew = false;
   try {
-    await env.DB.prepare(
+    const res = await env.DB.prepare(
       'INSERT INTO leads (email, source, page, country, user_agent) VALUES (?, ?, ?, ?, ?) ' +
-      'ON CONFLICT(email) DO UPDATE SET last_seen_at = CURRENT_TIMESTAMP'
+      'ON CONFLICT(email) DO NOTHING'
     ).bind(email, source, page, country, userAgent).run();
+    isNew = !!(res.meta && res.meta.changes > 0);
+    if (!isNew) {
+      await env.DB.prepare('UPDATE leads SET last_seen_at = CURRENT_TIMESTAMP WHERE email = ?')
+        .bind(email)
+        .run();
+    }
   } catch (err) {
     console.error('subscribe storage failed:', err && err.message);
     return json({ ok: false, error: 'storage' }, 500);
   }
+
+  if (isNew) await notify(context, env, email, page);
 
   return json({ ok: true }, 200);
 }
