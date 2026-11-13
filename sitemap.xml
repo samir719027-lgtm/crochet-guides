@@ -222,11 +222,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://crochetguide.uk/guides/toddler-beanie-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://crochetguide.uk/guides/kids-mitts-pattern</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -238,11 +233,6 @@
   </url>
   <url>
     <loc>https://crochetguide.uk/guides/tote-bag-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/cat-toy-pattern</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -282,17 +272,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://crochetguide.uk/guides/bandana-styles-roundup</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://crochetguide.uk/guides/slippers-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/pot-holder-pattern</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -327,11 +307,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://crochetguide.uk/guides/dish-scrubbies-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://crochetguide.uk/guides/pumpkin-pattern</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -357,32 +332,12 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://crochetguide.uk/guides/halloween-amigurumi-patterns</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://crochetguide.uk/guides/how-to-crochet-in-the-round</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://crochetguide.uk/guides/single-crochet-vs-double-crochet</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/crochet-flowers-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/granny-square-bag-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/crochet-crop-top-pattern</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -397,11 +352,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://crochetguide.uk/guides/crochet-christmas-ornaments-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://crochetguide.uk/guides/best-crochet-hooks-for-arthritis</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -412,17 +362,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://crochetguide.uk/guides/crochet-christmas-stocking-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://crochetguide.uk/guides/crochet-santa-hat-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/crochet-christmas-gnome-pattern</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -442,22 +382,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://crochetguide.uk/guides/crochet-christmas-wreath-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://crochetguide.uk/guides/crochet-elf-hat-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/crochet-christmas-coasters-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/crochet-mini-christmas-tree-pattern</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -512,11 +437,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://crochetguide.uk/guides/kids-backpack-pattern</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://crochetguide.uk/guides/crossbody-bag-pattern</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -542,26 +462,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://crochetguide.uk/guides/crochet-basket-pattern</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/wall-hanging-pattern</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/easter-basket-pattern</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/valentine-heart-pattern</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://crochetguide.uk/guides/thanksgiving-turkey-pattern</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -583,11 +483,6 @@
   </url>
   <url>
     <loc>https://crochetguide.uk/guides/how-to-read-a-crochet-chart</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/poncho-pattern</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -647,42 +542,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://crochetguide.uk/guides/chunky-throw-blanket-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://crochetguide.uk/guides/c2c-blanket-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/easy-baby-blanket-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/mermaid-tail-blanket-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/diamond-trellis-blanket-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/bobble-stitch-blanket-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/temperature-blanket-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/lapghan-pattern</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -692,102 +552,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://crochetguide.uk/guides/amigurumi-bunny-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/amigurumi-fox-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/amigurumi-octopus-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/amigurumi-dinosaur-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/amigurumi-unicorn-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/amigurumi-penguin-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/amigurumi-frog-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/crochet-blanket-patterns-roundup</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/amigurumi-animal-patterns-roundup</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/crochet-home-decor-patterns-roundup</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/crochet-wearables-patterns-roundup</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/fall-winter-crochet-patterns-roundup</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://crochetguide.uk/guides/baby-cocoon-pattern</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://crochetguide.uk/guides/baby-cardigan-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/baby-bib-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://crochetguide.uk/guides/baby-mittens-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/car-seat-blanket-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/baby-sun-hat-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/baby-romper-pattern</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crochetguide.uk/guides/diaper-cover-pattern</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
