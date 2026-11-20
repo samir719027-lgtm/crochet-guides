@@ -349,7 +349,7 @@ def do_publish(args, token):
     if args.only:
         guides = [g for g in guides if slug_of(g) == args.only]
 
-    todo = [g for g in guides if slug_of(g) not in state]
+    todo = [g for g in guides if slug_of(g) not in state and image_url_for(slug_of(g))]
     if args.limit:
         todo = todo[: args.limit]
 
