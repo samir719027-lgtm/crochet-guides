@@ -53,8 +53,11 @@ jobs:
           APP_SECRET: ${{ secrets.PINTEREST_APP_SECRET }}
         run: python scripts/ci_token.py
 
-      - name: Publish a kid pin
-        run: python scripts/pinterest_publish.py --kids --publish --limit ${{ github.event.inputs.limit || '1' }}
+      - name: Publish a pin
+        # pym: كان قبل `--kids` — الـ45 گيد الكيدي كاملين محفوظين فالـstate،
+        # فالخطوة كانت كتخرج فـ0 ثانية بلا ما تنشر. حيدنا الفلتر باش
+        # يبدا يصيفط من باقي التصنيفات (الـstate كيمنع التكرار).
+        run: python scripts/pinterest_publish.py --publish --limit ${{ github.event.inputs.limit || '1' }}
 
       - name: Save state + token
         if: always()
