@@ -2,10 +2,11 @@ name: Pinterest kid pin
 
 on:
   schedule:
-    # كل 4 سوايع، غير فدقيقة ما كاينة فبداية الساعة (باش ما يتسقطش الحدث فالضغط ديال GitHub)
-    # ونسخة احتياطية فنفس النافذة — الـ state كيمنع التكرار
-    - cron: "17 */4 * * *"
-    - cron: "43 */4 * * *"
+    # GitHub Actions cron best-effort: فـ21/11 طاحو 8 سلوتات من أصل 12 فـ17 ساعة.
+    # دابا كل ساعة بـ جوج نسخ (:17 و :43) — scripts/pinterest_state.json كيمنع التكرار،
+    # فأي run زايد كيخرج بـ نجح=0 بلا ما يصيفط پين مكرر.
+    - cron: "17 * * * *"
+    - cron: "43 * * * *"
   workflow_dispatch:
     inputs:
       limit:
