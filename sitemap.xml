@@ -16,6 +16,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://crochetguide.uk/guides/invisible-crochet-seaming-methods</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://crochetguide.uk/guides/fixing-twisted-foundation-chain</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
